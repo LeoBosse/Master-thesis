@@ -1,0 +1,24 @@
+How to use this tex templat
+
+bib/ contains your bibliography
+logos/ and pic/ contain logos and pictures you want to include
+tex/ contains all tex files of your document
+run/ is all the files needed to compile (everything)
+
+How to compile:
+
+From terminal, in the folder, you can use the following commands:
+
+$make fast -> copies all file in run/. .tex files from tex/ are hard link (writing in run/ or tex/ changes the same file. It has the same effect. Deleting one does not delete the other.) Produces the .pdf file
+
+$make again -> same as "make fast" but does not copy everything if run already exist
+
+$make full -> compile several times to be sure the library is compiled too and taken into account
+
+$make clean -> clean your folders run/, log files, *~ files.
+
+
+
+If you use a tex editor (TexMaker), compile it once (with make fast or make full). Then open the tex files in run/. That way all .aux and added other files stay in run and do not pollute the tex/ folder. It should work as well and you don't need to use the terminal
+
+To make a change you can also open directly a file in tex/, but then be sure to use thew "make" command to compile. That way your folders stay clean. 

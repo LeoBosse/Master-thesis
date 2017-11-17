@@ -1,0 +1,159 @@
+\documentclass{thesisclass}
+\usepackage[english]{babel}
+\usepackage[numbers,sort]{natbib}
+\usepackage{subfigure}
+\usepackage[loose,nice]{units}
+\usepackage[rightcaption]{sidecap}
+\usepackage{pdfpages}
+\usepackage{pifont}
+% Based on thesisclass.cls of Timo Rohrberg, 2009
+% ----------------------------------------------------------------
+% Thesis - Main document
+% ----------------------------------------------------------------
+
+%TEST
+
+%% -------------------------------
+%% |  Information for PDF file   |
+%% -------------------------------
+\hypersetup{
+ pdfauthor={Your Name},
+ pdftitle={Dissertation},
+ pdfsubject={Dissertation},
+ pdfkeywords={Dissertation,AMS02,Anisotropie}
+}
+
+
+%% ---------------------------------
+%% | Information about the thesis  |
+%% ---------------------------------
+
+\newcommand{\myname}{Your Name}
+\newcommand{\mytitle}{Your title\\
+                      in two rows\\
+                      or more}
+\newcommand{\myinstitute}{Institut f\"ur experimentelle Teilchenphysik\\
+													(ETP)}
+
+\newcommand{\reviewerone}{Prof. Dr. Wim de Boer}
+\newcommand{\reviewertwo}{Prof. Dr. Second Advisor}
+
+\newcommand{\timestart}{29. Februar 2017}
+\newcommand{\timeend}{28. Februar 2018}
+
+
+%% ---------------------------------
+%% | ToDo Marker - only for draft! |
+%% ---------------------------------
+% Remove this section for final version!
+\setlength{\marginparwidth}{20mm}
+
+\newcommand{\margtodo}
+{\marginpar{\textbf{\textcolor{red}{ToDo}}}{}}
+
+\newcommand{\todo}[1]
+{{\textbf{\textcolor{red}{(\margtodo{}#1)}}}{}}
+
+%% Remark Marker
+\newcommand{\margmark}
+{\marginpar{\textbf{\textcolor{blue}{Remark}}}{}}
+
+\newcommand{\remark}[1]
+{{\textbf{\textcolor{blue}{(\margmark{}#1)}}}{}}
+
+%% ------------------------
+%% |    Including files   |
+%% ------------------------
+% Only files listed here will be included!
+% Userful command for partially translating the document (for bug-fixing e.g.)
+\includeonly{%
+%abstract,
+titlepage,
+declaration,
+introduction,
+theory,
+method,
+results,
+discussion,
+conclusion,
+appendix
+%acknowledgements
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here, main documents begins %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Remove the following line for German text
+\selectlanguage{english}
+
+\frontmatter
+\pagenumbering{roman}
+\include{titlepage}
+\blankpage
+%\include{abstract}
+\include{declaration}
+\blankpage
+
+
+%% -------------------
+%% |   Directories   |
+%% -------------------
+\setcounter{tocdepth}{2}
+
+\tableofcontents
+\blankpage
+
+
+%% -----------------
+%% |   Main part   |
+%% -----------------
+\mainmatter
+\pagenumbering{arabic}
+\include{introduction}
+\include{theory}
+\include{method}
+\include{results}
+\include{discussion}
+\include{conclusion}
+
+
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+
+\bibliographystyle{achemso}
+%\bibliographystyle{abbrv}
+												  
+% Use IEEEtran for numeric references
+%\bibliographystyle{IEEEtranSA})
+
+\bibliography{thesis}
+
+%% -----------------------
+%% |   List Of Figures   |
+%% -----------------------
+%\cleardoublepage
+%\phantomsection
+\listoffigures
+
+%% ----------------
+%% |   Appendix   |
+%% ----------------
+\cleardoublepage
+
+\input{appendix}
+
+%% ------------------------
+%% |   Acknowledgements   |
+%% ------------------------
+\cleardoublepage
+
+%\include{acknowledgements}
+
+\end{document}
