@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  14 NOV 2017 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  18 NOV 2017 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -104,7 +104,7 @@ LaTeX Info: Redefining \textsubscript on input line 4654.
 v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 54 used.
+ngerman -- \language number for naustrian undefined, default 25 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -1056,8 +1056,8 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (./thesis.aux
-(./declaration.aux) (./introduction.aux) (./theory.aux) (./method.aux)
-(./results.aux) (./discussion.aux) (./conclusion.aux))
+(./titlepage.aux) (./declaration.aux) (./introduction.aux) (./theory.aux)
+(./method.aux) (./results.aux) (./discussion.aux) (./conclusion.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 87.
@@ -1467,10 +1467,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 23616 strings out of 493029
- 423682 string characters out of 6136234
- 544613 words of memory out of 5000000
- 26518 multiletter control sequences out of 15000+600000
+ 23619 strings out of 493029
+ 423722 string characters out of 6136234
+ 545191 words of memory out of 5000000
+ 26519 multiletter control sequences out of 15000+600000
  97385 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,68p,475b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1488,7 +1488,7 @@ libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (24 pages, 337684 bytes).
+Output written on thesis.pdf (24 pages, 337775 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  200 compressed objects within 2 object streams
