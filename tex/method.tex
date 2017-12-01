@@ -1,5 +1,103 @@
 %% ================================================================================
-\chapter{The search for anisotropies with AMS-02}
-\label{ch:anisotropy}
+\chapter{Method}
+\label{ch:method}
 %% ================================================================================
-The description of your analysis method.
+
+
+%My method:
+%	-Spectral templates fitted to the data
+%		-independant spatial cones on the entire sky (usually 797 for optimized sizes)
+%		-minimum chi2 fit using ROOT for every cone
+%		-Benefits
+%			-energy related features
+%			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
+%		-Downside:
+%			-No spatial templates. (only the isosky)
+%
+
+\section{Fitting method}
+
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720\times360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat each portion of the sky independently of one another. Since the cones do not have the same solid angle, the grid I will use most often is composed of 797 cones of different sizes whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
+
+The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary in the sky (for PCR, BR and IC). The fit then only scale every template up and down so that their sum is the closest to the data. The closest is found when the $\chi ^2$ is minimized. The $\chi ^2$ is calculated as follows:
+
+\begin{equation}
+\chi ^2 = \sum_{i=1}^{30}[\frac{(D_i - \sum_{j=1}^{n}n_j.T_{ij})^2}{\sigma^2}]
+\end{equation}
+
+where:
+\begin{itemize}
+\item $D_i$ is the data flux in the $i^th$ energy bin.
+\item $n_j$ is the scaling factor for the $j^th$ model component.
+\item $T_{ij}$ is the model flux of the $j^th$ in the $i^th$ energy bin.
+\item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
+\end{itemize}
+
+The fitting routine is executed using the ROOT software. \\
+
+This method allows to fit any region of the sky independently.\\
+
+The fit is also very well constrained with only 5 degrees of freedoms against 30 data points.\\
+
+On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
+
+
+%	-Data origin
+%		-Fermi collaboration
+%		-LAT
+%		-Fermi FTOOLS
+%		-point source subtraction
+%		-pass7 vs pass8
+%			-wider energy range
+%			-better statistical and systematic errors
+%			-better event selection
+
+\section{Data origin}
+
+The data I used are taken from the Fermi collaboration Large Area Telescope (LAT). They are available on the web and can be treated by anybody using the software given by Fermi.
+Part of my jobs has been to update the old data we used to use, passing from pass 7 to pass 8. It results in better statistics because of a longer observation period, better systematic errors, wider energy range and better point source subtraction.\\
+
+For our study we are only interested in the diffuse sources of gamma-rays from inside or outside the milky way. The mandatory step to obtain this is to substract the point source emmision from stars, or other direct sources.\\
+
+The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a reference to subtract the point sources from the raw data. It lists more than 3000 sources and their associated spectra in the 100 MeV-300 GeV range.\\
+
+
+
+\section{Model components}
+%	-3 Basic components
+%		-PCR
+%			-proton CR follow power-law E^-2.849
+%			?-try with break at 5-10GeV with index ~ -2.7 ?
+%		-IC and BR
+%			-electron CR spectrum E^-3.21
+%			-break at 1GeV, index E^-3.21 + 2.4 below break
+
+\subsection{Basic components}
+\subsubsection{PCR}
+
+The proton spectra used is a power law 
+
+%	
+%	-2 or more additional components:
+%		-SCR
+%			-proton CR follow power-law E^-2.1
+%		-MCR
+%			-proton CR follow power-law E^-2.849
+%			-break between 6 and 14GeV, index E^-2.849 + 2.149 below break
+%		-DM
+%			-Dark Susy
+%			-Determination of Mass using best fit in CMZ
+%		-MBR
+%			-electron CR spectrum E^-3.21
+%			-break between 6 and 14 GeV, index E^-3.21 + 2.4 below break
+%	-Isosky
+%		-Calculated from fermi model and adjusted in our fit
+
+\subsection{Additional components}
+
+
+%%	-Weniger plots
+%%		-study of spectra slope between 0.3 and 2 GeV
+%%	-Specklings
+%%		-Study of symmetry
+%%	-Comparison with CO map

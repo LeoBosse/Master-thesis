@@ -2,8 +2,7 @@ SHELL=/bin/bash
 
 fast:
 	mkdir -p run
-	cp -r pic logos run/
-	ln tex/* thesisclass.cls bib/* run/
+	cp -r pic logos tex/* thesisclass.cls bib/* run/
 	cd run && pdflatex thesis.tex
 	cp run/thesis.pdf Thesis.pdf
 
@@ -14,8 +13,7 @@ again:
 
 full:
 	mkdir -p run
-	cp -r pic logos run/
-	ln tex/* thesisclass.cls bib/* run/
+	cp -r pic logos tex/* thesisclass.cls bib/* run/
 	cd run && pdflatex thesis.tex
 	cd run && bibtex thesis
 	cd run && pdflatex thesis.tex
@@ -24,8 +22,7 @@ full:
 
 warn:
 	mkdir -p run
-	cp -r pic logos run/
-	ln tex/* thesisclass.cls bib/* run/
+	cp -r pic logos tex/* thesisclass.cls bib/* run/
 	cd run && pdflatex thesis.tex &> /dev/null
 	cd run && bibtex thesis
 	cd run && pdflatex thesis.tex &> /dev/null
@@ -34,8 +31,7 @@ warn:
 
 txt:
 	mkdir -p run
-	cp -r pic logos run/
-	ln tex/* thesisclass.cls bib/* run/
+	cp -r pic logos tex/* thesisclass.cls bib/* run/
 	cd run && detex thesis.tex > thesis.txt
 	awk 'NF' run/thesis.txt > thesis.txt #remove empty lines	
 

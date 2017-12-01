@@ -4,11 +4,18 @@ Intoduction:
 
 Physic of cosmic and gamma rays:
 	-creation
-		-supernovae
-	-PCR, BR, IC
+		-supernovae (SNR)
+		-extra-galactic
+		-pulsars
+	-Energy loss
+		-synchrotron radiation		
+		-gamma-ray radiation
+			-pion decay
+			-bremmstrahlung
+			-inverse compton
 
 What are the unresolved problems of the precedent chapter:
-	-Spherical excess in GC when fitting spatial templates
+	-Spherical gamma-ray excess in GC when fitting spatial templates
 		-DM studies
 			-Hooper
 			-others...
@@ -17,7 +24,8 @@ What are the unresolved problems of the precedent chapter:
 			-Hooper
 			-Weniger
 
-	-High energy tail flux to high
+	-High energy tail flux too hard
+	-Bad fits in bubbles and disk
 	
 	
 My method:
@@ -26,29 +34,43 @@ My method:
 		-minimum chi2 fit using ROOT for every cone
 		-Benefits
 			-energy related features
-			-only a few degrees of freedom -> Well constrained fit
+			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
 		-Downside:
-			-No spatial templates. (only the isosky)	
+			-No spatial templates. (only the isosky)
+			
 	
 	-Data origin
 		-Fermi collaboration
 		-LAT
-		-pass 7 vs pass 8
+		-Fermi FTOOLS
 		-point source subtraction
+		-pass7 vs pass8
+			-wider energy range
+			-better statistical and systematic errors
+			-better event selection
+		
 
 	-3 Basic components
 		-PCR
-		-IC
-		-BR
+			-proton CR follow power-law E^-2.849
+			?-try with break at 5-10GeV with index ~ -2.7 ?
+		-IC and BR
+			-electron CR spectrum E^-3.21
+			-break at 1GeV, index E^-3.21 + 2.4 below break
+		
 	
 	-2 or more additional components:
 		-SCR
+			-proton CR follow power-law E^-2.1
 		-MCR
-			-breaks
+			-proton CR follow power-law E^-2.849
+			-break between 6 and 14GeV, index E^-2.849 + 2.149 below break
 		-DM
 			-Dark Susy
-			-Determination of Mass in CMZ
+			-Determination of Mass using best fit in CMZ
 		-MBR
+			-electron CR spectrum E^-3.21
+			-break between 6 and 14 GeV, index E^-3.21 + 2.4 below break
 	-Isosky
 		-Calculated from fermi model and adjusted in our fit
 
