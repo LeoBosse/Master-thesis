@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  2 DEC 2017 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  2 DEC 2017 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,33 +1440,33 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [7]
-Overfull \hbox (27.8009pt too wide) in paragraph at lines 134--136
+Overfull \hbox (27.8009pt too wide) in paragraph at lines 141--143
 [][]\T1/LinuxLibertineT-TLF/b/n/12 (The de-creas-ing gamma-ray emis-siv-ity fro
 m MCs be-low 2 GeV could be parametrized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 [8]
-Overfull \hbox (4.6257pt too wide) in paragraph at lines 166--168
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Overfull \hbox (4.6257pt too wide) in paragraph at lines 176--178
 \T1/LinuxLibertineT-TLF/b/n/12 We fit the data in re-gions out-side the Bub-ble
 s and Galac-tic disk us-ing the isotropic
  []
@@ -1562,7 +1562,7 @@ Here is how much of TeX's memory you used:
  26552 multiletter control sequences out of 15000+600000
  117743 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,68p,2632b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,68p,2632b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/shar
 e/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist
@@ -1583,7 +1583,7 @@ ist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (28 pages, 385120 bytes).
+Output written on thesis.pdf (28 pages, 385294 bytes).
 PDF statistics:
  317 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams
