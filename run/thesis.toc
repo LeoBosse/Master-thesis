@@ -14,7 +14,14 @@
 \contentsline {subsubsection}{\numberline {2.3.2.3}Dark matter (DM)}{9}{subsubsection.2.3.2.3}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Milli-second pulsars (MSP)}{9}{subsubsection.2.3.2.4}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Isitropic component}{9}{subsubsection.2.3.2.5}
+\contentsline {section}{\numberline {2.4}Introduction of results}{10}{section.2.4}
 \contentsline {chapter}{\numberline {3}Results}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Recreating previous results}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}? Introducing SCR ?}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{11}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}
 \contentsline {chapter}{Bibliography}{17}{section*.3}

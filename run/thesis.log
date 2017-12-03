@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  2 DEC 2017 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  3 DEC 2017 03:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1211,7 +1211,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \openout2 = `titlepage.aux'.
 
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=71, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=99, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1357,7 +1357,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-<pic/dummy.png, id=133, 698.61pt x 475.7775pt>
+<pic/dummy.png, id=168, 698.61pt x 475.7775pt>
 File: pic/dummy.png Graphic file (type png)
  <use pic/dummy.png>
 Package pdftex.def Info: pic/dummy.png used on input line 9.
@@ -1378,18 +1378,23 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
  (./method.tex
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 30.
+ input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
@@ -1400,18 +1405,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
 [5
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
@@ -1430,68 +1440,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 78.
+(Font)              scaled to size 14.4pt on input line 68.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 78.
+(Font)              scaled to size 14.4pt on input line 68.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 [7]
-Overfull \hbox (27.8009pt too wide) in paragraph at lines 141--143
+Overfull \hbox (27.8009pt too wide) in paragraph at lines 137--139
 [][]\T1/LinuxLibertineT-TLF/b/n/12 (The de-creas-ing gamma-ray emis-siv-ity fro
 m MCs be-low 2 GeV could be parametrized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 
-Overfull \hbox (4.6257pt too wide) in paragraph at lines 176--178
+Overfull \hbox (4.6257pt too wide) in paragraph at lines 172--174
 \T1/LinuxLibertineT-TLF/b/n/12 We fit the data in re-gions out-side the Bub-ble
 s and Galac-tic disk us-ing the isotropic
  []
 
-) [9]
+[9]) [10]
 \openout2 = `results.aux'.
 
- (./results.tex [10
-
-
-
-
-]
+ (./results.tex
 chapter 3.
-) [11]
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+[11
+
+
+
+
+]) [12]
 \openout2 = `discussion.aux'.
 
- (./discussion.tex [12
+ (./discussion.tex
+chapter 4.
+) [13
 
 
 
 
 ]
-chapter 4.
-) [13]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex [14
@@ -1552,14 +1562,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 80809EEEF949FA34E7BBFEFC8EDAA040;881.
+(rerunfilecheck)             Checksum: 743EC1E49736B27E71A0AF34F40FF84B;1412.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 23707 strings out of 493029
- 425392 string characters out of 6136234
- 550170 words of memory out of 5000000
- 26552 multiletter control sequences out of 15000+600000
+ 23721 strings out of 493029
+ 425570 string characters out of 6136234
+ 550176 words of memory out of 5000000
+ 26559 multiletter control sequences out of 15000+600000
  117743 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,68p,2632b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1583,10 +1593,10 @@ ist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (28 pages, 385294 bytes).
+Output written on thesis.pdf (28 pages, 389167 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

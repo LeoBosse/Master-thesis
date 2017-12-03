@@ -3,7 +3,7 @@
 \label{ch:method}
 %% ================================================================================
 
-
+\section{Fitting method}
 %My method:
 %	-Spectral templates fitted to the data
 %		-independant spatial cones on the entire sky (usually 797 for optimized sizes)
@@ -13,9 +13,7 @@
 %			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
 %		-Downside:
 %			-No spatial templates. (only the isosky)
-%
 
-\section{Fitting method}
 
 The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720\times360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat each portion of the sky independently of one another. Since the cones do not have the same solid angle, the grid I will use most often is composed of 797 cones of different sizes whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
 
@@ -41,7 +39,10 @@ The fit is also very well constrained with only 5 degrees of freedoms against 30
 
 On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
 
+It allows to study at the same time the different contributions in one portion of the sky, and the skymaps of every component.\\
 
+
+\section{Data origin}
 %	-Data origin
 %		-Fermi collaboration
 %		-LAT
@@ -51,9 +52,6 @@ On the other hand, it is not possible to implement a spatial template where the 
 %			-wider energy range
 %			-better statistical and systematic errors
 %			-better event selection
-
-\section{Data origin}
-
 \todo{Put figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.}
 
 The data I used are taken from the Fermi collaboration Large Area Telescope (LAT). They are available on the web and can be treated by anybody using the software given by Fermi.\\
@@ -67,6 +65,7 @@ The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a referen
 
 
 \section{Model components}
+\subsection{Basic components}
 %	-3 Basic components
 %		-PCR
 %			-proton CR follow power-law E^-2.849
@@ -74,8 +73,6 @@ The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a referen
 %		-IC and BR
 %			-electron CR spectrum E^-3.21
 %			-break at 1GeV, index E^-3.21 + 2.4 below break
-
-\subsection{Basic components}
 
 \subsubsection{$\pi^0$ production by propagated cosmic rays (PCR)}
 
@@ -107,7 +104,8 @@ The BR component is directly linked to the gas, and charged particles distributi
 
 
 
-%	
+
+\subsection{Additional components}
 %	-2 or more additional components:
 %		-SCR
 %			-proton CR follow power-law E^-2.1
@@ -122,8 +120,6 @@ The BR component is directly linked to the gas, and charged particles distributi
 %			-break between 6 and 14 GeV, index E^-3.21 + 2.4 below break
 %	-Isosky
 %		-Calculated from fermi model and adjusted in our fit
-
-\subsection{Additional components}
 
 \todo{images of MCR, MSP, DM on single plot.}
 
@@ -175,6 +171,13 @@ The MSP spectrum is directly taken from the Fermi study \todo{cite Fermi}
 We fit the data in regions outside the Bubbles and Galactic disk using the isotropic template from the Fermi software as an initial estimate in the fit.  If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation  crossing  the  origin,  if  the  isotropic  flux  is  estimated  correctly.   However,  if  there  is  a  missing  or  too  high isotropic contribution,  this leads to an offset at the origin of the linear curve,  since the isotropic component is by definition the same for all cones, so it shifts the whole curve up and down for each energy bin.  An example of such a fit is shown in \todo{cite figure} for an energy bin between 3.7-5.2 GeV. The offset can be determined for each energy bin, which yields the spectral template of the isotropic component.  The final spectral template is obtained by iteration until zero offset at the origin is reached.  The resulting template in our analysis has deviations from the Fermi template up
 to $35\%$ above 2 GeV, as shown in the insert of \todo{cite figure}.}
 %%%  ARTICLE
+
+
+\section{Introduction of results}
+
+Recretion of previous studies (GC excess, problems).\\
+Introduction of new component to take care of those problems (SCR for high energies, MCR, Dm or MSP for 2GeV excess)
+
 
 %%	-Weniger plots
 %%		-study of spectra slope between 0.3 and 2 GeV
