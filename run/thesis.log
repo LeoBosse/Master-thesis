@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  1 DEC 2017 16:28
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  18 NOV 2017 23:54
->>>>>>> 974a9c3d669c27848c1a8935a96ba19688d69711
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  1 DEC 2017 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -108,7 +104,7 @@ LaTeX Info: Redefining \textsubscript on input line 4654.
 v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 25 used.
+ngerman -- \language number for naustrian undefined, default 54 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -1215,7 +1211,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \openout2 = `titlepage.aux'.
 
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=75, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=71, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1361,7 +1357,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-<pic/dummy.png, id=138, 698.61pt x 475.7775pt>
+<pic/dummy.png, id=133, 698.61pt x 475.7775pt>
 File: pic/dummy.png Graphic file (type png)
  <use pic/dummy.png>
 Package pdftex.def Info: pic/dummy.png used on input line 9.
@@ -1518,77 +1514,42 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
 (./discussion.aux) (./conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 228D5038CAA807A9653DFF7E8845AD8B;944
-(rerunfilecheck)             After:  80809EEEF949FA34E7BBFEFC8EDAA040;881.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 80809EEEF949FA34E7BBFEFC8EDAA040;881.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 23699 strings out of 493029
- 425272 string characters out of 6136234
+ 23697 strings out of 493029
+ 425238 string characters out of 6136234
  547169 words of memory out of 5000000
- 26553 multiletter control sequences out of 15000+600000
+ 26552 multiletter control sequences out of 15000+600000
  117743 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,68p,635b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/f
-onts/enc/dvips/newtx/libertinealt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
-dvips/libertine/lbtn_c7kyj5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libert
-ine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lb
-tn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76g
-pa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinum
-TB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertine
-MT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertine
-T.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT
-B.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT
-I.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (24 pages, 367614 bytes).
-=======
- 23619 strings out of 493029
- 423722 string characters out of 6136234
- 545191 words of memory out of 5000000
- 26519 multiletter control sequences out of 15000+600000
- 97385 words of font info for 111 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 71i,11n,68p,475b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texlive/te
-xmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/libertine/LinLibertineMT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (24 pages, 337775 bytes).
->>>>>>> 974a9c3d669c27848c1a8935a96ba19688d69711
+r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/shar
+e/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/libertine/lbtn_c7kyj5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libe
+rtine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/
+lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7
+6gpa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolin
+umTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neMT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
+eTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
+eTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on thesis.pdf (24 pages, 367563 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
