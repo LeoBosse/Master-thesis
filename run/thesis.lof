@@ -1,21 +1,21 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces This is a dummy plot.}}{4}{figure.1.1}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces This is a dummy plot.\relax }}{4}{figure.caption.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.}}{6}{figure.2.1}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces images for proton spectrum for PCR, MCR, SCR, data}}{7}{figure.2.2}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces images for electron spectrum for IC, BR, data}}{8}{figure.2.3}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces images IC and BR variations over the sky}}{9}{figure.2.4}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces images of MCR, MSP, DM on single plot.}}{9}{figure.2.5}
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Images to illustrate isotropic calibration}}{11}{figure.2.6}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces images for proton spectrum for PCR, MCR, SCR, data\relax }}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces images for electron spectrum for IC, BR, data\relax }}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces images IC and BR variations over the sky\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces images of MCR, MSP, DM on single plot.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Images to illustrate isotropic calibration\relax }}{10}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Some weniger plots to show the GC excess}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Picture of GC excess, (compare with previous papers?), a chi2 map too}}{14}{figure.3.2}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Picture background only spectra with bad fit (high energies too hard) Compare bubble or disk region and outside}}{15}{figure.3.3}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Chi2 maps of SCRonly fits. Spectrum from a bubble.}}{15}{figure.3.4}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Chi2 maps of MCRonly fits compared to background only}}{16}{figure.3.5}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces pictures of each component's spatial distributions. Maybe on a full page.}}{16}{figure.3.6}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces spectrum of best mass DM fitted in CMZ. Also pictures of DM distribution compared to gas map.}}{17}{figure.3.7}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces pictures of MSP spectrum, chi2. Residuals at low energy maybe?}}{18}{figure.3.8}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Some weniger plots to show the GC excess\relax }}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Picture of GC excess, (compare with previous papers?), a chi2 map too\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Picture background only spectra with bad fit (high energies too hard) Compare bubble or disk region and outside\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Chi2 distribution of SCR only fits.\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Chi2 maps of MCRonly fits compared to background only\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces pictures of each component's spatial distributions. Maybe on a full page.\relax }}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces spectrum of best mass DM fitted in CMZ. Also pictures of DM distribution compared to gas map.\relax }}{18}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces pictures of MSP spectrum, chi2. Residuals at low energy maybe?\relax }}{18}{figure.caption.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

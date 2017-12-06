@@ -3,45 +3,6 @@
 \label{ch:method}
 %% ================================================================================
 
-\section{Fitting method}
-%My method:
-%	-Spectral templates fitted to the data
-%		-independant spatial cones on the entire sky (usually 797 for optimized sizes)
-%		-minimum chi2 fit using ROOT for every cone
-%		-Benefits
-%			-energy related features
-%			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
-%		-Downside:
-%			-No spatial templates. (only the isosky)
-
-
-The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720\times360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat each portion of the sky independently of one another. Since the cones do not have the same solid angle, the grid I will use most often is composed of 797 cones of different sizes whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
-
-The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary with the position in the sky (for PCR, BR and IC). The fit then only scale every template up and down so that their sum is the closest to the data. The closest is found when the $\chi ^2$ is minimized. The $\chi ^2$ is calculated as follows:
-
-\begin{equation}
-\chi ^2 = \sum_{i=1}^{30}[\frac{(D_i - \sum_{j=1}^{n}n_j.T_{ij})^2}{\sigma^2}]
-\end{equation}
-
-where:
-\begin{itemize}
-\item $D_i$ is the data flux in the $i^th$ energy bin.
-\item $n_j$ is the scaling factor for the $j^th$ model component.
-\item $T_{ij}$ is the model flux of the $j^th$ in the $i^th$ energy bin.
-\item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
-\end{itemize}
-
-The fitting routine is executed using the ROOT software. \\
-
-This method allows to fit any region of the sky independently.\\
-
-The fit is also very well constrained with only 5 degrees of freedoms against 30 data points.\\
-
-On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
-
-It allows to study at the same time the different contributions in one portion of the sky, and the skymaps of every component.\\
-
-
 \section{Data origin}
 %	-Data origin
 %		-Fermi collaboration
@@ -67,6 +28,8 @@ Part of my jobs has been to update the old data we used to use, passing from pas
 For our study we are only interested in the diffuse sources of gamma-rays from inside or outside the milky way. The mandatory step to obtain this is to substract the point source emmision from stars, or other direct sources.\\
 
 The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a reference to subtract the point sources from the raw data. It lists more than 3000 sources and their associated spectra in the 100 MeV-300 GeV range.\\
+
+
 
 
 
@@ -196,6 +159,45 @@ The MSP spectrum is directly taken from the Fermi study \todo{cite Fermi}
 The isotropic template represents the contribution from the isotropic extragalactic background and hadron misiden-tification.  Its spectral shape and absolute normalization are provided within the Fermi software. \todo{cite[51]} The isotropic template was redetermined for our analysis in the following way.\\
 We fit the data in regions outside the Bubbles and Galactic disk using the isotropic template from the Fermi software as an initial estimate in the fit. If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation crossing the origin, if the isotropic flux is estimated correctly. However, if there is a missing or too high isotropic contribution, this leads to an offset at the origin of the linear curve, since the isotropic component is by definition the same for all cones, so it shifts the whole curve up and down for each energy bin. An example of such a fit is shown in Figure \ref{fig:iso_calibration} for an energy bin between \todo{3.7-5.2 GeV}. The offset can be determined for each energy bin, which yields the spectral template of the isotropic component. The final spectral template is obtained by iteration until zero offset at the origin is reached. The resulting template in our analysis has deviations from the Fermi template up to $35\%$ above 2 GeV, as shown in the insert of \ref{fig:iso_calibration}.
 %%% ARTICLE
+
+\section{Fitting method}
+%My method:
+%	-Spectral templates fitted to the data
+%		-independant spatial cones on the entire sky (usually 797 for optimized sizes)
+%		-minimum chi2 fit using ROOT for every cone
+%		-Benefits
+%			-energy related features
+%			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
+%		-Downside:
+%			-No spatial templates. (only the isosky)
+
+
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720\times360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat each portion of the sky independently of one another. Since the cones do not have the same solid angle, the grid I will use most often is composed of 797 cones of different sizes whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
+
+The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary with the position in the sky (for PCR, BR and IC). The fit then only scale every template up and down so that their sum is the closest to the data. The closest is found when the $\chi ^2$ is minimized. The $\chi ^2$ is calculated as follows:
+
+\begin{equation}
+\chi ^2 = \sum_{i=1}^{30}[\frac{(D_i - \sum_{j=1}^{n}n_j.T_{ij})^2}{\sigma^2}]
+\end{equation}
+
+where:
+\begin{itemize}
+\item $D_i$ is the data flux in the $i^th$ energy bin.
+\item $n_j$ is the scaling factor for the $j^th$ model component.
+\item $T_{ij}$ is the model flux of the $j^th$ in the $i^th$ energy bin.
+\item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
+\end{itemize}
+
+The fitting routine is executed using the ROOT software. \\
+
+This method allows to fit any region of the sky independently.\\
+
+The fit is also very well constrained with only 5 degrees of freedoms against 30 data points.\\
+
+On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
+
+It allows to study at the same time the different contributions in one portion of the sky, and the skymaps of every component.\\
+
 
 
 \section{Introduction of results}

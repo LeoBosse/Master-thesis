@@ -34,7 +34,8 @@
 \usepackage{booktabs}
 \usepackage{vmargin}          % Adjust margins in a simple way
 \usepackage{fancyhdr}         % Define simple headings
-\usepackage{subfigure}
+%\usepackage{subfigure}
+\usepackage{subcaption}
 \usepackage{url}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{tikz}

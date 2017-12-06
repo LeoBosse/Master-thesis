@@ -11,7 +11,7 @@
 %		-very bad chi2 in disk and bubbles
 
 Introduce the weniger plots here (or in the state of the research?) to show excess in GC.
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=.9\linewidth]{pic/dummy.png}
   \caption{Some weniger plots to show the GC excess}
@@ -20,23 +20,23 @@ Introduce the weniger plots here (or in the state of the research?) to show exce
 
 
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=.9\linewidth]{pic/dummy.png}
   \caption{Picture of GC excess, (compare with previous papers?), a chi2 map too}
   \label{fig:original_GC_excess}
 \end{figure}
 
-Before trying upgrade the model in use, it is i;portant to make sure we can recreate it in with the same parameters. Fig. \ref{fig:original_GC_excess} shows the results of a fit using only the PCR, IC and BR components. The shape and intensity of the previously observed excess \todo{cite} are found.\\
+Before trying upgrade the model in use, it is important to make sure we can recreate it with the same parameters. Fig. \ref{fig:original_GC_excess} shows the results of a fit using only the PCR, IC and BR components. The shape and intensity of the previously observed excess are found \todo{cite}.\\
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=.9\linewidth]{pic/dummy.png}
   \caption{Picture background only spectra with bad fit (high energies too hard) Compare bubble or disk region and outside}
   \label{fig:bkgd_only_spectrum}
 \end{figure}
 
-It can also be observed that the fit is particularly bad in the bubbles and the disk (see Fig. \ref{fig:original_GC_excess}) where the high energy spectrum harder (see Fig. \ref{fig:bkgd_only_spectrum}). In this region, the PCR spectrum falls off too quickly, and the IC spectrum which usually takes care of high energies is blocked by the low energy flux drop.
+It can also be observed that the fit is particularly bad in the bubbles and the disk (see Fig. \ref{fig:original_GC_excess}) where the high energy spectrum is harder (see Fig. \ref{fig:bkgd_only_spectrum}). In this region, the PCR spectrum falls off too quickly, and the IC spectrum which usually takes care of high energies is blocked by the low energy flux drop.
 
 
 %I was able to recreate a more or less spherical excess in GC around 2GeV.\\
@@ -50,16 +50,36 @@ It can also be observed that the fit is particularly bad in the bubbles and the 
 
 \section{Introducing SCR}
 
-\begin{figure}
-  \centering
-  \includegraphics[width=.9\linewidth]{pic/dummy.png}
-  \caption{Chi2 maps of SCRonly fits. Spectrum from a bubble.}
-  \label{fig:SCRonly_fit}
+\begin{figure}[h]
+  	\centering
+	\includegraphics[width=.9\linewidth]{pic/results/SCRonly_Chi2Distribution.png}
+  	\caption{Chi2 distribution of SCR only fits.}
+  	\label{fig:SCRonly_fit}
 \end{figure}
 
-Introducing the SCR template, a clear improvement can be noted in the bubbles. The high energy structures are fitted by the new template and the chi2 map does not show the bubbles anymore.
+Introducing the SCR template, a clear improvement can be noted in the $\chi^2$ distribution (see Fig. \ref{fig:SCRonly_fit}). The bubble shape that was clear before has now disapeared. Even if the fit is still not perfect everywhere, the improvement is significant.
 
-A problem remains for the disk and diffuse regions near the galactic anticenter.
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/bkgdonly_spectra_bubble_example.png}
+  	\subcaption{Spectrum from a bubble with SCR only and background only.}
+  	\label{fig:SCRonly_bubble_spec}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/results/SCRonly_spectra_bubble_example.png}
+	  \subcaption{Spectrum from a bubble with background models only and background only.}
+	  \label{fig:BKGonly_bubble_spec}
+  \end{minipage}	 
+\end{figure}
+
+From Fig. \ref{fig:SCRonly_bubble_spec} and \ref{fig:SCRonly_bubble_spec} we see the role of the SCR template at high energies, taking care of the high flux. It also permits a better fit of low energies by PCR and IC since they do not have to be everywhere at the same time.
+
+\todo{Here the bad chi2 comes from 0.1GeV region, where the PCR template does not fit the data. not from the 2GeV excess.}
+A problem still remains in the disk and diffuse regions around the galactic anticenter. 
 
 
 
@@ -73,7 +93,7 @@ A problem remains for the disk and diffuse regions near the galactic anticenter.
 %			-MCR follows CO map, take place of PCR in disk
 %			-SCR follows bubble structure
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=.9\linewidth]{pic/dummy.png}
   \caption{Chi2 maps of MCRonly fits compared to background only}
