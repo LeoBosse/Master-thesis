@@ -19,11 +19,14 @@
 \contentsline {section}{\numberline {3.1}Recreating previous results}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}Introducing SCR}{14}{section.3.2}
 \contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{14}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{15}{section.3.4}
-\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{15}{section.3.5}
-\contentsline {chapter}{\numberline {4}Discussion}{19}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.5}
-\contentsline {chapter}{Bibliography}{23}{section*.19}
-\contentsline {chapter}{\nonumberline Appendix}{27}{chapter*.22}
-\contentsline {section}{\numberline {A}Some appendix section}{27}{section.5.1}
+\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{15}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{16}{section.3.4}
+\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{17}{section.3.5}
+\contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{23}{section.4.2}
+\contentsline {section}{\numberline {4.3}How do these results fit in context}{23}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}
+\contentsline {chapter}{Bibliography}{27}{section*.22}
+\contentsline {chapter}{\nonumberline Appendix}{31}{chapter*.25}
+\contentsline {section}{\numberline {A}Some appendix section}{31}{section.5.1}
