@@ -40,12 +40,49 @@ The first one to notice is the complex manetic field created by all sorts of obj
 An other possible interaction is the collisions with other particules. It will obviously depends on the density distribution of those colliders in the galaxy. We can expect a higher number of those in the disk, where the density of molecular clouds the highest.
 
 All these influences can be modeled by a diffusion model, mainly defined by its diffusion coefficient, which discribes the average distance traveled in a certain time. The higher the coefficient, the faster a particule will diffuse in the galaxy. Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays. \todo{give values for Dmag, Dcoll...}
-While the diffusion coefficient for the galactic magnetic field can be taken as constant throughout the milky way, the diffusion coefficient due to collision is proportional to the particles density. We can then expect a smaller coefficient in molecular clouds, 
+While the diffusion coefficient for the galactic magnetic field can be taken as constant throughout the milky way, the diffusion coefficient due to collision is proportional to the particles density. We can then expect a smaller coefficient in molecular clouds, where the density can reach \todo{value!}.
+
+This coefficient will also define the cosmic ray densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the harder it will be to escape move away from its origin. This way, a higher density of cosmic rays can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak magnetic field and small gas and dust density. However, the bubble region is outside the disk and has a higher concentration of CR other regions outside the disk. This is due to a direct outward emission of CR from the GC region in the disk. With a high diffusion coefficient, those CR are ejected light years away \todo{put values}, forming two symetric region extending north and south up to 40 degrees in latitude.
+
 
 \subsection{Gamma-ray creation}
 %		-pion decay
 %		-bremmstrahlung
 %		-inverse compton
+
+Since the cosmic rays we observe on Earth can not give us a clue about their origin, some indirect detection methods are requiered. Luckily, cosmic rays interact n a lot of ways with their environment, as discribed in the previous section. These interactions can leave detectable traces that can be observed. The most common is the production of light, via creation of high energy photon in the GeV range. Once created, these gamma rays can be blocked or absorbed, but not deflected. Linking the gamma-ray and cosmic ray requires to know the processes in play. Her eis a list of the main phenomena.
+
+\subsubsection{Pion decay}
+%Explain phenomenon
+%Explain expected gamma ray spectrum, propagated proton distribution.
+
+The high energy protons can produce $\pi^{0}$ which decay almost immediatly in 2 gammas of equal energy.
+
+
+
+
+\subsubsection{Bremmstrahlung}
+%Explain phenomenon
+%Explain expected gamma ray spectrum
+
+
+The electrons passing near an other charged particle, or in a magnetic field will be deflected by the electromagnetic interaction. In the process, the electron will lose energy via the emmision of photons. The energy of the latter will depend on the energy of the electron and the intensit of the magnetic ield or the charge of the other particule. The more the electron is deflected, the higher the energy of the emmitted photons.
+\todo{give numbers for B field and proton in MC}
+
+
+\subsubsection{Inverse Compton}
+%Explain phenomenon
+%Explain expected gamma ray spectrum
+
+
+A third interaction can link the cosmic ray electrons to gamma rays and it is inverse compton. When a high energy electron collides with a low energy photons, the electron can transfert some of its kinetic energy to the photon, giving him enough energy to enter the gamma range.
+
+So number of gamma rays coming from inverse compton is directly linked tto the electron distribution and the interstellar radiation field (ISRF) of the galaxy. The latter is composed of three major components, the starlight, the dust emission and the cosmological microwave background (CMB). The first component is directly linked to the star distribution, and will be dominant in the disk, where all the star are concentrated. The starlight emits as a blackbody, peaking in the UV range. The dust emission comes from the infra-red emission of warm dust. It will also be mainly present in the disk, since the dust clouds are pretty flat. Finally, the CMB is peaking in the microwave range but is unformely present everywhere in the universe, and therefor in the galaxy. It will be dominant where the two others are negligeable, namely outside the galactic disk.
+
+
+\subsection{Gamma ray observation}
+
+Several instruments in the world observe gamma rays. For example the Fermi Large Area Telescope (LAT) mounted on the ISS. This instrument maps the gamma ray sky between 20MeV and 300GeV \todo{cite}. The diffuse cosmic ray emmision that we are interested in can be obtained after modeling and subtracting the contribution of the over sources. This allows us to compare the observation with the models we obtain from the previous three interactions.
 
 
 
@@ -63,7 +100,18 @@ While the diffusion coefficient for the galactic magnetic field can be taken as 
 %	-High energy tail flux too hard
 %	-Bad fits in bubbles and disk
 
+\begin{figure}
+ \centering
+ \includegraphics[width=.9\linewidth]{pic/dummy.png}
+ \caption{chi2 distribution of first fits (not mines)}
+ \label{fig:first_BKGonly_fits}
+\end{figure}
 
+Several studies have already tried to see how our predictions of the gamma rays emission and our observations compare. The three main phenomena were modeled as explained to try to recreate the spectrum observed from Earth. The results are clear, there are somethings missing in our interpretation. 
+The fit is clearly not working in the galactic plane and the bubbles (as shown on Fig. \ref{fig:first_BKGonly_fits}. The spatial templates used in those fits also show a spherical excess of gamma rays in the galactic center (GC). 
+
+Two main ideas have emerged to explain this spherical excess. 
+First is the presence of dark matter in the galaxy.
 
 
 

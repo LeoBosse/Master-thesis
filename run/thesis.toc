@@ -5,33 +5,37 @@
 \contentsline {subsection}{\numberline {1.2.1}Creation of CR}{3}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Propagation of CR}{3}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Gamma-ray creation}{4}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}What are the unresolved problems of the precedent chapter}{4}{section.1.3}
-\contentsline {chapter}{\numberline {2}Method}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Data origin}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Model components}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Basic components}{5}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}$\pi ^0$ production by propagated cosmic rays (PCR)}{5}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Inverse compton (IC) and bremmstrahlung (BR)}{7}{subsubsection.2.2.1.2}
-\contentsline {subsection}{\numberline {2.2.2}Additional components}{9}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}SCR component}{9}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}MCR component}{9}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Dark matter (DM)}{9}{subsubsection.2.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Milli-second pulsars (MSP)}{10}{subsubsection.2.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.2.5}Isitropic component}{10}{subsubsection.2.2.2.5}
-\contentsline {section}{\numberline {2.3}Fitting method}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Introduction of results}{11}{section.2.4}
-\contentsline {chapter}{\numberline {3}Results}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Recreating previous results}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Introducing SCR}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{15}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{17}{section.3.5}
-\contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}How do these results fit in context}{23}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}
-\contentsline {chapter}{Bibliography}{27}{section*.22}
-\contentsline {chapter}{\nonumberline Appendix}{31}{chapter*.25}
-\contentsline {section}{\numberline {A}Some appendix section}{31}{section.5.1}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Pion decay}{4}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Bremmstrahlung}{4}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Inverse Compton}{5}{subsubsection.1.2.3.3}
+\contentsline {subsection}{\numberline {1.2.4}Gamma ray observation}{5}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}What are the unresolved problems of the precedent chapter}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}Method}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data origin}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Model components}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Basic components}{7}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}$\pi ^0$ production by propagated cosmic rays (PCR)}{7}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Inverse compton (IC) and bremmstrahlung (BR)}{9}{subsubsection.2.2.1.2}
+\contentsline {subsection}{\numberline {2.2.2}Additional components}{11}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}SCR component}{11}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}MCR component}{11}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Dark matter (DM)}{11}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Milli-second pulsars (MSP)}{12}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}Isitropic component}{12}{subsubsection.2.2.2.5}
+\contentsline {section}{\numberline {2.3}Fitting method}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Introduction of results}{13}{section.2.4}
+\contentsline {chapter}{\numberline {3}Results}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Recreating previous results}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introducing SCR}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{17}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{18}{section.3.4}
+\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{19}{section.3.5}
+\contentsline {chapter}{\numberline {4}Discussion}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}How do these results fit in context}{25}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{27}{chapter.5}
+\contentsline {chapter}{Bibliography}{29}{section*.23}
+\contentsline {chapter}{\nonumberline Appendix}{33}{chapter*.26}
+\contentsline {section}{\numberline {A}Some appendix section}{33}{section.5.1}
