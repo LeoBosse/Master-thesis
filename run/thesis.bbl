@@ -2,7 +2,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{0}
+\begin{mcitethebibliography}{3}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -20,4 +20,27 @@
   {\relax}
   {\relax}
 
+\bibitem[{Aguilar, M. et al.}(2013)]{aPaper}
+{Aguilar, M. et al.}, \emph{Phys. Rev. Lett.} \textbf{2013}, \emph{110},
+  141102\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vagelli(2014)]{aThesis}
+Vagelli,~V. Measurement of the cosmic e$^+$+e$^-$ Flux from 0.5 GeV to 1 TeV
+  with the Alpha Magnetic Spectrometer (AMS-02) on the International Space
+  Station. Ph.D.\ thesis, Karlsruher Institut f\"ur Technologie (KIT),
+  2014\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{BibTeX on Wikipedia}()]{aWiki}
+{BibTeX on Wikipedia}, \url{https://en.wikipedia.org/wiki/BibTeX}, Version
+  Date: 2017-09-19\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \end{mcitethebibliography}

@@ -15,12 +15,26 @@
 %			-better statistical and systematic errors
 %			-better event selection
 
-\begin{figure}
- \centering
- \includegraphics[width=.9\linewidth]{pic/dummy.png}
- \caption{figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.}
- \label{fig:method_pass8}
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/method/Flux_FermiData_raw_E12.png}
+  	\subcaption{Raw data flux from the LAT}
+  	\label{fig:SCRonly_bubble_spec}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/method/Flux_FermiData-3FGL_E12.png}
+	  \subcaption{Raw data with point sources fromn 3FGL catalog subtracted.}
+	  \label{fig:BKGonly_bubble_spec}
+  \end{minipage}
+  \caption{figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.}
+  \label{fig:method_pass8} 
 \end{figure}
+
 
 The data I used are taken from the Fermi collaboration Large Area Telescope (LAT). They are available on the web and can be treated by anybody using the software given by Fermi.\\
 
