@@ -3,6 +3,8 @@
 \label{ch:method}
 %% ================================================================================
 
+The following chapter will present the the general method and the tools used through the internship.
+
 \section{Data origin}
 \label{sec:Data_origin}
 %	-Data origin
@@ -22,30 +24,78 @@
   	\centering
 	\includegraphics[width=1.\linewidth]{pic/method/Flux_FermiData_raw_E12.png}
   	\subcaption{Raw data flux from the LAT}
-  	\label{fig:SCRonly_bubble_spec}
+  	\label{fig:raw_data}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
 	  \includegraphics[width=1.\linewidth]{pic/method/Flux_FermiData-3FGL_E12.png}
 	  \subcaption{Raw data with point sources fromn 3FGL catalog subtracted.}
-	  \label{fig:BKGonly_bubble_spec}
+	  \label{fig:data_ptsrc_subtracted}
   \end{minipage}
-  \caption{figures of raw data, and after point source subtraction. Maybe also some spectrum with pass7 and pass8 to see the differences.}
+  \caption{Figures of data before and after point source subtraction. (Maybe also some spectrum with pass7 and pass8 to see the differences.)}
   \label{fig:method_pass8} 
 \end{figure}
 
-
-The data I used are taken from the Fermi collaboration Large Area Telescope (LAT). They are available on the web and can be treated by anybody using the software given by Fermi.\\
-
-Part of my jobs has been to update the old data we used to use, passing from pass 7 to pass 8. It results in better statistics because of a longer observation period, better systematic errors, wider energy range and better point source subtraction.\\
-
-For our study we are only interested in the diffuse sources of gamma-rays from inside or outside the milky way. The mandatory step to obtain this is to substract the point source emmision from stars, or other direct sources.\\
-
-The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a reference to subtract the point sources from the raw data. It lists more than 3000 sources and their associated spectra in the 100 MeV-300 GeV range.\\
+\begin{figure}
+ \centering
+ \includegraphics[width=.9\linewidth]{pic/dummy.png}
+ \caption{Images of the exposure map}
+ \label{fig:proton_spec}
+\end{figure}
 
 
+First of all, all the following work is based on the measurement of gamma rays coming from the milky way and beyond. The quality and accuracy of the data points is one of the most important point that will determine the general quality of the results. Thus it is capital to be sure that the gathering and treatment of the data was done properly.
 
+The data used in the next chapters was observed by the Fermi collaboration Large Area Telescope (LAT) between 2008 and today. They are available on the web and can be treated by anybody using the software given by Fermi.\\
+
+Since the observation is still on-going, it is important to stay up-to-date. The treatment method of the data is also being improved regularly, resulting, among others, in better statistics, better systematic errors, wider energy range and better point source subtraction.
+One of the most important step in the treatment process is the first one, the selection of events. Every photon measured is saved along with all its properties in a big data file. Then this long list has to be filtered to keep only the interesting observations. The filter can be based on the incoming direction, the energy or the time of observation, but also on the quality of the event reconstruction. This last cut can be critical. It will determine if the chances that the measured event is in fact a gamma ray, and not some background noise polluting the data. Of course, the more strict is the filter, the less events are kept for analysis and the statistical errors can become large. This work uses the CLEAN class recommended by the Fermi team for diffuse analysis.
+
+The details of the selection can be found in Tab \ref{tab:fermi_selection_parameters}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Parameter name} & \textbf{Parameter value} \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+                        &                          \\ \hline
+\end{tabular}
+\caption{Parameter values for Fermi data selection}
+\label{tab:fermi_selection_parameters}
+\end{table}
+
+
+An other important point is the creation of the exposure map of the telescope. It is basically a map of the time the telescope spend observing a portion of the sky. It is used to correct for an observation bias. If the telescope observed the galactic center ten times more often than the Orion nebula for example, there is no way to know at first if the higher counts in the GC are due to the longer exposition time or a higher incoming intensity. After dividing the count map by the exposure map, a flux map is obtained that does not depends on the observation time of particular regions.
+
+
+The goal of this work is to study the diffuse sources of gamma-rays from inside and outside the milky way. Of course, the LAT does not differentiate between gamma rays coming from a pulsar or a cosmic ray. This has to be done manually as the last step of the treatment process. A large catalogue of gamma ray point sources (3FGL) is available online on NASA website. This catalogue lists most of the known and identified point sources, along with their spectral shape and flux. These informations can be then used, combined with the exposure map, to model the number of counts coming from point sources, their spatial and energy distribution. Once this model map is done, it is subtracted from the data to keep only the diffuse emission. Of course the models are never perfect and all point sources are not listed. This can lead to errors or anomalies in the observations and this is an other reason to keep the dataset up-to-date.
+
+Once all of the treatment is done, a flux map of the entire sky in $counts/s/m^2/GeV/sr$ is produced. The map is divided in bins of $0.5 \times 0.5$ degrees on a Cartesian projection. Every bin contains 30 logarithmic energy bins ranging from 60 MeV to 513 GeV with 1.2 multiplicative step. The final data cube is therefore of dimension $720 \times 360 \times 30$.
+
+For visibility purposes, every energy bin is multiplied by its energy squared, becoming an energy flux in $GeV/s/m^2/sr$.
+
+The errors on the data are come from two sources. The first are systematic errors due to the instrument or the treatment process. They are pretty low, around 3\%, but can change for low or high energies as seen in Fig. \ref{fig:LAT_sys_err}. The other source is the statistical errors, simply proportional to the square root of counts (N). The final equation is given as follow :
+
+\begin{equation}
+\sigma_{tot} =\sqrt{\sigma_{sys}^2 + \sigma_{stat}^2} = \sqrt{\sigma_{sys}^2 + \frac{1}{N}}
+\end{equation}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=.9\linewidth]{pic/method/LAT_sys_error.png}
+ \caption{Systematic error for Pass 8 data.}
+ \label{fig:LAT_sys_err}
+\end{figure}
 
 
 \section{Model components}
@@ -57,6 +107,7 @@ The Fermi Large Area Telescope Third Source Catalog (3FGL) was used as a referen
 %		-IC and BR
 %			-electron CR spectrum E^-3.21
 %			-break at 1GeV, index E^-3.21 + 2.4 below break
+
 
 \subsubsection{$\pi^0$ production by propagated cosmic rays (PCR)}
 
@@ -190,7 +241,7 @@ We fit the data in regions outside the Bubbles and Galactic disk using the isotr
 %			-No spatial templates. (only the isosky)
 
 
-The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720\times360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat each portion of the sky independently of one another. Since the cones do not have the same solid angle, the grid I will use most often is composed of 797 cones of different sizes whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720 \times 360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat different portions of the sky independently of one another. Since the cones do not have the same solid angle, the grid used is often composed of 797 cones of different sizes, whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
 
 The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary with the position in the sky (for PCR, BR and IC). The fit then only scale every template up and down so that their sum is the closest to the data. The closest is found when the $\chi ^2$ is minimized. The $\chi ^2$ is calculated as follows:
 
