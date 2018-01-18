@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2.4}Milli-second pulsars (MSP)}{14}{subsubsection.2.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.2.5}Isitropic component}{14}{subsubsection.2.2.2.5}
 \contentsline {section}{\numberline {2.3}Fitting method}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Introduction of results}{15}{section.2.4}
+\contentsline {section}{\numberline {2.4}Introduction of results}{16}{section.2.4}
 \contentsline {chapter}{\numberline {3}Results}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}Introducing SCR}{17}{section.3.2}

@@ -241,12 +241,14 @@ We fit the data in regions outside the Bubbles and Galactic disk using the isotr
 %			-No spatial templates. (only the isosky)
 
 
-The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The sky is divided in $720 \times 360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins depending on the data set used. This allows to treat different portions of the sky independently of one another. Since the cones do not have the same solid angle, the grid used is often composed of 797 cones of different sizes, whether they are close to the poles or near the equator. This allows a better statistic in lower flux regions at high latitudes. It is also way faster to compute. \\
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The finest spatial grid is divided in $720 \times 360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins. This allows to treat different portions of the sky independently of one another. Since the cones do not have the same solid angle and the statistic in a small bining can be problematic, the grid used is more often composed of 797 cones of different sizes, bigger at the poles or and smaller near the equator. This allows a better statistic in lower flux regions at high latitudes and where the resolution is less important. In the same time, the equator and the GC have a lot more counts and can be treated in a smaller binning. It is also way faster to compute.\\
 
-The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary with the position in the sky (for PCR, BR and IC). The fit then only scale every template up and down so that their sum is the closest to the data. The closest is found when the $\chi ^2$ is minimized. The $\chi ^2$ is calculated as follows:
+%The model uses a certain number of components (from three to six) each corresponding to a certain phenomenon. They all have a certain energy spectra, that can vary with the position in the sky (for PCR, BR and IC).
+The fits are done in the following way for every bin independantly. After choosing the templates used for the fit, their scaling factor is only degree of freedom allowed. Using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data. 
+Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
-\chi ^2 = \sum_{i=1}^{30}[\frac{(D_i - \sum_{j=1}^{n}n_j.T_{ij})^2}{\sigma^2}]
+\chi^2 = \sum_{i=1}^{30}[\frac{(D_i - \sum_{j=1}^{n}n_j.T_{ij})^2}{\sigma^2}]
 \end{equation}
 
 where:
@@ -257,11 +259,8 @@ where:
 \item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
 \end{itemize}
 
-The fitting routine is executed using the ROOT software. \\
-
-This method allows to fit any region of the sky independently.\\
-
-The fit is also very well constrained with only 5 degrees of freedoms against 30 data points.\\
+The fit is very well constrained with only five or six degrees of freedoms depending on the fit against 30 data points. A usefull value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#degrees\ of\ freedom - 1$. This rescaling has the advantage to bring the perfect $\chi^2$ value down to one, thus making the comparison between different fits easier. This rescaling will be applied everytime when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
+The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the fit is good, but the error bars on the data are too big.
 
 On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
 
