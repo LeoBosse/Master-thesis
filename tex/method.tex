@@ -37,6 +37,7 @@ The following chapter will present the the general method and the tools used thr
   \label{fig:method_pass8} 
 \end{figure}
 
+
 \begin{figure}
  \centering
  \includegraphics[width=.9\linewidth]{pic/dummy.png}
@@ -56,23 +57,19 @@ The details of the selection can be found in Tab \ref{tab:fermi_selection_parame
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|l|l|}
+\begin{tabular}{|c|c|p{8cm}|}
 \hline
-\textbf{Parameter name} & \textbf{Parameter value} \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
-                        &                          \\ \hline
+\multicolumn{1}{|c|}{\textbf{Parameter name}} & \textbf{Parameter value} & \multicolumn{1}{c|}{\textbf{Description}}                                                                   \\ \hline
+Event class (evclass)                         & 256                      & Quality parameter. Varies the level of background noise.                                                    \\ \hline
+Event type                                    & 3                        & Back+front event.                                                                                           \\ \hline
+tmin, tmax                                    & INDEF                    & Selecting all events since beginning of observation                                                         \\ \hline
+Emin (MeV)                                    & 58.4731                  & Minimum energy of the event.                                                                                \\ \hline
+Emax (MeV)                                    & 513056                   & Maximum energy of the event.                                                                                \\ \hline
+zmax (degrees)                                & 90                       & Maximum zenith angle to get rid of the Earth limb contaminations, as recommended by the LAT instrument team \\ \hline
 \end{tabular}
 \caption{Parameter values for Fermi data selection}
 \label{tab:fermi_selection_parameters}
 \end{table}
-
 
 An other important point is the creation of the exposure map of the telescope. It is basically a map of the time the telescope spend observing a portion of the sky. It is used to correct for an observation bias. If the telescope observed the galactic center ten times more often than the Orion nebula for example, there is no way to know at first if the higher counts in the GC are due to the longer exposition time or a higher incoming intensity. After dividing the count map by the exposure map, a flux map is obtained that does not depends on the observation time of particular regions.
 
@@ -110,13 +107,38 @@ The errors on the data are come from two sources. The first are systematic error
 
 
 \subsubsection{$\pi^0$ production by propagated cosmic rays (PCR)}
+%
+%\begin{figure}
+% \centering
+% \includegraphics[width=.9\linewidth]{pic/method/proton_shapes.png}
+% \caption{images for proton spectrum for PCR, MCR, SCR, data}
+% \label{fig:proton_spec}
+%\end{figure}
+%\begin{figure}
+% \centering
+% \includegraphics[width=.9\linewidth]{pic/method/el_shapes.png}
+% \caption{images for electron spectrum for IC, BR, data}
+% \label{fig:electron_spec}
+%\end{figure}
+%
 
-\begin{figure}
- \centering
- \includegraphics[width=.9\linewidth]{pic/dummy.png}
- \caption{images for proton spectrum for PCR, MCR, SCR, data}
- \label{fig:proton_spec}
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/method/proton_shapes.png}
+  	\subcaption{images for proton spectrum for PCR, MCR, SCR, data}
+ 	\label{fig:proton_spec}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/method/el_shapes.png}
+	  \subcaption{images for electron spectrum for IC, BR, data}
+	  \label{fig:electron_spec}
+  \end{minipage}
 \end{figure}
+
 
 %%% ARTICLE
 The initial propagated proton spectrum for the PCR template is obtained from the locally observed proton data from AMS-02 \todo{cite[55]}. A good approximation is an unbroken power law ($R-\alpha$) with a spectral index ($\alpha$) of 2.85 at rigidities above 45 GV. At lower rigidities the data are below the power law because of solar modulation \todo{cite[56]}, as can be seen from Fig. \ref{fig:proton_spec}, where the AMS-02 data are plotted as well. To find the best parametrization a set of broken power laws with a grid of breaks and spectral indices above and below the break was constructed and the optimal parametrization was found by interpolation between the fits with the best test statistic. 
@@ -128,18 +150,26 @@ There is also the possibility to introduce a break around a few GeV, to have a s
 
 \subsubsection{Inverse compton (IC) and bremmstrahlung (BR)}
 
-\begin{figure}
- \centering
- \includegraphics[width=.9\linewidth]{pic/dummy.png}
- \caption{images for electron spectrum for IC, BR, data}
- \label{fig:electron_spec}
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[trim={0 0cm 0 0.2cm}, clip, width=1.\linewidth]{pic/method/IC_variations.png}
+  	\subcaption{images IC and BR variations over the sky}
+ 	\label{fig:IC_variations}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[trim={0 0cm 0 0.2cm}, clip, width=1.\linewidth]{pic/method/BR_variations.png}
+	  \subcaption{images IC and BR variations over the sky}
+	  \label{fig:BR_variations}
+  \end{minipage}
+  \caption{}
+  \label{fig:IC_BR_variations} 
 \end{figure}
-\begin{figure}
- \centering
- \includegraphics[width=.9\linewidth]{pic/dummy.png}
- \caption{images IC and BR variations over the sky}
- \label{fig:el_variations}
-\end{figure}
+
+
 
 %%% ARTICLE
 The interstellar electron spectra needed a break around \todo{1 GeV} with a spectral index of 3.21 above the break, which is compatible with the locally observed electron spectrum (see Fig. \ref{fig:electron_spec}). Below the break the optimal spectral index is 0.81, which implies a suppression of electrons. The break point might be related to the fact that around 1 GeV electrons have the smallest energy losses, since above this energy synchrotron, BR and IC dominate the energy losses, while below this energy ionization losses become strong, thus depleting the electron spectrum below 1 GeV. A similar break in the electron spectrum was needed in the Fermi diffuse model \todo{cite[46]}.\\
@@ -174,7 +204,7 @@ Hence, for the IC templates we have to calculate the templates for each sky dire
 
 \begin{figure}
  \centering
- \includegraphics[width=.9\linewidth]{pic/dummy.png}
+ \includegraphics[width=.9\linewidth]{pic/method/excess_comp.png}
  \caption{images of MCR, MSP, DM on single plot.}
  \label{fig:excess_component_comp}
 \end{figure}
@@ -262,13 +292,19 @@ where:
 The fit is very well constrained with only five or six degrees of freedoms depending on the fit against 30 data points. A usefull value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#degrees\ of\ freedom - 1$. This rescaling has the advantage to bring the perfect $\chi^2$ value down to one, thus making the comparison between different fits easier. This rescaling will be applied everytime when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
 The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the fit is good, but the error bars on the data are too big.
 
-On the other hand, it is not possible to implement a spatial template where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization.\\
+Since every bin is fitted independantly, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as can be done in other works \todo{cite}. The hope is to let the fit find reasonnable shapes by itself only using the $\chi ^2$ minimization technique.\\
 
-It allows to study at the same time the different contributions in one portion of the sky, and the skymaps of every component.\\
+
+
 
 
 
 \section{Introduction of results}
+
+This fitting method offers multiple ways of looking at the results depending on what is the interest. It is possible to produce flux skymaps of each component to study their spatial shapes, or spectrum of one particular region to look at the relative quantity of every template at different energies.
+
+The first step when testing a new model, is to see if it can reproduce results of previous studies. Only once it works and can be confidently used can it be 
+
 
 Recretion of previous studies (GC excess, problems).\\
 Introduction of new component to take care of those problems (SCR for high energies, MCR, Dm or MSP for 2GeV excess)
