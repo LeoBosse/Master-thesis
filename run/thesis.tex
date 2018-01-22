@@ -78,13 +78,13 @@
 titlepage,
 declaration,
 introduction,
-theory,
+%heory,
 method,
 results,
 discussion,
 conclusion,
 appendix
-%acknowledgements
+acknowledgements
 }
 
 
@@ -119,12 +119,12 @@ appendix
 %% -----------------
 \mainmatter
 \pagenumbering{arabic}
-\include{introduction}
-\include{theory}
+%\include{introduction}
+%\include{theory}
 \include{method}
-\include{results}
-\include{discussion}
-\include{conclusion}
+%\include{results}
+%\include{discussion}
+%\include{conclusion}
 
 
 %% --------------------
@@ -141,6 +141,7 @@ appendix
 %\bibliographystyle{IEEEtranSA})
 
 \bibliography{thesis}
+\nocite {*}
 
 %% -----------------------
 %% |   List Of Figures   |
