@@ -2,7 +2,7 @@
 \chapter{Theory}
 \label{ch:theory}
 %% ================================================================================
-The theory chapter. These are references \cite{aPaper}, \cite{aThesis}, \cite{aWiki}. Figure \ref{fig:dummy} shows a placeholder. 
+%The theory chapter. These are references \cite{aPaper}, \cite{aThesis}, \cite{aWiki}. Figure \ref{fig:dummy} shows a placeholder. 
 %
 %\begin{figure}
 %  \centering
@@ -17,13 +17,59 @@ The theory chapter. These are references \cite{aPaper}, \cite{aThesis}, \cite{aW
 
 \section{Our Milky Way}
 
+\subsection{General properties}
+
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/theory/top_galaxy_map.jpg}
+  	\subcaption{source: http://galaxymap.org/drupal/node/171}
+  	\label{fig:top_gal_map}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/theory/Fermi_bubble.jpg}
+	  \subcaption{source: NASA's Goddard Space Flight Center}
+	  \label{fig:fermi_bubbles}
+  \end{minipage}
+  \caption{The Milky Way, as seen from two different angles. }
+  \label{fig:Galaxy_maps} 
+\end{figure}
+
 For a long time, people thought the universe was constituted only by one galaxy, the Milky Way, the one in which the Sun and the Earth orbit. The discoveries of other galaxies in the universe came only in the 20's thanks to Edwin Hubble. There is still a lot of unknown  around those objects, but the Milky way is pretty well known and will play a major role in the following chapters. Its shape, density and composition are three main factors playing a role in cosmic ray physics and can not be avoided.
 
-First of all, the Milky Way is a barred spiral arm galaxy, meaning it has two main spiral arm, connected in the center by a straight galactic bar. Those arms and bar have higher matter concentration than the rest due to the way stars orbit around the center. Its diameter exceeds 30 kpc for a mass of around $10^{12} M_\odot$. 
+First of all, the Milky Way is a barred spiral arm galaxy, meaning it has two main spiral arms, connected in their center by a straight galactic bar. Those arms and bar have higher matter concentration than the rest due to the way stars orbit around the center. Its diameter exceeds 40 kpc for a mass of around $10^{12} M_\odot$ and a thickness under 1 kpc. The Sun and the Earth are rotating 8 kpc from its center in 240 Myr.
+All the different objects of the galaxy can be found in this thin disk of matter, mainly in the spiral arm. It includes the stars, planets and over massive objects, but also all the dust and gas clouds. As seen from the Earth, the disk looks like a narrow band of a few degrees in latitude, but with a very high concentration of gas and dust.
+In 2010, two large scale structures were detected to the north and the south of the GC. With a diameter of 7kpc, they extend up to 40 degrees in latitude and 20 in longitude. They are a source of high energy gamma-rays and were detected by the Fermi Large Area Telescope (LAT).
+
+
+\subsection{Dark Matter}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=.5\linewidth]{pic/theory/gal_rotation_curve.png}
+ \caption{Orbital velocity of the Milky Way as a function of the radius. A clear discrepancy between the theory and the observation can be seen above a 2 kpc radius. Source: Matthew Newby, Milkyway@home}
+ \label{fig:gal_rotation_curve}
+\end{figure}
+
+
+The shape of spiral galaxies is well known today, with thousands of examples throughout the universe. This knowledge can be used to mathematically simulate them, and in particular their rotation time as a function of the distance to the center. It was a big surprise when the observed angular speed did not match the theory. One of the solution to explain this difference was the introduction in the standard model of the dark matter (DM), which was suppose to bring a lot of invisible mass into the system. It still has not been observed and a few theories exist on its exact nature. But even without knowing exactly what it is, its mass distribution can still be deduced from the observed rotation curve of the galaxy. The predicted distribution is a spherical halo extending way beyond the 40 kpc of the galactic matter disk. It's density peaks in the GC, and decrease with the radius following a particular density profile. The exact profile is not known, but a popular one is the Navarro-Frenk-White (NFW) profile defined as follows :
+
+\begin{equation}
+\rho (r) \propto \frac{1}{\left( r/r_S \right) \left( 1 + r/r_S \right)^2 }
+\end{equation}
+
+where $r_S$ is the scale radius.
+
+One of the most popular is the Weakly Interacting Massive Particles (WIMP). They are supposed to be non standard particles with a large mass, neutral, and only sensitive to the weak force, making them very difficult to observe.
+
+
 
 
 \section{Physic of cosmic rays}
-
 
 \subsection{Creation of CR}
 %		-supernovae (SNR)
