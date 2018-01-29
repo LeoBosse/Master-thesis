@@ -67,14 +67,27 @@ where $r_S$ is the scale radius.
 One of the most popular is the Weakly Interacting Massive Particles (WIMP). They are supposed to be non standard particles with a large mass, neutral, and only sensitive to the weak force, making them very difficult to observe. But no particles of the standard model has the right properties. 
 
 
+\section{Tools}
+%Energy spectra
+%Intensity, Flux
+
+To speak about cosmic- or gamma-rays, one often speaks about their spectral shape, or energy spectrum. These terms refer to the particle flux ($\Phi$ in $GeV^-1.s^-1.m^-2.sr^-1$) from these particles as a function of their energy (in $GeV$).  In other terms, how many particles of a given energy would a one meter square instrument observe in one second. This can often be modeled by power law of the form $\Phi \propto E^{-\alpha}$  where $\alpha$ is called the spectral index. If $\alpha$ is small, the spectrum is said to be "hard", because there are a important proportion to high energetic particles. On the contrary, a "soft" spectrum has a bigger spectral index and describe a lower density of high energy particles compared to low energies.
+
+In the following chapter though, the preferred representation of the energy distribution is via the energy flux (in $GeV.s^-1.m^-2.sr^-1$), simply obtained by by multiplying the particle flux by its energy square ($E^2 \times \Phi(E)$). In other terms, how much energy does the instrument receive every second for particles of a given energy E. This is only done to facilitate the reading of the graphs and does not affect the underlying physics.
+
 
 
 \section{Physic of cosmic rays}
 
 \subsection{Creation of CR}
+\label{sec:creation_of_CRs}
 %		-supernovae (SNR)
-%		-extra-galactic
-%		-pulsars
+%		-AGN (activ galactic nuclei)
+%		-pulsars, quasars
+
+Several sources of cosmic rays exist in the universe. Cosmic rays are very energetic and thus can only be produced by very energetic phenomena. Particularly powerful events are supernovae, ejecting relativistic particles during the burst. The dying star will eject a lot of its mass to form a supernova remnant (SNR) surrounding either a white dwarf, a neutron star or a black hole depending on the initial mass of the star. These SNR could also play a role after the explosion via the Fermi process. An already energetic particle would bounce in the shock wave created by the explosion, and gain energy via hydrodynamic or magneto-hydrodynamic before escaping when the energy is sufficient.
+An other important source of cosmic rays are the pulsars. These rapidly rotating neutron stars and their intense electromagnetic field create high energy particles such as protons and electrons. This can last as long as the pulsar rotates fast enough, but it can takes 10 to 100 Myrs before the turn-off occurs.
+A third source are the actives galactic nuclei (AGN), also known as quasars. These objects consist of a supermassive black hole at the center of a galaxy. First discovered thanks to their radio emission, they are also able to eject CR, certainly via Fermi or centrifugal acceleration.
 
 
 \subsection{Propagation of CR}
@@ -88,14 +101,15 @@ One of the most popular is the Weakly Interacting Massive Particles (WIMP). They
 %		-can observe this inhomogeiniies via gamma rays
 
 Once they are emitted, the cosmic rays propagate through the galaxy under the influence of different interactions.
-The first one to notice is the complex magnetic field created by all sorts of objects, from stars to molecular clouds or any distribution of charged particles. It is not particularly strong \todo{put values} compared to the heliosphere or what we can be created on Earth, but its very large scale suffice to bend the CR's path in all direction until the point where it is impossible to backtrack their origin.
+The first one to notice is the complex magnetic field created by all sorts of objects, from stars to molecular clouds or any distribution of charged particles. It is not particularly strong \todo{put values} compared to the heliosphere or what can be created on Earth, but its very large scale suffice to bend the CR's path in all direction until the point where it is impossible to backtrack their origin.
 An other possible interaction is the collisions with other particles. It will obviously depends on the density distribution of those colliders in the galaxy. We can expect a higher number of those in the disk, where the density of molecular clouds is the highest.
 
-All these influences can be modeled by a diffusion model, mainly defined by its diffusion coefficient, which describes the average distance traveled in a certain time. The higher the coefficient, the faster a particle will diffuse in the galaxy. Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays. \todo{give values for Dmag, Dcoll...}
+All these influences can be modeled by a diffusion model, mainly defined by its diffusion coefficient D, which describes the average distance traveled by the particles during a certain time. The higher the coefficient, the faster a particle will diffuse in the galaxy. Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays. \todo{give values for Dmag, Dcoll...}
 While the diffusion coefficient for the galactic magnetic field can be taken as constant throughout the milky way, the diffusion coefficient due to collision is proportional to the particles density. We can then expect a smaller coefficient in molecular clouds, where the density can reach \todo{value!}.
 
-This coefficient will also define the cosmic ray densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the harder it will be to move away from its origin. This way, a higher density of cosmic rays can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak magnetic field and small gas and dust density. However, the bubble region is outside the disk and has a higher concentration of CR than other regions outside the disk. This is due to a direct outward emission of CR from the GC region in the disk. With a high diffusion coefficient, those CR are ejected light years away \todo{put values}, forming two symmetric regions extending north and south up to 40 degrees in latitude.
+This coefficient will also define the cosmic ray densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the harder it will be to move away from its origin. This way, a higher density of cosmic rays can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak electromagnetic field and small gas and dust density. However, the bubble region is outside the disk and has a higher concentration of CR than other regions outside the disk. This is due to a direct outward emission of CR from the GC region. With a high diffusion coefficient, these CR are ejected light years away (see Fig. \ref{fig:fermi_bubbles}), forming two symmetric regions extending north and south up to 40 degrees in latitude.
 
+The consequences of such diffusion processes is an isotropic cosmic-ray sky on Earth. In whatever direction the instruments look at, they measure the same CR flux. This complicate a lot their study, since no information about their origin or their journey can be learned from direct observation. It is where gamma-rays enter the scene to play a major role in the indirect detection methods.
 
 \subsection{Gamma-ray creation}
 %		-pion decay
@@ -132,22 +146,40 @@ Even though proton CR are charged, the main source of bremsstrahlung gamma-rays 
 
 A third process can take create gamma-rays when the CR electrons interact with a photon of the interstellar radiation field (ISRF). When a high energy electron collides with a low energy photon, the electron can transfer some of its kinetic energy to the photon, giving him enough energy to enter the gamma range.
 
-So number of gamma rays coming from inverse compton is directly linked to the electron distribution and the ISRF of the galaxy. The latter is composed of three major components, the starlight, the dust emission and the cosmological microwave background (CMB). The first component is directly linked to the star distribution, and will be dominant in the disk, where all the star are concentrated. The starlight emits as a blackbody, peaking in the UV range. The dust emission comes from the infra-red emission of warm dust. It will also be mainly present in the disk, since the dust clouds are pretty flat. Finally, the CMB is peaking in the microwave range but is uniformly present everywhere in the universe, and therefore in the galaxy. It will be dominant where the two others are negligible, namely outside the galactic disk.
-
-
-
+So number of gamma rays coming from inverse Compton is directly linked to the electron distribution and the ISRF of the galaxy. The latter is composed of three major components, the starlight, the dust emission and the cosmological microwave background (CMB). The first component is directly linked to the star distribution, and will be dominant in the disk, where all the star are concentrated. The starlight emits as a black body, peaking in the UV range. The dust emission comes from the infra-red emission of warm dust. It will also be mainly present in the disk, since the dust clouds are pretty flat. Finally, the CMB is peaking in the microwave range but is uniformly present everywhere in the universe, and therefore in the galaxy. It will be dominant where the two others are negligible, namely outside the galactic disk.
 
 
 \todo{talk about synchrotron and ionization losses}
 
-\subsection{Gamma ray observation}
+\subsubsection{Other sources}
+%Gamma-ray burst
+%Pulsars
 
-Several instruments in the world observe gamma rays. For example the Fermi Large Area Telescope (LAT) mounted on the ISS. This instrument maps the gamma ray sky between 20MeV and 300GeV \todo{cite}. The diffuse cosmic ray emmision that we are interested in can be obtained after modeling and subtracting the contribution of the over sources. This allows us to compare the observation with the models we obtain from the previous three interactions.
+The three previously described processes are general processes that can happen everywhere at any energy. But even though the process might always be the same, two class of sources can be defined: the diffuse and the point sources. 
+The first correspond to all the CR propagating through the ISM and interacting with its components. It will be the object of study of the following chapters. 
+The second are the gamma-rays produced directly at the CR origin (in SNR, AGN or pulsars as described in section \ref{sec:creation_of_CRs}). Every one of these event should be studied separately and are still not understood perfectly. Since these sources are very far away and can not be resolved by the instruments, they will be referred to as point sources in the following chapters. The spectral shape of these events is generally known and categorized as a function of the event type. This makes the recognition easier and both emissions can be separated 
+this way.
+
+
+%Other sources of gamma-rays exist in the universe that will complicate the observations. Gamma-rays are very energetic and thus can only be produced by very energetic phenomena. The gamma-ray bursts for example were discovered in the late 60's when U.S. satellites were build to detect nuclear weapon tests. These two events produce gamma-rays, but the first one is much more powerful, sometimes emitting more energy than the Sun will in its entire life-time. It is thought to be emitted by supernovae in distant galaxies or the merging of two neutron stars. These events are short (from milliseconds to hours) and will not be dominating the observations.
+%An other source is the pulsar gamma-ray emission, and even though they are less energetic, their long-term production make them one of the first sources of observed gamma-rays. It can be said the same about quasars or active galactic nuclei (AGN).
+%All these sources produce high energetic cosmic-rays that will lose energy via the different processes described earlier, and produce gamma-rays. 
+
+
+\subsection{Gamma-ray observations}
+
+Gamma-rays are not easy to observe from Earth, simply because they are absorbed by the atmosphere. It is a chance for life to develop, but complicates their observation. To measure them, the instrument has to be launched in orbit above the atmosphere, where gamma-rays are not yet absorbed. For example the Fermi Large Area Telescope (LAT) mounted on the ISS do the job with a lot of success. This instrument maps the gamma ray sky between 20 MeV and 300 GeV \todo{cite}, detecting all the point sources emission, but also the diffuse background emission.
+
+
+%The diffuse cosmic ray emission that we are interested in can be obtained after modeling and subtracting the contribution of the over sources. This allows us to compare the observation with the models we obtain from the previous three interactions.
+
+
+In theory, the knowledge of the processes that generate gamma-rays from cosmic-rays and the precise composition of the Milky Way should allow to explain the observations. Propagation models and simulations are able to output the expected energy spectrum of gamma-rays reaching Earth from an initial distribution of cosmic-rays (not taking the point sources into account). But some problems show up when confronting the theory and the observations, as will be discussed in the following section.
 
 
 
 \section{What are the unresolved problems of the precedent chapter}
-%What are the unresolved problems of the precedent chapter:
+%What are the unresolved problems of the precedent sections:
 %	-Bad fits in bubbles and disk	
 %	-Spherical gamma-ray excess in GC when fitting spatial templates
 %		-DM studies
@@ -159,7 +191,7 @@ Several instruments in the world observe gamma rays. For example the Fermi Large
 %			-Weniger
 %	-High energy tail flux too hard
 %	
-
+%
 \begin{figure}
  \centering
  \includegraphics[width=.9\linewidth]{pic/dummy.png}
@@ -167,8 +199,7 @@ Several instruments in the world observe gamma rays. For example the Fermi Large
  \label{fig:first_BKGonly_fits}
 \end{figure}
 
-Several studies have already tried to see how our predictions of the gamma rays emission and our observations compare. The three main phenomena were modeled as explained to try to recreate the spectrum observed from Earth. The results are clear, there are somethings missing in our interpretation. 
-The fit is clearly not working in the galactic plane and the bubbles (as shown on Fig. \ref{fig:first_BKGonly_fits}. The spatial templates used in those fits also show a spherical excess of gamma rays of about 2GeV in the galactic center (GC).
+
 
 \begin{figure}
  \centering
@@ -177,13 +208,16 @@ The fit is clearly not working in the galactic plane and the bubbles (as shown o
  \label{fig:first_BKGonly_fits}
 \end{figure}
 
+Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare. The three main phenomena were modeled to try to recreate the spectrum observed here on Earth. The results are clear, they do not always match.
+Even though the observations of the poles or any high latitude regions can be well explained by a PCR, BR and IC component, the models have troubles to reproduce the surroundings of the galactic disk, and in particular the GC or the Bubbles. 
+Two main problems can be identified. A high energy deficit in the models, where the high energy tail (> 50 GeV) observed can not be reproduced, and a spherical excess centered in the GC around 2 GeV.
 
-Two main ideas have emerged to explain this spherical excess.
+The first one shows a lack of high energy cosmic-rays in the models. A mean of injecting more relativistic particles has to be found in order to fill this gap. One explanation could be that we do not observe only diffuse emission in the disk. The point source emission could not be totally subtracted due to the high density of sources. The CR that do not have the time to propagates have a harder spectrum, thus providing a higher ratio of high energy gamma-rays.
 
-First is the presence of dark matter in the galaxy in the form of weakly interacting massive particles (WIMP). The spatial distribution of these particles would follow a Navarro-Frrank-White (NFW) profile centered at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle is around 50GeV, the expected gamma spectrum would peak around 2GeV, where the excess is observed. \todo{cite}
+Two main ideas have emerged to explain the spherical excess.
+First is the presence of dark matter in the galaxy in the form of weakly interacting massive particles (WIMP). The spatial distribution of these particles would follow a Navarro-Frrank-White (NFW) profile centered at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle is around 50 GeV, the expected gamma spectrum would peak around 2 GeV, where the excess is observed. \todo{cite}
 The study of the excess could put strong limits on the mass and annihilation cross section of such WIMP and confirm, or infirm the theory.
-
-The second theory does not involve new physic, but inobserved milli-second pulsars. They would also be spherically distributed around the GC and their gamma spectrum peaks around 2GeV. A few thousands of them would be needed to recreate the intensity of excess. The main default of this explaination resides in the fact that we have observed only a few hundreds? at most. That would requires a very high concentration and a reason why we can not observe them more easely.
+The second theory does not involve new physic, but unobserved millisecond pulsars. They would also be spherically distributed around the GC and their gamma spectrum peaks around 2 GeV. A few thousands of them would be needed to recreate the intensity of the excess. The main default of this explanation resides in the fact that we have observed only a few hundreds pulsars so far when we expect ten times more.
 
 
 
