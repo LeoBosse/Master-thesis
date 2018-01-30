@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  29 JAN 2018 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  30 JAN 2018 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -104,7 +104,7 @@ LaTeX Info: Redefining \textsubscript on input line 4654.
 v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 18 used.
+ngerman -- \language number for naustrian undefined, default 54 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -1413,22 +1413,22 @@ vailable
 nput line 75.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 75.
- [4 <./pic/theory/gal_rotation_curve.png>] [5] [6] <pic/dummy.png, id=257, 698.
-61pt x 475.7775pt>
+ [4 <./pic/theory/gal_rotation_curve.png>] [5] [6] [7] <pic/dummy.png, id=264, 
+698.61pt x 475.7775pt>
 File: pic/dummy.png Graphic file (type png)
- <use pic/dummy.png>
-Package pdftex.def Info: pic/dummy.png used on input line 197.
-(pdftex.def)             Requested size: 384.68576pt x 261.98334pt.
 
-[7]
+<use pic/dummy.png>
+Package pdftex.def Info: pic/dummy.png used on input line 198.
+(pdftex.def)             Requested size: 384.68576pt x 261.98334pt.
 File: pic/dummy.png Graphic file (type png)
  <use pic/dummy.png>
-Package pdftex.def Info: pic/dummy.png used on input line 206.
+Package pdftex.def Info: pic/dummy.png used on input line 207.
 (pdftex.def)             Requested size: 384.68576pt x 261.98334pt.
  [8 <./pic/dummy.png>]) [9]
 \openout2 = `method.aux'.
 
- (./method.tex [10
+
+(./method.tex [10
 
 
 
@@ -1628,15 +1628,15 @@ Underfull \hbox (badness 1354) in paragraph at lines 74--74
 \T1/LinuxLibertineT-TLF/m/n/10.95 ground mod-els only and back-ground
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [19
 
 
 
 
  <./pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <pic/results/MCRonly_chi2Distribution.png, id=379, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_chi2Distribution.png Graphic file (type png)
 
@@ -1674,7 +1674,7 @@ LaTeX Warning: Reference `fig:MCR_vs_SCRonly_CMZ' on page 20 undefined on input
  line 128.
 
 [20 <./pic/results/BKGonly_halo_residuals.png> <./pic/results/BKGonly_CMZ.png>]
-<pic/results/MCRonly_BR_fluxE12_skymap.png, id=392, 1200.485pt x 1176.395pt>
+<pic/results/MCRonly_BR_fluxE12_skymap.png, id=391, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_BR_fluxE12_skymap.png Graphic file (type png)
 
 <use pic/results/MCRonly_BR_fluxE12_skymap.png>
@@ -1682,7 +1682,7 @@ Package pdftex.def Info: pic/results/MCRonly_BR_fluxE12_skymap.png used on inpu
 t line 137.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MCRonly_IC_fluxE12_skymap.png, id=393, 1200.485pt x 1176.395pt>
+<pic/results/MCRonly_IC_fluxE12_skymap.png, id=392, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_IC_fluxE12_skymap.png Graphic file (type png)
 
 <use pic/results/MCRonly_IC_fluxE12_skymap.png>
@@ -1695,7 +1695,7 @@ Underfull \hbox (badness 1655) in paragraph at lines 145--145
 ton
  []
 
-<pic/results/MCRonly_MCR_fluxE12_skymap.png, id=394, 1200.485pt x 1176.395pt>
+<pic/results/MCRonly_MCR_fluxE12_skymap.png, id=393, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_MCR_fluxE12_skymap.png Graphic file (type png)
 
 <use pic/results/MCRonly_MCR_fluxE12_skymap.png>
@@ -1703,7 +1703,7 @@ Package pdftex.def Info: pic/results/MCRonly_MCR_fluxE12_skymap.png used on inp
 ut line 151.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MCRonly_PCR_fluxE12_skymap.png, id=395, 1200.485pt x 1176.395pt>
+<pic/results/MCRonly_PCR_fluxE12_skymap.png, id=394, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_PCR_fluxE12_skymap.png Graphic file (type png)
 
 <use pic/results/MCRonly_PCR_fluxE12_skymap.png>
@@ -1711,7 +1711,7 @@ Package pdftex.def Info: pic/results/MCRonly_PCR_fluxE12_skymap.png used on inp
 ut line 158.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MCRonly_SCR_fluxE12_skymap.png, id=396, 1200.485pt x 1176.395pt>
+<pic/results/MCRonly_SCR_fluxE12_skymap.png, id=395, 1200.485pt x 1176.395pt>
 File: pic/results/MCRonly_SCR_fluxE12_skymap.png Graphic file (type png)
 
 <use pic/results/MCRonly_SCR_fluxE12_skymap.png>
@@ -1719,7 +1719,7 @@ Package pdftex.def Info: pic/results/MCRonly_SCR_fluxE12_skymap.png used on inp
 ut line 165.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png, id=397, 1200.485pt x 1176.395p
+<pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png, id=396, 1200.485pt x 1176.395p
 t>
 File: pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png Graphic file (type png)
  <use pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png>
@@ -1912,7 +1912,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
 Here is how much of TeX's memory you used:
  24924 strings out of 493029
  451482 string characters out of 6136234
- 572323 words of memory out of 5000000
+ 572322 words of memory out of 5000000
  27664 multiletter control sequences out of 15000+600000
  123004 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1938,7 +1938,7 @@ type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (44 pages, 5676336 bytes).
+Output written on thesis.pdf (44 pages, 5676308 bytes).
 PDF statistics:
  638 PDF objects out of 1000 (max. 8388607)
  532 compressed objects within 6 object streams
