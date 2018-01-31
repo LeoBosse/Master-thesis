@@ -37,8 +37,9 @@
 \contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{29}{section.4.1}
 \contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{29}{section.4.2}
-\contentsline {section}{\numberline {4.3}How do these results fit in context}{29}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}
-\contentsline {chapter}{Bibliography}{33}{section*.28}
-\contentsline {chapter}{\nonumberline Appendix}{37}{chapter*.31}
-\contentsline {section}{\numberline {A}Some appendix section}{37}{section.5.1}
+\contentsline {subsection}{\numberline {4.2.1}Comparison of the excess spectral shape}{30}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}How do these results fit in context}{31}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}
+\contentsline {chapter}{Bibliography}{35}{section*.28}
+\contentsline {chapter}{\nonumberline Appendix}{39}{chapter*.31}
+\contentsline {section}{\numberline {A}Some appendix section}{39}{section.5.1}
