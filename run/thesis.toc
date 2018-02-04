@@ -29,9 +29,9 @@
 \contentsline {section}{\numberline {2.3}Fitting method}{16}{section.2.3}
 \contentsline {chapter}{\numberline {3}Results}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Introducing SCR}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{21}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.2}Introducing SCR}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{22}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Introducing SCR and DM}{23}{section.3.4}
 \contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{23}{section.3.5}
 \contentsline {chapter}{\numberline {4}Discussion}{29}{chapter.4}
