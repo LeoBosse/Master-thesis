@@ -20,22 +20,46 @@ Introduce the weniger plots here (or in the state of the research?) to show exce
 \end{figure}
 
 
-
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.5\linewidth]{pic/results/BKGonly_halo_residuals.png}
-  \caption{Picture of GC excess, (compare with previous papers?), a chi2 map too}
-  \label{fig:original_GC_excess}
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/dummy.png}
+  	\subcaption{Picture of GC excess as fitted previously (https://arxiv.org/pdf/1110.0006.pdf?)}
+  	\label{fig:original_GC_excess}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/results/BKGonly_halo_residuals.png}
+	  \subcaption{Picture of GC excess as fitted by us}
+	  \label{fig:our_GC_excess}
+  \end{minipage}
+  \caption{Picture of the GC excess as obtained previously and with our fit}
+  \label{fig:GC_excess}	 
 \end{figure}
 
 Before trying to upgrade the current model, it is important to make sure it can be recreated starting from the same parameters. Fig. \ref{fig:original_GC_excess} shows the results of a fit using only the background components (PCR, IC and BR). The shape and intensity of the previously observed excess are found \todo{cite}. Excluding the galactic disk for latitudes below two degrees, the excess extends to $30\circ$ in all directions from the GC.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.5\linewidth]{pic/results/BKGonly_CMZ.png}
-  \caption{Picture background only spectra with bad fit (high energies too hard) Compare bubble or disk region and outside}
-  \label{fig:bkgd_only_spectrum}
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/BKGonly_CMZ.png}
+  	\subcaption{Picture background only spectra with bad fit (high energies too hard)}
+  	\label{fig:bkgd_only_spectrum}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/results/chi2_distribution_BKGonly.png}
+	  \subcaption{Chi2 Distribution for BKGonly fit}
+	  \label{fig:MKGonly_chi2Distribution}
+  \end{minipage}
+  \caption{Example of fit and chi2 map of BKG only fit}
+  \label{}	 
 \end{figure}
+
 
 Looking at the $\chi^2$ skymap (Fig. \ref{fig:original_GC_excess}), the bubbles and the disk appear clearly in red, showing a high $\chi^2$ value. The fit does not give proper results in those regions, with the high energy part of the spectrum not described by the three background templates. On the other hand, outside these regions, the fit is works better with a $\chi^2$ not much higher than three. This is not perfect, but in comparison with the disk, it is undeniably better.
 Overall, the results are expected and confirm that the model is incomplete. The introduction of a new template like SCR should help improve the fit.
@@ -56,11 +80,24 @@ Overall, the results are expected and confirm that the model is incomplete. The 
 \section{Introducing SCR}
 
 \begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
   	\centering
-	\includegraphics[width=.5\linewidth]{pic/results/SCRonly_Chi2Distribution.png}
-  	\caption{Chi2 distribution of SCR only fits.}
+	\includegraphics[width=1.\linewidth]{pic/results/SCRonly_Chi2Distribution.png}
+  	\subcaption{Chi2 distribution of SCR only fits.}
   	\label{fig:SCRonly_fit}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=1.\linewidth]{pic/results/SCR_flux_distribution_bin20.png}
+	  \subcaption{Flux distribution of SCR only fits.}
+	  \label{fig:BKGonly_bubble_spec}
+  \end{minipage}
+  \subcaption{Source results}
+  \label{fig:SCRonly_distributions}
 \end{figure}
+
 
 After introducing the SCR template, a clear improvement can be noted in the $\chi^2$ distribution (see Fig. \ref{fig:SCRonly_fit}). The bubble shape that was delimited before by a bad $\chi^2$ zone has now disappeared. Even if the fit is still not perfect everywhere, the improvement is significant. For example, the disk is still not fitted properly, with very high $\chi^2$ values. Some structures can be seen along the disk for absolute longitudes over $90\circ$
 
@@ -138,9 +175,7 @@ Three dots appear to have a really high $\chi^2$, but that is only due to the po
 
 Fig. \ref{fig:MCR_vs_SCRonly_CMZ} shows the central molecular zone (CMZ) fitted with and without the MCR component. The gas density is very high in this region, hence it is the first region where we would expect the MCR emission to be present, if not dominant compared to PCR. Indeed the fit chooses this configuration, with the MCR template dominating all the others and we can directly see the improvement in the MCR fit. The energies around 2GeV had a clear excess that the four components of the SCR fit could not account for. The MCR template peaking in this region, it comes in very handy and fill this gap, leaving the SCR template taking care of the high energies and PCR and BR for the low energies. \todo{Why isn't there IC? -> Wait to see if we change the models}
 
-
-
-\subsection{Discussion on spatial shapes}
+\newpage
 \begin{figure}[h]
   \centering
   \begin{minipage}[h]{0.45\textwidth}
@@ -187,6 +222,8 @@ Fig. \ref{fig:MCR_vs_SCRonly_CMZ} shows the central molecular zone (CMZ) fitted 
   \label{fig:MCRonly_skymaps}
 \end{figure}
 
+\subsection{Discussion on spatial shapes}
+
 Fig. \ref{fig:MCRonly_skymaps} shows the spatial distribution of the flux of each component around 2 GeV, as returned by the fit.
 
 The bremsstrahlung component is consistent with the the expectations. Present everywhere, it is strong in the disk, and decrease a little in the bubbles.
@@ -200,6 +237,7 @@ The general shape of PCR looks coherent with he shape of the galaxy, with a stro
 The MCR template also follows the spatial distribution of molecular clouds in our galaxy. It is a good sign since it is supposed to come from those regions.
 It is not spherical at all. That could have happened if the excess component has a DM origin, since it is supposed to be spherically distributed.
 
+\newpage
 
 \section{Introducing SCR and DM}
 %	-Introduction of SCR + DM
@@ -238,6 +276,7 @@ Once the mass is determined for the entire sky, the fit gives the following resu
 
 As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit traces closely the distribution of molecular gas distribution (as traced by CO).
 
+\newpage
 
 
 \section{Introducing SCR and MSP}
