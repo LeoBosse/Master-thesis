@@ -31,15 +31,15 @@
 \contentsline {section}{\numberline {3.1}Recreating previous results}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Introducing SCR}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{21}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Discussion on spatial shapes}{23}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{24}{section.3.4}
-\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{25}{section.3.5}
-\contentsline {chapter}{\numberline {4}Discussion}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Comparison of the excess spectral shape}{32}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}How do these results fit in context}{33}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclusion}{35}{chapter.5}
-\contentsline {chapter}{Bibliography}{37}{section*.28}
-\contentsline {chapter}{\nonumberline Appendix}{41}{chapter*.31}
-\contentsline {section}{\numberline {A}Some appendix section}{41}{section.5.1}
+\contentsline {section}{\numberline {3.4}Introducing SCR and DM}{22}{section.3.4}
+\contentsline {section}{\numberline {3.5}Introducing SCR and MSP}{22}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Discussion on spatial shapes}{23}{subsection.3.5.1}
+\contentsline {chapter}{\numberline {4}Discussion}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interpretation of spatial shapes}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Why is MCR better than DM or MSP}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Comparison of the excess spectral shape}{28}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}How do these results fit in context}{29}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}
+\contentsline {chapter}{Bibliography}{33}{section*.22}
+\contentsline {chapter}{\nonumberline Appendix}{37}{chapter*.25}
+\contentsline {section}{\numberline {A}Some appendix section}{37}{section.5.1}

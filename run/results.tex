@@ -76,6 +76,7 @@ Overall, the results are expected and confirm that the model is incomplete. The 
 %\item Excess around 2GeV
 %\end{itemize}
 
+\newpage
 
 \section{Introducing SCR}
 
@@ -130,6 +131,86 @@ The SCR template is present only in the disk and the bubbles \todo{add fig}, as 
 %A problem still remains in the disk and diffuse regions around the galactic anticenter. 
 
 
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_chi2Distribution.png}
+  	\subcaption{Chi2 maps of MCRonly fits compared to background only}
+  	\label{fig:MCRonly_chi2Distribution}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
+	\subcaption{MCR fit in the CMZ region}
+  	\label{fig:MCRonly_CMZ}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/DMonly_chi2Distribution.png}
+  	\subcaption{DM fit chi2 distribution}
+  \label{fig:DMonly_chi2Distribution}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/DMonly_CMZ.png}
+  	\subcaption{spectrum of best mass DM fitted in CMZ. Also pictures of DM distribution compared to gas map.}
+  	\label{fig:DMonly_CMZ}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/MSPonly_chi2Distribution.png}
+  	\subcaption{Chi2 distribution of MSP only fit}
+  \label{fig:MSPonly_chi2Distribution}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/MSPonly_CMZ.png}
+  	\subcaption{Fit with SCR and MSP spectrum in the CMZ region.}
+  	\label{fig:MSP_only_CMZ}
+  \end{minipage}
+  \label{fig:Excess_comp_comparison}
+\end{figure}
+
+
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/dummy.png}
+  	\subcaption{CO skymap}
+  	\label{fig:CO_skymap}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_MCR_fluxE12_skymap.png}
+  	\subcaption{Flux distribution of MCR}
+  	\label{fig:MCRonly_skymap_MCR}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/DMonly_DM_fluxE12_skymap.png}
+ 	\subcaption{DM distribution compared to gas map.}
+  	\label{fig:DMonly_skymap_DM}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1\linewidth]{pic/results/MSPonly_MSP_fluxE12_skymap.png}
+  	\subcaption{Flux distribution of MSP around 2.5GeV.}
+  	\label{fig:MSP_only_CMZ}
+  \end{minipage}
+  \label{fig:Excess_comp_flux_comparison}
+\end{figure}
+
 
 \section{Introducing SCR and MCR}
 %	-Introduction of SCR and MCR
@@ -141,39 +222,122 @@ The SCR template is present only in the disk and the bubbles \todo{add fig}, as 
 %			-MCR follows CO map, take place of PCR in disk
 %			-SCR follows bubble structure
 
-\begin{figure}[h]
-  \centering
-%   \todo{May have to change it if we change the bckground model} 
-  \includegraphics[width=.5\linewidth]{pic/results/MCRonly_chi2Distribution.png}
-  \caption{Chi2 maps of MCRonly fits compared to background only}
-  \label{fig:MCRonly_chi2Distribution}
-\end{figure}
+%\begin{figure}[h]
+%  \centering
+%%   \todo{May have to change it if we change the bckground model} 
+%  \includegraphics[width=.5\linewidth]{pic/results/MCRonly_chi2Distribution.png}
+%  \caption{Chi2 maps of MCRonly fits compared to background only}
+%  \label{fig:MCRonly_chi2Distribution}
+%\end{figure}
 %First obvious thing is the good chi2 in the disk and bubbles.\\
 
 As shown on Fig. \ref{fig:MCRonly_chi2Distribution}, the addition of a new template improve significantly the $\chi^2$ distribution in all directions. The bubbles and the disk structures are not visible anymore.
 
 Three dots appear to have a really high $\chi^2$, but that is only due to the point source subtraction that is not perfect (see Chapter \ref{sec:Data_origin}).
 
-\begin{figure}[h]
-  \centering
-  
-  \begin{minipage}[h]{0.45\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{pic/results/SCRonly_CMZ.png}	  
-  	  \subcaption{SCR fit in the CMZ region}
-	  \label{fig:SCRonly_CMZ}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
-	  \subcaption{MCR fit in the CMZ region}
-  	  \label{fig:MCRonly_CMZ}
-  \end{minipage}
-  \label{fig:MCR_vs_SCRonly_CMZ}
-\end{figure}
+%\begin{figure}[h]
+%  \centering
+%  
+%  \begin{minipage}[h]{0.45\textwidth}
+%	  \centering
+%	  \includegraphics[width=\linewidth]{pic/results/SCRonly_CMZ.png}	  
+%  	  \subcaption{SCR fit in the CMZ region}
+%	  \label{fig:SCRonly_CMZ}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%	  \centering
+%	  \includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
+%	  \subcaption{MCR fit in the CMZ region}
+%  	  \label{fig:MCRonly_CMZ}
+%  \end{minipage}
+%  \label{fig:MCR_vs_SCRonly_CMZ}
+%\end{figure}
 
 Fig. \ref{fig:MCR_vs_SCRonly_CMZ} shows the central molecular zone (CMZ) fitted with and without the MCR component. The gas density is very high in this region, hence it is the first region where we would expect the MCR emission to be present, if not dominant compared to PCR. Indeed the fit chooses this configuration, with the MCR template dominating all the others and we can directly see the improvement in the MCR fit. The energies around 2GeV had a clear excess that the four components of the SCR fit could not account for. The MCR template peaking in this region, it comes in very handy and fill this gap, leaving the SCR template taking care of the high energies and PCR and BR for the low energies. \todo{Why isn't there IC? -> Wait to see if we change the models}
+
+
+\section{Introducing SCR and DM}
+%	-Introduction of SCR + DM
+%		-chi2
+%		-spatial shapes	
+%		-Weniger plots
+%		-Specklings
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/DMonly_CMZ.png}
+%  \caption{spectrum of best mass DM fitted in CMZ. Also pictures of DM distribution compared to gas map.}
+%  \label{fig:DMonly_CMZ}
+%\end{figure}
+
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/DMonly_chi2Distribution.png}
+%  \caption{DM fit chi2 distribution}
+%  \label{fig:DMonly_chi2Distribution}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/DMonly_DM_fluxE12_skymap.png}
+%  \caption{DM distribution compared to gas map.}
+%  \label{fig:DMonly_skymap_DM}
+%\end{figure}
+%
+
+The first step is to determine which mass for the WIMP particles would produce the best spectrum for our fit. Fig. \ref{fig:DMonly_CMZ} shows the best fit for the CMZ region, with the WIMP mass as a free parameter. It chooses a mass of 52.3 GeV, peaking around a few GeV, as expected in \todo{ref theory section}. Since the excess is the most significant in this region, it is also the best place to define our mass for the rest of the sky. This is what is done in the following section.
+
+
+Once the mass is determined for the entire sky, the fit gives the following results. The $\chi^2$ distribution (Fig. \ref{fig:DMonly_chi2Distribution} is comparable to the MCR fit for the major part but is significantly worst in the disk.
+
+
+As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit traces closely the distribution of molecular gas distribution (as traced by CO).
+
+\section{Introducing SCR and MSP}
+%	-Introduction of SCR + MSP:
+%		-chi2
+%		-spatial shapes
+%		-Weniger plots
+%		-Specklings
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_chi2Distribution.png}
+%  \caption{Chi2 distribution of MSP only fit}
+%  \label{fig:MSPonly_chi2Distribution}
+%\end{figure}
+
+The first thing that can be noticed when seeing the $\chi^2$ distribution of the MSP only fit (Fig \ref{fig:MSPonly_chi2Distribution}) is the similitudes with the DM only fit (Fig. \ref{fig:DMonly_chi2Distribution}). The fit succeeds pretty well outside the disk, but gets significantly worst when $|b| < 2°$.
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_CMZ.png}
+%  \caption{Fit with SCR and MSP spectrum in the CMZ region.}
+%  \label{fig:MSP_only_CMZ}
+%\end{figure}
+
+
+Using the MSP spectrum predicted by fermi \todo{cite}  to fit the CMZ region does not give entire satisfaction. The CMZ is in the disk, where the $\chi^2$ is generally worst.
+
+
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_MSP_fluxE12_skymap.png}
+%  \caption{Flux distribution of MSP around 2.5GeV.}
+%  \label{fig:MSP_only_CMZ}
+%\end{figure}
+
+The distribution of MSP in the sky resembles the distribution of MCR and DM obtained in previous sections. Present everywhere in the disk, with a higher flux in GC and the bubbles.
+
+
+
+\todo{add picture of residuals at low energy maybe?}
+
+%Bad chi2 compared to MCR. The low energy spectrum is too hard.
+
+
 
 \newpage
 \begin{figure}[h]
@@ -236,94 +400,6 @@ The general shape of PCR looks coherent with he shape of the galaxy, with a stro
 
 The MCR template also follows the spatial distribution of molecular clouds in our galaxy. It is a good sign since it is supposed to come from those regions.
 It is not spherical at all. That could have happened if the excess component has a DM origin, since it is supposed to be spherically distributed.
-
-\newpage
-
-\section{Introducing SCR and DM}
-%	-Introduction of SCR + DM
-%		-chi2
-%		-spatial shapes	
-%		-Weniger plots
-%		-Specklings
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/DMonly_CMZ.png}
-  \caption{spectrum of best mass DM fitted in CMZ. Also pictures of DM distribution compared to gas map.}
-  \label{fig:DMonly_CMZ}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/DMonly_chi2Distribution.png}
-  \caption{DM fit chi2 distribution}
-  \label{fig:DMonly_chi2Distribution}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/DMonly_DM_fluxE12_skymap.png}
-  \caption{DM distribution compared to gas map.}
-  \label{fig:DMonly_skymap_DM}
-\end{figure}
-
-
-The first step is to determine which mass for the WIMP particles would produce the best spectrum for our fit. Fig. \ref{fig:DMonly_CMZ} shows the best fit for the CMZ region, with the WIMP mass as a free parameter. It chooses a mass of 52.3 GeV, peaking around a few GeV, as expected in \todo{ref theory section}. Since the excess is the most significant in this region, it is also the best place to define our mass for the rest of the sky. This is what is done in the following section.
-
-
-Once the mass is determined for the entire sky, the fit gives the following results. The $\chi^2$ distribution (Fig. \ref{fig:DMonly_chi2Distribution} is comparable to the MCR fit for the major part but is significantly worst in the disk.
-
-
-As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit traces closely the distribution of molecular gas distribution (as traced by CO).
-
-\newpage
-
-
-\section{Introducing SCR and MSP}
-%	-Introduction of SCR + MSP:
-%		-chi2
-%		-spatial shapes
-%		-Weniger plots
-%		-Specklings
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_chi2Distribution.png}
-  \caption{Chi2 distribution of MSP only fit}
-  \label{fig:MSPonly_chi2Distribution}
-\end{figure}
-
-The first thing that can be noticed when seeing the $\chi^2$ distribution of the MSP only fit (Fig \ref{fig:MSPonly_chi2Distribution}) is the similitudes with the DM only fit (Fig. \ref{fig:DMonly_chi2Distribution}). The fit succeeds pretty well outside the disk, but gets significantly worst when $|b| < 2°$.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_CMZ.png}
-  \caption{Fit with SCR and MSP spectrum in the CMZ region.}
-  \label{fig:MSP_only_CMZ}
-\end{figure}
-
-
-Using the MSP spectrum predicted by fermi \todo{cite}  to fit the CMZ region does not give entire satisfaction. The CMZ is in the disk, where the $\chi^2$ is generally worst.
-
-
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/MSPonly_MSP_fluxE12_skymap.png}
-  \caption{Flux distribution of MSP around 2.5GeV.}
-  \label{fig:MSP_only_CMZ}
-\end{figure}
-
-The distribution of MSP in the sky resembles the distribution of MCR and DM obtained in previous sections. Present everywhere in the disk, with a higher flux in GC and the bubbles.
-
-
-
-\todo{add picture of residuals at low energy maybe?}
-
-%Bad chi2 compared to MCR. The low energy spectrum is too hard.
-
-
-
 
 
 
