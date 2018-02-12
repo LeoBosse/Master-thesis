@@ -311,7 +311,7 @@ The fitted data can be seen as a data cube whose dimension are longitude, latitu
 
 The fit uses a certain number of components (three at least) each corresponding to a certain phenomenon and described earlier. They all have a certain energy spectra, that can vary with the position in the sky in the case of IC (See Fig. \ref{fig:norm_spectra}).
 
-The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed. Using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data. 
+The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed. Indeed, the MCR break position does not vary in a single fit. Every break is fitted, and the one giving the best $\chi^2$ is kept. This break position is not counted as a degree of freedom in the fit. So, using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data.
 Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
@@ -328,6 +328,9 @@ where:
 
 The fit is very well constrained with only five or six degrees of freedoms depending on the model against 30 data points. A useful value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#degrees\ of\ freedom - 1$. This rescaling has the advantage to bring the perfect $\chi^2$ value down to one, thus making the comparison between different fits easier. This rescaling will be applied every time when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
 The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the fit is good, but the error bars on the data are too big.
+
+
+
 
 Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as can be done in other works \todo{cite}. The hope is to let the fit find reasonable shapes by itself only using the $\chi ^2$ minimization technique.
 

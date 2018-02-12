@@ -6,13 +6,13 @@
 \contentsline {section}{\numberline {1.2}Tools}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}Physic of cosmic rays}{5}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Creation of CR}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Propagation of CR}{5}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Gamma-ray creation}{6}{subsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.1}Pion decay}{6}{subsubsection.1.3.3.1}
-\contentsline {subsubsection}{\numberline {1.3.3.2}Bremsstrahlung}{6}{subsubsection.1.3.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Propagation of CR}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Gamma-ray creation}{7}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Pion decay}{7}{subsubsection.1.3.3.1}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Bremsstrahlung}{7}{subsubsection.1.3.3.2}
 \contentsline {subsubsection}{\numberline {1.3.3.3}Inverse Compton}{7}{subsubsection.1.3.3.3}
 \contentsline {subsubsection}{\numberline {1.3.3.4}Other sources}{7}{subsubsection.1.3.3.4}
-\contentsline {subsection}{\numberline {1.3.4}Gamma-ray observations}{7}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}Gamma-ray observations}{8}{subsection.1.3.4}
 \contentsline {section}{\numberline {1.4}What are the unresolved problems of the precedent chapter}{8}{section.1.4}
 \contentsline {chapter}{\numberline {2}Method}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Data origin}{11}{section.2.1}
