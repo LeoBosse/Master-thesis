@@ -17,16 +17,17 @@
 \contentsline {chapter}{\numberline {2}Method}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Data origin}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Model components}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Basic components}{13}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}$\pi ^0$ production by propagated cosmic rays (PCR)}{13}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Inverse Compton (IC) and bremsstrahlung (BR)}{14}{subsubsection.2.2.1.2}
-\contentsline {subsection}{\numberline {2.2.2}Additional components}{14}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}$\pi ^0$ production by source cosmic rays (SCR)}{14}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}$\pi ^0$ production by molecular clouds cosmic rays MCR)}{15}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Dark matter annihilation (DM)}{15}{subsubsection.2.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Milli-second pulsars gamma-ray production (MSP)}{15}{subsubsection.2.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.2.5}Isotropic component}{16}{subsubsection.2.2.2.5}
-\contentsline {section}{\numberline {2.3}Fitting method}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.1}From cosmic rays to gamma-rays}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Basic components}{14}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}$\pi ^0$ production by propagated cosmic rays (PCR)}{14}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Inverse Compton (IC) and bremsstrahlung (BR)}{14}{subsubsection.2.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Additional components}{15}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}$\pi ^0$ production by source cosmic rays (SCR)}{15}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}$\pi ^0$ production by molecular clouds cosmic rays MCR)}{16}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Dark matter annihilation (DM)}{16}{subsubsection.2.2.3.3}
+\contentsline {subsubsection}{\numberline {2.2.3.4}Milli-second pulsars gamma-ray production (MSP)}{16}{subsubsection.2.2.3.4}
+\contentsline {subsubsection}{\numberline {2.2.3.5}Isotropic component}{16}{subsubsection.2.2.3.5}
+\contentsline {section}{\numberline {2.3}Fitting method}{17}{section.2.3}
 \contentsline {chapter}{\numberline {3}Results}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Introducing SCR}{20}{section.3.2}

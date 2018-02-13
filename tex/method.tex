@@ -85,7 +85,8 @@ Once this model map is obtained, it is subtracted from the data to only keep the
 
 Once all the treatment is done, a flux map of the entire sky in $counts/s/m^2/GeV/sr$ is produced. The map is divided in bins of $0.5 \times 0.5$ degrees on a Cartesian projection. Every bin contains 30 logarithmic energy bins ranging from 60 MeV to 513 GeV with a 1.2 multiplicative step. The final data cube is thus of dimension $720 \times 360 \times 30$. For visibility purposes, every energy bin is multiplied by its energy squared, becoming an energy flux in $GeV/s/m^2/sr$. This will be the default units used for the rest of this work.
 
-The errors on the data are coming from two sources. First are systematic errors introduced by the instrument or the treatment process. They are around 3\%, but can increase for low or high energies (Fig. \ref{fig:LAT_sys_err}). The second source is the statistical errors, proportional to the square root of counts. This property will make them decrease when the acquisition time will increase. They are dominant at high energy (above 50 GeV) where events are rare. On contrary at low energies (around 100 MeV), the systematic errors dominate. The final equation is the following :
+The errors on the data are coming from two sources. First are systematic errors introduced by the instrument or the treatment process. They are around 3\%, but can increase for low or high energies (Fig. \ref{fig:LAT_sys_err}). These errors have multiple causes, mainly the PSF and the energy resolution (or energy dispersion) of the instrument. The plot shows how the systematic errors varies when correcting or not for these effects. The treatment done here accounts for energy dispersion.
+The second source is the statistical errors, proportional to the square root of counts. This property will make them decrease when the acquisition time will increase. They are dominant at high energy (above 50 GeV) where events are rare. On contrary at low energies (around 100 MeV), the systematic errors dominate. The final equation is the following :
 
 \begin{equation}
 \sigma_{tot} =\sqrt{\sigma_{sys}^2 + \sigma_{stat}^2} = \sqrt{\sigma_{sys}^2 + \frac{1}{N}}
@@ -95,12 +96,23 @@ The errors on the data are coming from two sources. First are systematic errors 
 \begin{figure}[h]
  \centering
  \includegraphics[width=.5\linewidth]{pic/method/LAT_sys_error.png}
- \caption{Systematic error for Pass 8 data as function of the energy and the treatment quality. The energy dispersion is an effect of the uncertainty when measuring a photon's energy. Accounting for it when calculating the instrument response function can be critical at very low energies (around a few hundred MeV), where the statistical uncertainties are not dominant anymore.}
+ \caption{Systematic error for Pass 8 data as function of the energy and the treatment quality. The energy dispersion is the energy resolution of the instrument. This effect is known and can be corrected (in red), lowering the systematic errors. This is what was done here. The black line does not account for energy dispersion. The blue line shows the systematics for specific event types, a kind of analysis that does not make sens for this work. 
+The few percents gained at very low energies (below a few hundred MeV), where the statistical uncertainties are not dominant anymore, can be critical.}
  \label{fig:LAT_sys_err}
 \end{figure}
 
 
+
+
+
 \section{Model components}
+\subsection{From cosmic rays to gamma-rays}
+%Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
+
+The gamma-ray spectra used in this study are directly calculated from the cosmic ray spectra. The next section describes the cosmic ray distribution used to get the gamma-ray spectra corresponding for every processes that are modeled. Once the CR spectrum is defined, a propagation code \todo{cite}, DRAGON, is used to determine the gamma-rays spectrum emitted. For most of the components, the spectral shape does not vary depending on the direction, only its normalization, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
+The code uses a model of the galaxy (ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse compton. The inverse compton is slightly different from the others because of the ISRF.
+
+
 \subsection{Basic components}
 %	-3 Basic components
 %		-PCR
@@ -129,8 +141,6 @@ The errors on the data are coming from two sources. First are systematic errors 
   \label{fig:cosmic_ray_spec}
 \end{figure}
 
-
-\todo{Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
 
 \subsubsection{$\pi^0$ production by propagated cosmic rays (PCR)}
 
@@ -311,7 +321,7 @@ The fitted data can be seen as a data cube whose dimension are longitude, latitu
 
 The fit uses a certain number of components (three at least) each corresponding to a certain phenomenon and described earlier. They all have a certain energy spectra, that can vary with the position in the sky in the case of IC (See Fig. \ref{fig:norm_spectra}).
 
-The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed. Indeed, the MCR break position does not vary in a single fit. Every break is fitted, and the one giving the best $\chi^2$ is kept. This break position is not counted as a degree of freedom in the fit. So, using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data.
+The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed.  So, using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data.
 Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
@@ -326,10 +336,10 @@ where:
 \item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
 \end{itemize}
 
+The MCR break position does not vary in a single fit. A fit is done for every MCR break independently, and the one with the best $\chi^2$ is kept. This break position is not counted as a degree of freedom in the fit.
+
 The fit is very well constrained with only five or six degrees of freedoms depending on the model against 30 data points. A useful value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#degrees\ of\ freedom - 1$. This rescaling has the advantage to bring the perfect $\chi^2$ value down to one, thus making the comparison between different fits easier. This rescaling will be applied every time when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
 The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the fit is good, but the error bars on the data are too big.
-
-
 
 
 Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as can be done in other works \todo{cite}. The hope is to let the fit find reasonable shapes by itself only using the $\chi ^2$ minimization technique.
