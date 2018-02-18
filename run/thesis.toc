@@ -45,7 +45,10 @@
 \contentsline {subsubsection}{\numberline {4.2.2.3}BR flux distribution}{30}{subsubsection.4.2.2.3}
 \contentsline {subsubsection}{\numberline {4.2.2.4}SCR flux distribution}{30}{subsubsection.4.2.2.4}
 \contentsline {section}{\numberline {4.3}Adding the MBR component}{31}{section.4.3}
-\contentsline {section}{\numberline {4.4}How do these results fit in context}{31}{section.4.4}
+\contentsline {section}{\numberline {4.4}Add DM late}{31}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}DM and MCR}{31}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}DMlate}{32}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}How do these results fit in context}{32}{section.4.5}
 \contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}
 \contentsline {chapter}{Bibliography}{35}{section*.26}
 \contentsline {chapter}{\nonumberline Appendix}{39}{chapter*.29}
