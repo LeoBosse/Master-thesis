@@ -49,7 +49,7 @@ The disk of the Milky way is composed of matter in different forms, like stars, 
 The gas is composed in the vast majority of hydrogen, but heavier elements and even molecules can be found at the center of large clouds where ultra-violet light can not penetrate. One of these is the CO molecule, often used to as a tracer of molecular clouds. Even if molecules can only be found where the UV starlight can not break them apart, molecular clouds (MC) will designate large region of gas and dust, that can possibly contain stars inside.
 \todo{add gas/dust ratio} Dust is also present in the galactic disk. It can be warmed by the starlight, and cooled via infrared light emission. This IR source is also part of the ISRF.
 
-Electromagnetic field runs all across the milky way, taking its source in rotating stars, molecular clouds, or any moving charged particle. It has been observed and measured, but it is very complex and has no favorite direction at small scales (interstellar scale).
+Electromagnetic field runs all across the milky way, taking its source in rotating stars, molecular clouds, or any moving charged particle. It has been observed and measured, but it is very complex and has no favourite direction at small scales (interstellar scale).
 
 \subsection{Dark Matter}
 
@@ -84,6 +84,7 @@ The terms of "soft" and "hard" can be applied to any kind of energy spectrum, ev
 
 
 
+
 \section{Physic of cosmic rays}
 
 \subsection{Creation of CR}
@@ -111,12 +112,28 @@ Once they are emitted, the cosmic rays propagate through the galaxy under the in
 The first one to notice is the complex magnetic field created by all sorts of objects, from stars to molecular clouds or any distribution of charged particles. It is not particularly strong \todo{put values} compared to the heliosphere or what can be created on Earth, but its very large scale suffice to bend the CR's path in all direction until the point where it is impossible to backtrack their origin.
 An other possible interaction is the collisions with other particles. It will obviously depends on the density distribution of those colliders in the galaxy. We can expect a higher number of those in the disk, where the density of molecular clouds is the highest.
 
-All these influences can be modeled by a diffusion model, mainly defined by its diffusion coefficient D, which describes the average distance traveled by the particles during a certain time. The higher the coefficient, the faster a particle will diffuse in the galaxy. Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays. \todo{give values for Dmag, Dcoll...}
+All these influences can be modelled by a diffusion model, mainly defined by its diffusion coefficient D, which describes the average distance travelled by the particles during a certain time. The higher the coefficient, the faster a particle will diffuse in the galaxy. Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays. \todo{give values for Dmag, Dcoll...}
 While the diffusion coefficient for the galactic magnetic field can be taken as constant throughout the milky way, the diffusion coefficient due to collision is proportional to the particles density. We can then expect a smaller coefficient in molecular clouds, where the density can reach \todo{value!}.
 
 This coefficient will also define the cosmic ray densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the harder it will be to move away from its origin. This way, a higher density of cosmic rays can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak electromagnetic field and small gas and dust density. However, the bubble region is outside the disk and has a higher concentration of CR than other regions outside the disk. This is due to a direct outward emission of CR from the GC region. With a high diffusion coefficient, these CR are ejected light years away (see Fig. \ref{fig:fermi_bubbles}), forming two symmetric regions extending north and south up to 40 degrees in latitude.
 
-The consequences of such diffusion processes is an isotropic cosmic-ray sky on Earth. In whatever direction the instruments look at, they measure the same CR flux. This complicate a lot their study, since no information about their origin or their journey can be learned from direct observation. It is where gamma-rays enter the scene to play a major role in the indirect detection methods.
+The consequences of such diffusion processes is an isotropic cosmic-ray sky on Earth. In whatever direction the instruments look at, they measure the same CR flux. This complicate a lot their study, since no information about their origin or their journey can be learned from direct observation. 
+%It is where gamma-rays enter the scene to play a major role in the indirect detection methods.
+
+\subsection{CR as observed from Earth}
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=.5\linewidth]{pic/theory/CR_spectrum.png}
+ \caption{Cosmic ray spectrum as seen by several experiments. The "leg" can be seen with a "knee" around $5.10^{15} eV$ and two different spectral indices on both sides. Two of the best human attempts to recreat very high energetic particles are shown and give an idea how powerful CR can be.
+ Source: http://www.physics.utah.edu/~whanlon/spectrum.html}
+ \label{fig:CR_spectrum}
+\end{figure}
+
+The one and only CR spectrum that can be obtain from observations on Earth is shown on Figure \ref{fig:CR_spectrum}. It is the same in every direction as far as the measurement uncertainties can tell. The isotropic arrival direction of CR is measured with great care and any anisotropy, if existing, is below the instrument precision.
+The CR spectrum is composed of three main features that form a "leg". The "knee" around $10^{7} GeV$ marks the separation between two different power laws in $E^{-\alpha}$. A slightly harder one below that is thought to be composed of galactic CRs, and a softer one above that is supposed to be of extra-galactic origin. The spectral index does not change much, from 2.7 below to 3 above, due to different production mechanism.
+As indicated on Figure \ref{fig:CR_spectrum}, the corresponding flux of particle is very low and statistical fluctuations are not negligible at high energies. Especially at the "ankle", above $10^9 GeV$, where only very few particles were detected.
+
 
 \subsection{Gamma-ray creation}
 %		-pion decay
@@ -131,7 +148,9 @@ Since the cosmic rays we observe on Earth can not give us a clue about their ori
 
 %The high energy protons can produce $\pi^{0}$ which decay almost immediately in 2 gammas of equal energy.
 
-The interaction between hadronic cosmic rays and the interstellar medium can lead to $\pi^0$ production through different reaction. These newly created  particles can rapidly decay into a pair of gamma-rays.
+The hadronic cosmic rays  particles interact with the interstellar medium and can lead to pion $\pi^0$ production. Any CR nuclei can result in pion production, but since protons are the most abundant particles, they will dominate the production. 
+These newly created pion can rapidly decay into a pair of gamma-rays (99\% of the time) or e+e- pair (negligible).
+
 
 
 
@@ -215,14 +234,14 @@ In theory, the knowledge of the processes that generate gamma-rays from cosmic-r
  \label{fig:first_BKGonly_fits}
 \end{figure}
 
-Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare. The three main phenomena were modeled to try to recreate the spectrum observed here on Earth. The results are clear, they do not always match.
+Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare. The three main phenomena were modelled to try to recreate the spectrum observed here on Earth. The results are clear, they do not always match.
 Even though the observations of the poles or any high latitude regions can be well explained by a PCR, BR and IC component, the models have troubles to reproduce the surroundings of the galactic disk, and in particular the GC or the Bubbles. 
-Two main problems can be identified. A high energy deficit in the models, where the high energy tail (> 50 GeV) observed can not be reproduced, and a spherical excess centered in the GC around 2 GeV.
+Two main problems can be identified. A high energy deficit in the models, where the high energy tail (> 50 GeV) observed can not be reproduced, and a spherical excess centred in the GC around 2 GeV.
 
 The first one shows a lack of high energy cosmic-rays in the models. A mean of injecting more relativistic particles has to be found in order to fill this gap. One explanation could be that we do not observe only diffuse emission in the disk. The point source emission could not be totally subtracted due to the high density of sources. The CR that do not have the time to propagates have a harder spectrum, thus providing a higher ratio of high energy gamma-rays.
 
 Two main ideas have emerged to explain the spherical excess.
-First is the presence of dark matter in the galaxy in the form of weakly interacting massive particles (WIMP). The spatial distribution of these particles would follow a Navarro-Frrank-White (NFW) profile centered at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle is around 50 GeV, the expected gamma spectrum would peak around 2 GeV, where the excess is observed. \todo{cite}
+First is the presence of dark matter in the galaxy in the form of weakly interacting massive particles (WIMP). The spatial distribution of these particles would follow a Navarro-Frank-White (NFW) profile centred at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle is around 50 GeV, the expected gamma spectrum would peak around 2 GeV, where the excess is observed. \todo{cite}
 The study of the excess could put strong limits on the mass and annihilation cross section of such WIMP and confirm, or infirm the theory.
 The second theory does not involve new physic, but unobserved millisecond pulsars. They would also be spherically distributed around the GC and their gamma spectrum peaks around 2 GeV. A few thousands of them would be needed to recreate the intensity of the excess. The main default of this explanation resides in the fact that we have observed only a few hundreds pulsars so far when we expect ten times more.
 

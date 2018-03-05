@@ -1,0 +1,61 @@
+%% ==============================
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\label{ch:introduction}
+%% ==============================
+
+%
+%
+%History of CR  and GR detection.
+%	-> 20th century to today
+%Why are they so important
+%	-> highest particle energy, we are not able to recreate that
+%	-> good understanding of their origin and evolution can inform on the sources, the galaxy, all that we havn't thought of yet (DM?)
+%GC excess in GR
+%	-> problem in our understanding of CR
+%	-> Something is missing : DM, MSP or MCs
+%Lets compare the 3 main hypothesis
+%	-> fitting the latest observations with current theory
+%
+%Problem : Which of these hypothesis works better ?
+%	
+%Plan:
+%	-> theory
+%	-> method
+%	-> results and discussion
+
+Cosmic ray (CR) physics is relatively new, and started in the early 20th century with the study of the atmospheric ionization. It was first believed to be linked to Earth natural radioactivity. The first to point out the extraterrestrial origin of the atmosphere ionization was Victor Hess in 1912, when he sent a first electrometer in a balloon to high altitudes. The fact that the ionization increased with altitude was unexpected and its discovery was worth a Nobel Price. Multiple studies have then confirmed and refined the results. Their origin and composition was unknown for a few decades, until the 30's where things started to accelerate. First thought to be gamma-rays, the name can be misleading, but anisotropies in their arrival direction indicated a higher proportions of positively charged particles, protons, and balloons experiments slowly permitted to identify their composition. It is also during that time that huge particle shower were detected for the first time and showed the first sign of their very high energy. But since no experiment was able to recreate such energies to this day, their study is complicated and often based on indirect observations. This makes these particles one of the best means of studying very high physical phenomenon, either at small scales in particle physics or very large one for astrophysics. The first happen as a result, the second is their origin, and both are strongly linked together. 
+
+But even though their collision processes is relatively well known, their origin still presents many mysteries. Identifying precisely CR sources is a very hard task and is today subject to many studies. One of the first idea was supernovae, and many other candidates have joined the list, such as pulsars, quasars and gamma-ray bursts. The understanding of these processes could teach a lot about every one of these incredibly powerful objects, and contribute to the comprehension of the universe.
+
+There exists not so many interactions for CR particles to encounter, and these are known and studied on Earth. These processes are sources of indirect particle creation, particularly gamma-rays that can be used for indirect detection methods. These latter high energy photons are practical because their incoming direction can be traced, but observations and theory do not match up perfectly. Especially near the galactic center, an excess of gamma-ray is observed that can not be explained. The high density of matter, radiation and processes happening in that region leaves many possible interpretations. And, as expected, several hypothesis on the origin of the excess already exist, going beyond the standard model. 
+The goal of this thesis will be to compare the three main hypothesis on the matter, namely dark matter annihilation, millisecond pulsars and molecular clouds. We will base our study on data-driven methods and try to decide which theory is seems more likely. The entire gamma-sky is fitted to our model in a large energy range, enabling spectral and spatial studies.
+
+The following chapters will first present the detailed theory behind cosmic-ray physics and the relevant prerequisites needed in the rest of the thesis. Then the scientific method used to obtain the results will be detailed. This will leads us to present these results and discuss their meaning and relevance. 
+
+
+	
+	
+%
+Conclusion
+%
+%Resume what I did
+%	-> fit
+%	-> method
+%
+%Results
+%	-> MCR is the fit winner
+%	-> DM and MSP also work, but do not follow their predictions
+%
+%Opening
+%	-> Put limit on DM mass and cross-section
+%	-> Find other ways to study DM
+%
+
+Using a simple well constrained fitting method, the entire gamma-sky was modeled in a wide energy range. This allowed a spatial as well as a spectral study to be developed around the GC gamma-ray excess. The three main hypothesis were tested and compared.
+The results give the MCR hypothesis as a clear winner and shows aspects of DM and MSP that do not agree well with the observations.
+
+
+
+
+

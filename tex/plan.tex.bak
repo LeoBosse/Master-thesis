@@ -1,0 +1,168 @@
+Plan:
+
+Intoduction:
+
+Physic of cosmic and gamma rays:
+	-creation
+		-supernovae (SNR)
+		-extra-galactic
+		-pulsars
+	-Propagation of CR
+	-Creation of gamma rays
+		-pion decay
+		-bremsstrahlung
+		-inverse compton
+		-?synchrotron radiation?
+	-Gamma ray observations
+		
+			
+	-What are the unresolved problems of the precedent chapter:
+		-Bad fits in bubbles and disk
+		-Spherical gamma-ray excess in GC when fitting spatial templates
+		-Ideas to fill the excess			
+			-DM studies
+				-Hooper
+				-others...
+			-MSP studies
+				-Fermi
+				-Hooper
+				-Weniger
+
+		(-High energy tail flux too hard)
+
+	
+	
+My method:
+	-Spectral templates fitted to the data
+		-independant spatial cones on the entire sky (usually 797 for optimized sizes)
+		-minimum chi2 fit using ROOT for every cone
+		-Benefits
+			-energy related features
+			-only a few degrees of freedom -> Well constrained fit (5(or 6) dof against 21-30 points)
+		-Downside:
+			-No spatial templates. (only the isosky)
+			
+	
+	-Data origin
+		-Fermi collaboration
+		-LAT
+		-Fermi FTOOLS
+		-point source subtraction
+		-pass7 vs pass8
+			-wider energy range
+			-better statistical and systematic errors
+			-better event selection
+		
+
+	-3 Basic components
+		-PCR
+			-proton CR follow power-law E^-2.849
+			?-try with break at 5-10GeV with index ~ -2.7 ?
+		-IC and BR
+			-electron CR spectrum E^-3.21
+			-break at 1GeV, index E^-3.21 + 2.4 below break
+		
+	
+	-2 or more additional components:
+		-SCR
+			-proton CR follow power-law E^-2.1
+		-MCR
+			-proton CR follow power-law E^-2.849
+			-break between 6 and 14GeV, index E^-2.849 + 2.149 below break
+		-DM
+			-Dark Susy
+			-Determination of Mass using best fit in CMZ
+		-MBR
+			-electron CR spectrum E^-3.21
+			-break between 6 and 14 GeV, index E^-3.21 + 2.4 below break
+	-Isosky
+		-Calculated from fermi model and adjusted in our fit
+
+%	-Weniger plots
+%		-study of spectra slope between 0.3 and 2 GeV
+%	-Specklings
+%		-Study of symmetry
+%	-Comparison with CO map
+
+
+
+My results:
+	-Only 3 original components
+		-Hardly see any spherical excess
+		-very bad chi2 in disk and bubbles
+
+????	-Introduction of SCR
+	
+	
+	-Introduction of SCR and MCR
+		-very good chi2 in disk and bubbles
+		-spatial shapes of comps
+			-IC sperical (as expected) but depletion in disk
+			-BR low in bubbles replaces IC in disk
+			-PCR OK but low in disk
+			-MCR follows CO map, take place of PCR in disk
+			-SCR follows bubble structure
+		-Weniger plots
+		-Specklings
+
+	-Introduction of SCR + DM
+		-chi2
+		-spatial shapes	
+		-Weniger plots
+		-Specklings
+		
+		-Discussion and comparison with MCR
+
+	-Introduction of SCR + MSP:
+		-chi2
+		-spatial shapes
+		-Weniger plots
+		-Specklings
+		
+		-Discussion and comparison with MCR and DM
+
+Discussions what do they mean?:
+	-Comparison of all 3 templates -> best is MCR from the chi2 maps
+		-Comparison MCR vs DM
+		-Comparison MCR vs MSP
+		-Weniger plots
+		-Specklings
+	
+	-Interpretation of spatial shapes
+		-Expected features
+			-PCR			
+			-IC spherical
+			-BR a little everywhere, less in bubbles			
+			-SCR in disk + bubbles
+		-Sandwich in IC and PCR
+			-MCR replaces PCR -> There is more MCs in disk. Blocks PCR
+			-IC in disk mostly due to Dust and starlight is blocked by it. Dust is only a small portion compared to starlight -> decrease
+		
+		-Shape of the excess component		
+			-Shape of MCR, DM, MSP -> traces the CO map
+			-Only make sense with MCR
+			-DM and MSP have no reason to do that
+
+	
+	-Why is MCR better than DM or MSP
+		-spectral shape of DM
+			-falls off too steep
+		-spectral shape of MSP
+			-Is too soft at low energies
+
+
+How do they fit in context:
+	-DM explanation
+		-Best mass around 50 GeV
+		-Increase goodness of fit
+		-Not spherical at all
+		-Follows CO map when there is no reason to do it
+	-MSP explanation
+		-Spectra too soft at low energies.
+		-Same problem than with DM.
+		
+	-What's new?
+		
+
+Conclusion
+

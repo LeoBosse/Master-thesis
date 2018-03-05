@@ -298,10 +298,11 @@ The high energy shape of the spectrum resemble closely the DM template, but the 
 
 %%% ARTICLE
 The isotropic template represents the contribution from the isotropic extragalactic background and hadron mis-identification. Its spectral shape and absolute normalization are provided within the Fermi software \todo{cite[51]}, but it was redetermined for the analysis as follow.
-A first fit of the data in regions outside the Bubbles and the Galactic disk using the isotropic template from the Fermi software is produced as an initial estimate. If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation crossing the origin if the isotropic flux is estimated correctly (See Fig. \ref{fig:iso_calibration}). 
-However, if the isotropic contribution is either too low or too high, an offset at the origin is introduced in the linear relation. Since the isotropic component is by definition the same for all cones for a given energy, this offset can be subtracted from the Fermi template to improve the fit.
+A first fit of the data in regions outside the Bubbles and the Galactic disk using the isotropic template from the Fermi software is produced as an initial estimate. This fit only takes into account the three basic component and the SCR, to avoid advantaging one of the hypothesis. If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation crossing the origin if the isotropic flux is estimated correctly (See Fig. \ref{fig:iso_calibration}). However, if the isotropic contribution is either too low or too high, an offset at the origin is introduced in the linear relation. Since the isotropic component is by definition the same for all cones for a given energy, this offset can be subtracted from the Fermi template to improve the fit. 
 %An example of such a fit is shown in Figure \ref{fig:iso_calibration} for an energy bin between \todo{3.7-5.2 GeV}. 
 Once the offset is determined for each energy bin and subtracted from the original template, the process is repeated until the offset converges to zero.
+The linear relation between data and fit is always supposed to have a slope of one, or the process does not converge.
+\todo{maybe add pictures of the iso template through different steps}
 %The resulting template in our analysis has deviations from the Fermi template up to $35\%$ above 2 GeV, as shown in the insert of \ref{fig:iso_calibration}.
 %%% ARTICLE
 
