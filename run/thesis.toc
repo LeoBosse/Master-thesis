@@ -31,6 +31,7 @@
 \contentsline {section}{\numberline {2.3}Fitting method}{17}{section.2.3}
 \contentsline {chapter}{\numberline {3}Results}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{20}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Introducing SCR}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}Introducing SCR and MCR}{21}{section.3.3}
 \contentsline {section}{\numberline {3.4}Introducing SCR and DM}{22}{section.3.4}
@@ -46,6 +47,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2.3}BR flux distribution}{30}{subsubsection.4.2.2.3}
 \contentsline {subsubsection}{\numberline {4.2.2.4}SCR flux distribution}{31}{subsubsection.4.2.2.4}
 \contentsline {section}{\numberline {4.3}Adding the MBR component}{31}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}MBR fixed to MCR, magnetic cut-off}{31}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}Add DM late}{31}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}DM and MCR}{32}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}DMlate}{32}{subsection.4.4.2}
