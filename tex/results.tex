@@ -69,6 +69,40 @@ Overall, the results are expected and confirm that the model is incomplete. The 
 
 \subsection{EGRET Data}
 
+One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET)gave a first insight on the GC excess. Its energy range did not exceed 30 GeV, and the data overall quality is worse than the LAT. But it is a good way to compare the results. A model for DM was fitted on the EGRET data to test the hypothesis. Figure \ref{fig:EGRET_comp_a} and \ref{fig:EGRET_comp_b} compares the results of this study to the EGRET study. For a large region around the GC, The Fermi and EGRET data were fitted with a PCR, IC, BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below 10 GeV to be consistent for both graphs. It is a first attempt to recreate previous results with an excess component.
+When the fit works perfectly for the EGRET data on the left, a clear deficit can be observed for Fermi data. Above 10 GeV, EGRET has no data and the shape could lead to believe that a rapid drop occurs. But Fermi does not show this drop, and present a harder spectrum than what could be expected from EGRET data. This is this hard high energy tail that makes the difference.
+This example shows that even if the first measurements could be fitted by adding a single excess component like DM, it is not possible with Fermi data. The addition of a new component with a very hard spectrum is necessary to fill the gap.
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=\linewidth, height=5.6cm]{pic/results/EGRET_A.png}
+	\subcaption{EGRET}
+  	\label{fig:EGRET_comp_a}
+  \end{minipage}
+  \hfill  
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/asEGRET_Fermi_A.png}
+  	\subcaption{Fermi}
+  	\label{fig:EGRET_comp_b}
+  \end{minipage}
+%  \hfill  
+%  \begin{minipage}[h]{0.3\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/asEGRET_SCR_Fermi_A.png}
+%  	\subcaption{Fermi with SCR component}
+%  	\label{fig:EGRET_comp_c}
+%  \end{minipage}
+  \caption{Comparison of EGRET and Fermi data fit}
+  \label{fig:EGRET_comp}
+\end{figure}
+
+
+
+
+
 
 %I was able to recreate a more or less spherical excess in GC around 2GeV.\\
 %Bad fit in disk and bubbles as expected.
