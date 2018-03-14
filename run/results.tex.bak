@@ -1,5 +1,5 @@
 %% ==================
-\chapter{Results}
+\chapter{First results: Study of the excess}
 \label{ch:results}
 %% ==================
 %
@@ -11,35 +11,46 @@
 %		-Spherical excess
 %		-very bad chi2 in disk and bubbles
 
-Introduce the weniger plots here (or in the state of the research?) to show excess in GC.
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.5\linewidth]{pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png}
-  \caption{Some weniger plots to show the GC excess}
-  \label{fig:weniger_plot}
-\end{figure}
+%Introduce the weniger plots here (or in the state of the research?) to show excess in GC.
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=.5\linewidth]{pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png}
+%  \caption{Some weniger plots to show the GC excess}
+%  \label{fig:weniger_plot}
+%\end{figure}
 
 
 \begin{figure}[h]
   \centering
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/dummy.png}
+%  	\subcaption{Picture of GC excess as fitted previously (https://arxiv.org/pdf/1110.0006.pdf?)}
+%  	\label{fig:original_GC_excess}
+%  \end{minipage}
   \begin{minipage}[h]{0.45\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/dummy.png}
-  	\subcaption{Picture of GC excess as fitted previously (https://arxiv.org/pdf/1110.0006.pdf?)}
-  	\label{fig:original_GC_excess}
+	\includegraphics[width=1.\linewidth]{pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png}
+  	\subcaption{Some weniger plots to show the GC excess. TODO{don't show the model, only the data}}
+  	\label{fig:weniger_plot}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
 	  \includegraphics[width=1.\linewidth]{pic/results/BKGonly_halo_residuals.png}
 	  \subcaption{Picture of GC excess as fitted by us}
-	  \label{fig:our_GC_excess}
+	  \label{fig:our_excess}
   \end{minipage}
   \caption{Picture of the GC excess as obtained previously and with our fit}
   \label{fig:GC_excess}	 
 \end{figure}
 
-Before trying to upgrade the current model, it is important to make sure it can be recreated starting from the same parameters. Fig. \ref{fig:original_GC_excess} shows the results of a fit using only the background components (PCR, IC and BR). The shape and intensity of the previously observed excess are found \todo{cite}. Excluding the galactic disk for latitudes below two degrees, the excess extends to $30\circ$ in all directions from the GC.
+Before trying to upgrade the current model, it is important to make sure it can be recreated with this method. 
+
+\ref{fig:weniger_plot} and \todo{ref Appendix with more weniger plots} illustrates a way of seeing the excess, without using any fit metod, only the data. For absolute latitudes below two degrees, the index of the data spectrum between 4.7 and 0.3 GeV is plotted for all longitudes.For every sky direction, $\sigma = \left(Data(l, b, E_1) - Data(l, b, E_2) \right) /  error$ where error is the cumulated uncertainty on both data points. It is then rescaled around zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the shape of the spectrum.
+
+Fig. \ref{fig:our_excess} present an other way of looking at the excess with a fit using only the background components (PCR, IC and BR). This map shows the percentage difference between the fit and the data at 2.58 GeV. This gives an idea about the distribution of the excess around the GC. The shape and intensity of the previously observed excess are found \todo{cite https://arxiv.org/pdf/1110.0006.pdf? or others}. Excluding the galactic disk for latitudes below two degrees, the excess extends to $30^\circ$ in all directions from the GC.The problem only confirm itself when looking deeper into the results.
+
 
 \begin{figure}[h]
   \centering
@@ -61,49 +72,42 @@ Before trying to upgrade the current model, it is important to make sure it can 
 \end{figure}
 
 
-Looking at the $\chi^2$ skymap (Fig. \ref{fig:original_GC_excess}), the bubbles and the disk appear clearly in red, showing a high $\chi^2$ value. The fit does not give proper results in those regions, with the high energy part of the spectrum not described by the three background templates. On the other hand, outside these regions, the fit is works better with a $\chi^2$ not much higher than three. This is not perfect, but in comparison with the disk, it is undeniably better.
-Overall, the results are expected and confirm that the model is incomplete. The introduction of a new template like SCR should help improve the fit.
+Looking at the $\chi^2$ distribution on the sky (Fig. \ref{fig:MKGonly_chi2Distribution}), the bubbles and the disk appear clearly in red, showing a high $\chi^2$ value. The fit does not give proper results in those regions, with the high energy part of the spectrum not described by the three background templates as shown by Figure \ref{fig:bkgd_only_spectrum}. This example spectrum from the galactic center illustrates the two main problems. First, the high energy tail of the data is not compatible with the model, much higher and with a harder spectral index. The second problem is the shift in the peak position. The data peaks around one or two GeV when the model peaks only around a few hundred MeV. These two differences shall be investigated in more detail in the following sections.
+But outside these regions, the fit works a lot better, with a $\chi^2$ not much bigger than three. This is not perfect, but in comparison with the disk, it is undeniably an improvement.
 
 
 %where the high energy spectrum is harder (see Fig. \ref{fig:bkgd_only_spectrum}). In this region, the PCR spectrum falls off too quickly, and the IC spectrum which usually takes care of high energies is blocked by the low energy flux drop.
 
 \subsection{EGRET Data}
 
-One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET)gave a first insight on the GC excess. Its energy range did not exceed 30 GeV, and the data overall quality is worse than the LAT. But it is a good way to compare the results. A model for DM was fitted on the EGRET data to test the hypothesis. Figure \ref{fig:EGRET_comp_a} and \ref{fig:EGRET_comp_b} compares the results of this study to the EGRET study. For a large region around the GC, The Fermi and EGRET data were fitted with a PCR, IC, BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below 10 GeV to be consistent for both graphs. 
-When the fit works perfectly for the EGRET data on the left, a clear deficit can be observed for Fermi data. Above 10 GeV, EGRET has no data and the shape could lead to believe that a rapid drop occurs. But Fermi does not show this drop, and present a harder spectrum than what could be expected from EGRET data. This is this hard high energy tail that makes the difference.
-This example shows that even if the first measurements could be fitted by adding a single excess component like DM, it is not possible with Fermi data. 
-The addition of a new SCR component with a dominant contribution at high energies improves the fit significantly (Fig. \ref{fig:EGRET_comp_c}). In this last fit, the whole energy range is taken into account, and the $\chi^2$ value is close to one. 
+One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET) gave a first insight on the GC excess. Its energy range did not exceed 30 GeV, and the data overall quality is worse than the LAT. But it is a good way to compare the results. A model for DM was fitted on the EGRET data to test the hypothesis. Figure \ref{fig:EGRET_comp_a} and \ref{fig:EGRET_comp_b} compares the results of this study to the EGRET study. For a large region around the GC, the Fermi and EGRET data were fitted with a PCR, IC, BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below 10 GeV, even if it shows the higher energies as well, to be consistent for both study. It is a first attempt to recreate previous results with an excess component.
+When the fit works perfectly for the EGRET data on the left, a clear deficit can be observed for Fermi data. Above 10 GeV, EGRET has no data and the shape could lead to believe that a rapid drop occurs. But Fermi does not show this drop, and present a harder spectrum than what could be expected from EGRET data. The difference is all in this hard high energy tail. It shows that even if the first measurements could be fitted by adding a single excess component like DM, it is not possible with Fermi data: the addition of a new component with a very hard spectrum is necessary. This is done in the next section, with the introduction of the SCR component.
 
 \begin{figure}[h]
   \centering
-  \begin{minipage}[h]{0.3\textwidth}
+  \begin{minipage}[h]{0.45\textwidth}
   	\centering
-	\includegraphics[width=\linewidth, height=3.7cm]{pic/results/EGRET_A.png}
+	\includegraphics[width=\linewidth, height=5.6cm]{pic/results/EGRET_A.png}
 	\subcaption{EGRET}
   	\label{fig:EGRET_comp_a}
   \end{minipage}
   \hfill  
-  \begin{minipage}[h]{0.3\textwidth}
+  \begin{minipage}[h]{0.45\textwidth}
   	\centering
 	\includegraphics[width=1.\linewidth]{pic/results/asEGRET_Fermi_A.png}
   	\subcaption{Fermi}
   	\label{fig:EGRET_comp_b}
   \end{minipage}
-  \hfill  
-  \begin{minipage}[h]{0.3\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/asEGRET_SCR_Fermi_A.png}
-  	\subcaption{Fermi with SCR component}
-  	\label{fig:EGRET_comp_c}
-  \end{minipage}
+%  \hfill  
+%  \begin{minipage}[h]{0.3\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/asEGRET_SCR_Fermi_A.png}
+%  	\subcaption{Fermi with SCR component}
+%  	\label{fig:EGRET_comp_c}
+%  \end{minipage}
   \caption{Comparison of EGRET and Fermi data fit}
   \label{fig:EGRET_comp}
 \end{figure}
-
-
-
-
-
 
 %I was able to recreate a more or less spherical excess in GC around 2GeV.\\
 %Bad fit in disk and bubbles as expected.
@@ -134,6 +138,8 @@ The addition of a new SCR component with a dominant contribution at high energie
   \label{fig:SCRonly_distributions}
 \end{figure}
 
+
+In addition to the basic templates, a fourth component is needed to fit the data in the disk and the bubbles. This characteristic high energy hardening of the spectrum was fought to be induced by cosmic ray sources. 
 
 After introducing the SCR template, a clear improvement can be noted in the $\chi^2$ distribution (see Fig. \ref{fig:SCRonly_fit}). The bubble shape that was delimited before by a bad $\chi^2$ zone has now disappeared. Even if the fit is still not perfect everywhere, the improvement is significant. For example, the disk is still not fitted properly, with very high $\chi^2$ values. Some structures can be seen along the disk for absolute longitudes over $90\circ$
 
