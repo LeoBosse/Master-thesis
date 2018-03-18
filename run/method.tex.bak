@@ -243,7 +243,7 @@ The BR template only depends on the interstellar gas distribution, decreasing th
 %%% ARTICLE
 The proton spectra producing the SCR template can be described by a power law with a spectral index of 2.1, as obtained from the best gamma-ray template fit. The index 2.1 for the SCR template %agrees with the data from the Fermi Bubbles, shown by the data points inside the shaded band in Fig. \ref{fig:proton_spec}; the index 2.1 
 is expected from diffuse shock wave acceleration. %\todo{cite[60, 61]} 
-The source cosmic rays are accelerated, or escape from the galaxy, hence a harder spectrum at high energies.
+The source cosmic rays are accelerated, or escape from the galaxy, hence a harder spectrum at high energies compared with propagated CR spectrum.
 
 %The fact that the Fermi Bubbles and the cosmic rays inside sources have the same spectrum strongly suggests that they are connected by point sources providing advective outflows of gas in the Galactic center. \todo{cite[44]}
 %%% ARTICLE
