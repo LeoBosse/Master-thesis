@@ -15,7 +15,7 @@
 %		-Specklings
 %	
 
-\section{Interpretation of spatial shapes}
+%\section{Interpretation of spatial shapes}
 %	-Interpretation of spatial shapes
 %		-Expected features
 %			-PCR			
@@ -32,81 +32,19 @@
 %			-DM and MSP have no reason to do that
 
 
+\section{Discussion on the spatial distributions of the other components.}
 
-\newpage
-\begin{figure}[h]
-  \centering
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_BR_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of bremstrahlung (BR)}
-  	\label{fig:MCRonly_skymap_BR}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_IC_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of inverse compton (IC)}
-  	\label{fig:MCRonly_skymap_IC}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_MCR_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of MCR}
-  	\label{fig:MCRonly_skymap_MCR}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_PCR_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of PCR}
-  	\label{fig:MCRonly_skymap_PCR}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_SCR_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of SCR}
-  	\label{fig:MCRonly_skymap_SCR}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png}
-  	\subcaption{Flux distribution of PCR + MCR}
-  	\label{fig:MCRonly_skymap_PCR+MCR}
-  \end{minipage}
-  \caption{}
-  \label{fig:MCRonly_skymaps}
-\end{figure}
+The spatial distribution of a component can teach a lot about the fit. Every component is closely linked to a known physical process taking place in the Milky way. So even if the components contributions to a single cone can not be predicted, large scale structures  should emerge and coincide with the predictions. Using this, it is possible to verify the proper functioning of the fit by comparing the fitted spatial distribution of the different templates and the predicted one.
+For example, the distribution of the ISRF is expected to be spherical around the GC in the UV range, where most of the starlight is emitted. It can also follow the dust distribution in the disk in the infra-red range. This can be used to check if the IC component is coherent in the fit and follows, to some extent, the ISRF distribution. Hopefully, the results show a spherical IC component centred on the GC.
+The different distributions of each component will be discussed in the following section.
 
+\subsection{PCR flux distribution}
+The PCR component is produced by diffuse CR protons which collide with other hadrons and form a neutral pion, which in turn decays into two photons. So the PCR flux is directly proportional to diffuse CR, gas and dust density in the galaxy along the line of sight. It is expected to be present in every direction, with a stronger flux coming from the disc, and less from high latitudes.
+The bubbles have a harder CR proton spectrum, but composed of source protons. This could imply that more high energy pion are created in those regions, and so the PCR flux should be more important. But this is not true since the presence of the SCR component. The latter was created specifically for such regions with a hard CR spectrum and should take care of that instead of PCR. This way, PCR should not mark too much the bubbles shape.
 
+The results are very similar for the three fits, with MCR, DM or MSP. The galactic disk is clearly visible at all longitudes, up to twenty degrees in latitude. Some structures from the gamma ray sky are also here, with the bulge around the GC and diffuse shapes at the anti-center.
+Looking carefully at the disk below two degrees in latitude near the GC, the flux decreases a little, when it is supposed to be the highest. Indeed, the GC is were the density of matter along the line of sight is the most important, and so PCR should follow it. This structure could be interpreted as the result of a higher concentration of molecular clouds in this area, cutting off low energy CR, as modelled by MCR. This effect could affect the proportion of PCR gamma-rays in favour of MCR and reverse the relative contributions. Thus MCR should replace PCR, but the sum of both component should still show an increase in flux toward the GC. Indeed, the sum skymaps \todo{add picture !!!} is coherent. Like for the bubbles, the propagated proton CR spectrum changes too much to be described by a single power law. If this interpretation is correct and it is not just a fitting mistake, it is an other argument that can easily be explained by the MCR hypothesis, but not by DM or MSP.
 
-\subsection{Discussion on spatial shapes}
-
-Fig. \ref{fig:MCRonly_skymaps} shows the spatial distribution of the flux of each component around 2 GeV, as returned by the fit.
-
-The bremsstrahlung component is consistent with the the expectations. Present everywhere, it is strong in the disk, and decrease a little in the bubbles.
-
-\todo{Though the general shape is spherical, the IC component has an unexpected feature in the form of a strong depletion in the disk, like a "sandwich" structure. This is surprising in the sense that this is where the interstellar radiation field (ISRF) and electron density are supposed to be maximal, creating a higher IC flux. A possible explanation could be coming from the dust distribution, screening the starlight component of the ISRF. Thus depriving the ISRF of its main component and leaving only the dust infra red emission and the CMB to interact with the electrons. This could result in a lower IC gamma-ray flux in the disk.}
-
-The SCR component is playing his role, filling the bubbles and the disk, where the high energy portion of the spectra needs a harder spectrum. It traces the sources distribution in the disk and the outflow of high energy protons in the bubbles.
-
-The general shape of PCR looks coherent with he shape of the galaxy, with a strong flux in the bar and the galactic disk in general. When looking closely, one can see the same kind of depletion in the disk than for IC, even if the effect is less remarkable. This finds its cause in the MCR distribution with a very high flux in the disk. The sum of both templates (MCR + PCR) shows no sign of such a feature, which tends to show that some of the PCR photons are absorbed by the MCR template. But the total is coherent, with no unexplainable central gap.
-
-The MCR template also follows the spatial distribution of molecular clouds in our galaxy. It is a good sign since it is supposed to come from those regions.
-It is not spherical at all. That could have happened if the excess component has a DM origin, since it is supposed to be spherically distributed.
-
-
-\subsection{Discussion on the spatial distributions of the other components.}
-
-The spatial distribution of a component can teach a lot about the fit. Every component is closely linked to a known physical process taking place in a known galaxy. The exact details of every cone can not be predicted, but the general shape can. This way, it is possible t verify the goodness of the fit by comparing the fitted spatial distribution of the different templates and the predicted one.
-For example, the distribution of the ISRF is expected to be spherical around the GC in the UV range, where most of the starlight is emitted. It can also follow the dust distribution in the disk in the infra-red range. This can be used to check if the IC component is coherent in the fit. Hopefully, the results show a spherical IC component centered on the GC.
-The different distribution of each component will be discussed in the following section.
-
-\subsubsection{PCR flux distribution}
-The PCR component is produced by diffuse CR protons which react to form a pion which in turn decays into two photons. So the PCR flux is directly proportional to the diffuse CR, the gas and the dust density along the line of sight in the galaxy. So it is expected to present in every direction, with a stronger flux in the disc, and less at high latitudes. The bubbles have a harder CR proton spectrum, that is different from the CR proton forming the PCR template, so it should not be too much present, with SCR instead.
 
 \begin{figure}[h]
   \centering
@@ -136,9 +74,9 @@ The PCR component is produced by diffuse CR protons which react to form a pion w
 
 
 
-\subsubsection{IC flux distribution}
-The inverse compton component is directly proportional to the ISRF and the electrons CR. Electrons are present everywhere in the galaxy, and the ISRF is dominant in the GC for the UV range, but follows the dust in the IR range and is isotropic in the radio range. This distribution should be visible in the IC component of the fit. Indeed, a spherical distribution can clearly be identified for the three different fits with DM, MCR and MSP.
-Nonetheless, there is a noticeable difference int he disk between the IC distribution for the MCR fit and the DM and MSP fits. In the MCR fit, the disk presents a high IC flux when DM and MSP do not. On the contrary, the MSP and DM fit present a clear dip in the galactic disk. This gap is unexpected, since the ISRF is supposed to be the strongest in the disk, and the diffuse electrons are also produced mainly here. \todo{explain this}
+\subsection{IC flux distribution}
+The inverse compton component is directly proportional to the ISRF and the electrons CR. Electrons are present everywhere in the galaxy, and the ISRF is dominant in the GC for the UV range, but follows the dust in the IR range and is isotropic in the radio. This distribution should be visible in the IC component of the fit.
+Indeed, a spherical distribution can clearly be identified for the three different fits with DM, MCR and MSP. Nonetheless, there is a noticeable difference in the disk between the IC distribution for the MCR fit and the DM and MSP fits. In the MCR fit, the disk presents a high IC flux when DM and MSP do not. On the contrary, the MSP and DM fit present a clear dip in the galactic disk. This gap is unexpected, since the ISRF is supposed to be the strongest in the disk, and the diffuse electrons are also produced mainly here. \todo{explain this}
 
 \begin{figure}[h]
   \centering
@@ -167,7 +105,7 @@ Nonetheless, there is a noticeable difference int he disk between the IC distrib
 \end{figure}
 
 
-\subsubsection{BR flux distribution}
+\subsection{BR flux distribution}
 The BR component is linked to the CR electron density along the line of sight and the electromagnetic fields in the galaxy. It should then be present everywhere. It is mainly what can be observed here, but some features are remarkable. Mainly the decrease in flux in the disk and the bubbles.
 Depending on the fit, the average flux is also changing. The BR component is a lot more present with the MCR fit than with DM, which in turn presents more BR than the MSP fit. The fact that the MSP fit does not use a lot of BR is consistent with the fact that the MSP spectrum is very soft at low energies. Since BR is also dominant at these energies, both can not have a high flux at the same time. The fit must do concession in order to use them both.
 
@@ -197,8 +135,8 @@ Depending on the fit, the average flux is also changing. The BR component is a l
   \label{fig:BR_flux_distrib_excess_comp}	 
 \end{figure}
 
-\subsubsection{SCR flux distribution}
-The SCR distribution is expected to follow the disc, where point sources can still remains, and the bubbles, where the proton CR spectra is harder. And indeed, the spatial distribution obtained in the three  different fits are similar and correspond perfectly to the expectations.
+\subsection{SCR flux distribution}
+The SCR distribution is expected to follow the disc, where point sources can still remain, and the bubbles, where the proton CR spectra is harder. And indeed, the spatial distribution obtained in the three  different fits are similar and correspond perfectly to the expectations, showing a great coherence between the model and the theory, but not very helpful to study the excess.
 
 
 \begin{figure}[h]
@@ -228,12 +166,17 @@ The SCR distribution is expected to follow the disc, where point sources can sti
 \end{figure}
 
 
+
+
+
+
+
 \section{Adding the MBR component}
 
 \subsection{MBR fixed to MCR, magnetic cut-off}
-\todo{add pictutures of graph and skymaps}
+\todo{add pictures of graph and skymaps}
 
-The theory behind the MCR component involves a magnetic cut-off for low rigidity CR protons, that changes the gamma-ray spectrum at low energies. Such a cut-off only depends on the rigidity of the CR and the intensity of the electromagnetic field. So there is no reason for it to be only applied to protons, and not to electrons. This is the reasoning that led to introducing a new template, called MBR in the fit, equivalent to the BR template, but calculated from a different electron CR spectra. This new CR spectra present two parts, with two different power laws for high or low energies. It has the exact same spectral indexes than the spectrum for IC and BR, but the break is moved up between 6 and 14 GeV. Then, the break is taken to have the same value than the MCR brake. This way, the magnetic cut-off is applied the same way to the electrons and protons CR. Once again, this component is expected to follow the MCs distribution, or at least to be only present in the disk.
+The theory behind the MCR component involves a magnetic cut-off for low rigidity CR protons, that changes the gamma-ray spectrum at low energies. Such a cut-off only depends on the rigidity of the CR and the intensity of the electromagnetic field. So there is no reason for it to be only applied to protons, and not to electrons. This is the reasoning that led to the introduction of a new template, called MBR in the fit, equivalent to the BR template, but calculated from a different electron CR spectrum. This new CR spectrum presents two parts, with two different power laws for high and low energies. It has the exact same spectral indexes than the spectrum for IC and BR, but the break is moved up, between 6 and 14 GeV. Then, the break is taken to have the same value than the MCR brake. This way, the magnetic cut-off is applied the same way to the electrons and protons CR. Once again, this component is expected to follow the MCs distribution, or at least to be only present in the disk.
 
 A MIC component was tested as well, but it was not kept for physical reasons. First, the ISRF is not dependent of the electromagnetic field, photons do not carry any electric charge. It is also present in MC, where stars are formed and evolve.
 

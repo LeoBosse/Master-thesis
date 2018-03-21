@@ -410,7 +410,7 @@ Now that the high energies are taken care of, the excess shows around a few GeV.
 
 
 
-The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (\Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes. \todo{remember their names}.
+The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes. \todo{remember their names}.
 The MSP fit, also expected to have a spherical distribution of gamma-rays from millisecond pulsars, gives similar results. The flux seems to be needed by the fit to describe the disk and regions with molecular clouds as traced by CO in general.
 In both cases, the $\chi^2$ maps show an improvement of the model, but the morphology of the new components tends to disagree with the theory.
 
@@ -435,12 +435,75 @@ This spectral particularity keeps MSP low and does not allow it to account compl
 \todo{add a picture or two, illustrating this effect. maybe two spectra with horizontal lines}
 
 
-On the other side of the spectrum, above 2 GeV, it is MCR that behave differently than MSP and DM with a harder spectrum. When DM and MSP are completely insignificant above 50 GeV, MCR still plays a role at least as important as the PCR spectrum since they both have the same spectra at high energies. Above 4 GeV, the Fermi data present an constant spectral index with very little variations in the disk. This makes all the difference to distinguish between MCR and MSP or DM. In fact, the important point here is the energy at which the SCR component cross the excess component. In the CMZ, this turnover happens at 50 GeV for MCR, against only 10 GeV and 6 GeV for DM and MSP respectively. This causes the total flux in the DM and MSP fits to present a dip around 11 GeV with a clear change in spectral index. This does not follow the shape of the data. Because of this, the SCR has to overshoot the very high energies (above 100 GeV), to minimize the size of the dip. The PCR component could be a good help with a constant spectral index at high energies, but its contribution is limited by low energies. Indeed, the PCR spectrum peaks around 200 MeV where the Fermi data are already decreasing rapidly. Overall, the MCR spectrum presents the right shape at high energies, with a constant spectral index hard enough to allow the SCR component to take the relay without a big change in spectral indexes.
-
-Overall, two major differences in the spectral shape of the three excess component allow to predict the most adapted. The low energy spectral index difference between MSP and Fermi spectra leaves the MSP behind the MCR and DM hypothesis. Furthermore, the harder spectrum of MCR at high energies improve the fit significantly compared with MSP and DM. So the only spectrum that presents the right shape at low and high energies is MCR, making him the best candidates for the fit.
+On the other side of the spectrum, above 2 GeV, it is MCR that behave differently than MSP and DM with a harder spectrum. When DM and MSP are completely insignificant above 50 GeV, MCR still plays a role at least as important as the PCR spectrum since they both have the same spectra at high energies. Above 4 GeV, the Fermi data present an constant spectral index with very little variations in the disk. This makes all the difference to distinguish between MCR and MSP or DM. In fact, the important point here is the energy at which the SCR component cross the excess component. In the CMZ, this turnover happens at 50 GeV for MCR, against only 10 GeV and 6 GeV for DM and MSP respectively. This causes the total flux in the DM and MSP fits to present a dip around 11 GeV with a clear change in spectral index. This does not follow the shape of the data. Because of this, the SCR has to overshoot the very high energies (above 100 GeV), to minimize the size of the dip. The PCR component could be a good help with a constant spectral index at high energies, but its contribution is limited by low energies. Indeed, the PCR spectrum peaks around 200 MeV where the Fermi data are already decreasing rapidly. Overall, the MCR spectrum presents the right shape at high energies, with a constant spectral index hard enough to combine wih the SCR component and closely follow the data.
 
 
+In total, two major differences in the spectral shape of the three excess components could be enough to predict the most adapted one. The low energy spectral index difference between the MSP and the Fermi data leaves the MSP behind the MCR and DM hypothesis. Furthermore, the harder spectrum of MCR at high energies improve the fit significantly compared to MSP and DM. So the only spectrum that presents the right shape at low and high energies is MCR, making him the best candidates for a good model.
 
+
+%\subsection{Comparison of the excess spatial distribution}
+%
+%Fig. \ref{fig:MCRonly_skymaps} shows the spatial distribution of the flux of each component around 2 GeV, as returned by the fit.
+%
+%The bremsstrahlung component is consistent with the the expectations. Present everywhere, it is strong in the disk, and decrease a little in the bubbles.
+%
+%\todo{Though the general shape is spherical, the IC component has an unexpected feature in the form of a strong depletion in the disk, like a "sandwich" structure. This is surprising in the sense that this is where the interstellar radiation field (ISRF) and electron density are supposed to be maximal, creating a higher IC flux. A possible explanation could be coming from the dust distribution, screening the starlight component of the ISRF. Thus depriving the ISRF of its main component and leaving only the dust infra red emission and the CMB to interact with the electrons. This could result in a lower IC gamma-ray flux in the disk.}
+%
+%The SCR component is playing his role, filling the bubbles and the disk, where the high energy portion of the spectra needs a harder spectrum. It traces the sources distribution in the disk and the outflow of high energy protons in the bubbles.
+%
+%The general shape of PCR looks coherent with he shape of the galaxy, with a strong flux in the bar and the galactic disk in general. When looking closely, one can see the same kind of depletion in the disk than for IC, even if the effect is less remarkable. This finds its cause in the MCR distribution with a very high flux in the disk. The sum of both templates (MCR + PCR) shows no sign of such a feature, which tends to show that some of the PCR photons are absorbed by the MCR template. But the total is coherent, with no unexplainable central gap.
+%
+%The MCR template also follows the spatial distribution of molecular clouds in our galaxy. It is a good sign since it is supposed to come from those regions.
+%It is not spherical at all. That could have happened if the excess component has a DM origin, since it is supposed to be spherically distributed.
+
+%
+%\newpage
+%\begin{figure}[h]
+%  \centering
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_BR_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of bremstrahlung (BR)}
+%  	\label{fig:MCRonly_skymap_BR}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_IC_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of inverse compton (IC)}
+%  	\label{fig:MCRonly_skymap_IC}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_MCR_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of MCR}
+%  	\label{fig:MCRonly_skymap_MCR}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_PCR_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of PCR}
+%  	\label{fig:MCRonly_skymap_PCR}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_SCR_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of SCR}
+%  	\label{fig:MCRonly_skymap_SCR}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[h]{0.45\textwidth}
+%  	\centering
+%	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_PCR+MCR_fluxE12_skymap.png}
+%  	\subcaption{Flux distribution of PCR + MCR}
+%  	\label{fig:MCRonly_skymap_PCR+MCR}
+%  \end{minipage}
+%  \caption{}
+%  \label{fig:MCRonly_skymaps}
+%\end{figure}
 
 
 
