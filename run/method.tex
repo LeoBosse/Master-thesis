@@ -42,7 +42,7 @@
 	  \subcaption{}
 	  \label{fig:data_ptsrc_subtracted}
   \end{minipage}
-  \caption{Measured gamma ray flux before (left) and after (right) point source subtraction in $GeV/s/m^2/sr$. Most of the spots formed by point sources have disappeared, leaving only the diffuse background emission. The subtraction is not perfect, and can create artificial "holes" in the map (for example at coordinates (90, 25) or (50, 60)).}
+  \caption{Map of the gamma ray sky as seen by the Fermi telescope around 2 GeV. Measured gamma ray flux before (left) and after (right) point source subtraction in $GeV/s/m^2/sr$. Most of the spots formed by point sources have disappeared, leaving only the diffuse background emission from CR. The subtraction is not perfect, and can create artificial "holes" in the map (for example at coordinates (90, 25) or (50, 60)). These can be disregarded as relevant data, or can also disappear when using a larger binning.}
   \label{fig:method_pass8} 
 \end{figure}
 
@@ -56,9 +56,10 @@ One of the most important step in the treatment process is the first one, the se
 
 The main parameters of the selection can be found in Tab \ref{tab:fermi_selection_parameters}.
 
+\begin{center}
 \begin{table}[h]
 \centering
-\begin{tabular}{|c|c|p{8cm}|}
+\begin{tabular}{|c|c|p{6.5cm}|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Parameter name}} & \textbf{Parameter value} & \multicolumn{1}{c|}{\textbf{Description}}                                                                   \\ \hline
 Event class                         & 256 (CLEAN)              & Quality parameter. Varies the level of background noise.                                                    \\ \hline
@@ -68,11 +69,11 @@ Minimum energy (MeV)                & 58.4731                  & Minimum energy 
 Maximum energy (MeV)                & 513056                   & Maximum energy of the event.                                                                                \\ \hline
 zmax (degrees)                      & 90                       & Maximum zenith angle to get rid of the Earth limb contaminations, as recommended by the LAT instrument team \\ \hline
 \end{tabular}
-\caption{List of the main parameters used for data selection.}
+\caption{List of the main parameters used for data selection. The exact script can be found in the appendix.}
 \label{tab:fermi_selection_parameters}
 \end{table}
-
-
+\end{center}
+\todo{add code in appendix and ref}
 
 
 An other important point is the creation of the exposure map. It basically tells how long the telescope spend observing a given part of the sky. After dividing the count map by the exposure, a flux map is obtained that does not depends on the observation time of particular regions. 
@@ -96,15 +97,14 @@ The second source is the statistical errors, proportional to the square root of 
 \begin{figure}[h]
  \centering
  \includegraphics[width=.5\linewidth]{pic/method/LAT_sys_error.png}
- \caption{Systematic error for Pass 8 data as function of the energy and the treatment quality. The energy dispersion is the energy resolution of the instrument. This effect is known and can be corrected (in red), lowering the systematic errors. This is what was done here. The black line does not account for energy dispersion. The blue line shows the systematics for specific event types, a kind of analysis that does not make sens for this work. 
-The few percents gained at very low energies (below a few hundred MeV), where the statistical uncertainties are not dominant anymore, can be critical.}
+ \caption{Systematic error for Pass 8 data as a function of the energy and the treatment procedure. The energy dispersion is the energy resolution of the instrument; this effect is known and can be corrected (in red), lowering the systematic errors. This is what was done for this study. The black line does not account for energy dispersion. The blue line shows the systematics for specific event types, a kind of analysis that does not make sense for this work. The few percent gained with the energy dispersion treatment at very low energies (below a few hundred MeV), where the statistical uncertainties are not dominant any more, can be critical.}
  \label{fig:LAT_sys_err}
 \end{figure}
 
 
 
 
-
+\newpage
 \section{Model components}
 \subsection{From cosmic rays to gamma-rays}
 %Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
@@ -126,18 +126,18 @@ The code uses a model of the galaxy (ISRF, matter distribution, etc...) and the 
   \centering
   \begin{minipage}[h]{0.45\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/method/proton_shapes.png}
+	\includegraphics[width=1.\linewidth]{pic/method/./CR_protons_spectra.png}
   	\subcaption{}
  	\label{fig:proton_spec}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/method/el_shapes.png}
+	  \includegraphics[width=1.\linewidth]{pic/method/./CR_electrons_spectra.png}
 	  \subcaption{}
 	  \label{fig:electron_spec}
   \end{minipage}
-  \caption{Cosmic ray spectra used to determine the gamma ray templates. (a): Power-law proton spectra used to produce the PCR, MCR and SRC templates. In comparison, the measured data by AMS-02. (b): Power-law electron spectra used to produce the IC and BR templates, compared once again with AMS-02 data.}
+  \caption{Cosmic ray spectra used to determine the gamma ray templates. (a) Power-law proton spectra used to produce the PCR (red), MCR (gold) and SRC (pink) templates. In comparison, the measured data by AMS-02. The MC spectrum breaks are varying between the two shown here. Above the break, the index is the same than or propagated CR. (b) Power-law electron spectrum used to produce the IC and BR templates, compared once again with AMS-02 data. This time a break is }
   \label{fig:cosmic_ray_spec}
 \end{figure}
 
@@ -171,7 +171,7 @@ Finally, the gamma-ray data are well described by an unbroken power law for the 
 	  \subcaption{}
 	  \label{fig:BR_variations}
   \end{minipage}
-  \caption{(a): Superposition of the inverse Compton template in every sky direction, normalized at 10GeV. (b): Superposition of the bremsstrahlung template in every sky direction, normalized at 10GeV.}
+  \caption{(a): Superposition of the inverse compton template in every sky direction, normalized at 10 GeV. (b): Superposition of the bremsstrahlung template in every sky direction, normalized at 10 GeV. The CR electron spectrum use here has a break at 1 GeV, but its position does not influence the spatial variations. The variations of BR are very small and can be neglected.}
   \label{fig:IC_BR_variations} 
 \end{figure}
 
@@ -179,7 +179,7 @@ Finally, the gamma-ray data are well described by an unbroken power law for the 
 The interstellar electron spectra needs a break around 0.2 GeV with a spectral index of 3.21 above. This is compatible with the locally observed electron spectrum (see Fig. \ref{fig:electron_spec}). Below the break the optimal spectral index is 0.81, which implies a suppression of electrons. %The break point might be related to the fact that around 0.2 GeV electrons have the smallest energy losses, since above this energy synchrotron, BR and IC dominate the energy losses, while below this energy ionization losses become strong, thus depleting the electron spectrum below 1 GeV. A similar break in the electron spectrum was needed in the Fermi diffuse model \todo{cite[46]}.\\
 The targets for the production of gamma-rays are the interstellar gas for BR and the interstellar radiation field (IRF) for IC, which are both strongly dependent of position%The latter consists of photons from the cosmic microwave background, the infrared radiation from hot matter, like dust and the star light
 , so the photon composition varies with sky direction.
-For this reason, we have to calculate the IC templates for each sky direction. The variation over the sky is about $\pm 10\%$, as shown in \ref{fig:IC_variations}. 
+For this reason, we have to calculate the IC and BR templates for each sky direction. The variation over the sky is about $\pm 10\%$, as shown in \ref{fig:IC_variations}. 
 The BR template only depends on the interstellar gas distribution, decreasing the variations considerably compared to IC, as shown in \ref{fig:BR_variations}.
 %Note that the intensity of photons in the interstellar radiation field nor the gas density play any role in a template analysis, since the intensity of each contribution to the gamma-ray sky is determined by the fitted normalization factors in Eq. 1.
 
@@ -223,7 +223,7 @@ The BR template only depends on the interstellar gas distribution, decreasing th
  	  \subcaption{}
  	  \label{fig:norm_excess_component}
   \end{minipage}
-  \caption{(a):  Comparison of PCR, IC, BR and SCR templates, normalized at 1 GeV. Measured data from the central molecular zone is shown as well. (b): Comparison of the three excess components, along with the data from the CMZ.}
+  \caption{(a) Comparison of PCR, IC, BR and SCR templates, normalized at 1 GeV. Measured data from the central molecular zone is shown as well. All four components have very different spectrum and index that make them easily identifiable by the fit. (b) Comparison of the three excess components, along with the data from the CMZ.}
   \label{fig:norm_spectra} 
 \end{figure}
 
@@ -291,7 +291,7 @@ The high energy shape of the spectrum resemble closely the DM template, but the 
 \begin{figure}
  \centering
  \includegraphics[width=.5\linewidth]{pic/method/iso_calibration.png}
- \caption{The fitted data (abscissa) versus the observed data (ordinate) in every region of the sky for a given energy of 1 GeV. A linear fit is performed to find the offset at the vertical axis. This number represent the amount the isotropic component shifts the data in all cones. Once this is done for every energy bin, the offset is added to the previous isotropic template and the process is repeated until convergence.}
+ \caption{The fitted flux (abscissa) versus the observed flux data (ordinate) in every region of the sky for a given energy of 1 GeV. A linear fit is performed to find the offset at the vertical axis. This number represent the amount the isotropic component shifts the data in all cones. Once this is done for every energy bin, the offset is added to the previous isotropic template and the process is repeated until convergence. }
  \label{fig:iso_calibration}
 \end{figure}
 
@@ -308,6 +308,7 @@ Once the offset is determined for each energy bin and subtracted from the origin
 %The resulting template in our analysis has deviations from the Fermi template up to $35\%$ above 2 GeV, as shown in the insert of \ref{fig:iso_calibration}.
 %%% ARTICLE
 
+\newpage
 \section{Fitting method}
 %My method:
 %	-Spectral templates fitted to the data
@@ -328,14 +329,14 @@ The fits are done for every bin independently. After choosing the templates used
 Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
-\chi^2 = \sum_{i=1}^{30}[\frac{ \left( D_i - \sum_{j=1}^{n} \left[ n_j.T_{ij})^2 \right] + iso \right) ^2}{\sigma^2}]
+\chi^2 = \sum_{i=1}^{30} \left[ \frac{ \left( D_i - \sum_{j=1}^{n} \left[ (n_j.T_{ij})^2 \right] + iso \right) ^2}{\sigma^2} \right]
 \end{equation}
 
 where:
 \begin{itemize}
-\item $D_i$ is the data flux in the $i^th$ energy bin.
-\item $n_j$ is the scaling factor for the $j^th$ model component.
-\item $T_{ij}$ is the model flux of the $j^th$ in the $i^th$ energy bin.
+\item $D_i$ is the data flux in the $i^{th}$ energy bin.
+\item $n_j$ is the scaling factor for the $j^{th}$ model component.
+\item $T_{ij}$ is the model flux of the $j^{th}$ in the $i^{th}$ energy bin.
 \item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
 \end{itemize}
 

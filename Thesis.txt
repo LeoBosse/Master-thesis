@@ -1,0 +1,2200 @@
+IEKP-KA/2013-8
+
+Your title
+in two rows
+or more
+Master Thesis of
+
+Your Name
+At the Department of Physics
+Institut für experimentelle Teilchenphysik
+(ETP)
+
+Reviewer:
+Second reviewer:
+
+Prof. Dr. Wim de Boer
+Prof. Dr. Second Advisor
+
+Duration: 1. March 2017 –
+
+28. February 2018
+
+KIT – University of the State of Baden-Wuerttemberg and National Research Center of the Helmholtz Association
+
+www.kit.edu
+
+I declare that I have developed and written the enclosed thesis completely by myself,
+and have not used sources or means without declaration in the text.
+Karlsruhe, 25th March 2018
+
+....................................
+(Your Name)
+
+Contents
+Introduction
+
+1
+
+1. Theory
+1.1. Our Milky Way . . . . . . . . . . . . . . . . . . . . . . . . .
+1.1.1. General properties . . . . . . . . . . . . . . . . . . .
+1.1.2. Dark Matter . . . . . . . . . . . . . . . . . . . . . . .
+1.2. Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1.3. Physic of cosmic rays . . . . . . . . . . . . . . . . . . . . . .
+1.3.1. Creation of CR . . . . . . . . . . . . . . . . . . . . .
+1.3.2. Propagation of CR . . . . . . . . . . . . . . . . . . .
+1.3.3. Energy losses . . . . . . . . . . . . . . . . . . . . . .
+1.3.4. CR as observed from Earth . . . . . . . . . . . . . . .
+1.3.5. Gamma-ray creation . . . . . . . . . . . . . . . . . .
+1.3.6. Gamma-ray observations . . . . . . . . . . . . . . .
+1.4. What are the unresolved problems of the precedent chapter
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+3
+3
+3
+4
+6
+7
+7
+7
+8
+8
+8
+10
+11
+
+2. Method
+2.1. Data origin . . . . . . . . . . . . . . . . .
+2.2. Model components . . . . . . . . . . . .
+2.2.1. From cosmic rays to gamma-rays
+2.2.2. Basic components . . . . . . . . .
+2.2.3. Additional components . . . . . .
+2.3. Fitting method . . . . . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+13
+13
+16
+16
+16
+17
+20
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+23
+23
+25
+26
+28
+30
+31
+33
+34
+
+.
+.
+.
+.
+
+35
+35
+35
+36
+36
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+3. First results: Study of the excess
+3.1. Recreating previous results . . . . . . . . . . . . . . . . . . . . . . . .
+3.1.1. EGRET Data . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2. Introducing SCR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3. Introducing SCR and MCR . . . . . . . . . . . . . . . . . . . . . . . .
+3.4. Introducing SCR and DM . . . . . . . . . . . . . . . . . . . . . . . . .
+3.5. Introducing SCR and MSP . . . . . . . . . . . . . . . . . . . . . . . .
+3.6. Why is MCR better than DM or MSP and a recap of the results so far
+3.6.1. Comparison of the excess spectral shape . . . . . . . . . . . .
+4. To go further: How to improve the model
+4.1. Discussion on the spatial distributions of the other components.
+4.1.1. PCR flux distribution . . . . . . . . . . . . . . . . . . . .
+4.1.2. IC flux distribution . . . . . . . . . . . . . . . . . . . . .
+4.1.3. BR flux distribution . . . . . . . . . . . . . . . . . . . . .
+v
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+vi
+
+Contents
+4.1.4. SCR flux distribution . . . . . . . . .
+4.2. Adding the MBR component . . . . . . . . .
+4.2.1. MBR fixed to MCR, magnetic cut-off
+4.2.2. MBR free, Alfen waves . . . . . . . .
+4.3. Add DM late . . . . . . . . . . . . . . . . . .
+4.3.1. DM and MCR . . . . . . . . . . . . .
+4.3.2. DMlate . . . . . . . . . . . . . . . . .
+4.4. How do these results fit in context . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+37
+37
+37
+38
+38
+38
+39
+39
+
+5. Conclusion
+
+41
+
+Bibliography
+
+43
+
+Appendix
+A. Some appendix section . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+49
+49
+
+vi
+
+Introduction
+Cosmic ray (CR) physics is relatively new, and started in the early 20th century with the
+study of the atmospheric ionization. First highly energetic particles were believed to be
+linked to the Earth’s natural radioactivity. The first to point out the extraterrestrial origin
+of the atmosphere ionization was Victor Hess in 1912, when he sent a first electrometer
+in a balloon to high altitudes. The fact that the ionization increased with altitude was a
+surprise and its discovery was worth a Nobel Price. Multiple studies have then confirmed
+and refined the results. CR origin and composition was unknown for a few decades, until
+the 30’s where things started to accelerate. First thought to be gamma-rays, anisotropies
+in their arrival direction indicated a higher proportions of positively charged particles,
+protons, as later balloons experiments identified. But the name did not change and they
+are still called "ray". It is also during that time that huge particle showers were detected
+for the first time and showed the very high energy of CR. But since no experiment was
+able to recreate such energies to this day, their study is complicated and often based
+on indirect observations. This makes these particles the only means of studying highly
+energetic physical phenomenon, either at small scales in particle physics or very large
+one for astrophysics, and both are strongly linked together.
+But even though their collision processes is relatively well known, their origin still
+presents many mysteries. Identifying precisely CR sources is a very hard task and is
+today subject to many studies. One of the first idea was supernovae, and many other
+candidates have joined the list, such as pulsars, quasars and gamma-ray bursts. The
+understanding of these processes could teach a lot about every one of these incredibly
+powerful objects, and contribute to the comprehension of the universe.
+There does not exists so many interactions for CR particles to encounter, and these are
+known and studied on Earth. These processes are sources of indirect particle creation,
+particularly gamma-rays that can be used for indirect detection methods. These latter
+high energy photons are useful because they travel in a straight path, but observations
+and theories do not match perfectly yet. Especially near the galactic center, an excess of
+gamma-ray is observed that can not be explained. The high density of matter, radiation
+and processes happening in that region leaves many possible interpretations. And, as
+expected, several hypothesis on the origin of the excess already exist, some of them
+going beyond the standard model.
+The goal of this thesis will be to compare the three main hypothesis on the matter,
+namely dark matter annihilation, millisecond pulsars and molecular clouds cut-offs. We
+will base our study on data-driven methods and try to decide which theory seems more
+likely. The entire gamma-sky will be fitted to our model in a large energy range, enabling
+spectral and spatial studies. If one of the three hypothesis stand out from the others,
+latter improvements can be made to refine even further the study.
+1
+
+2
+
+Contents
+
+The following chapters will first present the detailed theory behind cosmic-ray physics
+and the relevant prerequisites needed in the rest of the thesis. Then the scientific method
+used to obtain the results will be detailed. This will leads us to present the first results
+and discuss their meaning and relevance. We will end with possible changes in the model
+that could improve the results.
+
+2
+
+1. Theory
+1.1. Our Milky Way
+1.1.1. General properties
+
+(b) source: NASA’s Goddard Space Flight
+Center
+(a) source:
+http://galaxymap.org/drupal/node/171
+
+Figure 1.1.: The Milky Way, as seen from two different angles. (a) As seen from "above",
+the barred spiral arm structure is visible. As seen from Earth, the central
+bulge extend from circa -20 to 30 degrees. (b) From the side, the disk is very
+thin, especially stars and dust, but gas is thicker, as well as the bulge. Two
+large bubble-like structures extends north and south from the galactic center,
+composed of high energetic particles.
+For a long time, people thought the universe was constituted of only one galaxy, the
+Milky Way, the one in which the Sun and the Earth orbit. The discoveries of other
+galaxies in the universe came only in the 20’s thanks to Edwin Hubble. There are still a
+lot of unanswered questions about these objects, but the Milky way is pretty well known
+3
+
+4
+
+1. Theory
+
+and will play a major role in the following chapters. Its shape, density and composition
+are three main factors playing a role in cosmic ray physics and can not be avoided.
+
+ToDo
+
+ToDo
+
+First of all, the Milky Way is a barred spiral arm galaxy, meaning it has two main spiral arms, connected in their center by a straight galactic bar. Those arms and bar are
+defined by a higher matter density, due to the orbits of stars around the center. Its
+diameter exceeds 40 kpc for a mass of around 1012 M  and a thickness under 1 kpc.
+The Sun and the Earth are orbiting 8 kpc from its center in 240 Myr. All the different objects of the galaxy can be found in this thin disk of matter, mainly in the spiral
+arms. It includes the stars, planets and over massive objects, but also all the dust and
+gas clouds. As seen from the Earth, the disk looks like a narrow band, a few degrees
+wide, but with a very high concentration of stars, gas and dust. In 2010, two large scale
+structures were detected to the north and the south of the galactic center (GC) (cite
+http://xxx.lanl.gov/abs/1005.5480). With a diameter of 7 kpc, these two "bubbles" extend up to 40 degrees in latitude and 20 in longitude. They are a source of high energy
+gamma-rays and were detected by the Fermi Large Area Telescope (LAT).
+The disk of the Milky way is composed of matter in different forms, like stars, gas or
+dust. Stars are one of the first source of the interstellar radiation field (ISRF). They can be
+compared to black body radiating at different energies depending on their temperature.
+They are the main source of ultra-violet (UV) photons, that play a major role in gas
+evolution. Stars are forming inside gas and dust clouds collapsing on themselves under
+their own gravitational pressure. The gas is composed in the vast majority of hydrogen,
+but heavier elements and even molecules can be found at the center of large clouds where
+UV light can not penetrate. One of these is the CO molecule, often used as a tracer of
+molecular clouds. Even if molecules can only be found where the UV starlight can not
+break them apart, molecular clouds (MC) will designate here large region of gas and
+dust, that can possibly contain stars inside. (add gas/dust ratio) Dust is also present
+in the galactic disk. It can be warmed up by starlight, and cooled via infrared (IR) light
+emission. This IR source is also part of the ISRF.
+Electromagnetic field runs all across the milky way, taking its source in rotating stars,
+molecular clouds, or any moving charged particle. It has been observed and measured,
+but it is very complex and has no favorite direction at small scales (interstellar scale). Its
+complexity makes it impossible to measure precisely in every point of the galaxy, and
+impossible to model realistically. The most common representation at small scales is still
+a random field direction.
+
+1.1.2. Dark Matter
+The shape of spiral galaxies is well known today, with thousands of observed examples
+throughout the universe. This knowledge can be used to mathematically model them,
+and in particular the rotation speed as a function of the distance to the center. It was
+a big surprise when the observed angular speed did not match the theory, a shown on
+figure 1.2. The expected curve (in blue) shows a decreasing rotation speed above a 2 kpc
+radius, while the observed curve (in red) flattens out and falls off so steeply. One of the
+solution to explain this difference was the introduction in the standard model of dark
+matter (DM), which was suppose to bring a lot of invisible mass into the system. It still
+has not been observed and a few theories exist on its exact nature. But even without
+knowing exactly what it is, its mass distribution can still be deduced from the observed
+rotation curve of the galaxy. The predicted distribution is a spherical halo extending way
+4
+
+1.1. Our Milky Way
+
+5
+
+Figure 1.2.: Orbital velocity of the Milky Way as a function of the distance from the GC.
+A clear discrepancy between the theory and the observation can be seen
+above a 2 kpc radius. The expected velocity (in blue) drop too low above
+2 kpc, when the observations (in green) show a flat curve. The blue curve
+is the sum of the predictions from the disk and the bulge, both composed of
+standard matter. But adding the predictions for dark matter to the blue curve,
+the theory would match much better the observations.) Source: Matthew
+Newby, Milkyway@home
+beyond the 40 kpc of the galactic matter disk. Its density peaks in the GC, and decrease
+with the radius following a given density profile. The exact profile is not known, but a
+famous one is the Navarro-Frenk-White (NFW) profile defined as follows :
+ρ (r ) ∝
+
+1
+(r /rS ) (1 + r /rS ) 2
+
+(1.1)
+
+where rS is the scale radius, determining the size of the halo.
+One of the most popular explanation of DM is the Weakly Interacting Massive Particles
+(WIMP) theory. These particles are supposed to be non standard particles with a large
+mass, neutral, and only sensitive to the weak force, making them very difficult to observe.
+No particles of the standard model has the right properties, or could provide the huge
+amount of mass needed to speed up a galaxy. Even if theoretical, it was predicted that
+two WIMP colliding could produce gamma-rays, providing enough mass and energy.
+
+5
+
+6
+
+1. Theory
+
+1.2. Tools
+To speak about cosmic-rays, one often speaks about their spectral shape, or energy
+spectrum. These terms refer to the energy flux (Φ in GeV −1 .s − 1.cm − 2.sr − 1) as a function
+of their energy (in GeV ). In other terms, how many particles of a given energy would a
+one centimeter square instrument observe in one second. This can often be modeled by
+a power law of the form Φ ∝ E −α where α is called the spectral index. If α is small, the
+spectrum is said to be "hard", because there are an important proportion of high energetic
+particles which path is more difficult to bend. On the contrary, a "soft" spectrum has a
+bigger spectral index and describe a lower density of high energy particles compared to
+low energies. The terms "soft" and "hard" can be applied to any kind of energy spectrum,
+even if it is not a power law, it will only describe the relative proportion of high and low
+energy particles.
+In the following chapters though, the preferred representation of the energy distribution is via the energy flux, or spectral energy distribution (in GeV .s − 1.m − 2.sr − 1), simply
+obtained by multiplying the particle flux by its energy square (E 2 × Φ(E)). In other terms,
+how much energy does the instrument receive every second for particles of a given energy E. This is only done to facilitate the reading of the graphs and does not affect the
+underlying physics.
+
+6
+
+1.3. Physic of cosmic rays
+
+7
+
+1.3. Physic of cosmic rays
+1.3.1. Creation of CR
+Several sources of cosmic rays exist in the universe. Cosmic rays are very energetic and
+thus can only be produced by very energetic phenomena. Particularly powerful events
+are supernovae, ejecting relativistic particles during the burst. The dying star will eject
+a lot of its mass to form a supernova remnant (SNR) surrounding either a white dwarf,
+a neutron star or a black hole depending on the initial mass of the star. These SNR
+could also play a role after the explosion via the Fermi process. An already energetic
+particle would bounce in the shock wave created by the explosion, and gain energy via
+magneto-hydrodynamic processes before escaping when a threshold energy is attained.
+An other important source of cosmic rays are pulsars. These rapidly rotating neutron
+stars and their intense electromagnetic field create high energy particles such as protons
+and electrons. This can last as long as the pulsar rotates fast enough, and it can takes 10
+to 100 Myrs before it happens. A third source are the actives galactic nuclei (AGN), also
+known as quasars. These objects consist of a super-massive black hole at the center of
+a galaxy. First discovered thanks to their radio emission, they are also able to eject CR,
+certainly via Fermi or centrifugal acceleration.
+
+1.3.2. Propagation of CR
+Once they are emitted, the cosmic rays propagate through the galaxy under the influence of different interactions. The first thing to consider is the very complex magnetic
+field created by all sorts of objects, from stars to molecular clouds or any distribution of
+charged particles. It is not particularly strong (put values) compared to the heliosphere
+or what can be created on Earth, but its very large scale suffice to bend the CR’s path in
+all direction until the point where it is impossible to backtrack their origin without exact
+knowledge of every detail of the galaxy. An other possible interaction is the collisions
+with other particles. It will obviously depends on the density distribution of those colliders along the path of CRs. For example, we can expect a higher number of collision in
+the disk, where the density of molecular clouds is the highest.
+All these influences can be modeled by a diffusion model, mainly defined by its diffusion
+coefficient D, which describes the average distance traveled by the particles during a
+certain time. The higher the coefficient, the faster a particle will diffuse in the galaxy.
+On the contrary if D is small, the particle’s path will be bent in every direction so often
+that it might stay close from its source for a longer time. Each phenomenon can be
+attributed one of those coefficient to describe its effect on the cosmic rays, and adding
+them up gives the effective coefficient. (give values for Dmag, Dcoll...) While the
+diffusion coefficient for the galactic magnetic field can be taken as constant throughout
+the milky way, the diffusion coefficient due to collision is proportional to the particles
+density. We can then expect a smaller coefficient in molecular clouds, where the density
+can reach (value!).
+This coefficient will also define the cosmic ray densities in various locations of the
+galaxy. Indeed, the more a particle’s path is twisted and convoluted, the harder it will be
+to move away from its origin. This way, a higher density of cosmic rays can be found in
+low diffusion coefficient areas like molecular clouds. In comparison, the region outside
+the galactic disk has a low density of CR due to a weak electromagnetic field and small
+7
+
+ToDo
+
+ToDo
+
+ToDo
+
+8
+
+1. Theory
+
+gas and dust density. However, the bubble region is outside the disk and has a higher
+concentration of high energy CR than other regions outside the disk. This is due to a
+direct outward emission of CR from the GC region. With a high diffusion coefficient,
+these CR are ejected light years away (see Fig. 1.1b), forming two symmetric regions
+extending north and south up to 40 degrees in latitude.
+The consequences of such diffusion processes is an isotropic cosmic-ray sky on Earth.
+In whatever direction the instruments look at, they measure the same CR flux. This
+complicate a lot their study, since no information about their origin or their journey can
+be learned from direct observation.
+
+1.3.3. Energy losses
+
+ToDo
+
+Traveling through the galaxy tedious, even for a high energetic particle if not more.
+In fact, every time a particle collides with another less energetic, or is deflected by a
+magnetic field, it looses energy. And depending on its energy and its surroundings, a
+particle will not always loose energy at the same rate. If the particle has a particularly
+large energy, it will mainly encounter lower energy particles and will loose energy very
+fast. But if the particle is in a molecular clouds where all the others are around the same
+energy, every collision will only change its energy a little up or down, and it will basically
+stay the same. This process is important to explain changes in CR spectral index. Indeed,
+the high energy particles emitted directly at the source, will loose energy faster than
+the less energetic ones, and then become itself a low energetic particle, populating the
+lower part of a spectrum. This way, a hard spectrum of a source can soften over time to
+resemble a propagated spectrum. The theoretical index values for a propagated spectrum
+is 3.85, against 2.1 for a source spectrum. (cite) This phenomenon can happen more or
+less quickly depending if the source emits in the disk where a lot of collision happen; or
+perpendicular to it, where the density of particle is not so high and the energy losses are
+more rare.
+
+1.3.4. CR as observed from Earth
+The one and only CR spectrum that can be obtain from observations on Earth is shown
+on Figure 1.3. It is the same in every direction as far as the measurement uncertainties can tell. The isotropic arrival direction of CR is measured with great care and any
+anisotropy, if existing, is below the instrument precision. The CR spectrum is composed
+of three main features that form a "leg". The "knee" around 107GeV marks the separation
+between two different power laws in E −α . A slightly harder one below that is thought
+to be composed of galactic CRs, and a softer one above that is supposed to be of extragalactic origin. The spectral index does not change much, from 2.7 below to 3 above,
+due to different production mechanism. As indicated on Figure 1.3, the corresponding
+flux of particle is very low and statistical fluctuations are not negligible at high energies.
+Especially at the "ankle", above 109GeV , where only very few particles were detected.
+
+1.3.5. Gamma-ray creation
+Since the cosmic rays we observe on Earth can not give us a clue about their origin,
+some indirect detection methods are required. Luckily, cosmic rays interact in a lot of
+ways with their environment, as described in the previous section. These interactions
+can leave detectable traces that can be observed. The most common is the production of
+8
+
+1.3. Physic of cosmic rays
+
+9
+
+Figure 1.3.: Cosmic ray spectrum as seen by several experiments. This characteristic
+shape can remind a leg, with a "knee" around 5.1015eV and two different spectral indexes on both sides. Below 110 eV, the spectrum flattens due to the solar
+and earth magnetic field which deflect lo energy particles. On the other side
+of the spectrum, above 118 eV, the spectrum hardens imperceptibly, and the
+statistics are very low, but it is the highest energetic particles ever observed.
+In comparison, the red and blue arrows show two of the best human attempts
+to recreate very high energetic particles and give an idea how powerful CR
+can be. Source: http://www.physics.utah.edu/ whanlon/spectrum.html
+light, via creation of high energy photon in the GeV range. Once created, these gamma
+rays can be blocked or absorbed, but not deflected. Linking the gamma-ray and cosmic
+ray requires to know the processes in play. Here is a list of the main phenomena.
+1.3.5.1. Pion decay
+The hadronic cosmic rays particles interact with the interstellar medium and can lead
+to pion π 0 production. Any CR nuclei can result in pion production, but since protons
+are the most abundant particles, they will dominate the production. These newly created pion can rapidly decay into a pair of gamma-rays (99% of the time) or e+e- pair
+(negligible).
+1.3.5.2. Bremsstrahlung
+The charged CR passing near an other charged particle of the ISM or in a magnetic
+field will be deflected by the electromagnetic interaction. In the process, the CR will lose
+energy via the emission of photons. The energy of the latter will depend on the energy
+of the electron and the intensity of the electromagnetic field. The more the electron
+is deflected, the higher the energy of the emitted photons. Even though proton CR are
+charged, the main source of bremsstrahlung gamma-rays is electrons and positrons. This
+is due to the much lower mass of the electrons, making them easier to deflect.
+9
+
+10
+ToDo
+
+1. Theory
+
+(give numbers for B field and proton in MC)
+1.3.5.3. Inverse Compton
+A third process can take create gamma-rays when the CR electrons interact with a
+photon of the interstellar radiation field (ISRF). When a high energy electron collides
+with a low energy photon, the electron can transfer some of its kinetic energy to the
+photon, giving him enough energy to enter the gamma range.
+So number of gamma rays coming from inverse Compton is directly linked to the electron distribution and the ISRF of the galaxy. The latter is composed of three major components, the starlight, the dust emission and the cosmological microwave background
+(CMB). The first component is directly linked to the star distribution, and will be dominant in the disk, where all the star are concentrated. The starlight emits as a black body,
+peaking in the UV range. The dust emission comes from the infra-red emission of warm
+dust. It will also be mainly present in the disk, since the dust clouds are pretty flat. Finally, the CMB is peaking in the microwave range but is uniformly present everywhere
+in the universe, and therefore in the galaxy. It will be dominant where the two others
+are negligible, namely outside the galactic disk.
+
+ToDo
+
+(talk about synchrotron and ionization losses)
+1.3.5.4. Other sources
+The three previously described processes are general processes that can happen everywhere at any energy. But even though the process might always be the same, two class
+of sources can be defined: the diffuse and the point sources. The first correspond to all
+the CR propagating through the ISM and interacting with its components. It will be the
+object of study of the following chapters. The second are the gamma-rays produced directly at the CR origin (in SNR, AGN or pulsars as described in section 1.3.1). Every one
+of these event should be studied separately and are still not understood perfectly. Since
+these sources are very far away and can not be resolved by the instruments, they will
+be referred to as point sources in the following chapters. The spectral shape of these
+events is generally known and categorized as a function of the event type. This makes
+the recognition easier and both emissions can be separated this way.
+
+1.3.6. Gamma-ray observations
+
+ToDo
+
+Gamma-rays are not easy to observe from Earth, simply because they are absorbed by
+the atmosphere. It is a chance for life to develop, but complicates their observation. To
+measure them, the instrument has to be launched in orbit above the atmosphere, where
+gamma-rays are not yet absorbed. For example the Fermi Large Area Telescope (LAT)
+mounted on the ISS do the job with a lot of success. This instrument maps the gamma
+ray sky between 20 MeV and 300 GeV (cite), detecting all the point sources emission,
+but also the diffuse background emission.
+In theory, the knowledge of the processes that generate gamma-rays from cosmic-rays
+and the precise composition of the Milky Way should allow to explain the observations.
+Propagation models and simulations are able to output the expected energy spectrum of
+gamma-rays reaching Earth from an initial distribution of cosmic-rays (not taking the
+point sources into account). But some problems show up when confronting the theory
+and the observations, as will be discussed in the following section.
+10
+
+1.4. What are the unresolved problems of the precedent chapter
+
+11
+
+1.4. What are the unresolved problems of the precedent
+chapter
+Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare. The three physical processes were modeled to try to
+recreate the spectrum observed here on Earth. The results are clear, they do not always
+match. Even though the observations of the poles or any high latitude regions can be
+well explained by a PCR, BR and IC component, the models have troubles to reproduce
+the surroundings of the galactic disk, and in particular the GC or the Bubbles. Two main
+problems can be identified. A high energy deficit in the models, where the observed high
+energy tail (> 50 GeV) can not be reproduced (cite https://arxiv.org/pdf/1602.04710.pdf), ToDo
+and a spherical excess centered in the GC around 2 GeV.
+The first one shows a lack of high energy cosmic-rays in the models. A mean of injecting
+more relativistic particles has to be found in order to fill this gap. One explanation could
+be that we do not observe only diffuse emission in the disk. The point source emission
+could not be totally subtracted due to the high density of sources. The CR that do not
+have the time to propagates have a harder spectrum, thus providing a higher ratio of
+high energy gamma-rays.
+Two main ideas have emerged to explain the spherical excess. First is the presence of
+dark matter in the galaxy in the form of weakly interacting massive particles (WIMP).
+The spatial distribution of these particles would follow a Navarro-Frank-White (NFW)
+profile centred at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle
+is around 50 GeV, the expected gamma spectrum would peak around 2 GeV, where the
+excess is observed. (cite) The study of the excess could put strong limits on the mass and
+annihilation cross section of such WIMP and confirm, or infirm the theory. The second
+theory does not involve new physic, but unobserved millisecond pulsars. They would
+also be spherically distributed around the GC and their gamma spectrum peaks around
+2 GeV. A few thousands of them would be needed to recreate the intensity of the excess.
+The main default of this explanation resides in the fact that we have observed only a few
+hundreds pulsars so far when we expect ten times more.
+
+11
+
+ToDo
+
+2. Method
+2.1. Data origin
+
+(a)
+
+(b)
+
+Figure 2.1.: Map of the gamma ray sky as seen by the Fermi telescope around 2 GeV. Measured gamma ray flux before (left) and after (right) point source subtraction
+in GeV /s/m 2 /sr . Most of the spots formed by point sources have disappeared,
+leaving only the diffuse background emission from CR. The subtraction is
+not perfect, and can create artificial "holes" in the map (for example at coordinates (90, 25) or (50, 60)). These can be disregarded as relevant data, or can
+also disappear when using a larger binning.
+All the following work is based on the measurement of gamma rays coming from intraand extra-galactic sources. The quality and accuracy of the data is one of the most important point that will determine the general quality of the results. Thus it is capital to
+be certain that the gathering and treatment was done properly.
+The Fermi Large Area Telescope (LAT) observed the gamma-ray sky since 2008 and
+provides all the data of this work. All the information and data are available on the web
+and anybody can access them, using the tools given by Fermi.
+13
+
+14
+
+ToDo
+
+2. Method
+
+Since the observation is still on-going it is important to stay up-to-date. The reconstruction method is also being improved regularly, improving every time the statistics,
+the systematic errors and the point source subtraction. One of the most important step in
+the treatment process is the first one, the selection of the events. Every photon measured
+is saved along with all its properties in a big data file. Then this long list is filtered to keep
+only the interesting observations. The filter can be based on the incoming direction, the
+energy or the time of observation, but also on the quality of the event reconstruction.
+This last cut can be critical. It will determine the chances that the measured event is
+in fact a gamma ray, and not some background noise polluting the data. Of course, the
+more strict the filter is, the less events are kept for analysis and the statistical errors can
+become large. This work uses the CLEAN class recommended by the Fermi team for
+diffuse emission analysis. (cite Fermi sciencetools)
+The main parameters of the selection can be found in Tab 2.1.
+Parameter name
+Event class
+
+Parameter value
+256 (CLEAN)
+
+Event type
+Time boundaries
+
+3
+INDEF
+
+Minimum energy (MeV)
+Maximum energy (MeV)
+zmax (degrees)
+
+58.4731
+513056
+90
+
+Description
+Quality parameter. Varies the level of
+background noise.
+Back+front event.
+Selecting all events since beginning of
+observation
+Minimum energy of the event.
+Maximum energy of the event.
+Maximum zenith angle to get rid of
+the Earth limb contaminations, as recommended by the LAT instrument
+team
+
+Table 2.1.: List of the main parameters used for data selection. The exact script can be
+found in the appendix.
+
+ToDo
+
+(add code in appendix and ref)
+An other important point is the creation of the exposure map. It basically tells how long
+the telescope spend observing a given part of the sky. After dividing the count map by
+the exposure, a flux map is obtained that does not depends on the observation time of
+particular regions.
+
+ToDo
+
+The goal of this work is to study the diffuse sources of gamma-rays from inside and
+outside the milky way. Of course, the LAT does not differentiate them from point sources
+gamma rays. This has to be done manually as the last step in the treatment process. A
+large catalog of gamma ray point sources (3FGL) is available on line on NASA website
+(cite site). This catalog lists most of the known and identified point sources, along with
+their spectral shape and flux. This information can then be used to model the number of
+counts coming from point sources and their spatial and energetic distribution. To achieve
+this, the point sources properties must be combined with the instrument properties. For
+example, the point source flux is multiplied by the exposure time corresponding to its
+14
+
+2.1. Data origin
+
+15
+
+position. This flux must also pass through the instrument and its defaults will deform
+the initial shape of the source. For a point source, the final image obtain on the detector
+is the Point Spread Function (PSF) of the telescope and is given with the fermi tools.
+Every point source is convoluted by the PSF corresponding to the initial event selection,
+creating the final point source map as would be observed by the instrument. Once this
+model map is obtained, it is subtracted from the data to only keep the diffuse emission
+(see Fig. 2.1). Since the models are never perfect and all point sources are not listed, errors
+or anomalies in the observations can appear. Keeping the dataset up-to-date allows to
+use the latest catalogs and avoid a lot of mistakes.
+Once all the treatment is done, a flux map of the entire sky in counts/s/m2 /GeV /sr is
+produced. The map is divided in bins of 0.5 × 0.5 degrees on a Cartesian projection.
+Every bin contains 30 logarithmic energy bins ranging from 60 MeV to 513 GeV with
+a 1.2 multiplicative step. The final data cube is thus of dimension 720 × 360 × 30. For
+visibility purposes, every energy bin is multiplied by its energy squared, becoming an
+energy flux in GeV /s/m 2 /sr . This will be the default units used for the rest of this work.
+The errors on the data are coming from two sources. First are systematic errors introduced by the instrument or the treatment process. They are around 3%, but can increase
+for low or high energies (Fig. 2.2). These errors have multiple causes, mainly the PSF
+and the energy resolution (or energy dispersion) of the instrument. The plot shows how
+the systematic errors varies when correcting or not for these effects. The treatment done
+here accounts for energy dispersion. The second source is the statistical errors, proportional to the square root of counts. This property will make them decrease when the
+acquisition time will increase. They are dominant at high energy (above 50 GeV) where
+events are rare. On contrary at low energies (around 100 MeV), the systematic errors
+dominate. The final equation is the following :
+σtot
+
+r
+q
+2 + σ2 =
+2 + 1
+σsys
+= σsys
+stat
+N
+
+15
+
+(2.1)
+
+16
+
+2. Method
+
+Figure 2.2.: Systematic error for Pass 8 data as a function of the energy and the treatment
+procedure. The energy dispersion is the energy resolution of the instrument;
+this effect is known and can be corrected (in red), lowering the systematic
+errors. This is what was done for this study. The black line does not account for energy dispersion. The blue line shows the systematics for specific
+event types, a kind of analysis that does not make sense for this work. The
+few percent gained with the energy dispersion treatment at very low energies (below a few hundred MeV), where the statistical uncertainties are not
+dominant any more, can be critical.
+
+2.2. Model components
+2.2.1. From cosmic rays to gamma-rays
+
+ToDo
+
+ToDo
+
+The gamma-ray spectra used in this study are directly calculated from the cosmic ray
+spectra. The next section describes the cosmic ray distribution used to get the gammaray spectra corresponding for every processes that are modeled. Once the CR spectrum
+is defined, a propagation code (cite), DRAGON, is used to determine the gamma-rays
+spectrum emitted. For most of the components, the spectral shape does not vary depending on the direction, only its normalization, but that does not play a role in the
+fitting method (cf (section on fitting method)). The code uses a model of the galaxy
+(ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to
+produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse
+compton. The inverse compton is slightly different from the others because of the ISRF.
+
+2.2.2. Basic components
+2.2.2.1. π 0 production by propagated cosmic rays (PCR)
+The initial propagated proton spectrum for the PCR template is obtained from the observed proton data from AMS-02 A good approximation is an unbroken power law (R−α)
+with a spectral index (α) of 2.85 at rigidities above 45 GV. At lower rigidities the data are
+below the power law because of solar modulation , as seen in Fig. 2.3a, where the AMS02 data are plotted as well. To find the best parametrization, several indexes and breaks
+were tested. The optimal parametrization was found by interpolation between the fits
+with the best test statistic. Finally, the gamma-ray data are well described by an unbroken power law for the protons with a spectral index (α) of 2.85 at all rigidities.
+
+16
+
+2.2. Model components
+
+17
+
+(a)
+
+(b)
+
+Figure 2.3.: Cosmic ray spectra used to determine the gamma ray templates. (a) Powerlaw proton spectra used to produce the PCR (red), MCR (gold) and SRC (pink)
+templates. In comparison, the measured data by AMS-02. The MC spectrum
+breaks are varying between the two shown here. Above the break, the index
+is the same than or propagated CR. (b) Power-law electron spectrum used to
+produce the IC and BR templates, compared once again with AMS-02 data.
+This time a break is
+2.2.2.2. Inverse Compton (IC) and bremsstrahlung (BR)
+The interstellar electron spectra needs a break around 0.2 GeV with a spectral index
+of 3.21 above. This is compatible with the locally observed electron spectrum (see Fig.
+2.3b). Below the break the optimal spectral index is 0.81, which implies a suppression
+of electrons. The targets for the production of gamma-rays are the interstellar gas for
+BR and the interstellar radiation field (IRF) for IC, which are both strongly dependent of
+position, so the photon composition varies with sky direction. For this reason, we have
+to calculate the IC and BR templates for each sky direction. The variation over the sky
+is about ±10%, as shown in 2.4a. The BR template only depends on the interstellar gas
+distribution, decreasing the variations considerably compared to IC, as shown in 2.4b.
+
+2.2.3. Additional components
+2.2.3.1. π 0 production by source cosmic rays (SCR)
+The proton spectra producing the SCR template can be described by a power law with a
+spectral index of 2.1, as obtained from the best gamma-ray template fit. The index 2.1 for
+the SCR template is expected from diffuse shock wave acceleration. The source cosmic
+rays are accelerated, or escape from the galaxy, hence a harder spectrum at high energies
+compared with propagated CR spectrum.
+2.2.3.2. π 0 production by molecular clouds cosmic rays MCR)
+A proton spectrum with broken power-law can parametrize the decreasing gamma-ray
+emissivity from MCs below 2 GeV. The break can vary from 6 to 14 GeV for different
+clouds according to the fit. Above the break an optimal spectral index of 2.85 was found
+17
+
+18
+
+2. Method
+
+(a)
+
+(b)
+
+Figure 2.4.: (a): Superposition of the inverse compton template in every sky direction,
+normalized at 10 GeV. (b): Superposition of the bremsstrahlung template in
+every sky direction, normalized at 10 GeV. The CR electron spectrum use here
+has a break at 1 GeV, but its position does not influence the spatial variations.
+The variations of BR are very small and can be neglected.
+to be the same as for the PCR spectrum, as expected if the high energy propagated protons are above a certain magnetic cutoff. Below the break, the spectral index is 0.7, thus
+providing a significant suppression of protons below the break, as can be seen from Fig.
+2.3a. This lower break spectral index does not have a strong influence on the fit and
+therefore was taken to be 0.7 GeV. Variations in the magnetic cutoff in MCs are expected
+from the variations in size and in magnetic field, the latter increasing with MC density.
+These variations between 6 and 14 GeV varies the maximum of the gamma-ray spectrum
+around a few GeV.
+2.2.3.3. Dark matter annihilation (DM)
+
+ToDo
+
+Dark matter particles are expected to annihilate and produce hadrons of roughly twice
+the WIMP mass, just like in electron-positron annihilation. This should produce copious
+amounts of gamma-rays from π 0 decays. A smaller fraction of WIMP annihilation can
+lead to tau lepton pairs, which can lead to π 0 production in the hadronic tau decays. This
+contribution is expected to be small and is neglected. The DM template can be calculated
+with the DarkSusy software. (cite[67, 68]) An annihilation signal peaking around 2-3
+GeV requires a WIMP mass around 50 GeV, as shown in Fig. 2.5a. The DM template falls
+down to zero for energies above twice the WIMP mass, which differentiate it from the
+MCR spectrum with a much softer spectrum.
+2.2.3.4. Milli-second pulsars gamma-ray production (MSP)
+The MSP template is directly taken from the Fermi study . They simulated the emission
+of 1700 milli-second pulsars with different energies around the galactic center. The high
+energy shape of the spectrum resemble closely the DM template, but the main difference
+with DM and MCR is for low energies. Indeed, below 1 GeV, the MSP template is a lot
+softer and this feature makes it discernible from the two others.
+18
+
+2.2. Model components
+
+19
+
+(a)
+
+Figure 2.5.: (a) Comparison of PCR, IC, BR and SCR templates, normalized at 1 GeV.
+Measured data from the central molecular zone is shown as well. All four
+components have very different spectrum and index that make them easily
+identifiable by the fit. (b) Comparison of the three excess components, along
+with the data from the CMZ.
+2.2.3.5. Isotropic component
+The isotropic template represents the contribution from the isotropic extragalactic background and hadron mis-identification. Its spectral shape and absolute normalization are
+provided within the Fermi software (cite[51]), but it was redetermined for the analysis
+as follow. A first fit of the data in regions outside the Bubbles and the Galactic disk using
+the isotropic template from the Fermi software is produced as an initial estimate. This fit
+takes into account all components of the best fit available. If one plots the total observed
+gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one
+expects a linear relation crossing the origin if the isotropic flux is estimated correctly
+(See Fig. 2.6). However, if the isotropic contribution is either too low or too high, an offset at the origin is introduced in the linear relation. Since the isotropic component is by
+definition the same for all cones for a given energy, this offset can be subtracted from the
+Fermi template to improve the fit. Once the offset is determined for each energy bin and
+subtracted from the original template, the process is repeated until the offset converges
+to zero.
+(maybe add pictures of the iso template through different steps)
+
+19
+
+ToDo
+
+ToDo
+
+20
+
+2. Method
+
+Figure 2.6.: The fitted flux (abscissa) versus the observed flux data (ordinate) in every
+region of the sky for a given energy of 1 GeV. A linear fit is performed to find
+the offset at the vertical axis. This number represent the amount the isotropic
+component shifts the data in all cones. Once this is done for every energy
+bin, the offset is added to the previous isotropic template and the process is
+repeated until convergence.
+
+2.3. Fitting method
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and
+energy. The finest spatial grid is divided in 720 × 360 cones of 0.5◦ × 0.5◦ . Every cone
+contains 30 energy bins. This allows to treat different portions of the sky independently
+of one another. Since the cones do not have the same solid angle and the statistic in a
+small binning can be problematic, the grid is more often composed of 797 bins of different sizes, bigger at the poles and smaller near the equator. This allows a better statistic
+in lower flux regions and where a high spatial resolution is not needed (i.e. at high latitudes). In the same time, the equator and the GC have a lot more counts and can be
+treated in a smaller binning. This binning is faster to compute than a regular grid with
+an good enough output quality to study the results.
+The fit uses a certain number of components (three at least) each corresponding to a
+certain phenomenon and described earlier. They all have a certain energy spectra, that
+can vary with the position in the sky in the case of IC (See Fig. 2.5).
+The fits are done for every bin independently. After choosing the templates used for
+the fit, their scaling factor is the only degree of freedom allowed. So, using a ROOT
+TVirtualFitter object, every template is scaled up or down until their sum comes the
+closest to the data. Mathematically, the minimum distance between the model and the
+data is found when the χ 2 value is lowest. It is calculated as follows:
+
+g
+
+P f
+2 + iso 2 
+30  D − n
+X
+(n
+.T
+)
+i
+j
+ij
+j=1
+
+
+χ2 =
+2
+
+
+σ
+i=1 
+
+20
+
+(2.2)
+
+2.3. Fitting method
+
+21
+
+where:
+• Di is the data flux in the i th energy bin.
+• n j is the scaling factor for the j th model component.
+• Tij is the model flux of the j th in the i th energy bin.
+• σi is the geometric mean of the statistical and systematical error of the Fermi data
+point i.
+The MCR break position does not vary in a single fit. A fit is done for every MCR break
+independently, and the one with the best χ 2 is kept. This break position is not counted
+as a degree of freedom in the fit.
+The fit is very well constrained with only five or six degrees of freedoms depending
+on the model against 30 data points. A useful value is the χ 2 /d.o.f where d.o.f =
+#data points − #deдrees o f f reedom − 1. This rescaling has the advantage to bring
+the perfect χ 2 value down to one, thus making the comparison between different fits
+easier. This rescaling will be applied every time when speaking about χ 2 in the rest of
+the discussion, except if explicitly told. The closest a χ 2 value is to one, the better the
+model follows the data. The higher it gets, the lower the quality of the fit. It can also
+happen that it gets lower than one. This can happen when the fit is good, but the error
+bars on the data are too big.
+Since every bin is fitted independently, it is not possible to implement a spatial template,
+i.e. where the spatial shape of a component would be fixed in advance. For example a
+component with a spherical distribution around the GC, as can be done in other works
+(cite). The hope is to let the fit find reasonable shapes by itself only using the χ 2 minimization technique.
+This fitting method offers many ways to look at the results, depending on the interest.
+It is possible to produce flux maps of each component to study their spatial shapes at
+different energies. This can for example show a correlation between a certain template
+and a galactic feature such as the disk or the bubbles. An other way is to create a spectrum
+of one cone to look at the relative quantity of every template at different energies. This
+can put into evidence problems in the models and help perfect the spectral shape of the
+components.
+The first step when testing a new model is to see if it can reproduce results of previous
+studies. Only once it works and can be confidently used can it produce new results.
+
+21
+
+ToDo
+
+3. First results: Study of the excess
+3.1. Recreating previous results
+
+(a)
+
+(b)
+
+Figure 3.1.: Representation of the GC excess. (a) Approximation of the Fermi data index
+(in blue) between 4.7 and 0.3 GeV for all longitudes below 2 degrees in latitudes. The peak in the GC indicates a harder spectrum that could trace the
+excess. In comparison the fitted background model (in black) do not show the
+peak. TODOShow the model, but without the excess component!. (b) Map
+around the GC of the difference in percent between the model and the data
+at 2 GeV. The disk is very problematic, but the interesting feature is the more
+or less spherical shape around it. The difference decreases as the distance
+from the GC increases.
+Before trying to upgrade the current model, it is important to make sure it can be recreated with this method.
+3.1a and (ref Appendix with more weniger plots) illustrates a way of seeing the ex- ToDo
+cess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 4.7 and 0.3 GeV
+is plotted for all longitudes. For every sky direction, σ = (Data(l, b, E 1 ) − Data(l, b, E 2 )) /error
+23
+
+24
+
+3. First results: Study of the excess
+
+where error is the cumulated uncertainty on both data points. It is then rescaled around
+zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the
+shape of the spectrum.
+
+ToDo
+
+Fig. 3.1b present an other way of looking at the excess with a fit using only the background components (PCR, IC and BR). This map shows the percentage difference between the fit and the data at 2.58 GeV. This gives an idea about the distribution of the
+excess around the GC. The shape and intensity of the previously observed excess are
+found (cite https://arxiv.org/pdf/1110.0006.pdf? or others). Excluding the galactic
+disk for latitudes below two degrees, the excess extends to 30◦ in all directions from the
+GC.The problem only confirm itself when looking deeper into the results.
+
+(a)
+
+(b)
+
+Figure 3.2.: (a) Spectrum of the CMZ region and its fit using only the three background
+components. Two major problems can be identified. First a hardening of the
+spectrum above 10 GeV; second the shift of the spectrum maximum between
+the model and the Fermi data. (b) The best χ 2 value obtained by the fit for
+every sky direction. The bubbles structures and the galactic disk are visible,
+with a very large disagreement between the model and the data. These bad
+χ 2 regions are the sign that one or two of the problems identified on the left
+are present. Several bad spots can also be identified. These correspond to a
+bad point source subtraction when processing the data (cf. chapter 2) and
+should be ignored.
+Looking at the χ 2 distribution on the sky (Fig. 3.2b), the bubbles and the disk appear
+clearly in red, showing a high χ 2 value. The fit does not give proper results in those
+regions, with the high energy part of the spectrum not described by the three background
+templates as shown by Figure 3.2a. This example spectrum from the galactic center
+illustrates the two main problems. First, the high energy tail of the data is not compatible
+with the model, much higher and with a harder spectral index. The second problem is the
+shift in the peak position. The data peaks around one or two GeV when the model peaks
+only around a few hundred MeV. These two differences shall be investigated in more
+detail in the following sections. But outside these regions, the fit works a lot better, with
+a χ 2 not much bigger than three. This is not perfect, but in comparison with the disk, it
+is undeniably an improvement.
+24
+
+3.1. Recreating previous results
+
+25
+
+3.1.1. EGRET Data
+One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET) gave a first insight on the GC excess. Its energy range did
+not exceed 30 GeV, and the data overall quality is worse than the LAT. But it is a good
+way to compare the results. A model for DM was fitted on the EGRET data to test the
+hypothesis. Figure 3.3a and 3.3b compares the results of this study to the EGRET study.
+For a large region around the GC, the Fermi and EGRET data were fitted with a PCR, IC,
+BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below
+10 GeV, even if it shows the higher energies as well, to be consistent for both study. It is a
+first attempt to recreate previous results with an excess component. When the fit works
+perfectly for the EGRET data on the left, a clear deficit can be observed for Fermi data.
+Above 10 GeV, EGRET has no data and the shape could lead to believe that a rapid drop
+occurs. But Fermi does not show this drop, and present a harder spectrum than what
+could be expected from EGRET data. The difference is all in this hard high energy tail.
+It shows that even if the first measurements could be fitted by adding a single excess
+component like DM, it is not possible with Fermi data: the addition of a new component with a very hard spectrum is necessary. This is done in the next section, with the
+introduction of the SCR component.
+
+(a) EGRET
+
+(b) Fermi
+
+Figure 3.3.: Comparison of the EGRET (a) and Fermi (b) data with the model. The EGRET
+data were fitted by [? ], and their model take a PCR, BR, IC and dark matter
+templates. The maximum energy of the EGRET data is 10 GeV, and the model
+agrees relatively well at all energies. The model used on the Fermi data is
+as close as possible from the EGRET model, with the PCR, BR, IC and DM
+template of this study, but this time the data go up to 500 GeV. Once again,
+the model agrees for all energies below 10 GeV; but it can not account for
+the energies above. This is an indication that high energies are harder than
+expected and require the addition of a new component to the model.
+
+25
+
+26
+
+3. First results: Study of the excess
+
+3.2. Introducing SCR
+
+(a) Chi2 distribution of SCR only fits.
+
+(b) Flux distribution of SCR only fits.
+
+Figure 3.4.: Results of fit including the SCR component. (a) χ 2 distribution. The bubbles are not so clear than before, but the disk is still visible (cf Fig. 3.2b). (b)
+Flux distribution of the SCR template at 30 GeV. The bubbles and the disk
+are distinct. The SCR template traces the hardening in the data high energy
+spectrum, thus showing it here. This distribution was expected, in the bubbles because of unpropagated proton CR ejected from the GC, and in the disk
+because of point sources that are not subtracted.
+As seen previously, a fourth component is needed to fit the data in the disk and the
+bubbles in addition to the basic templates. This is due to a hardening of the spectrum
+at high energy that is thought to be induced by non propagated CR, i.e. CR that do not
+propagate through dense gas clouds or highly convoluted magnetic fields. For example in
+the bubbles, where particles are ejected without passing through dust clouds; or simply
+near sources, where CR do not have time to interact with the interstellar medium.
+After introducing the SCR template, a clear improvement can be noted in the χ 2 distribution (comparing Fig. 3.4a to Fig. 3.2b). The bubble shape that was delimited before
+by a bad χ 2 zone has now disappeared. Even if the fit is still not perfect everywhere,
+the improvement is significant. The disk is still not fitted properly, with very high χ 2
+values. Some structures can also be seen along the disk for absolute longitudes over 90◦.
+These remaining bad fits tends to show that the model is still not optimal yet, and could
+be improved, as seen in following sections.
+
+ToDo
+
+The SCR template is present only in the disk and the bubbles (see Fig. 3.4), as expected.
+The map of fitted SCR component shows it clearly, delimiting the bubbles with great
+precision. This distribution reinforces the idea of a source component, by pointing to all
+the regions where a hardening of the spectrum is present, as expected from its physical
+interpretation. It also does not disrupt the other components distribution too much.
+The PCR, IC and BR distributions are similar and still match their expected shape. (add
+Appendix skymaps of all components for noSCR and SCR, to compare).
+Figure 3.5 shows the spectrum in a given direction inside the bubbles, before and after
+adding the SCR template. While the high energy parts (above 100 GeV) of the spectra
+26
+
+3.2. Introducing SCR
+
+27
+
+(a)
+
+(b)
+
+Figure 3.5.: (a) Fit results in the direction of a bubble using only the three background
+templates. The problems identified before are here, with a hard high energy
+tail and a slight shift in the maximum position. (b) Fit results in the direction
+of a bubble using only the three background and the SCR template. This time,
+the small shift is still present, but the high energy hardening is fitted by the
+SCR template.
+are dominated by SCR, the lower energies are also fitted with PCR and IC. The major
+difference is that each template fit one part of the spectrum, leaving other component
+deal with the rest. SCR is present at high energies, and this leaves more room for PCR
+and IC to adapt to the low energy spectrum. Hence increasing the fit quality.
+This four-template fit represent a clear improvement compared to the background only
+(PCR, IC and BR) model. But, as seen on the χ 2 distribution map, the disk and low
+latitudes regions are still not fitted properly. Figure 3.6 shows it well. The PCR spectrum
+does not peak at the right energy. The Fermi data has its maximum around a few GeV,
+while PCR’s is only at a few hundred MeV. This problem leads to a very high contribution
+of SCR, trying to fit the data’s maximum and the high energies at the same time; task
+that can not be done with SCR’s spectral shape. This leads to the introduction of the first
+excess component, added to solve this problem.
+
+27
+
+28
+
+3. First results: Study of the excess
+
+Figure 3.6.: Spectrum from the GC, where the excess is supposed to be the highest. The
+SCR component overshoot the high energies to compensate a lack of gamma
+ray flux at 2 GeV. But introducing an excess component should cover the
+lack and the SCR contribution should decrease everywhere the 2 GeV excess
+is present.
+
+3.3. Introducing SCR and MCR
+As shown on Fig. 3.9a, the addition of the new MCR template improves significantly
+the χ 2 distribution in all directions. The bubbles and the disk structures are not visible
+any more. Such a flat distribution is one of the best indicator of a good fit. Three red
+dots appear to have a really high χ 2 , but that is only due to the point source subtraction
+that is not perfect (see Chapter 2.1). This direction can be identified on almost every fit
+done in this paper, and should not be taken into account too seriously for the analysis.
+Fig. 3.7 shows the central molecular zone (CMZ) fitted with and without the MCR component. The gas density is very high in this region, hence it is the first region where we
+would expect the MCR emission to be present. Indeed the fit chooses this configuration,
+with the MCR template dominating all the others and directly improving the fit. The energies around 2 GeV had a clear excess that the four components of the SCR fit could not
+account for. The MCR template peaking in this region, it comes in very handy and fill
+this gap, leaving the SCR template taking care of the high energies and the background
+components for the lower energies.
+ToDo
+
+(Why isn’t there IC? -> Wait to see if we change the models)
+
+28
+
+3.4. Introducing SCR and DM
+
+29
+
+Figure 3.7.: Fit of the CMZ with PCR, BR, IC, SCR and MCR. The MCR template dominate
+all the other around 2 GeV, and allow a very low χ 2 value. Compared to Fig.
+3.6, the SCR component does not overshoot the high energies.
+
+3.4. Introducing SCR and DM
+Fitting the DM template instead of MCR requires a little more preparation. The first step
+is to determine which mass for the WIMP particles would produce the best spectrum for
+our fit. Fig. 3.9d shows the best fit for the CMZ region, with the WIMP mass as a free
+parameter. This region was chosen to determine the mass because the excess is supposed
+to dominate the emission. Once the optimum mass for this direction is found, it is fixed
+and the fit is repeated in the entire sky. The fit chooses a mass of 52.3 GeV, peaking
+around a few GeV, as expected in from the excess position.
+Once the mass is determined and applied to the entire sky, the fit gives the following
+results. The χ 2 distribution (Fig. 3.9c is comparable to the MCR fit (Fig. ??) for the major
+part but is significantly worst in the disk. This effect would tend to indicate that a DM
+spectrum is less appropriate to describe the excess, even if nothing can be concluded yet.
+Figure 3.9d shows the fit of the CMZ using the DM component as the excess component. A first comparison with the MCR fit points to differences in the higher part of the
+29
+
+30
+
+3. First results: Study of the excess
+
+(a) CO skymap
+(b) Flux distribution of MCR
+
+(c) DM distribution compared to gas map.
+
+(d) Flux distribution of MSP around 2.5GeV.
+
+Figure 3.8.
+
+ToDo
+
+spectrum. DM is way softer above 10 GeV and this change induces all the differences.
+This aspect will be discussed later (ref chapter).
+(((As seen on Fig. 3.8c, the DM distribution of the fit traces closely the distribution of
+molecular gas distribution (as traced by CO).)))
+
+30
+
+3.5. Introducing SCR and MSP
+
+31
+
+3.5. Introducing SCR and MSP
+
+This section introduces the results of the MSP as the excess component. The first thing
+that can be noticed when seeing the χ 2 distribution of the MSP only fit (Fig 3.9e) is the
+similitude with the DM only fit (Fig. 3.9c). The fit succeeds pretty well outside the disk,
+but gets significantly worst for latitudes below two degrees.
+
+Using the MSP spectrum predicted by fermi (cite) to fit the CMZ region does not give
+entire satisfaction. As for DM, the high energy is again too soft and put constraints on
+other templates. This effect is detailed in here (ref chapter)
+
+ToDo
+ToDo
+
+As shown on Fig. 3.8d, the distribution of MSP in the sky resembles the distribution of
+CO, MCR and DM obtained in previous sections. Present everywhere in the disk, with a
+higher flux in GC and the bubbles.
+
+(add picture of residuals at low energy maybe?)
+31
+
+ToDo
+
+32
+
+3. First results: Study of the excess
+
+(a) Chi2 maps of MCRonly fits compared to
+background only
+
+(b) MCR fit in the CMZ region
+
+(c) DM fit chi2 distribution
+
+(d) spectrum of best mass DM fitted in
+CMZ. Also pictures of DM distribution
+compared to gas map.
+
+(e) Chi2 distribution of MSP only fit
+
+(f) Fit with SCR and MSP spectrum in the
+CMZ region.
+
+32
+
+3.6. Why is MCR better than DM or MSP and a recap of the results so far
+
+33
+
+3.6. Why is MCR better than DM or MSP and a recap of
+the results so far
+Gathering the results of the previous section, a conclusion tends to emerge: the fit
+clearly prefers the MCR hypothesis over DM and MSP. We will discuss why in this section.
+A first step in understanding what is going on can be to compare the χ 2 skymaps. The
+higher is the χ 2 , the worst is the fit. Looking at the background only fit (with PCR, IC
+and BR only), the disk and the bubbles clearly define a bad χ 2 zone (as seen on Fig. 3.2b).
+The high energies are not described at all, with a fitted flux too low (see Fig. 3.5b). It
+indicates a lack of high energy components that could be able to bring a high energy
+contribution. This problem is solved by introducing the SCR component and does not
+play a major role in identifying the excess.
+The first results with SCR added to the three background component is a success with
+clear improvement in the bubbles. They are not visible anymore when looking only at
+the χ 2 skymap and this is a very good sign. On the other hand, the disk is still not fitted
+correctly, as can be seen from the large χ 2 band at latitudes below a few degrees. Even
+if there is an small improvement, the addition of a fifth component can be beneficial.
+Now that the high energies are taken care of, the excess shows around a few GeV. There
+are three different candidates for the job: MCR, DM and MSP. All three correspond to a
+unique process with clear definitions and expectations.
+The first hypothesis to be proposed for this excess was the presence of DM in the GC.
+As explained before, the DM halo is expected to be spherical around the GC following a
+NFW profile, since it does not interact with matter. And since the gamma-ray production
+from DM is directly proportional to the DM density, the DM component is expected to
+be spherical around the GC as well. There is no reasons for it to be correlated with the
+spatial shape of the Milky Way. But looking at the results (Fig. 3.8c), the fit does not
+meet these theoretical expectations for DM distribution. The DM flux follows the bar
+shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees
+in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90
+degrees in longitudes. (remember their names). The MSP fit, also expected to have a
+spherical distribution of gamma-rays from millisecond pulsars, gives similar results. The
+flux seems to be needed by the fit to describe the disk and regions with molecular clouds
+as traced by CO in general. In both cases, the χ 2 maps show an improvement of the
+model, but the morphology of the new components tends to disagree with the theory.
+The addition of MCR leads once again to the same kind of results, but this time, the
+spatial distribution is expected to follow the MCs. The χ 2 map is a little better than
+for the other two with the disappearance of the remaining bad fits in the disk. A χ 2
+around one is obtain on the entire sky. The fact that this distribution tends to be the
+same for all three additional component could be expected, since their energy spectra
+are similar, and the excess they are supposed to describe has a fixed distribution. But the
+interesting point is that no spherical distribution is ever observed, nor needed, to fill the
+2 GeV excess. The only differences in the models for the three excess component is the
+way theory and results matches. For DM and MSP, the results do not correspond to the
+predictions, when, on the contrary, MCR theory predicts the obtained morphology.
+This quick comparison of the excess component distributions and the χ 2 maps gives
+33
+
+ToDo
+
+34
+
+3. First results: Study of the excess
+
+a good overview of the results. But even if a preference for MCR can start to emerge,
+further investigation is preferable before being able to conclude.
+
+3.6.1. Comparison of the excess spectral shape
+The only difference between the three excess components that the fit cares about is
+their spectral shape. It is explained in the chapter 2 that all three templates peak around
+2 GeV, but the slopes at low or high energies are different. For energies inferior to 2 GeV,
+MCR and DM have a similar shape, when MSP is much softer. For energies above 2 GeV,
+it is the MSP and DM spectrum that look alike, with a very soft spectrum, when MCR is
+harder.
+
+ToDo
+
+ToDo
+
+These differences are the only reasons the fits does not give exactly the same results
+three times. Indeed, the low energy spectrum of Fermi data in the disk is relatively hard
+and does not vary significantly along longitude (add fig). This plays a major role in
+differentiating MSP on one side, and MCR and DM on the other. The MSP spectrum
+being softer than Fermi at low energies, the lowest Fermi data point is limiting the MSP
+contribution. And the relative contribution of the MSP at 2 GeV can not exceed a certain
+value due to this soft energy spectrum. On the other hand, the MCR and DM spectra
+fall down with the same index than the data. Thus, the limit on MCR and DM relative
+contribution is not as limited by low energies as it is for MSP. This spectral particularity
+keeps MSP low and does not allow it to account completely for the excess in the GC.
+(add a picture or two, illustrating this effect. maybe two spectra with horizontal
+lines)
+On the other side of the spectrum, above 2 GeV, it is MCR that behave differently than
+MSP and DM with a harder spectrum. When DM and MSP are completely insignificant
+above 50 GeV, MCR still plays a role at least as important as the PCR spectrum since
+they both have the same spectra at high energies. Above 4 GeV, the Fermi data present
+an constant spectral index with very little variations in the disk. This makes all the
+difference to distinguish between MCR and MSP or DM. In fact, the important point here
+is the energy at which the SCR component cross the excess component. In the CMZ, this
+turnover happens at 50 GeV for MCR, against only 10 GeV and 6 GeV for DM and MSP
+respectively. This causes the total flux in the DM and MSP fits to present a dip around
+11 GeV with a clear change in spectral index. This does not follow the shape of the data.
+Because of this, the SCR has to overshoot the very high energies (above 100 GeV), to
+minimize the size of the dip. The PCR component could be a good help with a constant
+spectral index at high energies, but its contribution is limited by low energies. Indeed,
+the PCR spectrum peaks around 200 MeV where the Fermi data are already decreasing
+rapidly. Overall, the MCR spectrum presents the right shape at high energies, with a
+constant spectral index hard enough to combine wih the SCR component and closely
+follow the data.
+In total, two major differences in the spectral shape of the three excess components
+could be enough to predict the most adapted one. The low energy spectral index difference between the MSP and the Fermi data leaves the MSP behind the MCR and DM
+hypothesis. Furthermore, the harder spectrum of MCR at high energies improve the
+fit significantly compared to MSP and DM. So the only spectrum that presents the right
+shape at low and high energies is MCR, making him the best candidates for a good model.
+
+34
+
+4. To go further: How to improve the
+model
+4.1. Discussion on the spatial distributions of the other
+components.
+The spatial distribution of a component can teach a lot about the fit. Every component
+is closely linked to a known physical process taking place in the Milky way. So even if the
+components contributions to a single cone can not be predicted, large scale structures
+should emerge and coincide with the predictions. Using this, it is possible to verify the
+proper functioning of the fit by comparing the fitted spatial distribution of the different
+templates and the predicted one. For example, the distribution of the ISRF is expected to
+be spherical around the GC in the UV range, where most of the starlight is emitted. It
+can also follow the dust distribution in the disk in the infra-red range. This can be used
+to check if the IC component is coherent in the fit and follows, to some extent, the ISRF
+distribution. Hopefully, the results show a spherical IC component centred on the GC.
+The different distributions of each component will be discussed in the following section.
+
+4.1.1. PCR flux distribution
+The PCR component is produced by diffuse CR protons which collide with other hadrons
+and form a neutral pion, which in turn decays into two photons. So the PCR flux is directly proportional to diffuse CR, gas and dust density in the galaxy along the line of
+sight. It is expected to be present in every direction, with a stronger flux coming from
+the disc, and less from high latitudes. The bubbles have a harder CR proton spectrum,
+but composed of source protons. This could imply that more high energy pion are created in those regions, and so the PCR flux should be more important. But this is not true
+since the presence of the SCR component. The latter was created specifically for such
+regions with a hard CR spectrum and should take care of that instead of PCR. This way,
+PCR should not mark too much the bubbles shape.
+The results are very similar for the three fits, with MCR, DM or MSP. The galactic disk
+is clearly visible at all longitudes, up to twenty degrees in latitude. Some structures from
+35
+
+36
+
+ToDo
+
+4. To go further: How to improve the model
+
+the gamma ray sky are also here, with the bulge around the GC and diffuse shapes at
+the anti-center. Looking carefully at the disk below two degrees in latitude near the GC,
+the flux decreases a little, when it is supposed to be the highest. Indeed, the GC is were
+the density of matter along the line of sight is the most important, and so PCR should
+follow it. This structure could be interpreted as the result of a higher concentration of
+molecular clouds in this area, cutting off low energy CR, as modelled by MCR. This effect
+could affect the proportion of PCR gamma-rays in favour of MCR and reverse the relative
+contributions. Thus MCR should replace PCR, but the sum of both component should
+still show an increase in flux toward the GC. Indeed, the sum skymaps (add picture
+!!!) is coherent. Like for the bubbles, the propagated proton CR spectrum changes too
+much to be described by a single power law. If this interpretation is correct and it is not
+just a fitting mistake, it is an other argument that can easily be explained by the MCR
+hypothesis, but not by DM or MSP.
+
+(a) MCR only fit
+
+(b) DM only fit
+
+(c) MSP only fit
+
+Figure 4.1.: PCR spatial distribution for the three different excess components
+
+4.1.2. IC flux distribution
+
+ToDo
+
+The inverse compton component is directly proportional to the ISRF and the electrons
+CR. Electrons are present everywhere in the galaxy, and the ISRF is dominant in the
+GC for the UV range, but follows the dust in the IR range and is isotropic in the radio.
+This distribution should be visible in the IC component of the fit. Indeed, a spherical
+distribution can clearly be identified for the three different fits with DM, MCR and MSP.
+Nonetheless, there is a noticeable difference in the disk between the IC distribution for
+the MCR fit and the DM and MSP fits. In the MCR fit, the disk presents a high IC flux
+when DM and MSP do not. On the contrary, the MSP and DM fit present a clear dip in
+the galactic disk. This gap is unexpected, since the ISRF is supposed to be the strongest
+in the disk, and the diffuse electrons are also produced mainly here. (explain this)
+
+4.1.3. BR flux distribution
+The BR component is linked to the CR electron density along the line of sight and the
+electromagnetic fields in the galaxy. It should then be present everywhere. It is mainly
+what can be observed here, but some features are remarkable. Mainly the decrease in
+flux in the disk and the bubbles. Depending on the fit, the average flux is also changing.
+The BR component is a lot more present with the MCR fit than with DM, which in turn
+presents more BR than the MSP fit. The fact that the MSP fit does not use a lot of BR is
+consistent with the fact that the MSP spectrum is very soft at low energies. Since BR is
+36
+
+4.2. Adding the MBR component
+
+(a) MCR only fit
+
+37
+
+(b) DM only fit
+
+(c) MSP only fit
+
+Figure 4.2.: IC spatial distribution for the three different excess components
+also dominant at these energies, both can not have a high flux at the same time. The fit
+must do concession in order to use them both.
+
+(a) MCR only fit
+
+(b) DM only fit
+
+(c) MSP only fit
+
+Figure 4.3.: BR spatial distribution for the three different excess components
+
+4.1.4. SCR flux distribution
+The SCR distribution is expected to follow the disc, where point sources can still remain, and the bubbles, where the proton CR spectra is harder. And indeed, the spatial
+distribution obtained in the three different fits are similar and correspond perfectly to
+the expectations, showing a great coherence between the model and the theory, but not
+very helpful to study the excess.
+
+4.2. Adding the MBR component
+4.2.1. MBR fixed to MCR, magnetic cut-off
+(add pictures of graph and skymaps)
+
+ToDo
+
+The theory behind the MCR component involves a magnetic cut-off for low rigidity
+CR protons, that changes the gamma-ray spectrum at low energies. Such a cut-off only
+depends on the rigidity of the CR and the intensity of the electromagnetic field. So there
+is no reason for it to be only applied to protons, and not to electrons. This is the reasoning
+that led to the introduction of a new template, called MBR in the fit, equivalent to the BR
+template, but calculated from a different electron CR spectrum. This new CR spectrum
+37
+
+38
+
+4. To go further: How to improve the model
+
+(a) MCR only fit
+
+(b) DM only fit
+
+(c) MSP only fit
+
+Figure 4.4.: SCR spatial distribution for the three different excess components
+presents two parts, with two different power laws for high and low energies. It has the
+exact same spectral indexes than the spectrum for IC and BR, but the break is moved
+up, between 6 and 14 GeV. Then, the break is taken to have the same value than the
+MCR brake. This way, the magnetic cut-off is applied the same way to the electrons and
+protons CR. Once again, this component is expected to follow the MCs distribution, or
+at least to be only present in the disk.
+A MIC component was tested as well, but it was not kept for physical reasons. First,
+the ISRF is not dependent of the electromagnetic field, photons do not carry any electric
+charge. It is also present in MC, where stars are formed and evolve.
+
+4.2.2. MBR free, Alfen waves
+
+4.3. Add DM late
+ToDo
+
+ToDo
+
+(difference with DM+MCR. Results and discussion.)
+Now the results are clear. MCR is a good solution to the gamma-ray GeV excess in
+the GC, and could replace the first hypothesis of the DM halo or hidden MSPs. Yet, the
+DM theory is strongly supported by other measurements (cite), for example the rotation
+curves of galaxies, and is one of the most important question of modern physics. And the
+fact that it is not the primary cause of the effect observed here does not mean it does not
+exist. On the contrary, under the hypothesis that MCR is really the cause of the excess,
+the fit could put strong limits on the DM models.
+This section will present a few ways to study the current DM WIMP model using the
+fit method of this thesis.
+
+4.3.1. DM and MCR
+ToDo
+
+(add figure) A first idea is to let the fit choose for every cone the template that offers
+the best χ 2 value. Taking a 52.3 GeV WIMP mass and the MCR template with free breaks,
+the fit has the choice between the two. The results are without much surprise in favor
+of MCR. Indeed, the previous comparisons of the χ 2 distribution for a MCR or a DM
+fit showed a clear preference toward MCR. The χ 2 map of a MCR fit is flat around one,
+even in the disk, whereas a DM fit does not work well for small latitudes. It is then only
+expected that the fit chooses MCR when it has the choice.
+38
+
+4.4. How do these results fit in context
+
+39
+
+4.3.2. DMlate
+This method can not say much else than what was already showed in the previous
+sections. The second idea that comes to mind is to take the MCR template for granted,
+and see if their is space to add DM contribution at the end of the fit. In other words, a
+first fit is performed with the classical templates (PCR, IC, BR), the source (SCR) and the
+MCR templates. Once the best relative contributions are found, the fit tries to add a DM
+template to improve the χ 2 . Following the Ockham’s razor principle, the least amount
+of contributions are accepted as true, and any additional component must be treated
+carefully. This way, the necessity of a DM template is checked, and it contribution can
+not be mistaken for a classical one. (add pic) Such a fit was performed and the results
+will be discussed in this section. First of all, the DM flux distribution is very sparse and
+degrees of magnitude below the other components. This was expected since the χ 2 of
+the MCR only fit was already good. Only very small changes could improve it without
+changing the classical contributions. Using the same CMZ region in the GC, the optimal
+mass was determined to be (mass DM late).
+Further studies of this kind could help to determine limits on the DM particle mass and
+cross-section.
+
+4.4. How do these results fit in context
+
+39
+
+ToDo
+
+ToDo
+
+5. Conclusion
+Using a simple, well constrained, fitting method, the entire gamma-sky was modeled in
+a wide energy range. This allowed a spatial as well as a spectral study to be developed
+around the GC gamma-ray excess. High spatial resolution up to one by one degree bins
+were achieved, allowing a very detailed study of the excess distribution.
+Three main hypothesis for the GC gamma-ray excess were tested and compared, namely
+the dark matter (DM), milli-second pulsars (MSP) and molecular clouds cut-offs (MCR).
+The results makes the MCR hypothesis stand out from DM and MSP. First, the spectral
+shape of the MCR component is more adapted to the excess spectral shape, making it
+easier for the fit to use. High energies as well as low energies can be fitted properly
+for any given region of the sky. On the contrary, MSP and DM have spectral features
+that do not allow a proper fit everywhere, especially the very soft spectrum above 10
+GeV, making them insignificant for higher energies. Second, comes the general spatial
+distribution of the excess component in the fits. All three looks alike, following the disk
+and galaxy general shape, but only MCR is supposed to do so. Indeed, DM and MSP
+are expected to be distributed spherically around the GC, and they have no reasons to
+follow the galactic matter distribution. And finally, when looking at the details of the
+GC, and in particular the CO distribution, one can see a correlation between the excess
+component flux and the CO emission. This last result gives again a clear indication
+in favor of MCR, since it is the only component directly linked with molecular clouds.
+Overall, MCR was preferred by the fit and gives a explanation for the GC excess while
+staying in the standard model of physics.
+Several path were followed to try and improve the model, taking MCR as the excess
+component. A new component (MBR) was introduce, following the same reasoning than
+MCR, but with the electron CR. Since their proportion is smaller, the effect of this new
+template is expected to be smaller. The quality of the fit does not change much, but it was
+already very good, and improvements can only be relatively small. Accepting the MCR
+hypothesis, one can also look for DM using his fitting method. This scenario was tested
+but did not give very significant results, as MCR is always a better choice for the fit.
+So DM was contribute very little to the gamma-ray flux in the galaxy, and no spherical
+distribution could be observed. This does not disprove the existence of DM as WIMPs,
+but could help study its properties. In latter work, an upper limit could be found on the
+41
+
+42
+
+5. Conclusion
+
+WIMPs density and cross section for example.
+The End!
+
+42
+
+Bibliography
+[1] Aguilar, M. et al., Phys. Rev. Lett. 2013, 110, 141102.
+[2] Vagelli, V. Measurement of the cosmic e+ +e− Flux from 0.5 GeV to 1 TeV with the
+Alpha Magnetic Spectrometer (AMS-02) on the International Space Station. Ph.D.
+thesis, Karlsruher Institut für Technologie (KIT), 2014.
+[3] BibTeX on Wikipedia, https://en.wikipedia.org/wiki/BibTeX,
+Version Date: 2017-09-19.
+
+43
+
+List of Figures
+
+1.1. The Milky Way, as seen from two different angles. (a) As seen from
+"above", the barred spiral arm structure is visible. As seen from Earth,
+the central bulge extend from circa -20 to 30 degrees. (b) From the side,
+the disk is very thin, especially stars and dust, but gas is thicker, as well
+as the bulge. Two large bubble-like structures extends north and south
+from the galactic center, composed of high energetic particles. . . . . . .
+1.2. Orbital velocity of the Milky Way as a function of the distance from the
+GC. A clear discrepancy between the theory and the observation can
+be seen above a 2 kpc radius. The expected velocity (in blue) drop too
+low above 2 kpc, when the observations (in green) show a flat curve. The
+blue curve is the sum of the predictions from the disk and the bulge, both
+composed of standard matter. But adding the predictions for dark matter
+to the blue curve, the theory would match much better the observations.)
+Source: Matthew Newby, Milkyway@home . . . . . . . . . . . . . . . .
+1.3. Cosmic ray spectrum as seen by several experiments. This characteristic shape can remind a leg, with a "knee" around 5.1015eV and two different spectral indexes on both sides. Below 110 eV, the spectrum flattens due to the solar and earth magnetic field which deflect lo energy
+particles. On the other side of the spectrum, above 118 eV, the spectrum hardens imperceptibly, and the statistics are very low, but it is the
+highest energetic particles ever observed. In comparison, the red and
+blue arrows show two of the best human attempts to recreate very high
+energetic particles and give an idea how powerful CR can be. Source:
+http://www.physics.utah.edu/ whanlon/spectrum.html . . . . . . . . . .
+2.1. Map of the gamma ray sky as seen by the Fermi telescope around 2 GeV.
+Measured gamma ray flux before (left) and after (right) point source subtraction in GeV /s/m2 /sr . Most of the spots formed by point sources have
+disappeared, leaving only the diffuse background emission from CR. The
+subtraction is not perfect, and can create artificial "holes" in the map (for
+example at coordinates (90, 25) or (50, 60)). These can be disregarded as
+relevant data, or can also disappear when using a larger binning. . . . . .
+45
+
+3
+
+5
+
+9
+
+13
+
+46
+
+List of Figures
+2.2. Systematic error for Pass 8 data as a function of the energy and the treatment procedure. The energy dispersion is the energy resolution of the
+instrument; this effect is known and can be corrected (in red), lowering
+the systematic errors. This is what was done for this study. The black
+line does not account for energy dispersion. The blue line shows the systematics for specific event types, a kind of analysis that does not make
+sense for this work. The few percent gained with the energy dispersion
+treatment at very low energies (below a few hundred MeV), where the
+statistical uncertainties are not dominant any more, can be critical. . . .
+
+16
+
+2.3. Cosmic ray spectra used to determine the gamma ray templates. (a)
+Power-law proton spectra used to produce the PCR (red), MCR (gold) and
+SRC (pink) templates. In comparison, the measured data by AMS-02. The
+MC spectrum breaks are varying between the two shown here. Above
+the break, the index is the same than or propagated CR. (b) Power-law
+electron spectrum used to produce the IC and BR templates, compared
+once again with AMS-02 data. This time a break is . . . . . . . . . . . .
+
+17
+
+2.4. (a): Superposition of the inverse compton template in every sky direction, normalized at 10 GeV. (b): Superposition of the bremsstrahlung template in every sky direction, normalized at 10 GeV. The CR electron spectrum use here has a break at 1 GeV, but its position does not influence
+the spatial variations. The variations of BR are very small and can be
+neglected. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+18
+
+2.5. (a) Comparison of PCR, IC, BR and SCR templates, normalized at 1 GeV.
+Measured data from the central molecular zone is shown as well. All four
+components have very different spectrum and index that make them easily identifiable by the fit. (b) Comparison of the three excess components,
+along with the data from the CMZ. . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+2.6. The fitted flux (abscissa) versus the observed flux data (ordinate) in every
+region of the sky for a given energy of 1 GeV. A linear fit is performed
+to find the offset at the vertical axis. This number represent the amount
+the isotropic component shifts the data in all cones. Once this is done for
+every energy bin, the offset is added to the previous isotropic template
+and the process is repeated until convergence. . . . . . . . . . . . . . . .
+
+20
+
+3.1. Representation of the GC excess. (a) Approximation of the Fermi data
+index (in blue) between 4.7 and 0.3 GeV for all longitudes below 2 degrees
+in latitudes. The peak in the GC indicates a harder spectrum that could
+trace the excess. In comparison the fitted background model (in black)
+do not show the peak. TODOShow the model, but without the excess
+component!. (b) Map around the GC of the difference in percent between
+the model and the data at 2 GeV. The disk is very problematic, but the
+interesting feature is the more or less spherical shape around it. The
+difference decreases as the distance from the GC increases. . . . . . . . .
+
+23
+
+46
+
+List of Figures
+
+47
+
+3.2. (a) Spectrum of the CMZ region and its fit using only the three background components. Two major problems can be identified. First a hardening of the spectrum above 10 GeV; second the shift of the spectrum
+maximum between the model and the Fermi data. (b) The best χ 2 value
+obtained by the fit for every sky direction. The bubbles structures and
+the galactic disk are visible, with a very large disagreement between the
+model and the data. These bad χ 2 regions are the sign that one or two of
+the problems identified on the left are present. Several bad spots can also
+be identified. These correspond to a bad point source subtraction when
+processing the data (cf. chapter 2) and should be ignored. . . . . . . . . .
+3.3. Comparison of the EGRET (a) and Fermi (b) data with the model. The
+EGRET data were fitted by [? ], and their model take a PCR, BR, IC and
+dark matter templates. The maximum energy of the EGRET data is 10
+GeV, and the model agrees relatively well at all energies. The model used
+on the Fermi data is as close as possible from the EGRET model, with the
+PCR, BR, IC and DM template of this study, but this time the data go up
+to 500 GeV. Once again, the model agrees for all energies below 10 GeV;
+but it can not account for the energies above. This is an indication that
+high energies are harder than expected and require the addition of a new
+component to the model. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.4. Results of fit including the SCR component. (a) χ 2 distribution. The
+bubbles are not so clear than before, but the disk is still visible (cf Fig.
+3.2b). (b) Flux distribution of the SCR template at 30 GeV. The bubbles
+and the disk are distinct. The SCR template traces the hardening in the
+data high energy spectrum, thus showing it here. This distribution was
+expected, in the bubbles because of unpropagated proton CR ejected from
+the GC, and in the disk because of point sources that are not subtracted.
+3.5. (a) Fit results in the direction of a bubble using only the three background
+templates. The problems identified before are here, with a hard high
+energy tail and a slight shift in the maximum position. (b) Fit results in
+the direction of a bubble using only the three background and the SCR
+template. This time, the small shift is still present, but the high energy
+hardening is fitted by the SCR template. . . . . . . . . . . . . . . . . . . .
+3.6. Spectrum from the GC, where the excess is supposed to be the highest.
+The SCR component overshoot the high energies to compensate a lack of
+gamma ray flux at 2 GeV. But introducing an excess component should
+cover the lack and the SCR contribution should decrease everywhere the
+2 GeV excess is present. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.7.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.8.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+28
+29
+
+4.1.
+4.2.
+4.3.
+4.4.
+
+36
+37
+37
+38
+
+PCR spatial distribution for the three different excess components
+IC spatial distribution for the three different excess components .
+BR spatial distribution for the three different excess components .
+SCR spatial distribution for the three different excess components
+
+47
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+24
+
+25
+
+26
+
+27
+
+Appendix
+A. Some appendix section
+This appendix chapter contains ...
+
+49
+
+

@@ -35,7 +35,7 @@
 	  \subcaption{source: NASA's Goddard Space Flight Center}
 	  \label{fig:fermi_bubbles}
   \end{minipage}
-  \caption{The Milky Way, as seen from two different angles.}
+  \caption{The Milky Way, as seen from two different angles. (a) As seen from "above", the barred spiral arm structure is visible. As seen from Earth, the central bulge extend from circa -20 to 30 degrees. (b) From the side, the disk is very thin, especially stars and dust, but gas is thicker, as well as the bulge. Two large bubble-like structures extends north and south from the galactic center, composed of high energetic particles.}
   \label{fig:Galaxy_maps} 
 \end{figure}
 
@@ -56,7 +56,8 @@ Electromagnetic field runs all across the milky way, taking its source in rotati
 \begin{figure}[h]
  \centering
  \includegraphics[width=.5\linewidth]{pic/theory/gal_rotation_curve.png}
- \caption{Orbital velocity of the Milky Way as a function of the radius. A clear discrepancy between the theory and the observation can be seen above a 2 kpc radius. Source: Matthew Newby, Milkyway@home}
+ \caption{Orbital velocity of the Milky Way as a function of the distance from the GC. A clear discrepancy between the theory and the observation can be seen above a 2 kpc radius. The expected velocity (in blue) drop too low above 2 kpc, when the observations (in green) show a flat curve. The blue curve is the sum of the predictions from the disk and the bulge, both composed of standard matter. But adding the predictions for dark matter to the blue curve, the theory would match much better the observations.)
+ Source: Matthew Newby, Milkyway@home}
  \label{fig:gal_rotation_curve}
 \end{figure}
 
@@ -74,7 +75,7 @@ where $r_S$ is the scale radius, determining the size of the halo.
 One of the most popular explanation of DM is the Weakly Interacting Massive Particles (WIMP) theory. These particles are supposed to be non standard particles with a large mass, neutral, and only sensitive to the weak force, making them very difficult to observe. No particles of the standard model has the right properties, or could provide the huge amount of mass needed to speed up a galaxy.
 Even if theoretical, it was predicted that two WIMP colliding could produce gamma-rays, providing enough mass and energy.
 
-
+\newpage
 \section{Tools}
 %Energy spectra
 %Intensity, Flux
@@ -85,7 +86,7 @@ In the following chapters though, the preferred representation of the energy dis
 
 
 
-
+\newpage
 \section{Physic of cosmic rays}
 
 \subsection{Creation of CR}
@@ -136,10 +137,11 @@ This phenomenon can happen more or less quickly depending if the source emits in
 \begin{figure}[h]
  \centering
  \includegraphics[width=.5\linewidth]{pic/theory/CR_spectrum.png}
- \caption{Cosmic ray spectrum as seen by several experiments. The "leg" can be seen with a "knee" around $5.10^{15} eV$ and two different spectral indexes on both sides. Two of the best human attempts to recreate very high energetic particles are shown and give an idea how powerful CR can be.
- Source: http://www.physics.utah.edu/~whanlon/spectrum.html}
+ \caption{Cosmic ray spectrum as seen by several experiments. This characteristic shape can remind a leg, with a "knee" around $5.10^{15} eV$ and two different spectral indexes on both sides. Below $1^{10}$ eV, the spectrum flattens due to the solar and earth magnetic field which deflect lo energy particles. On the other side of the spectrum, above $1^{18}$ eV, the spectrum hardens imperceptibly, and the statistics are very low, but it is the highest energetic particles ever observed. In comparison, the red and blue arrows show two of the best human attempts to recreate very high energetic particles and give an idea how powerful CR can be. Source: http://www.physics.utah.edu/~whanlon/spectrum.html}
  \label{fig:CR_spectrum}
 \end{figure}
+
+
 
 The one and only CR spectrum that can be obtain from observations on Earth is shown on Figure \ref{fig:CR_spectrum}. It is the same in every direction as far as the measurement uncertainties can tell. The isotropic arrival direction of CR is measured with great care and any anisotropy, if existing, is below the instrument precision.
 The CR spectrum is composed of three main features that form a "leg". The "knee" around $10^{7} GeV$ marks the separation between two different power laws in $E^{-\alpha}$. A slightly harder one below that is thought to be composed of galactic CRs, and a softer one above that is supposed to be of extra-galactic origin. The spectral index does not change much, from 2.7 below to 3 above, due to different production mechanism.
@@ -214,7 +216,7 @@ Gamma-rays are not easy to observe from Earth, simply because they are absorbed 
 In theory, the knowledge of the processes that generate gamma-rays from cosmic-rays and the precise composition of the Milky Way should allow to explain the observations. Propagation models and simulations are able to output the expected energy spectrum of gamma-rays reaching Earth from an initial distribution of cosmic-rays (not taking the point sources into account). But some problems show up when confronting the theory and the observations, as will be discussed in the following section.
 
 
-
+\newpage
 \section{What are the unresolved problems of the precedent chapter}
 %What are the unresolved problems of the precedent sections:
 %	-Bad fits in bubbles and disk	
@@ -257,42 +259,3 @@ Two main ideas have emerged to explain the spherical excess.
 First is the presence of dark matter in the galaxy in the form of weakly interacting massive particles (WIMP). The spatial distribution of these particles would follow a Navarro-Frank-White (NFW) profile centred at the GC. They are also expected to produce gamma rays when annihilating with each other via hadrons production. In theory, if the mass of a WIMP particle is around 50 GeV, the expected gamma spectrum would peak around 2 GeV, where the excess is observed. \todo{cite}
 The study of the excess could put strong limits on the mass and annihilation cross section of such WIMP and confirm, or infirm the theory.
 The second theory does not involve new physic, but unobserved millisecond pulsars. They would also be spherically distributed around the GC and their gamma spectrum peaks around 2 GeV. A few thousands of them would be needed to recreate the intensity of the excess. The main default of this explanation resides in the fact that we have observed only a few hundreds pulsars so far when we expect ten times more.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
