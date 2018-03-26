@@ -13,6 +13,10 @@
 \usepackage[rightcaption]{sidecap}
 \usepackage{pdfpages}
 \usepackage{pifont}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{3}
+
 % Based on thesisclass.cls of Timo Rohrberg, 2009
 % ----------------------------------------------------------------
 % Thesis - Main document
@@ -141,7 +145,7 @@ acknowledgements
 %\bibliographystyle{IEEEtranSA})
 
 \bibliography{thesis}
-\nocite {*}	%Cite every citation in the bib file, even if they are not cited in the text
+%\nocite {*}	%Cite every citation in the bib file, even if they are not cited in the text
 
 %% -----------------------
 %% |   List Of Figures   |

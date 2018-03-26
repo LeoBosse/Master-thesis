@@ -2,7 +2,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{3}
+\begin{mcitethebibliography}{21}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -20,25 +20,266 @@
   {\relax}
   {\relax}
 
-\bibitem[{Aguilar, M. et al.}(2013)]{aPaper}
-{Aguilar, M. et al.}, \emph{Phys. Rev. Lett.} \textbf{2013}, \emph{110},
-  141102\relax
+\bibitem[{Hubble}(1926)]{Hubble1925}
+{Hubble},~E. \emph{Contributions from the Mount Wilson Observatory / Carnegie
+  Institution of Washington} \textbf{1926}, \emph{324}, 1--49\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Vagelli(2014)]{aThesis}
-Vagelli,~V. Measurement of the cosmic e$^+$+e$^-$ Flux from 0.5 GeV to 1 TeV
-  with the Alpha Magnetic Spectrometer (AMS-02) on the International Space
-  Station. Ph.D.\ thesis, Karlsruher Institut f\"ur Technologie (KIT),
-  2014\relax
+\bibitem[{Kafle} \latin{et~al.}(2014){Kafle}, {Sharma}, {Lewis}, and
+  {Bland-Hawthorn}]{Kafle2014}
+{Kafle},~P.~R.; {Sharma},~S.; {Lewis},~G.~F.; {Bland-Hawthorn},~J. \emph{apj}
+  \textbf{2014}, \emph{794}, 59\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[{BibTeX on Wikipedia}()]{aWiki}
-{BibTeX on Wikipedia}, \url{https://en.wikipedia.org/wiki/BibTeX}, Version
-  Date: 2017-09-19\relax
+\bibitem[{Su} \latin{et~al.}(2010){Su}, {Slatyer}, and
+  {Finkbeiner}]{Slatyer2010}
+{Su},~M.; {Slatyer},~T.~R.; {Finkbeiner},~D.~P. \emph{apj} \textbf{2010},
+  \emph{724}, 1044--1082\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Ackermann} \latin{et~al.}(2014){Ackermann}, {Albert}, {Atwood},
+  {Baldini}, {Ballet}, {Barbiellini}, {Bastieri}, {Bellazzini}, {Bissaldi},
+  {Blandford}, {Bloom}, {Bottacini}, {Brandt}, {Bregeon}, {Bruel}, {Buehler},
+  {Buson}, {Caliandro}, {Cameron}, {Caragiulo}, {Caraveo}, {Cavazzuti},
+  {Cecchi}, {Charles}, {Chekhtman}, {Chiang}, {Chiaro}, {Ciprini}, {Claus},
+  {Cohen-Tanugi}, {Conrad}, {Cutini}, {D'Ammando}, {de Angelis}, {de Palma},
+  {Dermer}, {Digel}, {Di Venere}, {Silva}, {Drell}, {Favuzzi}, {Ferrara},
+  {Focke}, {Franckowiak}, {Fukazawa}, {Funk}, {Fusco}, {Gargano}, {Gasparrini},
+  {Germani}, {Giglietto}, {Giordano}, {Giroletti}, {Godfrey}, {Gomez-Vargas},
+  {Grenier}, {Guiriec}, {Hadasch}, {Harding}, {Hays}, {Hewitt}, {Hou},
+  {Jogler}, {J{\'o}hannesson}, {Johnson}, {Johnson}, {Kamae}, {Kataoka},
+  {Kn{\"o}dlseder}, {Kocevski}, {Kuss}, {Larsson}, {Latronico}, {Longo},
+  {Loparco}, {Lovellette}, {Lubrano}, {Malyshev}, {Manfreda}, {Massaro},
+  {Mayer}, {Mazziotta}, {McEnery}, {Michelson}, {Mitthumsiri}, {Mizuno},
+  {Monzani}, {Morselli}, {Moskalenko}, {Murgia}, {Nemmen}, {Nuss}, {Ohsugi},
+  {Omodei}, {Orienti}, {Orlando}, {Ormes}, {Paneque}, {Panetta}, {Perkins},
+  {Pesce-Rollins}, {Petrosian}, {Piron}, {Pivato}, {Rain{\`o}}, {Rando},
+  {Razzano}, {Razzaque}, {Reimer}, {Reimer}, {S{\'a}nchez-Conde}, {Schaal},
+  {Schulz}, {Sgr{\`o}}, {Siskind}, {Spandre}, {Spinelli}, {Stawarz}, {Strong},
+  {Suson}, {Tahara}, {Takahashi}, {Thayer}, {Tibaldo}, {Tinivella}, {Torres},
+  {Tosti}, {Troja}, {Uchiyama}, {Vianello}, {Werner}, {Winer}, {Wood}, {Wood},
+  and {Zaharijas}]{Ackermann2014}
+{Ackermann},~M. \latin{et~al.}  \emph{apj} \textbf{2014}, \emph{793}, 64\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Planck Collaboration} \latin{et~al.}(2014){Planck Collaboration},
+  {Ade, P. A. R.}, {Aghanim, N.}, {Alves, M. I. R.}, {Armitage-Caplan, C.},
+  {Arnaud, M.}, {Ashdown, M.}, {Atrio-Barandela, F.}, {Aumont, J.},
+  {Baccigalupi, C.}, {Banday, A. J.}, {Barreiro, R. B.}, {Bartlett, J. G.},
+  {Battaner, E.}, {Benabed, K.}, {Benoît, A.}, {Benoit-Lévy, A.}, {Bernard,
+  J.-P.}, {Bersanelli, M.}, {Bielewicz, P.}, {Bobin, J.}, {Bock, J. J.},
+  {Bonaldi, A.}, {Bond, J. R.}, {Borrill, J.}, {Bouchet, F. R.}, {Boulanger,
+  F.}, {Bridges, M.}, {Bucher, M.}, {Burigana, C.}, {Butler, R. C.}, {Cardoso,
+  J.-F.}, {Catalano, A.}, {Chamballu, A.}, {Chary, R.-R.}, {Chen, X.}, {Chiang,
+  H. C.}, {Chiang, L.-Y.}, {Christensen, P. R.}, {Church, S.}, {Clements, D.
+  L.}, {Colombi, S.}, {Colombo, L. P. L.}, {Combet, C.}, {Couchot, F.},
+  {Coulais, A.}, {Crill, B. P.}, {Curto, A.}, {Cuttaia, F.}, {Danese, L.},
+  {Davies, R. D.}, {de Bernardis, P.}, {de Rosa, A.}, {de Zotti, G.},
+  {Delabrouille, J.}, {Delouis, J.-M.}, {Dempsey, J. T.}, {Désert, F.-X.},
+  {Dickinson, C.}, {Diego, J. M.}, {Dole, H.}, {Donzelli, S.}, {Doré, O.},
+  {Douspis, M.}, {Dupac, X.}, {Efstathiou, G.}, {Enßlin, T. A.}, {Eriksen, H.
+  K.}, {Falgarone, E.}, {Finelli, F.}, {Forni, O.}, {Frailis, M.}, {Franceschi,
+  E.}, {Fukui, Y.}, {Galeotta, S.}, {Ganga, K.}, {Giard, M.}, {Giraud-Héraud,
+  Y.}, {González-Nuevo, J.}, {Górski, K. M.}, {Gratton, S.}, {Gregorio, A.},
+  {Gruppuso, A.}, {Handa, T.}, {Hansen, F. K.}, {Hanson, D.}, {Harrison, D.},
+  {Henrot-Versillé, S.}, {Hernández-Monteagudo, C.}, {Herranz, D.},
+  {Hildebrandt, S. R.}, {Hily-Blant, P.}, {Hivon, E.}, {Hobson, M.}, {Holmes,
+  W. A.}, {Hornstrup, A.}, {Hovest, W.}, {Huffenberger, K. M.}, {Hurier, G.},
+  {Jaffe, A. H.}, {Jaffe, T. R.}, {Jewell, J.}, {Jones, W. C.}, {Juvela, M.},
+  {Keihänen, E.}, {Keskitalo, R.}, {Kisner, T. S.}, {Knoche, J.}, {Knox, L.},
+  {Kunz, M.}, {Kurki-Suonio, H.}, {Lagache, G.}, {Lähteenmäki, A.}, {Lamarre,
+  J.-M.}, {Lasenby, A.}, {Laureijs, R. J.}, {Lawrence, C. R.}, {Leonardi, R.},
+  {León-Tavares, J.}, {Lesgourgues, J.}, {Liguori, M.}, {Lilje, P. B.},
+  {Linden-Vørnle, M.}, {López-Caniego, M.}, {Lubin, P. M.}, {Macías-Pérez,
+  J. F.}, {Maffei, B.}, {Mandolesi, N.}, {Maris, M.}, {Marshall, D. J.},
+  {Martin, P. G.}, {Martínez-González, E.}, {Masi, S.}, {Massardi, M.},
+  {Matarrese, S.}, {Matthai, F.}, {Mazzotta, P.}, {McGehee, P.}, {Melchiorri,
+  A.}, {Mendes, L.}, {Mennella, A.}, {Migliaccio, M.}, {Mitra, S.},
+  {Miville-Deschênes, M.-A.}, {Moneti, A.}, {Montier, L.}, {Moore, T. J. T.},
+  {Morgante, G.}, {Morino, J.}, {Mortlock, D.}, {Munshi, D.}, {Murphy, J. A.},
+  {Nakajima, T.}, {Naselsky, P.}, {Nati, F.}, {Natoli, P.}, {Netterfield, C.
+  B.}, {Nørgaard-Nielsen, H. U.}, {Noviello, F.}, {Novikov, D.}, {Novikov,
+  I.}, {Okuda, T.}, {Osborne, S.}, {Oxborrow, C. A.}, {Paci, F.}, {Pagano, L.},
+  {Pajot, F.}, {Paladini, R.}, {Paoletti, D.}, {Pasian, F.}, {Patanchon, G.},
+  {Perdereau, O.}, {Perotto, L.}, {Perrotta, F.}, {Piacentini, F.}, {Piat, M.},
+  {Pierpaoli, E.}, {Pietrobon, D.}, {Plaszczynski, S.}, {Pointecouteau, E.},
+  {Polenta, G.}, {Ponthieu, N.}, {Popa, L.}, {Poutanen, T.}, {Pratt, G. W.},
+  {Prézeau, G.}, {Prunet, S.}, {Puget, J.-L.}, {Rachen, J. P.}, {Reach, W.
+  T.}, {Rebolo, R.}, {Reinecke, M.}, {Remazeilles, M.}, {Renault, C.},
+  {Ricciardi, S.}, {Riller, T.}, {Ristorcelli, I.}, {Rocha, G.}, {Rosset, C.},
+  {Roudier, G.}, {Rowan-Robinson, M.}, {Rubiño-Martín, J. A.}, {Rusholme,
+  B.}, {Sandri, M.}, {Santos, D.}, {Savini, G.}, {Scott, D.}, {Seiffert, M.
+  D.}, {Shellard, E. P. S.}, {Spencer, L. D.}, {Starck, J.-L.}, {Stolyarov,
+  V.}, {Stompor, R.}, {Sudiwala, R.}, {Sunyaev, R.}, {Sureau, F.}, {Sutton,
+  D.}, {Suur-Uski, A.-S.}, {Sygnet, J.-F.}, {Tauber, J. A.}, {Tavagnacco, D.},
+  {Terenzi, L.}, {Thomas, H. S.}, {Toffolatti, L.}, {Tomasi, M.}, {Torii, K.},
+  {Tristram, M.}, {Tucci, M.}, {Tuovinen, J.}, {Umana, G.}, {Valenziano, L.},
+  {Valiviita, J.}, {Van Tent, B.}, {Vielva, P.}, {Villa, F.}, {Vittorio, N.},
+  {Wade, L. A.}, {Wandelt, B. D.}, {Wehus, I. K.}, {Yamamoto, H.}, {Yoda, T.},
+  {Yvon, D.}, {Zacchei, A.}, and {Zonca, A.}]{Planck2014}
+{Planck Collaboration}, \latin{et~al.}  \emph{A\&A} \textbf{2014}, \emph{571},
+  A13\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Liu} \latin{et~al.}(2013){Liu}, {Wu}, and {Zhang}]{Liu2013}
+{Liu},~T.; {Wu},~Y.; {Zhang},~H. \emph{apjl} \textbf{2013}, \emph{775},
+  L2\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Matthew Newby}()]{Newby2018}
+{Matthew Newby}, \url{http://milkyway.cs.rpi.edu/milkyway/science.php}, Version
+  Date: 2018-03-27\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Ford} \latin{et~al.}(1971){Ford}, {Rubin}, and {Roberts}]{Rubin1971}
+{Ford},~W.~K.,~Jr.; {Rubin},~V.~C.; {Roberts},~M.~S. \emph{aj} \textbf{1971},
+  \emph{76}, 22--24\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{McKeough} \latin{et~al.}(2017){McKeough}, {Hira}, and
+  {Valdez}]{Hira2017}
+{McKeough},~J.; {Hira},~A.; {Valdez},~A. {Theoretical Comparison Between
+  Candidates for Dark Matter}. APS April Meeting Abstracts. 2017; p
+  C2.004\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Navarro \latin{et~al.}(1997)Navarro, Frenk, and White]{NFW1997}
+Navarro,~J.~F.; Frenk,~C.~S.; White,~S. D.~M. \emph{The Astrophysical Journal}
+  \textbf{1997}, \emph{490}, 493\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jungman \latin{et~al.}(1996)Jungman, Kamionkowski, and
+  Griest]{Jungman1996}
+Jungman,~G.; Kamionkowski,~M.; Griest,~K. \emph{Physics Reports} \textbf{1996},
+  \emph{267}, 195 -- 373\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Wu}(1984)]{Wu1984}
+{Wu},~C.~S. \emph{jgr} \textbf{1984}, \emph{89}, 8857--8862\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Daniel} and {Stephens}(1975){Daniel}, and {Stephens}]{Daniel1975}
+{Daniel},~R.~R.; {Stephens},~S.~A. \emph{ssr} \textbf{1975}, \emph{17},
+  45--158\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aguilar \latin{et~al.}(2015)Aguilar, Aisa, Alpat, Alvino, Ambrosi,
+  Andeen, Arruda, Attig, Azzarello, Bachlechner, Barao, Barrau, Barrin,
+  Bartoloni, Basara, Battarbee, Battiston, Bazo, Becker, Behlmann, Beischer,
+  Berdugo, Bertucci, Bigongiari, Bindi, Bizzaglia, Bizzarri, Boella, de~Boer,
+  Bollweg, Bonnivard, Borgia, Borsini, Boschini, Bourquin, Burger, Cadoux, Cai,
+  Capell, Caroff, Casaus, Cascioli, Castellini, Cernuda, Cerreta, Cervelli,
+  Chae, Chang, Chen, Chen, Cheng, Chen, Cheng, Chou, Choumilov, Choutko, Chung,
+  Clark, Clavero, Coignet, Consolandi, Contin, Corti, Gil, Coste, Creus,
+  Crispoltoni, Cui, Dai, Delgado, Della~Torre, Demirk\"oz, Derome, Di~Falco,
+  Di~Masso, Dimiccoli, D\'{\i}az, von Doetinchem, Donnini, Du, Duranti, D'Urso,
+  Eline, Eppling, Eronen, Fan, Farnesini, Feng, Fiandrini, Fiasson, Finch,
+  Fisher, Galaktionov, Gallucci, Garc\'{\i}a, Garc\'{\i}a-L\'opez, Gargiulo,
+  Gast, Gebauer, Gervasi, Ghelfi, Gillard, Giovacchini, Goglov, Gong, Goy,
+  Grabski, Grandi, Graziani, Guandalini, Guerri, Guo, Haas, Habiby, Haino, Han,
+  He, Heil, Hoffman, Hsieh, Huang, Huh, Incagli, Ionica, Jang, Jinchi,
+  Kanishev, Kim, Kim, Kirn, Kossakowski, Kounina, Kounine, Koutsenko, Krafczyk,
+  La~Vacca, Laudi, Laurenti, Lazzizzera, Lebedev, Lee, Lee, Leluc, Levi, Li,
+  Li, Li, Li, Li, Li, Li, Li, Li, Lim, Lin, Lipari, Lippert, Liu, Liu, Lolli,
+  Lomtadze, Lu, Lu, Lu, Luebelsmeyer, Luo, Lv, Majka, Ma\~n\'a, Mar\'{\i}n,
+  Martin, Mart\'{\i}nez, Masi, Maurin, Menchaca-Rocha, Meng, Mo, Morescalchi,
+  Mott, M\"uller, Ni, Nikonov, Nozzoli, Nunes, Obermeier, Oliva, Orcinha,
+  Palmonari, Palomares, Paniccia, Papi, Pauluzzi, Pedreschi, Pensotti, Pereira,
+  Picot-Clemente, Pilo, Piluso, Pizzolotto, Plyaskin, Pohl, Poireau, Postaci,
+  Putze, Quadrani, Qi, Qin, Qu, R\"aih\"a, Rancoita, Rapin, Ricol,
+  Rodr\'{\i}guez, Rosier-Lees, Rozhkov, Rozza, Sagdeev, Sandweiss, Saouter,
+  Sbarra, Schael, Schmidt, von Dratzig, Schwering, Scolieri, Seo, Shan, Shan,
+  Shi, Shi, Shi, Siedenburg, Son, Spada, Spinella, Sun, Sun, Tacconi, Tang,
+  Tang, Tang, Tao, Tescaro, Ting, Ting, Tomassetti, Torsti,
+  T\"urko\ifmmode~\breve{g}\else \u{g}\fi{}lu, Urban, Vagelli, Valente,
+  Vannini, Valtonen, Vaurynovich, Vecchi, Velasco, Vialle, Vitale, Vitillo,
+  Wang, Wang, Wang, Wang, Wang, Wang, Weng, Whitman, Wienkenh\"over, Wu, Wu,
+  Xia, Xie, Xie, Xiong, Xin, Xu, Xu, Yan, Yang, Yang, Ye, Yi, Yu, Yu, Zeissler,
+  Zhang, Zhang, Zhang, Zhang, Zheng, Zhuang, Zhukov, Zichichi, Zimmermann,
+  Zuccon, and Zurbach]{Aguilar15}
+Aguilar,~M. \latin{et~al.}  \emph{Phys. Rev. Lett.} \textbf{2015}, \emph{114},
+  171103\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Gleeson} and {Axford}(1968){Gleeson}, and {Axford}]{Gleeson68}
+{Gleeson},~L.~J.; {Axford},~W.~I. \emph{apj} \textbf{1968}, \emph{154},
+  1011\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Biermann \latin{et~al.}(2010)Biermann, Becker, Dreyer, Meli, Seo, and
+  Stanev]{Biermann10}
+Biermann,~P.~L.; Becker,~J.~K.; Dreyer,~J.; Meli,~A.; Seo,~E.-S.; Stanev,~T.
+  \emph{The Astrophysical Journal} \textbf{2010}, \emph{725}, 184\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hillas(2005)]{Hillas2005}
+Hillas,~A.~M. \emph{Journal of Physics G: Nuclear and Particle Physics}
+  \textbf{2005}, \emph{31}, R95\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Crutcher(2012)]{Crutcher2012}
+Crutcher,~R. \emph{Annual Review of Astronomy and Astrophysics} \textbf{2012},
+  \emph{50}, 29--63\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gondolo \latin{et~al.}(2004)Gondolo, Edsjö, Ullio, Bergström,
+  Schelke, and Baltz]{Gondolo2004}
+Gondolo,~P.; Edsjö,~J.; Ullio,~P.; Bergström,~L.; Schelke,~M.; Baltz,~E.~A.
+  \emph{Journal of Cosmology and Astroparticle Physics} \textbf{2004},
+  \emph{2004}, 008\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gondolo \latin{et~al.}(2005)Gondolo, Edsjö, Ullio, Bergstrom,
+  Schelke, and Baltz]{Gondolo2005}
+Gondolo,~P.; Edsjö,~J.; Ullio,~P.; Bergstrom,~L.; Schelke,~M.; Baltz,~E.~A.
+  \emph{New Astronomy Reviews} \textbf{2005}, \emph{49}, 149 -- 151, Sources
+  and Detection of Dark Matter and Dark Energy in the Universe\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{ Fermi Science Tools Software Version v10r0p5}()]{FermiTools}
+{ Fermi Science Tools Software Version v10r0p5},
+  \url{https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/v10r0p5.html},
+  Version Date: 2017-09-09\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

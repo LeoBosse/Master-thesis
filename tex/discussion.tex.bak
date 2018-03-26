@@ -51,24 +51,24 @@ Looking carefully at the disk below two degrees in latitude near the GC, the flu
   \begin{minipage}[h]{0.3\textwidth}
   	\centering
 	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_PCR_integral_distribution.png}
-  	\subcaption{MCR only fit}
+  	\subcaption{MCR}
   	\label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_PCR_integral_flux.png}
-	  \subcaption{DM only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_PCR_integral_distribution.png}
+	  \subcaption{DM}
 	  \label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_PCR_integral_flux.png}
-	  \subcaption{MSP only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_PCR_integral_distribution.png}
+	  \subcaption{MSP}
 	  \label{}
   \end{minipage}
-  \caption{PCR spatial distribution for the three different excess fits. }
+  \caption{PCR spatial distribution for the three different excess fits.}
   \label{fig:PCR_flux_distrib_excess_comp}	 
 \end{figure}
 
@@ -82,25 +82,25 @@ Indeed, a spherical distribution can clearly be identified for the three differe
   \centering
   \begin{minipage}[h]{0.3\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_IC_integral_flux.png}
-  	\subcaption{MCR only fit}
+	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_IC_integral_distribution.png}
+  	\subcaption{MCR}
   	\label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_IC_integral_flux.png}
-	  \subcaption{DM only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_IC_integral_distribution.png}
+	  \subcaption{DM}
 	  \label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_IC_integral_flux.png}
-	  \subcaption{MSP only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_IC_integral_distribution.png}
+	  \subcaption{MSP}
 	  \label{}
   \end{minipage}
-  \caption{IC spatial distribution for the three different excess components}
+  \caption{IC spatial distribution for the three different excess fits.}
   \label{fig:IC_flux_distrib_excess_comp}	 
 \end{figure}
 
@@ -113,25 +113,25 @@ Depending on the fit, the average flux is also changing. The BR component is a l
   \centering
   \begin{minipage}[h]{0.3\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_BR_integral_flux.png}
-  	\subcaption{MCR only fit}
+	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_BR_integral_distribution.png}
+  	\subcaption{MCR}
   	\label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_BR_integral_flux.png}
-	  \subcaption{DM only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_BR_integral_distribution.png}
+	  \subcaption{DM}
 	  \label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_BR_integral_flux.png}
-	  \subcaption{MSP only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_BR_integral_distribution.png}
+	  \subcaption{MSP}
 	  \label{}
   \end{minipage}
-  \caption{BR spatial distribution for the three different excess components}
+  \caption{BR spatial distribution for the three different excess fits}
   \label{fig:BR_flux_distrib_excess_comp}	 
 \end{figure}
 
@@ -143,25 +143,25 @@ The SCR distribution is expected to follow the disc, where point sources can sti
   \centering
   \begin{minipage}[h]{0.3\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_SCR_integral_flux.png}
-  	\subcaption{MCR only fit}
+	\includegraphics[width=1.\linewidth]{pic/discussion/MCRonly_fine_SCR_integral_distribution.png}
+  	\subcaption{MCR}
   	\label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_SCR_integral_flux.png}
-	  \subcaption{DM only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/DMonly_fine_SCR_integral_distribution.png}
+	  \subcaption{DM}
 	  \label{}
   \end{minipage}
   \hfill
   \begin{minipage}[h]{0.3\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_SCR_integral_flux.png}
-	  \subcaption{MSP only fit}
+	  \includegraphics[width=1.\linewidth]{pic/discussion/MSPonly_fine_SCR_integral_distribution.png}
+	  \subcaption{MSP}
 	  \label{}
   \end{minipage}
-  \caption{SCR spatial distribution for the three different excess components}
+  \caption{SCR spatial distribution for the three different excess fits.}
   \label{fig:SCR_flux_distrib_excess_comp}	 
 \end{figure}
 
