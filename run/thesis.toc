@@ -3,32 +3,32 @@
 \contentsline {section}{\numberline {1.1}Our Milky Way}{3}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}General properties}{3}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Dark Matter}{4}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Tools}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}Physic of cosmic rays}{7}{section.1.3}
+\contentsline {section}{\numberline {1.2}Spectrum description and vocabulary}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Physics of Cosmic Rays}{7}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Creation of CR}{7}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Propagation of CR}{7}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Energy losses}{8}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}CR as observed from Earth}{8}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}CRs as observed from Earth}{8}{subsection.1.3.4}
 \contentsline {subsection}{\numberline {1.3.5}Gamma-ray creation}{8}{subsection.1.3.5}
-\contentsline {subsubsection}{\numberline {1.3.5.1}Pion decay}{9}{subsubsection.1.3.5.1}
-\contentsline {subsubsection}{\numberline {1.3.5.2}Bremsstrahlung}{9}{subsubsection.1.3.5.2}
-\contentsline {subsubsection}{\numberline {1.3.5.3}Inverse Compton}{10}{subsubsection.1.3.5.3}
-\contentsline {subsubsection}{\numberline {1.3.5.4}Other sources}{10}{subsubsection.1.3.5.4}
+\contentsline {subsubsection}{\nonumberline Pion decay (PCR)}{9}{section*.6}
+\contentsline {subsubsection}{\nonumberline Bremsstrahlung (BR)}{9}{section*.7}
+\contentsline {subsubsection}{\nonumberline Inverse Compton scattering (IC)}{10}{section*.8}
+\contentsline {subsubsection}{\nonumberline Other sources}{10}{section*.9}
 \contentsline {subsection}{\numberline {1.3.6}Gamma-ray observations}{10}{subsection.1.3.6}
-\contentsline {section}{\numberline {1.4}What are the unresolved problems of the precedent chapter}{11}{section.1.4}
+\contentsline {section}{\numberline {1.4}Unresolved problems of gamma-ray observations}{11}{section.1.4}
 \contentsline {chapter}{\numberline {2}Method}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Data origin}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}Model components}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}From cosmic rays to gamma-rays}{16}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}From CRs to gamma-rays}{16}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Basic components}{16}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}$\pi ^0$ production by propagated cosmic rays (PCR)}{16}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Inverse Compton (IC) and bremsstrahlung (BR)}{17}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by propagated cosmic rays (PCR)}{16}{section*.14}
+\contentsline {subsubsection}{\nonumberline Inverse Compton (IC) and bremsstrahlung (BR)}{16}{section*.15}
 \contentsline {subsection}{\numberline {2.2.3}Additional components}{17}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}$\pi ^0$ production by source cosmic rays (SCR)}{17}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}$\pi ^0$ production by molecular clouds cosmic rays MCR)}{17}{subsubsection.2.2.3.2}
-\contentsline {subsubsection}{\numberline {2.2.3.3}Dark matter annihilation (DM)}{18}{subsubsection.2.2.3.3}
-\contentsline {subsubsection}{\numberline {2.2.3.4}Milli-second pulsars gamma-ray production (MSP)}{18}{subsubsection.2.2.3.4}
-\contentsline {subsubsection}{\numberline {2.2.3.5}Isotropic component}{19}{subsubsection.2.2.3.5}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by source cosmic rays (SCR)}{17}{section*.18}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by molecular clouds cosmic rays (MCR)}{17}{section*.19}
+\contentsline {subsubsection}{\nonumberline Dark matter annihilation (DM)}{18}{section*.20}
+\contentsline {subsubsection}{\nonumberline Milli-second pulsars gamma-ray production (MSP)}{18}{section*.21}
+\contentsline {subsubsection}{\nonumberline Isotropic component}{18}{section*.22}
 \contentsline {section}{\numberline {2.3}Fitting method}{20}{section.2.3}
 \contentsline {chapter}{\numberline {3}First results: Study of the excess}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{23}{section.3.1}
@@ -53,6 +53,6 @@
 \contentsline {subsection}{\numberline {4.3.2}DMlate}{39}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}How do these results fit in context}{39}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{41}{chapter.5}
-\contentsline {chapter}{Bibliography}{43}{section*.26}
-\contentsline {chapter}{\nonumberline Appendix}{49}{chapter*.29}
+\contentsline {chapter}{Bibliography}{43}{section*.37}
+\contentsline {chapter}{\nonumberline Appendix}{49}{chapter*.40}
 \contentsline {section}{\numberline {A}Some appendix section}{49}{section.5.1}

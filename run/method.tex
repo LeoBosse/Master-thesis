@@ -42,17 +42,17 @@
 	  \subcaption{}
 	  \label{fig:data_ptsrc_subtracted}
   \end{minipage}
-  \caption{Map of the gamma ray sky as seen by the Fermi telescope around 2 GeV. Measured gamma ray flux before (left) and after (right) point source subtraction in $GeV/s/m^2/sr$. Most of the spots formed by point sources have disappeared, leaving only the diffuse background emission from CR. The subtraction is not perfect, and can create artificial "holes" in the map (for example at coordinates (90, 25) or (50, 60)). These can be disregarded as relevant data, or can also disappear when using a larger binning.}
+  \caption{Map of the gamma ray sky as seen by the Fermi telescope around 2 GeV. Measured gamma ray flux before (left) and after (right) point source subtraction in $GeV/s/m^2/sr$. Most of the spots formed by point sources have disappeared, leaving only the diffuse background emission from CR. The subtraction does not remove all point sources, and can create artificial "holes" in the map (for example at coordinates (90, 25) or (50, 60)). These can be disregarded as relevant data, or can also disappear when using a larger binning.}
   \label{fig:method_pass8} 
 \end{figure}
 
-All the following work is based on the measurement of gamma rays coming from intra- and extra-galactic sources. The quality and accuracy of the data is one of the most important point that will determine the general quality of the results. Thus it is capital to be certain that the gathering and treatment was done properly.
+All the following work is based on the measurement of gamma rays coming from intra- and extra-galactic sources. The quality and accuracy of the data is one of the most important points that will determine the general quality of the results. Thus it is capital to be certain that the gathering and treatment were done properly.
 
-The Fermi Large Area Telescope (LAT) observed the gamma-ray sky since 2008 and provides all the data of this work.
-All the information and data are available on the web and anybody can access them, using the tools given by Fermi.
+The Fermi Large Area Telescope (LAT) observes the gamma-ray sky since 2008 and provides all the data of this work. \todo{cite}
+All the information and data are available on the web and anybody can access them, using the tools given by Fermi. \todo{cite}
 
-Since the observation is still on-going it is important to stay up-to-date. The reconstruction method is also being improved regularly, improving every time the statistics, the systematic errors and the point source subtraction.
-One of the most important step in the treatment process is the first one, the selection of the events. Every photon measured is saved along with all its properties in a big data file. Then this long list is filtered to keep only the interesting observations. The filter can be based on the incoming direction, the energy or the time of observation, but also on the quality of the event reconstruction. This last cut can be critical. It will determine the chances that the measured event is in fact a gamma ray, and not some background noise polluting the data. Of course, the more strict the filter is, the less events are kept for analysis and the statistical errors can become large. This work uses the CLEAN class recommended by the Fermi team for diffuse emission analysis. \todo{cite Fermi sciencetools}
+The reconstruction method and data set of Fermi LAT is improved regularly, improving the statistics, the systematic errors and the point source subtraction. The latest data set to date, called Pass 8, is used for this work.
+One of the most important steps in the treatment process is the selection of the events. Every photon measured is saved along with all its properties in a data file. Then this list is filtered to keep only the relevant observations. The filter can be based on the incoming direction, the energy or the time of observation, but also on the quality of the event reconstruction. This last cut can be critical. It will determine the chances that the measured event is in fact a gamma ray, and not some background noise polluting the data. The more strict the filter is, the less events are kept for analysis and the statistical errors increase. This work uses the CLEAN class recommended by the Fermi team for diffuse emission analysis. \todo{cite Fermi sciencetools}
 
 The main parameters of the selection can be found in Tab \ref{tab:fermi_selection_parameters}.
 
@@ -64,10 +64,10 @@ The main parameters of the selection can be found in Tab \ref{tab:fermi_selectio
 \multicolumn{1}{|c|}{\textbf{Parameter name}} & \textbf{Parameter value} & \multicolumn{1}{c|}{\textbf{Description}}                                                                   \\ \hline
 Event class                         & 256 (CLEAN)              & Quality parameter. Varies the level of background noise.                                                    \\ \hline
 Event type                          & 3                        & Back+front event.                                                                                           \\ \hline
-Time boundaries                     & INDEF                    & Selecting all events since beginning of observation                                                         \\ \hline
+Time boundaries                     & INDEF                    & Selecting all events since beginning of observation.                                                        \\ \hline
 Minimum energy (MeV)                & 58.4731                  & Minimum energy of the event.                                                                                \\ \hline
 Maximum energy (MeV)                & 513056                   & Maximum energy of the event.                                                                                \\ \hline
-zmax (degrees)                      & 90                       & Maximum zenith angle to get rid of the Earth limb contaminations, as recommended by the LAT instrument team \\ \hline
+zmax (degrees)                      & 90                       & Maximum zenith angle to get rid of the Earth contaminations, as recommended by the LAT instrument team. \\ \hline
 \end{tabular}
 \caption{List of the main parameters used for data selection. The exact script can be found in the appendix.}
 \label{tab:fermi_selection_parameters}
@@ -76,18 +76,17 @@ zmax (degrees)                      & 90                       & Maximum zenith 
 \todo{add code in appendix and ref}
 
 
-An other important point is the creation of the exposure map. It basically tells how long the telescope spend observing a given part of the sky. After dividing the count map by the exposure, a flux map is obtained that does not depends on the observation time of particular regions. 
-%For example, if the telescope observed the galactic center ten times more often than the Orion nebula , there is no way to know at first if the higher counts in the GC is due to the longer exposition time or a higher intensity.
+Another important point is the creation of the exposure map. It tells how long the telescope spent observing a given part of the sky. After dividing the count map by the exposure, a flux map is obtained that does not depends on the observation time of particular regions. For example, if the telescope observed the galactic center ten times more often than the Orion nebula , there is no way to know at first if the higher counts in the GC is due to the longer exposition time or a higher flux from this region.
 %It is used to correct an observation bias. 
 
-The goal of this work is to study the diffuse sources of gamma-rays from inside and outside the milky way. Of course, the LAT does not differentiate them from point sources gamma rays. This has to be done manually as the last step in the treatment process. A large catalog of gamma ray point sources (3FGL) is available on line on NASA website \todo{cite site}. This catalog lists most of the known and identified point sources, along with their spectral shape and flux. This information can then be used to model the number of counts coming from point sources and their spatial and energetic distribution. To achieve this, the point sources properties must be combined with the instrument  properties. For example, the point source flux is multiplied by the exposure time corresponding to its position. This flux must also pass through the instrument and its defaults will deform the initial shape of the source. For a point source, the final image obtain on the detector is the Point Spread Function (PSF) of the telescope and is given with the fermi tools. Every point source is convoluted by the PSF corresponding to the initial event selection, creating the final point source map as would be observed by the instrument.
-Once this model map is obtained, it is subtracted from the data to only keep the diffuse emission (see Fig. \ref{fig:method_pass8}). Since the models are never perfect and all point sources are not listed, errors or anomalies in the observations can appear. Keeping the dataset up-to-date allows to use the latest catalogs and avoid a lot of mistakes.
+The goal of this work is to study the diffuse sources of gamma-rays from inside and outside the Milky Way. Of course, the LAT does not differentiate them from point source gamma-rays. This has to be done manually as the last step in the treatment process. A catalog of gamma ray point sources (3FGL) is available on-line on NASA website \todo{cite site}. This catalog lists most of the known and identified point sources, along with their spectral shape and flux. This information can then be used to model the number of counts coming from point sources and their spatial and energetic distribution. To achieve this, the point sources properties must be combined with the instrument properties. The point source flux is multiplied by the LAT exposure time corresponding to its position. This flux must also pass through the instrument and its defaults will deform the initial shape of the source. For a point source, the final image obtained by the detector is the Point Spread Function (PSF) of the telescope and is given with the Fermi tools. Every point source is convoluted by the PSF corresponding to the initial event selection, creating the final point source map as would be observed by the instrument.
+Once this model map is obtained, it is subtracted from the data to only keep the diffuse emission (see Fig. \ref{fig:method_pass8}). Since the models are never perfect and all point sources are not listed, errors or anomalies in the observations can appear. Keeping the dataset up-to-date allows to use the latest catalogs and best reconstruction.
 
 
-Once all the treatment is done, a flux map of the entire sky in $counts/s/m^2/GeV/sr$ is produced. The map is divided in bins of $0.5 \times 0.5$ degrees on a Cartesian projection. Every bin contains 30 logarithmic energy bins ranging from 60 MeV to 513 GeV with a 1.2 multiplicative step. The final data cube is thus of dimension $720 \times 360 \times 30$. For visibility purposes, every energy bin is multiplied by its energy squared, becoming an energy flux in $GeV/s/m^2/sr$. This will be the default units used for the rest of this work.
+Once all the data treatment is done, a flux map of the entire sky in $counts/s/m^2/GeV/sr$ is produced. The map is divided in bins of $0.5 \times 0.5$ degrees on a Cartesian projection, also called cones. Every bin contains 30 logarithmic energy bins ranging from 60 MeV to 513 GeV with a 1.2 multiplicative step. Thus the final data cube is of dimension $720 \times 360 \times 30$. For visibility purposes, every energy bin is multiplied by its energy squared, becoming an energy flux in $GeV/s/m^2/sr$. This will be the default units used for the rest of this work.
 
-The errors on the data are coming from two sources. First are systematic errors introduced by the instrument or the treatment process. They are around 3\%, but can increase for low or high energies (Fig. \ref{fig:LAT_sys_err}). These errors have multiple causes, mainly the PSF and the energy resolution (or energy dispersion) of the instrument. The plot shows how the systematic errors varies when correcting or not for these effects. The treatment done here accounts for energy dispersion.
-The second source is the statistical errors, proportional to the square root of counts. This property will make them decrease when the acquisition time will increase. They are dominant at high energy (above 50 GeV) where events are rare. On contrary at low energies (around 100 MeV), the systematic errors dominate. The final equation is the following :
+The errors on the data are coming from two sources. First are systematic errors introduced by the instrument or the treatment process. They are around 3\%, but can increase for low or high energies (Fig. \ref{fig:LAT_sys_err}). These errors have multiple causes, mainly the PSF and the energy resolution (or energy dispersion) of the instrument. The plot shows how the systematic errors vary when correcting, or not, for these effects. The treatment shown in appendix accounts for energy dispersion.
+The second source is the statistical errors, proportional to the square root of counts. This property will make them decrease when the acquisition time will increase. They are dominant at high energy (above 50 GeV) where fewer events are observed. On contrary at low energies (around 100 MeV), the systematic errors dominate. The final equation is the following :
 
 \begin{equation}
 \sigma_{tot} =\sqrt{\sigma_{sys}^2 + \sigma_{stat}^2} = \sqrt{\sigma_{sys}^2 + \frac{1}{N}}
@@ -96,8 +95,8 @@ The second source is the statistical errors, proportional to the square root of 
 
 \begin{figure}[h]
  \centering
- \includegraphics[width=.5\linewidth]{pic/method/LAT_sys_error.png}
- \caption{Systematic error for Pass 8 data as a function of the energy and the treatment procedure. The energy dispersion is the energy resolution of the instrument; this effect is known and can be corrected (in red), lowering the systematic errors. This is what was done for this study. The black line does not account for energy dispersion. The blue line shows the systematics for specific event types, a kind of analysis that does not make sense for this work. The few percent gained with the energy dispersion treatment at very low energies (below a few hundred MeV), where the statistical uncertainties are not dominant any more, can be critical.}
+ \includegraphics[width=.6\linewidth]{pic/method/LAT_sys_error.png}
+ \caption{Systematic error for Pass 8 data as a function of the energy and the treatment procedure. The energy dispersion is the energy resolution of the instrument; this effect is known and can be corrected (in red), lowering the systematic errors. This is what was done for this study. The black line does not account for energy dispersion. The blue line shows the systematics for specific event types, and is used only for specific that can be ignored. The few percent gained with the energy dispersion treatment at very low energies (below a few hundred MeV), where the statistical uncertainties are not dominant any more, can be critical.}
  \label{fig:LAT_sys_err}
 \end{figure}
 
@@ -106,11 +105,11 @@ The second source is the statistical errors, proportional to the square root of 
 
 \newpage
 \section{Model components}
-\subsection{From cosmic rays to gamma-rays}
+\subsection{From CRs to gamma-rays}
 %Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
 
-The gamma-ray spectra used in this study are directly calculated from the cosmic ray spectra. The next section describes the cosmic ray distribution used to get the gamma-ray spectra corresponding for every processes that are modeled. Once the CR spectrum is defined, a propagation code \todo{cite}, DRAGON, is used to determine the gamma-rays spectrum emitted. For most of the components, the spectral shape does not vary depending on the direction, only its normalization, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
-The code uses a model of the galaxy (ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse compton. The inverse compton is slightly different from the others because of the ISRF.
+The gamma-ray spectra used in this study are directly calculated from the CR spectra. The next section describes the CR distribution used to get the gamma-ray spectra corresponding to the modeled processes. Once the CR spectrum is defined, a propagation software \todo{cite}, DRAGON, is used to determine the emitted gamma-ray spectrum. For most of the components, the spectral shape does not vary depending on the direction, only its normalization does, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
+DRAGON uses a model of the galaxy (ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse compton scattering.
 
 
 \subsection{Basic components}
@@ -137,7 +136,7 @@ The code uses a model of the galaxy (ISRF, matter distribution, etc...) and the 
 	  \subcaption{}
 	  \label{fig:electron_spec}
   \end{minipage}
-  \caption{Cosmic ray spectra used to determine the gamma ray templates. (a) Power-law proton spectra used to produce the PCR (red), MCR (gold) and SRC (pink) templates. In comparison, the measured data by AMS-02. The MC spectrum breaks are varying between the two shown here. Above the break, the index is the same than or propagated CR. (b) Power-law electron spectrum used to produce the IC and BR templates, compared once again with AMS-02 data. This time a break is }
+  \caption{Cosmic Ray spectra used to determine the gamma-ray templates. (a) Power-law proton spectra used to produce the proton based templates. In comparison, the measured data by AMS-02. The MC spectrum breaks are varying between the two shown here. Above the break, the index is the same than or propagated CR. (b) Power-law electron spectrum used to produce the IC and BR templates, compared once again with AMS-02 data. This time a break is introduced at 0.2 GeV.}
   \label{fig:cosmic_ray_spec}
 \end{figure}
 
@@ -145,10 +144,7 @@ The code uses a model of the galaxy (ISRF, matter distribution, etc...) and the 
 \subsubsection{$\pi^0$ production by propagated cosmic rays (PCR)}
 
 %%% ARTICLE
-The initial propagated proton spectrum for the PCR template is obtained from the observed proton data from AMS-02 %\todo{cite[55]}. 
-A good approximation is an unbroken power law ($R-\alpha$) with a spectral index ($\alpha$) of 2.85 at rigidities above 45 GV. At lower rigidities the data are below the power law because of solar modulation %\todo{cite[56]}
-, as seen in Fig. \ref{fig:proton_spec}, where the AMS-02 data are plotted as well. To find the best parametrization, several indexes and breaks were tested. The optimal parametrization was found by interpolation between the fits with the best test statistic.
-Finally, the gamma-ray data are well described by an unbroken power law for the protons with a spectral index ($\alpha$) of 2.85 at all rigidities.\\
+The initial propagated proton spectrum for the PCR template is obtained from the observed proton data from AMS-02 \todo{cite[55]}. A good approximation is an unbroken power law ($R-\alpha$) with a spectral index ($\alpha$) of 2.85 at rigidities above 45 GV. At lower rigidities, the flux is not described by the power law because of solar modulations \todo{cite[56]}, as seen in Fig. \ref{fig:proton_spec}. %To find the best parametrization, several indexes and breaks were tested. The optimal parametrization was found by interpolation between the fits with the best test statistic. Finally, the gamma-ray data are well described by an unbroken power law for the protons with a spectral index ($\alpha$) of 2.85 at all rigidities.\\
 %%% ARTICLE
 
 %There is also the possibility to introduce a break around a few GeV, to have a slightly harder spectrum at lower energies.\\
@@ -171,15 +167,15 @@ Finally, the gamma-ray data are well described by an unbroken power law for the 
 	  \subcaption{}
 	  \label{fig:BR_variations}
   \end{minipage}
-  \caption{(a): Superposition of the inverse compton template in every sky direction, normalized at 10 GeV. (b): Superposition of the bremsstrahlung template in every sky direction, normalized at 10 GeV. The CR electron spectrum use here has a break at 1 GeV, but its position does not influence the spatial variations. The variations of BR are very small and can be neglected.}
+  \caption{(a): Superposition of the inverse compton scattering template in every sky direction, normalized arbitrarily at 10 GeV. (b): Superposition of the bremsstrahlung template in every sky direction, normalized at 10 GeV. The CR electron spectrum use here has a break at 1 GeV, but its position does not influence the spatial variations. The variations of BR are very small and can be neglected.}
   \label{fig:IC_BR_variations} 
 \end{figure}
 
 
-The interstellar electron spectra needs a break around 0.2 GeV with a spectral index of 3.21 above. This is compatible with the locally observed electron spectrum (see Fig. \ref{fig:electron_spec}). Below the break the optimal spectral index is 0.81, which implies a suppression of electrons. %The break point might be related to the fact that around 0.2 GeV electrons have the smallest energy losses, since above this energy synchrotron, BR and IC dominate the energy losses, while below this energy ionization losses become strong, thus depleting the electron spectrum below 1 GeV. A similar break in the electron spectrum was needed in the Fermi diffuse model \todo{cite[46]}.\\
+The interstellar electron spectra need a break around 0.2 GeV with a spectral index of 3.21 above. This is compatible with the locally observed electron spectrum (see Fig. \ref{fig:electron_spec}). Below the break the optimal spectral index is 0.81, which implies a suppression of electrons. %The break point might be related to the fact that around 0.2 GeV electrons have the smallest energy losses, since above this energy synchrotron, BR and IC dominate the energy losses, while below this energy ionization losses become strong, thus depleting the electron spectrum below 1 GeV. A similar break in the electron spectrum was needed in the Fermi diffuse model \todo{cite[46]}.\\
 The targets for the production of gamma-rays are the interstellar gas for BR and the interstellar radiation field (IRF) for IC, which are both strongly dependent of position%The latter consists of photons from the cosmic microwave background, the infrared radiation from hot matter, like dust and the star light
 , so the photon composition varies with sky direction.
-For this reason, we have to calculate the IC and BR templates for each sky direction. The variation over the sky is about $\pm 10\%$, as shown in \ref{fig:IC_variations}. 
+For this reason, the IC and BR templates are calculated for each sky direction. The variation over the sky is about $\pm 10\%$, as shown in \ref{fig:IC_variations}. 
 The BR template only depends on the interstellar gas distribution, decreasing the variations considerably compared to IC, as shown in \ref{fig:BR_variations}.
 %Note that the intensity of photons in the interstellar radiation field nor the gas density play any role in a template analysis, since the intensity of each contribution to the gamma-ray sky is determined by the fitted normalization factors in Eq. 1.
 
@@ -213,7 +209,7 @@ The BR template only depends on the interstellar gas distribution, decreasing th
   \begin{minipage}[h]{0.45\textwidth}
   	\centering
 	\includegraphics[width=1\linewidth]{pic/method/norm_bkg_comp.png}
-  	%\subcaption{}
+  	\subcaption{}
  	\label{fig:norm_bkg_component}
   \end{minipage}
   \hfill
@@ -242,19 +238,19 @@ The BR template only depends on the interstellar gas distribution, decreasing th
 
 %%% ARTICLE
 The proton spectra producing the SCR template can be described by a power law with a spectral index of 2.1, as obtained from the best gamma-ray template fit. The index 2.1 for the SCR template %agrees with the data from the Fermi Bubbles, shown by the data points inside the shaded band in Fig. \ref{fig:proton_spec}; the index 2.1 
-is expected from diffuse shock wave acceleration. %\todo{cite[60, 61]} 
-The source cosmic rays are accelerated, or escape from the galaxy, hence a harder spectrum at high energies compared with propagated CR spectrum.
+is expected from diffuse shock wave acceleration. \todo{cite[60, 61]} 
+The source CRs are accelerated, or escape from the galaxy, hence a harder spectrum at high energies compared with propagated CR spectrum is expected.
 
 %The fact that the Fermi Bubbles and the cosmic rays inside sources have the same spectrum strongly suggests that they are connected by point sources providing advective outflows of gas in the Galactic center. \todo{cite[44]}
 %%% ARTICLE
 
-\subsubsection{$\pi^0$ production by molecular clouds cosmic rays MCR)}
+\subsubsection{$\pi^0$ production by molecular clouds cosmic rays (MCR)}
 
 %%% ARTICLE
-A proton spectrum with broken power-law can parametrize the decreasing gamma-ray emissivity from MCs below 2 GeV. The break can vary from 6 to 14 GeV for different clouds according to the fit. Above the break an optimal spectral index of 2.85 was found to be the same as for the PCR spectrum, as expected if the high energy propagated protons are above a certain magnetic cutoff. Below the break, the spectral index is 0.7, thus providing a significant suppression of protons below the break, as can be seen from Fig. \ref{fig:proton_spec}. This lower break spectral index does not have a strong influence on the fit and therefore was taken to be 0.7 GeV.
+A proton spectrum with broken power-law can be used to parametrize the decreasing gamma-ray emissivity from MCs below 2 GeV. The break can vary from 6 to 14 GeV for different clouds according to the fit. Above the break an optimal spectral index of 2.85 was found to be the same as for the PCR spectrum, as expected if the high energy propagated protons are above a certain magnetic cutoff. Below the break, the spectral index is 0.7, thus providing a significant suppression of protons below the break, as can be seen from Fig. \ref{fig:proton_spec}. This lower break spectral index does not have a strong influence on the fit and therefore is taken to be 0.7.
 %Energy losses alone cannot reproduce such a suppression of the proton spectrum below the break, but magnetic cutoffs are able to do so. Such a cutoff is well known from cosmic rays entering the Earth's magnetic field: particles below typically 20 GV entering near the magnetic equator do not reach the Earth, but are repelled into outer space by the geomagnetic cutoff. \todo{cite[62]} The rigidity cutoff of 20 GV is proportional to the magnetic moment. Although the magnetic field near the Earth (0.5 G) is orders of magnitude higher than the typical magnetic fields in dense MCs \todo{cite[63]}, the much larger sizes of MCs - or its substructure of filaments and cloudlets \todo{cite[64]} - yield magnetic moments of the same order of magnitude as the Earth's magnetic moment, so similar magnetic cutoffs are plausible. 
-Variations in the magnetic cutoff in MCs are expected from the variations in size and in magnetic field, the latter increasing with MC density. %\todo{cite[63]} 
-These variations between 6 and 14 GeV varies the maximum of the gamma-ray spectrum around a few GeV.
+Variations in the magnetic cutoff in MCs are expected from the variations in size and in magnetic field, the latter increasing with MC density. \todo{cite[63]} 
+These variations, between 6 and 14 GeV, make the position of the gamma-ray spectrum maximum vary around a few GeV.
 %The fit prefers a constant spectral index below the break for all sky directions. Such a constant spectral index is plausible with regular magnetic fields oriented in the disk %\todo{cite[65, 66]} 
 %and the "cloudlets" inside MCs %\todo{cite[64]} 
 %form magnetic dipole fields. Then the largest cutoff occurs for cosmic rays entering from the halo perpendicular into the cloud for any orientation of the magnetic dipole. For a given entrance angle the cutoff would provide a sharp break, but for an isotropic distribution of entrance angles the break points are smeared. A distribution of break points will provide a slope below the maximum break determined largely by the isotropic distribution of the entrance angles into the disk. Since this distribution is the same for all MCs the slopes below the break will be similar for all MCs, even if the maximum break varies.
@@ -271,9 +267,9 @@ These variations between 6 and 14 GeV varies the maximum of the gamma-ray spectr
 \subsubsection{Dark matter annihilation (DM)}
 
 %%% ARTICLE
-Dark matter particles are expected to annihilate and produce hadrons of roughly twice the WIMP mass, just like in electron-positron annihilation. This should produce copious amounts of gamma-rays from $\pi^0$ decays. A smaller fraction of WIMP annihilation can lead to tau lepton pairs, which can lead to $\pi^0$ production in the hadronic tau decays. This contribution is expected to be small and is neglected. The DM template can be calculated with the DarkSusy software. \todo{cite[67, 68]} 
+Dark matter particles are expected to annihilate and produce hadrons of roughly twice the WIMP mass, just like in electron-positron annihilation. This would be a large contribution to gamma-rays via $\pi^0$ decays. A smaller fraction of WIMP annihilation can lead to $\tau$ lepton pairs, which can lead to $\pi^0$ production in the hadronic $\tau$ decays. This contribution is expected to be small and is neglected. The DM template can be calculated with the DarkSusy software. \todo{cite[67, 68]} 
 An annihilation signal peaking around 2-3 GeV requires a WIMP mass around 50 GeV, as shown in Fig. \ref{fig:norm_excess_component}. 
-The DM template falls down to zero for energies above twice the WIMP mass, which differentiate it from the MCR spectrum with a much softer spectrum. 
+The DM template falls down to zero for energies above twice the WIMP mass, which make it a softer spectrum than MCR. 
 %%% ARTICLE
 
 %
@@ -282,23 +278,22 @@ The DM template falls down to zero for energies above twice the WIMP mass, which
 
 \subsubsection{Milli-second pulsars gamma-ray production (MSP)}
 
-The MSP template is directly taken from the Fermi study %\todo{cite paper}
-. They simulated the emission of 1700 milli-second pulsars with different energies around the galactic center.
-The high energy shape of the spectrum resemble closely the DM template, but the main difference with DM and MCR is for low energies. Indeed, below 1 GeV, the MSP template is a lot softer and this feature makes it discernible from the two others.
+The MSP template is directly taken from the Fermi study \todo{cite paper}. It simulates the emission of 1700 milli-second pulsars with different energies around the galactic center.
+The high energy shape of the spectrum closely resemble the DM template, but the main difference with DM and MCR is for low energies. Indeed, below 1 GeV, the MSP template is a lot softer and this feature makes it discernible from MCR and DM.
 
 \subsubsection{Isotropic component}
 
 \begin{figure}
  \centering
  \includegraphics[width=.5\linewidth]{pic/method/iso_calibration.png}
- \caption{The fitted flux (abscissa) versus the observed flux data (ordinate) in every region of the sky for a given energy of 1 GeV. A linear fit is performed to find the offset at the vertical axis. This number represent the amount the isotropic component shifts the data in all cones. Once this is done for every energy bin, the offset is added to the previous isotropic template and the process is repeated until convergence. }
+ \caption{The fitted flux versus the observed flux data in every region of the sky for a given energy of 1 GeV. A linear fit is performed to find the offset p1 at the vertical axis. This number represents the amount the isotropic component shifts the data in all cones. Once this is done for every energy bin, the offset is added to the previous isotropic template and the process is repeated until convergence. }
  \label{fig:iso_calibration}
 \end{figure}
 
 
 %%% ARTICLE
-The isotropic template represents the contribution from the isotropic extragalactic background and hadron mis-identification. Its spectral shape and absolute normalization are provided within the Fermi software \todo{cite[51]}, but it was redetermined for the analysis as follow.
-A first fit of the data in regions outside the Bubbles and the Galactic disk using the isotropic template from the Fermi software is produced as an initial estimate. This fit takes into account all components of the best fit available.
+The isotropic template represents the contribution from the isotropic extragalactic background and hadron mis-identification. Its spectral shape and absolute normalization are provided within the Fermi software \todo{cite[51]}, but it was redetermined for the analysis as follows.
+A first fit of the data in regions outside the bubbles and the galactic disk using the isotropic template from the Fermi software is produced as an initial estimate. This fit takes into account all components of the best fit available.
 If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation crossing the origin if the isotropic flux is estimated correctly (See Fig. \ref{fig:iso_calibration}). However, if the isotropic contribution is either too low or too high, an offset at the origin is introduced in the linear relation. Since the isotropic component is by definition the same for all cones for a given energy, this offset can be subtracted from the Fermi template to improve the fit. 
 %An example of such a fit is shown in Figure \ref{fig:iso_calibration} for an energy bin between \todo{3.7-5.2 GeV}. 
 Once the offset is determined for each energy bin and subtracted from the original template, the process is repeated until the offset converges to zero.
@@ -321,15 +316,16 @@ Once the offset is determined for each energy bin and subtracted from the origin
 %			-No spatial templates. (only the isosky)
 
 
-The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The finest spatial grid is divided in $720 \times 360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins. This allows to treat different portions of the sky independently of one another. Since the cones do not have the same solid angle and the statistic in a small binning can be problematic, the grid is more often composed of 797 bins of different sizes, bigger at the poles and smaller near the equator. This allows a better statistic in lower flux regions and where a high spatial resolution is not needed (i.e. at high latitudes). In the same time, the equator and the GC have a lot more counts and can be treated in a smaller binning. This binning is faster to compute than a regular grid with an good enough output quality to study the results.\\
+The fitted data can be seen as a data cube whose dimension are longitude, latitude and energy. The finest spatial grid is divided in $720 \times 360$ cones of $ 0.5^\circ \times 0.5^\circ $. Every cone contains 30 energy bins. This allows to treat different portions of the sky independently of one another.
+(((Since the cones do not have the same solid angle and the statistics in a small binning is low, the grid is more often composed of 797 bins of different sizes, bigger at the poles and smaller near the equator. This allows for higher statistics in lower flux regions and where a high spatial resolution is not needed (i.e. at high latitudes). In the same time, the equator and the GC have a lot more counts and can be treated in a smaller binning. This binning is faster to compute than a regular grid with an good enough output quality to study the results.)))
 
-The fit uses a certain number of components (three at least) each corresponding to a certain phenomenon and described earlier. They all have a certain energy spectra, that can vary with the position in the sky in the case of IC (See Fig. \ref{fig:norm_spectra}).
+The fit uses a certain number of components (three at least) each corresponding to a certain phenomenon and described earlier. They all have certain energy spectra that can vary with the position in the sky in the case of IC (See Fig. \ref{fig:norm_spectra}).
 
-The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed.  So, using a ROOT TVirtualFitter object, every template is scaled up or down until their sum comes the closest to the data.
+The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed.  Using a ROOT TVirtualFitter object, every template is scaled up or down until its sum comes the closest to the data.
 Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
-\chi^2 = \sum_{i=1}^{30} \left[ \frac{ \left( D_i - \sum_{j=1}^{n} \left[ (n_j.T_{ij})^2 \right] + iso \right) ^2}{\sigma^2} \right]
+\chi^2 = \sum_{i=1}^{30} \left[ \frac{ \left( D_i - \sum_{j=1}^{n} \left[ (n_jT_{ij})^2 \right] + iso \right) ^2}{\sigma_i^2} \right]
 \end{equation}
 
 where:
@@ -340,21 +336,19 @@ where:
 \item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
 \end{itemize}
 
-The MCR break position does not vary in a single fit. A fit is done for every MCR break independently, and the one with the best $\chi^2$ is kept. This break position is not counted as a degree of freedom in the fit.
+The MCR break position does not vary in a single fit. A fit is done for different values of the MCR break independently, and the one with the smallest $\chi^2$ is kept. This break position is not counted as a degree of freedom in the fit.
 
-The fit is very well constrained with only five or six degrees of freedoms depending on the model against 30 data points. A useful value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#degrees\ of\ freedom - 1$. This rescaling has the advantage to bring the perfect $\chi^2$ value down to one, thus making the comparison between different fits easier. This rescaling will be applied every time when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
-The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the fit is good, but the error bars on the data are too big.
-
-
-Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as can be done in other works \todo{cite}. The hope is to let the fit find reasonable shapes by itself only using the $\chi ^2$ minimization technique.
+The fit is very well constrained with only five or six degrees of freedoms depending on the model against 30 data points. A useful value is the $\chi^2 / d.o.f$ where $d.o.f = \#data\ points - \#free\ parameters - 1$. Thus, if a model describes data completely within its uncertainty, $\chi^2 / d.o.f = 1$, making the comparison between different fits easier. This rescaling will be applied every time when speaking about $\chi^2$ in the rest of the discussion, except if explicitly told. 
+The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the error bars on the data are too big.
 
 
+Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as has been done in other works \todo{cite}. It is used to let the fit find reasonable shapes by itself, only using the $\chi^2$ minimization technique.
 
 %\section{Introduction of results}
 
-This fitting method offers many ways to look at the results, depending on the interest. It is possible to produce flux maps of each component to study their spatial shapes at different energies. This can for example show a correlation between a certain template and a galactic feature such as the disk or the bubbles. An other way is to create a spectrum of one cone to look at the relative quantity of every template at different energies. This can put into evidence problems in the models and help perfect the spectral shape of the components.
+This fitting method offers many ways to look at the results, depending on the interest. It is possible to produce flux maps of each component to study their spatial shapes at different energies. This can for example show a correlation between a certain template and a galactic feature such as the disk or the bubbles. Another way is to create a spectrum of one cone to look at the relative quantity of every template at different energies. This can put into evidence issues within the models and help improve the spectral shape of the components.
 
-The first step when testing a new model is to see if it can reproduce results of previous studies. Only once it works and can be confidently used can it produce new results.
+The first step when testing a new model is to see if it can reproduce results of previous studies. Only once it works and can be confidently used, can it produce new results.
 
 %The next chapter will describe these results, first reproducing old studies, and 
 

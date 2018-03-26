@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  25 MAR 2018 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  26 MAR 2018 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -104,7 +104,7 @@ LaTeX Info: Redefining \textsubscript on input line 4654.
 v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 18 used.
+ngerman -- \language number for naustrian undefined, default 54 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -1061,136 +1061,58 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )) (./thesis.aux
 (./titlepage.aux) (./declaration.aux) (./introduction.aux) (./theory.aux)
-(./method.aux) (./results.aux
-
-LaTeX Warning: Label `fig:BKGonly_bubble_spec' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:BKGonly_bubble_spec' multiply defined.
-
-) (./discussion.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-) (./conclusion.aux))
+(./method.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 94.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 94
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 98.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 98
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 94
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 98
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 94.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 98.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 94.
+input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
 File: T1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 94.
+(Font)              scaled to size 12.0pt on input line 98.
 \c@mv@tabular=\count156
 \c@mv@boldtabular=\count157
 
@@ -1229,7 +1151,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 94.
+Package hyperref Info: Link coloring OFF on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1239,9 +1161,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -1298,7 +1220,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 \openout2 = `titlepage.aux'.
 
 
-(./titlepage.tex <logos/KITLogo_RGB.pdf, id=199, 196.46399pt x 90.77916pt>
+(./titlepage.tex <logos/KITLogo_RGB.pdf, id=91, 196.46399pt x 90.77916pt>
 File: logos/KITLogo_RGB.pdf Graphic file (type pdf)
 
 <use logos/KITLogo_RGB.pdf>
@@ -1373,46 +1295,21 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
+(Font)              scaled to size 24.88pt on input line 117.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 113.
- (./thesis.toc
-LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
-File: T1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
-uxBiolinumT-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <12> not av
-ailable
-(Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 1.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 3.
-
-[5
-
-
-])
+(Font)              scaled to size 24.88pt on input line 117.
+ (./thesis.toc)
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
-vailable
-(Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
-nput line 114.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 114.
- [6]
+ [5
+
+
+] [6
+
+
+
+]
 \openout2 = `introduction.aux'.
 
  (./introduction.tex [1
@@ -1421,10 +1318,15 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 
 
 
+])
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
+vailable
+(Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
+nput line 126.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 126.
 
-
-
-]) [2]
+[2]
 \openout2 = `theory.aux'.
 
  (./theory.tex
@@ -1450,7 +1352,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 20.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 20.
-<pic/theory/top_galaxy_map.jpg, id=291, 602.25pt x 602.25pt>
+<pic/theory/top_galaxy_map.jpg, id=134, 602.25pt x 602.25pt>
 File: pic/theory/top_galaxy_map.jpg Graphic file (type jpg)
 
 <use pic/theory/top_galaxy_map.jpg>
@@ -1463,7 +1365,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][][]|\T1/LinuxLibertineT-TLF/m/n/10.95 source:
  []
 
-<pic/theory/Fermi_bubble.jpg, id=292, 2906.86pt x 1635.10875pt>
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 30.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 30.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 30.
+<pic/theory/Fermi_bubble.jpg, id=135, 2906.86pt x 1635.10875pt>
 File: pic/theory/Fermi_bubble.jpg Graphic file (type jpg)
 
 <use pic/theory/Fermi_bubble.jpg>
@@ -1475,7 +1383,10 @@ Package pdftex.def Info: pic/theory/Fermi_bubble.jpg used on input line 34.
 
 
  <./pic/theory/top_galaxy_map.jpg> <./pic/theory/Fermi_bubble.jpg>]
-<pic/theory/gal_rotation_curve.png, id=298, 586.8324pt x 442.2924pt>
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+<pic/theory/gal_rotation_curve.png, id=142, 586.8324pt x 442.2924pt>
 File: pic/theory/gal_rotation_curve.png Graphic file (type png)
 
 <use pic/theory/gal_rotation_curve.png>
@@ -1486,8 +1397,14 @@ Package pdftex.def Info: pic/theory/gal_rotation_curve.png used on input line 5
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./pic/theory/gal_rotation_curve.png>] [6] [7]
-<pic/theory/CR_spectrum.png, id=331, 471.7625pt x 591.20876pt>
+[4] [5 <./pic/theory/gal_rotation_curve.png>]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 82.
+ [6]
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+[7] <pic/theory/CR_spectrum.png, id=175, 471.7625pt x 591.20876pt>
 File: pic/theory/CR_spectrum.png Graphic file (type png)
 
 <use pic/theory/CR_spectrum.png>
@@ -1497,24 +1414,18 @@ Package pdftex.def Info: pic/theory/CR_spectrum.png used on input line 139.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9 <./pic/theory/CR_spectrum.png (PNG copy)>] [10]
-Overfull \hbox (11.58708pt too wide) in paragraph at lines 252--255
-\T1/LinuxLibertineT-TLF/m/n/12 en-ergy tail (> 50 GeV) can not be re-pro-duced 
-[]\T1/LinuxLibertineT-TLF/b/n/12 (cite https://arxiv.org/pdf/1602.04710.pdf)[]\
-T1/LinuxLibertineT-TLF/m/n/12 ,
- []
-
-) [11]
+[8] [9 <./pic/theory/CR_spectrum.png (PNG copy)>] [10]) [11]
 \openout2 = `method.aux'.
 
- (./method.tex [12
+ (./method.tex
+[12
 
 
 
 
 ]
 chapter 2.
-<pic/method/Flux_FermiData_raw_E12.png, id=360, 1200.485pt x 1176.395pt>
+<pic/method/Flux_FermiData_raw_E12.png, id=204, 1200.485pt x 1176.395pt>
 File: pic/method/Flux_FermiData_raw_E12.png Graphic file (type png)
 
 <use pic/method/Flux_FermiData_raw_E12.png>
@@ -1522,88 +1433,90 @@ Package pdftex.def Info: pic/method/Flux_FermiData_raw_E12.png used on input li
 ne 34.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/method/Flux_FermiData-3FGL_E12.png, id=361, 1200.485pt x 1176.395pt>
+<pic/method/Flux_FermiData-3FGL_E12.png, id=205, 1200.485pt x 1176.395pt>
 File: pic/method/Flux_FermiData-3FGL_E12.png Graphic file (type png)
 
 <use pic/method/Flux_FermiData-3FGL_E12.png>
 Package pdftex.def Info: pic/method/Flux_FermiData-3FGL_E12.png used on input l
 ine 41.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
- [13 <./pic/method/Flux_FermiData_raw_E12.png> <./pic/method/Flux_FermiData-3FG
-L_E12.png>]
-Underfull \hbox (badness 1715) in paragraph at lines 70--70
-\T1/LinuxLibertineT-TLF/m/n/12 om-mended by the LAT in-stru-ment
- []
 
 
+LaTeX Warning: Marginpar on page 13 moved.
+
+[13 <./pic/method/Flux_FermiData_raw_E12.png> <./pic/method/Flux_FermiData-3FGL
+_E12.png>]
 Overfull \hbox (3.80315pt too wide) in paragraph at lines 62--72
  [][] 
  []
 
-[14] <pic/method/LAT_sys_error.png, id=376, 999.735pt x 676.5275pt>
+[14] <pic/method/LAT_sys_error.png, id=220, 999.735pt x 676.5275pt>
 File: pic/method/LAT_sys_error.png Graphic file (type png)
 
 <use pic/method/LAT_sys_error.png>
-Package pdftex.def Info: pic/method/LAT_sys_error.png used on input line 99.
-(pdftex.def)             Requested size: 213.71576pt x 144.62473pt.
+Package pdftex.def Info: pic/method/LAT_sys_error.png used on input line 98.
+(pdftex.def)             Requested size: 256.46152pt x 173.54968pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] <pic/method/./CR_protons_spectra.png, id=384, 899.36pt x 877.2775pt>
+[15] <pic/method/./CR_protons_spectra.png, id=228, 899.36pt x 877.2775pt>
 File: pic/method/./CR_protons_spectra.png Graphic file (type png)
 
 <use pic/method/./CR_protons_spectra.png>
 Package pdftex.def Info: pic/method/./CR_protons_spectra.png used on input line
- 129.
+ 128.
 (pdftex.def)             Requested size: 192.34288pt x 187.6204pt.
 
-<pic/method/./CR_electrons_spectra.png, id=385, 899.36pt x 877.2775pt>
+<pic/method/./CR_electrons_spectra.png, id=229, 899.36pt x 877.2775pt>
 File: pic/method/./CR_electrons_spectra.png Graphic file (type png)
 
 <use pic/method/./CR_electrons_spectra.png>
 Package pdftex.def Info: pic/method/./CR_electrons_spectra.png used on input li
-ne 136.
+ne 135.
 (pdftex.def)             Requested size: 192.34288pt x 187.6204pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
-
- []
-
-<pic/method/IC_variations.png, id=387, 907.39pt x 815.045pt>
+<pic/method/IC_variations.png, id=231, 907.39pt x 815.045pt>
 File: pic/method/IC_variations.png Graphic file (type png)
 
 <use pic/method/IC_variations.png>
-Package pdftex.def Info: pic/method/IC_variations.png used on input line 163.
+Package pdftex.def Info: pic/method/IC_variations.png used on input line 159.
 (pdftex.def)             Requested size: 192.34288pt x 171.56258pt.
 
-<pic/method/BR_variations.png, id=389, 907.39pt x 816.04875pt>
+<pic/method/BR_variations.png, id=233, 907.39pt x 816.04875pt>
 File: pic/method/BR_variations.png Graphic file (type png)
 
 <use pic/method/BR_variations.png>
-Package pdftex.def Info: pic/method/BR_variations.png used on input line 170.
+Package pdftex.def Info: pic/method/BR_variations.png used on input line 166.
 (pdftex.def)             Requested size: 192.34288pt x 171.77536pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:IC_variations' on page 16 undefined on input line
+ 178.
+
+
+LaTeX Warning: Reference `fig:BR_variations' on page 16 undefined on input line
+ 179.
+
 [16 <./pic/method/LAT_sys_error.png>]
-<pic/method/norm_bkg_comp.png, id=401, 899.36pt x 875.27pt>
+<pic/method/norm_bkg_comp.png, id=244, 899.36pt x 875.27pt>
 File: pic/method/norm_bkg_comp.png Graphic file (type png)
 
 <use pic/method/norm_bkg_comp.png>
-Package pdftex.def Info: pic/method/norm_bkg_comp.png used on input line 215.
+Package pdftex.def Info: pic/method/norm_bkg_comp.png used on input line 211.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/method/norm_excess_comp.png, id=402, 899.36pt x 875.27pt>
+<pic/method/norm_excess_comp.png, id=245, 899.36pt x 875.27pt>
 File: pic/method/norm_excess_comp.png Graphic file (type png)
 
 <use pic/method/norm_excess_comp.png>
-Package pdftex.def Info: pic/method/norm_excess_comp.png used on input line 222
+Package pdftex.def Info: pic/method/norm_excess_comp.png used on input line 218
 .
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
@@ -1611,33 +1524,43 @@ Package pdftex.def Info: pic/method/norm_excess_comp.png used on input line 222
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./pic/method/./CR_protons_spectra.png> <./pic/method/./CR_electrons_spectr
-a.png>] <pic/method/iso_calibration.png, id=413, 899.36pt x 875.27pt>
+a.png>]
+
+LaTeX Warning: Reference `fig:norm_excess_component' on page 18 undefined on in
+put line 271.
+
+<pic/method/iso_calibration.png, id=253, 899.36pt x 875.27pt>
 File: pic/method/iso_calibration.png Graphic file (type png)
 
 <use pic/method/iso_calibration.png>
-Package pdftex.def Info: pic/method/iso_calibration.png used on input line 293.
+Package pdftex.def Info: pic/method/iso_calibration.png used on input line 288.
 
 (pdftex.def)             Requested size: 213.71576pt x 207.98563pt.
 
-Overfull \hbox (0.72144pt too wide) in paragraph at lines 300--305
+
+LaTeX Warning: Reference `fig:iso_calibration' on page 18 undefined on input li
+ne 297.
+
+
+Overfull \hbox (0.72144pt too wide) in paragraph at lines 295--300
 []\T1/LinuxLibertineT-TLF/m/n/12 The isotropic tem-plate rep-re-sents the con-t
 ri-bu-tion from the isotropic ex-tra-galac-tic back-
  []
 
 [18 <./pic/method/IC_variations.png> <./pic/method/BR_variations.png>] [19 <./p
 ic/method/norm_bkg_comp.png> <./pic/method/norm_excess_comp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
- []
+LaTeX Warning: Reference `fig:norm_spectra' on page 20 undefined on input line 
+322.
 
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 337.
+ input line 333.
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 337.
+(Font)              scaled to size 12.0pt on input line 333.
 
 [20 <./pic/method/iso_calibration.png>]) [21]
 \openout2 = `results.aux'.
@@ -1650,7 +1573,7 @@ LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 ]
 chapter 3.
 
-<pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png, id=447, 1200.485pt x 875.27pt>
+<pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png, id=287, 1200.485pt x 875.27pt>
 File: pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png Graphic file (type png)
 
 <use pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png>
@@ -1658,7 +1581,7 @@ Package pdftex.def Info: pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png used on
 input line 33.
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 
-<pic/results/BKGonly_halo_residuals.png, id=448, 1200.485pt x 973.6375pt>
+<pic/results/BKGonly_halo_residuals.png, id=288, 1200.485pt x 973.6375pt>
 File: pic/results/BKGonly_halo_residuals.png Graphic file (type png)
 
 <use pic/results/BKGonly_halo_residuals.png>
@@ -1666,37 +1589,56 @@ Package pdftex.def Info: pic/results/BKGonly_halo_residuals.png used on input l
 ine 40.
 (pdftex.def)             Requested size: 192.34288pt x 155.99316pt.
 
-Overfull \hbox (26.0459pt too wide) in paragraph at lines 50--51
-\T1/LinuxLibertineT-TLF/m/n/12 is plot-ted for all lon-gi-tudes. For ev-ery sky
- di-rec-tion, $\OML/nxlmi/m/it/12 ^^[ \U/ntxmia/m/it/12 = [] \OML/nxlmi/m/it/12
- =error$
- []
+
+LaTeX Warning: Reference `fig:weniger_plot' on page 23 undefined on input line 
+50.
 
 [23 <./pic/results/Weniger_SUM_b0-2_E4,7-0,31GeV.png> <./pic/results/BKGonly_ha
-lo_residuals.png>] <pic/results/BKGonly_CMZ.png, id=457, 899.36pt x 875.27pt>
+lo_residuals.png>]
+
+LaTeX Warning: Reference `fig:our_excess' on page 24 undefined on input line 52
+.
+
+<pic/results/BKGonly_CMZ.png, id=296, 899.36pt x 875.27pt>
 File: pic/results/BKGonly_CMZ.png Graphic file (type png)
 
 <use pic/results/BKGonly_CMZ.png>
 Package pdftex.def Info: pic/results/BKGonly_CMZ.png used on input line 59.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/BKGonly_fine_chi2_distribution.png, id=458, 1200.485pt x 1176.395p
+<pic/results/BKGonly_fine_chi2_distribution.png, id=297, 1200.485pt x 1176.395p
 t>
 File: pic/results/BKGonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/BKGonly_fine_chi2_distribution.png>
 Package pdftex.def Info: pic/results/BKGonly_fine_chi2_distribution.png used on
  input line 66.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
- [24 <./pic/results/BKGonly_CMZ.png> <./pic/results/BKGonly_fine_chi2_distribut
-ion.png>]
-<pic/results/EGRET_A.png, id=470, 538.01pt x 526.96875pt>
+
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 24 undefined on
+ input line 75.
+
+
+LaTeX Warning: Reference `fig:bkgd_only_spectrum' on page 24 undefined on input
+ line 75.
+
+
+LaTeX Warning: Reference `fig:EGRET_comp_a' on page 24 undefined on input line 
+83.
+
+
+LaTeX Warning: Reference `fig:EGRET_comp_b' on page 24 undefined on input line 
+83.
+
+[24 <./pic/results/BKGonly_CMZ.png> <./pic/results/BKGonly_fine_chi2_distributi
+on.png>] <pic/results/EGRET_A.png, id=306, 538.01pt x 526.96875pt>
 File: pic/results/EGRET_A.png Graphic file (type png)
 
 <use pic/results/EGRET_A.png>
 Package pdftex.def Info: pic/results/EGRET_A.png used on input line 90.
 (pdftex.def)             Requested size: 192.34532pt x 159.33818pt.
 
-<pic/results/asEGRET_Fermi_A.png, id=471, 899.36pt x 875.27pt>
+<pic/results/asEGRET_Fermi_A.png, id=307, 899.36pt x 875.27pt>
 File: pic/results/asEGRET_Fermi_A.png Graphic file (type png)
 
 <use pic/results/asEGRET_Fermi_A.png>
@@ -1713,7 +1655,7 @@ Package natbib Warning: Citation `EGRET paper' on page 25 undefined on input li
 ne 108.
 
 [25 <./pic/results/EGRET_A.png> <./pic/results/asEGRET_Fermi_A.png>]
-<pic/results/SCRonly_fine_chi2_distribution.png, id=478, 1200.485pt x 1176.395p
+<pic/results/SCRonly_fine_chi2_distribution.png, id=315, 1200.485pt x 1176.395p
 t>
 File: pic/results/SCRonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/SCRonly_fine_chi2_distribution.png>
@@ -1721,7 +1663,7 @@ Package pdftex.def Info: pic/results/SCRonly_fine_chi2_distribution.png used on
  input line 127.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/SCRonly_fine_SCR_distribution_E20.png, id=479, 1200.485pt x 1176.3
+<pic/results/SCRonly_fine_SCR_distribution_E20.png, id=316, 1200.485pt x 1176.3
 95pt>
 File: pic/results/SCRonly_fine_SCR_distribution_E20.png Graphic file (type png)
 
@@ -1730,7 +1672,24 @@ Package pdftex.def Info: pic/results/SCRonly_fine_SCR_distribution_E20.png used
  on input line 134.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/bkgdonly_spectra_bubble_example.png, id=484, 899.36pt x 875.27pt>
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 26 undefined on
+ input line 138.
+
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 26 undefined on
+ input line 138.
+
+
+LaTeX Warning: Reference `fig:SCRonly_fit' on page 26 undefined on input line 1
+46.
+
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 26 undefined on
+ input line 146.
+
+
+<pic/results/bkgdonly_spectra_bubble_example.png, id=317, 899.36pt x 875.27pt>
 File: pic/results/bkgdonly_spectra_bubble_example.png Graphic file (type png)
 
 <use pic/results/bkgdonly_spectra_bubble_example.png>
@@ -1738,7 +1697,7 @@ Package pdftex.def Info: pic/results/bkgdonly_spectra_bubble_example.png used o
 n input line 153.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/SCRonly_spectra_bubble_example.png, id=485, 899.36pt x 875.27pt>
+<pic/results/SCRonly_spectra_bubble_example.png, id=318, 899.36pt x 875.27pt>
 File: pic/results/SCRonly_spectra_bubble_example.png Graphic file (type png)
 
 <use pic/results/SCRonly_spectra_bubble_example.png>
@@ -1749,9 +1708,17 @@ Package pdftex.def Info: pic/results/SCRonly_spectra_bubble_example.png used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:SCRonly_distributions' on page 26 undefined on in
+put line 168.
+
+
+LaTeX Warning: Reference `fig:SCRonly_BKGonly_spec_comp' on page 26 undefined o
+n input line 171.
+
 [26 <./pic/results/SCRonly_fine_chi2_distribution.png> <./pic/results/SCRonly_f
 ine_SCR_distribution_E20.png>]
-<pic/results/SCRonly_CMZ.png, id=494, 899.36pt x 875.27pt>
+<pic/results/SCRonly_CMZ.png, id=325, 899.36pt x 875.27pt>
 File: pic/results/SCRonly_CMZ.png Graphic file (type png)
 
 <use pic/results/SCRonly_CMZ.png>
@@ -1761,9 +1728,17 @@ Package pdftex.def Info: pic/results/SCRonly_CMZ.png used on input line 177.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:SCRonly_CMZ_spec' on page 27 undefined on input l
+ine 182.
+
 [27 <./pic/results/bkgdonly_spectra_bubble_example.png> <./pic/results/SCRonly_
 spectra_bubble_example.png>]
-<pic/results/MCRonly_CMZ.png, id=503, 899.36pt x 875.27pt>
+
+LaTeX Warning: Reference `fig:MCRonly_chi2Distribution' on page 28 undefined on
+ input line 214.
+
+<pic/results/MCRonly_CMZ.png, id=332, 899.36pt x 875.27pt>
 File: pic/results/MCRonly_CMZ.png Graphic file (type png)
 
 <use pic/results/MCRonly_CMZ.png>
@@ -1771,21 +1746,49 @@ Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 228.
 (pdftex.def)             Requested size: 213.71576pt x 207.98563pt.
 
 
+LaTeX Warning: Reference `fig:SCRonly_CMZ_spec' on page 28 undefined on input l
+ine 232.
+
+
+LaTeX Warning: Reference `fig:SCRonly_CMZ_spec' on page 28 undefined on input l
+ine 232.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:MCR_vs_SCRonly_CMZ' on page 28 undefined on input
+ line 236.
+
 [28 <./pic/results/SCRonly_CMZ.png>]
+
+LaTeX Warning: Reference `fig:DMonly_CMZ' on page 29 undefined on input line 27
+5.
+
+
+LaTeX Warning: Reference `fig:DMonly_chi2Distribution' on page 29 undefined on 
+input line 277.
+
 
 LaTeX Warning: Reference `MCRonly_chi2Distribution' on page 29 undefined on inp
 ut line 277.
 
-<pic/results/COmap.png, id=517, 598.235pt x 576.1525pt>
+
+LaTeX Warning: Reference `fig:DMonly_CMZ' on page 29 undefined on input line 27
+9.
+
+
+LaTeX Warning: Reference `fig:DMonly_skymap_DM' on page 29 undefined on input l
+ine 283.
+
+<pic/results/COmap.png, id=339, 598.235pt x 576.1525pt>
 File: pic/results/COmap.png Graphic file (type png)
 
 <use pic/results/COmap.png>
 Package pdftex.def Info: pic/results/COmap.png used on input line 290.
 (pdftex.def)             Requested size: 192.34288pt x 185.2429pt.
 
-<pic/results/MCRonly_fine_MCR_distribution_E12.png, id=518, 1200.485pt x 1176.3
+<pic/results/MCRonly_fine_MCR_distribution_E12.png, id=340, 1200.485pt x 1176.3
 95pt>
 File: pic/results/MCRonly_fine_MCR_distribution_E12.png Graphic file (type png)
 
@@ -1794,7 +1797,7 @@ Package pdftex.def Info: pic/results/MCRonly_fine_MCR_distribution_E12.png used
  on input line 297.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/DMonly_fine_DM_distribution_E13.png, id=519, 1200.485pt x 1176.395
+<pic/results/DMonly_fine_DM_distribution_E13.png, id=341, 1200.485pt x 1176.395
 pt>
 File: pic/results/DMonly_fine_DM_distribution_E13.png Graphic file (type png)
  <use pic/results/DMonly_fine_DM_distribution_E13.png>
@@ -1802,7 +1805,7 @@ Package pdftex.def Info: pic/results/DMonly_fine_DM_distribution_E13.png used o
 n input line 304.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MSPonly_fine_MSP_distribution_E12.png, id=520, 1200.485pt x 1176.3
+<pic/results/MSPonly_fine_MSP_distribution_E12.png, id=342, 1200.485pt x 1176.3
 95pt>
 File: pic/results/MSPonly_fine_MSP_distribution_E12.png Graphic file (type png)
 
@@ -1815,8 +1818,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./pic/results/MCRonly_CMZ.png>] [30 <./pic/results/COmap.png> <./pic/resu
 lts/MCRonly_fine_MCR_distribution_E12.png> <./pic/results/DMonly_fine_DM_distri
-bution_E13.png> <./pic/results/MSPonly_fine_MSP_distribution_E12.png>] [31]
-<pic/results/MCRonly_fine_chi2_distribution.png, id=538, 1200.485pt x 1176.395p
+bution_E13.png> <./pic/results/MSPonly_fine_MSP_distribution_E12.png>]
+
+LaTeX Warning: Reference `fig:MSPonly_chi2Distribution' on page 31 undefined on
+ input line 336.
+
+
+LaTeX Warning: Reference `fig:DMonly_chi2Distribution' on page 31 undefined on 
+input line 336.
+
+
+LaTeX Warning: Reference `fig:MSPonly_skymap_MSP' on page 31 undefined on input
+ line 343.
+
+[31]
+<pic/results/MCRonly_fine_chi2_distribution.png, id=360, 1200.485pt x 1176.395p
 t>
 File: pic/results/MCRonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/MCRonly_fine_chi2_distribution.png>
@@ -1829,7 +1845,7 @@ File: pic/results/MCRonly_CMZ.png Graphic file (type png)
 Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 361.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/DMonly_fine_chi2_distribution.png, id=539, 1200.485pt x 1176.395pt
+<pic/results/DMonly_fine_chi2_distribution.png, id=361, 1200.485pt x 1176.395pt
 >
 File: pic/results/DMonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/DMonly_fine_chi2_distribution.png>
@@ -1837,14 +1853,14 @@ Package pdftex.def Info: pic/results/DMonly_fine_chi2_distribution.png used on
 input line 368.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/DMonly_CMZ.png, id=540, 899.36pt x 875.27pt>
+<pic/results/DMonly_CMZ.png, id=362, 899.36pt x 875.27pt>
 File: pic/results/DMonly_CMZ.png Graphic file (type png)
 
 <use pic/results/DMonly_CMZ.png>
 Package pdftex.def Info: pic/results/DMonly_CMZ.png used on input line 375.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<./pic/results/MSPonly_fine_chi2_distribution.png, id=541, 1200.485pt x 1176.39
+<./pic/results/MSPonly_fine_chi2_distribution.png, id=363, 1200.485pt x 1176.39
 5pt>
 File: ./pic/results/MSPonly_fine_chi2_distribution.png Graphic file (type png)
  <use ./pic/results/MSPonly_fine_chi2_distribution.png>
@@ -1852,7 +1868,7 @@ Package pdftex.def Info: ./pic/results/MSPonly_fine_chi2_distribution.png used
 on input line 382.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MSPonly_CMZ.png, id=542, 899.36pt x 875.27pt>
+<pic/results/MSPonly_CMZ.png, id=364, 899.36pt x 875.27pt>
 File: pic/results/MSPonly_CMZ.png Graphic file (type png)
 
 <use pic/results/MSPonly_CMZ.png>
@@ -1864,11 +1880,23 @@ Overfull \vbox (13.90775pt too high) has occurred while \output is active []
 
 [32 <./pic/results/MCRonly_fine_chi2_distribution.png> <./pic/results/DMonly_fi
 ne_chi2_distribution.png> <./pic/results/DMonly_CMZ.png> <./pic/results/MSPonly
-_fine_chi2_distribution.png> <./pic/results/MSPonly_CMZ.png>] [33]) [34]
+_fine_chi2_distribution.png> <./pic/results/MSPonly_CMZ.png>]
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 33 undefined on
+ input line 412.
+
+
+LaTeX Warning: Reference `fig:BKGonly_bubble_spec' on page 33 undefined on inpu
+t line 412.
+
+
+LaTeX Warning: Reference `fig:DMonly_skymap_DM' on page 33 undefined on input l
+ine 421.
+
+[33]) [34]
 \openout2 = `discussion.aux'.
 
-
-(./discussion.tex
+ (./discussion.tex
 chapter 4.
 
 Overfull \hbox (0.91275pt too wide) in paragraph at lines 42--44
@@ -1882,7 +1910,7 @@ R pro-tons which col-lide with other hadrons
 
 
 ]
-<pic/discussion/MCRonly_fine_PCR_integral_distribution.png, id=563, 1200.485pt 
+<pic/discussion/MCRonly_fine_PCR_integral_distribution.png, id=388, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MCRonly_fine_PCR_integral_distribution.png Graphic file (t
 ype png)
@@ -1891,7 +1919,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_PCR_integral_distribution.
 png used on input line 53.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/DMonly_fine_PCR_integral_distribution.png, id=564, 1200.485pt x
+<pic/discussion/DMonly_fine_PCR_integral_distribution.png, id=389, 1200.485pt x
  1176.395pt>
 File: pic/discussion/DMonly_fine_PCR_integral_distribution.png Graphic file (ty
 pe png)
@@ -1900,7 +1928,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_PCR_integral_distribution.p
 ng used on input line 60.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/MSPonly_fine_PCR_integral_distribution.png, id=565, 1200.485pt 
+<pic/discussion/MSPonly_fine_PCR_integral_distribution.png, id=390, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MSPonly_fine_PCR_integral_distribution.png Graphic file (t
 ype png)
@@ -1909,7 +1937,7 @@ Package pdftex.def Info: pic/discussion/MSPonly_fine_PCR_integral_distribution.
 png used on input line 67.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/MCRonly_fine_IC_integral_distribution.png, id=566, 1200.485pt x
+<pic/discussion/MCRonly_fine_IC_integral_distribution.png, id=391, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MCRonly_fine_IC_integral_distribution.png Graphic file (ty
 pe png)
@@ -1918,7 +1946,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_IC_integral_distribution.p
 ng used on input line 85.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/DMonly_fine_IC_integral_distribution.png, id=567, 1200.485pt x 
+<pic/discussion/DMonly_fine_IC_integral_distribution.png, id=392, 1200.485pt x 
 1176.395pt>
 File: pic/discussion/DMonly_fine_IC_integral_distribution.png Graphic file (typ
 e png)
@@ -1927,7 +1955,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_IC_integral_distribution.pn
 g used on input line 92.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/MSPonly_fine_IC_integral_distribution.png, id=568, 1200.485pt x
+<pic/discussion/MSPonly_fine_IC_integral_distribution.png, id=393, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MSPonly_fine_IC_integral_distribution.png Graphic file (ty
 pe png)
@@ -1940,7 +1968,7 @@ ng used on input line 99.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<pic/discussion/MCRonly_fine_BR_integral_distribution.png, id=569, 1200.485pt x
+<pic/discussion/MCRonly_fine_BR_integral_distribution.png, id=394, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MCRonly_fine_BR_integral_distribution.png Graphic file (ty
 pe png)
@@ -1949,7 +1977,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_BR_integral_distribution.p
 ng used on input line 116.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/DMonly_fine_BR_integral_distribution.png, id=570, 1200.485pt x 
+<pic/discussion/DMonly_fine_BR_integral_distribution.png, id=395, 1200.485pt x 
 1176.395pt>
 File: pic/discussion/DMonly_fine_BR_integral_distribution.png Graphic file (typ
 e png)
@@ -1958,7 +1986,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_BR_integral_distribution.pn
 g used on input line 123.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/MSPonly_fine_BR_integral_distribution.png, id=571, 1200.485pt x
+<pic/discussion/MSPonly_fine_BR_integral_distribution.png, id=396, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MSPonly_fine_BR_integral_distribution.png Graphic file (ty
 pe png)
@@ -1970,7 +1998,7 @@ ng used on input line 130.
 [36 <./pic/discussion/MCRonly_fine_PCR_integral_distribution.png> <./pic/discus
 sion/DMonly_fine_PCR_integral_distribution.png> <./pic/discussion/MSPonly_fine_
 PCR_integral_distribution.png>]
-<pic/discussion/MCRonly_fine_SCR_integral_distribution.png, id=577, 1200.485pt 
+<pic/discussion/MCRonly_fine_SCR_integral_distribution.png, id=404, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MCRonly_fine_SCR_integral_distribution.png Graphic file (t
 ype png)
@@ -1979,7 +2007,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_SCR_integral_distribution.
 png used on input line 146.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/DMonly_fine_SCR_integral_distribution.png, id=578, 1200.485pt x
+<pic/discussion/DMonly_fine_SCR_integral_distribution.png, id=405, 1200.485pt x
  1176.395pt>
 File: pic/discussion/DMonly_fine_SCR_integral_distribution.png Graphic file (ty
 pe png)
@@ -1988,7 +2016,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_SCR_integral_distribution.p
 ng used on input line 153.
 (pdftex.def)             Requested size: 128.23076pt x 125.65224pt.
 
-<pic/discussion/MSPonly_fine_SCR_integral_distribution.png, id=579, 1200.485pt 
+<pic/discussion/MSPonly_fine_SCR_integral_distribution.png, id=406, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MSPonly_fine_SCR_integral_distribution.png Graphic file (t
 ype png)
@@ -2054,6 +2082,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package natbib Warning: Citation `EGRET paper' on page 47 undefined on input li
 ne 15.
 
+
+LaTeX Warning: Reference `fig:BKGonly_chi2Distribution' on page 47 undefined on
+ input line 16.
+
+
+LaTeX Warning: Reference `fig:SCRonly_CMZ_spec' on page 47 undefined on input l
+ine 19.
+
 [47])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
@@ -2072,30 +2108,41 @@ chapter without number
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 (./thesis.aux (./titlepage.aux) (./declaration.aux) (./introduction.aux)
 (./theory.aux) (./method.aux) (./results.aux) (./discussion.aux)
-(./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 79ADB48AC35227B318AC000688E4B1C1;3510.
+(./conclusion.aux)
 
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: C8D982255AD7E7798EA0A9A722A4B689;1475
+(rerunfilecheck)             After:  8D8B24767E82ADA028A369A1BD6B3B4F;3522.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 25048 strings out of 493029
- 456161 string characters out of 6136234
- 587175 words of memory out of 5000000
- 27749 multiletter control sequences out of 15000+600000
- 123004 words of font info for 149 fonts, out of 8000000 for 9000
+ 24961 strings out of 493029
+ 454062 string characters out of 6136234
+ 577078 words of memory out of 5000000
+ 27674 multiletter control sequences out of 15000+600000
+ 118154 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,108p,1447b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/us
@@ -2104,25 +2151,23 @@ e/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/texlive
 /texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/en
 c/dvips/libertine/lbtn_c7kyj5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libe
-rtine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/
-lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7
-6gpa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolin
-umTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
-neMT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
-neT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
-lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (56 pages, 8547840 bytes).
+rtine/lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/
+lbtn_76gpa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineMT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinL
+ibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinL
+ibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on thesis.pdf (56 pages, 8494756 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
- 747 compressed objects within 8 object streams
+ 714 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
  148 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
