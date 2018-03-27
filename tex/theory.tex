@@ -117,8 +117,8 @@ Another possible interaction is the collisions with other particles. It depend o
 %Each phenomenon can be attributed one of those coefficient to describe its effect on the cosmic rays, and adding them up gives the effective coefficient. \todo{give values for Dmag, Dcoll...}
 While the diffusion coefficient for the galactic magnetic field can be taken as constant throughout the Milky Way \cite{Farrar2012}, the diffusion coefficient due to collision is proportional to the particles density. A smaller coefficient in molecular clouds is expected, where the density can reach \todo{value!}. \cite{Crutcher2012}
 
-This coefficient will also define the CR densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the longer it will take to move away from its origin. This way, a higher density of CR can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak electromagnetic field and small gas and dust density. 
-However, the bubble region is outside the disk and has a higher concentration of high energy CR than other regions outside the disk. This is due to a direct outward emission of CRs from the GC region. With a high diffusion coefficient, these CRs are ejected light years away (see Fig. \ref{fig:fermi_bubbles}), forming two symmetric regions extending north and south up to 40 degrees in latitude in galactic coordinates. \cite{Ackermann2014}
+This coefficient will also define the CR densities in various locations of the galaxy. Indeed, the more a particle's path is twisted and convoluted, the longer it will take to move away from its origin. This way, a higher density of CR can be found in low diffusion coefficient areas like molecular clouds. In comparison, the region outside the galactic disk has a low density of CR due to a weak electromagnetic field and small gas and dust density.
+However, the bubble region is outside the disk and has a higher concentration of high energy CR than other regions outside the disk. This is due to a direct outward emission of CRs from the GC region. With a high diffusion coefficient, these CRs are ejected light years away (see Fig. \ref{fig:fermi_bubbles}), forming two symmetric regions extending north and south up to 40 degrees in latitude in galactic coordinates.\cite{Ackermann2014}
 
 The consequences of such diffusion processes is an isotropic CR sky on Earth. In whatever direction the instruments look at, they measure the same CR flux. This complicate CR study, since no information about their origin or their journey can be learned from direct observation, and it is why gamma-rays are useful in indirect detection methods.
 
@@ -128,6 +128,23 @@ Traveling through the galaxy particles interact with different objects and can g
 If the particle has a high enough energy, it will mainly encounter lower energy particles and will lose energy faster than low energy particles. If a particle is in a molecular cloud, where all other particles have the same energy, every collision will only change its energy a little, and it will basically stay the same.
 This process is important to explain changes in CR spectral index. The high energy particles emitted directly at the source will lose energy faster than the less energetic ones, populating the lower part of a spectrum. This way, a propagated population of CR has a softer spectrum than it had when emitted by its source. The theoretical index values for a propagated spectrum is 3.85, with a value of 2.1 for a source spectrum. \cite{Hillas2005}
 This softening occurs more quickly in the disk, where a lot of collision happen, and more slowly perpendicular to it.
+
+\todo{add picture of energy losses (see alexander thesis)}
+
+
+\subsection{Effect of molecular cloud}
+
+Molecular clouds could play a major role in the spectral distribution of CR in the disk via their magnetic field. 
+A stronger magnetic field around those objects deflect the charged particles. If the CR particle has a high enough rigidity, the effect will be negligible, but for lower rigidity, the particle's path can be bend enough so that the particle never enters the MC.
+
+Another theory is investigated. The electromagnetic field density in their core is greater than on the outside due to a higher density of particles. A particle entering the MC along a field line could be reflected by this increasing field density, much like it is observed on Earth with the Earth magnetic field.
+
+\todo{cite on earth, in MCs}
+\todo{add picture of the phenomenon}
+
+In both cases, the result is the same. Low energy CR are deflected before entering the MC, thus hardening the lower energy CR spectrum in MCs.
+
+
 
 
 
@@ -144,6 +161,8 @@ The CR spectrum obtained from observations on Earth is shown in Figure \ref{fig:
 The CR spectrum is composed of three main features that form a "leg". The "knee" around $10^{7} GeV$ marks the separation between two different power laws in $E^{-\alpha}$. A slightly harder one below that is thought to be composed of galactic CRs, and a softer one above that is supposed to be of extra-galactic origin. The spectral index changes from 2.7 below to 3 above, due to different production mechanisms. \cite{Biermann1995}
 As indicated on Figure \ref{fig:CR_spectrum}, the corresponding flux of particles is lower and statistical fluctuations are not negligible at high energies. Especially at the "ankle", above $10^9 GeV$, where only very few particles are detected.
 
+
+\section{Physics of gamma-ray}
 
 \subsection{Gamma-ray creation}
 %		-pion decay
@@ -246,7 +265,7 @@ In theory, the knowledge of the processes that generate gamma-rays from cosmic-r
 % \label{fig:first_BKGonly_fits}
 %\end{figure}
 
-Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare \cite{Calore2015}, \cite{Fermi2017}, \cite{Yang2016}. The three discussed processes were modeled to try to recreate the spectrum observed here on Earth. The results show discrepancies.
+Several studies have already tried to see how the predictions of the gamma rays emission and the observations compare \cite{Calore2015}, \cite{Fermi2017}, \cite{Yang2016}. The three discussed processes were modeled to try to recreate the spectrum observed here on Earth. The accepted model is composed of a single spectrum of propagated proton CR, and a single electron spectrum. Then, gamma-rays are deduced and modeled from there. The results show discrepancies.
 Even though the observations of the galactic poles or any high latitude regions can be well explained by a propagated CR, bremsstrahlung and inverse compton scattering component, the models fail to reproduce the surroundings of the galactic disk, and in particular the GC or the bubbles. 
 Two discrepancies can be identified. A high energy deficit in the models, where the observed high energy tail (> 50 GeV) cannot be reproduced \cite{Yang2016}, and a spherical excess centered in the GC around 2 GeV.
 
