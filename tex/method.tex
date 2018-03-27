@@ -48,11 +48,11 @@
 
 All the following work is based on the measurement of gamma rays coming from intra- and extra-galactic sources. The quality and accuracy of the data is one of the most important points that will determine the general quality of the results. Thus it is capital to be certain that the gathering and treatment were done properly.
 
-The Fermi Large Area Telescope (LAT) observes the gamma-ray sky since 2008 and provides all the data of this work. \todo{cite}
-All the information and data are available on the web and anybody can access them, using the tools given by Fermi. \todo{cite}
+The Fermi Large Area Telescope (LAT) observes the gamma-ray sky since 2008 and provides all the data of this work. \cite{Fermi2009}
+All the information and data are available on the web and anybody can access them, using the tools given by Fermi. \cite{FermiTools}
 
 The reconstruction method and data set of Fermi LAT is improved regularly, improving the statistics, the systematic errors and the point source subtraction. The latest data set to date, called Pass 8, is used for this work.
-One of the most important steps in the treatment process is the selection of the events. Every photon measured is saved along with all its properties in a data file. Then this list is filtered to keep only the relevant observations. The filter can be based on the incoming direction, the energy or the time of observation, but also on the quality of the event reconstruction. This last cut can be critical. It will determine the chances that the measured event is in fact a gamma ray, and not some background noise polluting the data. The more strict the filter is, the less events are kept for analysis and the statistical errors increase. This work uses the CLEAN class recommended by the Fermi team for diffuse emission analysis. \todo{cite Fermi sciencetools}
+One of the most important steps in the treatment process is the selection of the events. Every photon measured is saved along with all its properties in a data file. Then this list is filtered to keep only the relevant observations. The filter can be based on the incoming direction, the energy or the time of observation, but also on the quality of the event reconstruction. This last cut can be critical. It will determine the chances that the measured event is in fact a gamma ray, and not some background noise polluting the data. The more strict the filter is, the less events are kept for analysis and the statistical errors increase. This work uses the CLEAN class recommended by the Fermi team for diffuse emission analysis. \cite{FermiTools}
 
 The main parameters of the selection can be found in Tab \ref{tab:fermi_selection_parameters}.
 
@@ -79,7 +79,7 @@ zmax (degrees)                      & 90                       & Maximum zenith 
 Another important point is the creation of the exposure map. It tells how long the telescope spent observing a given part of the sky. After dividing the count map by the exposure, a flux map is obtained that does not depends on the observation time of particular regions. For example, if the telescope observed the galactic center ten times more often than the Orion nebula , there is no way to know at first if the higher counts in the GC is due to the longer exposition time or a higher flux from this region.
 %It is used to correct an observation bias. 
 
-The goal of this work is to study the diffuse sources of gamma-rays from inside and outside the Milky Way. Of course, the LAT does not differentiate them from point source gamma-rays. This has to be done manually as the last step in the treatment process. A catalog of gamma ray point sources (3FGL) is available on-line on NASA website \todo{cite site}. This catalog lists most of the known and identified point sources, along with their spectral shape and flux. This information can then be used to model the number of counts coming from point sources and their spatial and energetic distribution. To achieve this, the point sources properties must be combined with the instrument properties. The point source flux is multiplied by the LAT exposure time corresponding to its position. This flux must also pass through the instrument and its defaults will deform the initial shape of the source. For a point source, the final image obtained by the detector is the Point Spread Function (PSF) of the telescope and is given with the Fermi tools. Every point source is convoluted by the PSF corresponding to the initial event selection, creating the final point source map as would be observed by the instrument.
+The goal of this work is to study the diffuse sources of gamma-rays from inside and outside the Milky Way. Of course, the LAT does not differentiate them from point source gamma-rays. This has to be done manually as the last step in the treatment process. A catalog of gamma ray point sources (3FGL) is available on-line on NASA website \cite{3FGL2015}. This catalog lists most of the known and identified point sources, along with their spectral shape and flux. This information can then be used to model the number of counts coming from point sources and their spatial and energetic distribution. To achieve this, the point sources properties must be combined with the instrument properties. The point source flux is multiplied by the LAT exposure time corresponding to its position. This flux must also pass through the instrument and its defaults will deform the initial shape of the source. For a point source, the final image obtained by the detector is the Point Spread Function (PSF) of the telescope and is given with the Fermi tools. Every point source is convoluted by the PSF corresponding to the initial event selection, creating the final point source map as would be observed by the instrument.
 Once this model map is obtained, it is subtracted from the data to only keep the diffuse emission (see Fig. \ref{fig:method_pass8}). Since the models are never perfect and all point sources are not listed, errors or anomalies in the observations can appear. Keeping the dataset up-to-date allows to use the latest catalogs and best reconstruction.
 
 
@@ -108,7 +108,7 @@ The second source is the statistical errors, proportional to the square root of 
 \subsection{From CRs to gamma-rays}
 %Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
 
-The gamma-ray spectra used in this study are directly calculated from the CR spectra. The next section describes the CR distribution used to get the gamma-ray spectra corresponding to the modeled processes. Once the CR spectrum is defined, a propagation software \todo{cite}, DRAGON, is used to determine the emitted gamma-ray spectrum. For most of the components, the spectral shape does not vary depending on the direction, only its normalization does, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
+The gamma-ray spectra used in this study are directly calculated from the CR spectra. The next section describes the CR distribution used to get the gamma-ray spectra corresponding to the modeled processes. Once the CR spectrum is defined, a propagation software \cite{Evoli2008}, DRAGON, is used to determine the emitted gamma-ray spectrum. For most of the components, the spectral shape does not vary depending on the direction, only its normalization does, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
 DRAGON uses a model of the galaxy (ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse compton scattering.
 
 
@@ -278,7 +278,7 @@ The DM template falls down to zero for energies above twice the WIMP mass, which
 
 \subsubsection{Milli-second pulsars gamma-ray production (MSP)}
 
-The MSP template is directly taken from the Fermi study \todo{cite paper}. It simulates the emission of 1700 milli-second pulsars with different energies around the galactic center.
+The MSP template is directly taken from the Fermi study \cite{Fermi2017}. It simulates the emission of 1700 milli-second pulsars with different energies around the galactic center.
 The high energy shape of the spectrum closely resemble the DM template, but the main difference with DM and MCR is for low energies. Indeed, below 1 GeV, the MSP template is a lot softer and this feature makes it discernible from MCR and DM.
 
 \subsubsection{Isotropic component}
@@ -342,7 +342,7 @@ The fit is very well constrained with only five or six degrees of freedoms depen
 The closest a $\chi^2$ value is to one, the better the model follows the data. The higher it gets, the lower the quality of the fit. It can also happen that it gets lower than one. This can happen when the error bars on the data are too big.
 
 
-Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as has been done in other works \todo{cite}. It is used to let the fit find reasonable shapes by itself, only using the $\chi^2$ minimization technique.
+Since every bin is fitted independently, it is not possible to implement a spatial template, i.e. where the spatial shape of a component would be fixed in advance. For example a component with a spherical distribution around the GC, as has been done in other works \cite{Calore2015}, \cite{Daylan2016}. It is used to let the fit find reasonable shapes by itself, only using the $\chi^2$ minimization technique.
 
 %\section{Introduction of results}
 

@@ -2,7 +2,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{21}
+\begin{mcitethebibliography}{33}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -189,6 +189,161 @@ Jungman,~G.; Kamionkowski,~M.; Griest,~K. \emph{Physics Reports} \textbf{1996},
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Jansson and Farrar(2012)Jansson, and Farrar]{Farrar2012}
+Jansson,~R.; Farrar,~G.~R. \emph{The Astrophysical Journal} \textbf{2012},
+  \emph{757}, 14\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Gleeson} and {Axford}(1968){Gleeson}, and {Axford}]{Gleeson1968}
+{Gleeson},~L.~J.; {Axford},~W.~I. \emph{apj} \textbf{1968}, \emph{154},
+  1011\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Crutcher(2012)]{Crutcher2012}
+Crutcher,~R.~M. \emph{Annual Review of Astronomy and Astrophysics}
+  \textbf{2012}, \emph{50}, 29--63\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hillas(2005)]{Hillas2005}
+Hillas,~A.~M. \emph{Journal of Physics G: Nuclear and Particle Physics}
+  \textbf{2005}, \emph{31}, R95\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hillas(1984)]{Hillas1984}
+Hillas,~A.~M. \emph{Annual Review of Astronomy and Astrophysics} \textbf{1984},
+  \emph{22}, 425--444\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Biermann(1995)]{Biermann1995}
+Biermann,~P.~L. \emph{Nuclear Physics B - Proceedings Supplements}
+  \textbf{1995}, \emph{43}, 221 -- 228\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Humboldt State University}()]{HSU}
+{Humboldt State University},
+  \url{http://gsp.humboldt.edu/olm_2015/Courses/GSP_216_Online/lesson2-1/atmosphere.html},
+  Version Date: 2018-03-27\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Atwood \latin{et~al.}(2009)Atwood, Abdo, Ackermann, Althouse,
+  Anderson, Axelsson, Baldini, Ballet, Band, Barbiellini, Bartelt, Bastieri,
+  Baughman, Bechtol, Bédérède, Bellardi, Bellazzini, Berenji, Bignami,
+  Bisello, Bissaldi, Blandford, Bloom, Bogart, Bonamente, Bonnell, Borgland,
+  Bouvier, Bregeon, Brez, Brigida, Bruel, Burnett, Busetto, Caliandro, Cameron,
+  Caraveo, Carius, Carlson, Casandjian, Cavazzuti, Ceccanti, Cecchi, Charles,
+  Chekhtman, Cheung, Chiang, Chipaux, Cillis, Ciprini, Claus, Cohen-Tanugi,
+  Condamoor, Conrad, Corbet, Corucci, Costamante, Cutini, Davis, Decotigny,
+  DeKlotz, Dermer, de~Angelis, Digel, do~Couto~e Silva, Drell, Dubois, Dumora,
+  Edmonds, Fabiani, Farnier, Favuzzi, Flath, Fleury, Focke, Funk, Fusco,
+  Gargano, Gasparrini, Gehrels, Gentit, Germani, Giebels, Giglietto, Giommi,
+  Giordano, Glanzman, Godfrey, Grenier, Grondin, Grove, Guillemot, Guiriec,
+  Haller, Harding, Hart, Hays, Healey, Hirayama, Hjalmarsdotter, Horn, Hughes,
+  Jóhannesson, Johansson, Johnson, Johnson, Johnson, Johnson, Kamae, Katagiri,
+  Kataoka, Kavelaars, Kawai, Kelly, Kerr, Klamra, Knödlseder, Kocian, Komin,
+  Kuehn, Kuss, Landriu, Latronico, Lee, Lee, Lemoine-Goumard, Lionetto, Longo,
+  Loparco, Lott, Lovellette, Lubrano, Madejski, Makeev, Marangelli, Massai,
+  Mazziotta, McEnery, Menon, Meurer, Michelson, Minuti, Mirizzi, Mitthumsiri,
+  Mizuno, Moiseev, Monte, Monzani, Moretti, Morselli, Moskalenko, Murgia,
+  Nakamori, Nishino, Nolan, Norris, Nuss, Ohno, Ohsugi, Omodei, Orlando, Ormes,
+  Paccagnella, Paneque, Panetta, Parent, Pearce, Pepe, Perazzo, Pesce-Rollins,
+  Picozza, Pieri, Pinchera, Piron, Porter, Poupard, Rainò, Rando, Rapposelli,
+  Razzano, Reimer, Reimer, Reposeur, Reyes, Ritz, Rochester, Rodriguez, Romani,
+  Roth, Russell, Ryde, Sabatini, Sadrozinski, Sanchez, Sander, Sapozhnikov,
+  Parkinson, Scargle, Schalk, Scolieri, Sgrò, Share, Shaw, Shimokawabe,
+  Shrader, Sierpowska-Bartosik, Siskind, Smith, Smith, Spandre, Spinelli,
+  Starck, Stephens, Strickman, Strong, Suson, Tajima, Takahashi, Takahashi,
+  Tanaka, Tenze, Tether, Thayer, Thayer, Thompson, Tibaldo, Tibolla, Torres,
+  Tosti, Tramacere, Turri, Usher, Vilchez, Vitale, Wang, Watters, Winer, Wood,
+  Ylinen, and Ziegler]{Fermi2009}
+Atwood,~W.~B. \latin{et~al.}  \emph{The Astrophysical Journal} \textbf{2009},
+  \emph{697}, 1071\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Calore \latin{et~al.}(2015)Calore, Cholis, and Weniger]{Calore2015}
+Calore,~F.; Cholis,~I.; Weniger,~C. \emph{Journal of Cosmology and
+  Astroparticle Physics} \textbf{2015}, \emph{2015}, 038\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Fermi-LAT Collaboration}(2017)]{Fermi2017}
+{Fermi-LAT Collaboration}, \emph{ArXiv e-prints} \textbf{2017}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Yang} \latin{et~al.}(2016){Yang}, {Aharonian}, and {Evoli}]{Yang2016}
+{Yang},~R.; {Aharonian},~F.; {Evoli},~C. \emph{prd} \textbf{2016}, \emph{93},
+  123007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{ Fermi Science Tools Software Version v10r0p5}()]{FermiTools}
+{ Fermi Science Tools Software Version v10r0p5},
+  \url{https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/v10r0p5.html},
+  Version Date: 2017-09-09\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Acero} \latin{et~al.}(2015){Acero}, {Ackermann}, {Ajello}, {Albert},
+  {Atwood}, {Axelsson}, {Baldini}, {Ballet}, {Barbiellini}, {Bastieri},
+  {Belfiore}, {Bellazzini}, {Bissaldi}, {Blandford}, {Bloom}, {Bogart},
+  {Bonino}, {Bottacini}, {Bregeon}, {Britto}, {Bruel}, {Buehler}, {Burnett},
+  {Buson}, {Caliandro}, {Cameron}, {Caputo}, {Caragiulo}, {Caraveo},
+  {Casandjian}, {Cavazzuti}, {Charles}, {Chaves}, {Chekhtman}, {Cheung},
+  {Chiang}, {Chiaro}, {Ciprini}, {Claus}, {Cohen-Tanugi}, {Cominsky}, {Conrad},
+  {Cutini}, {D'Ammando}, {de Angelis}, {DeKlotz}, {de Palma}, {Desiante},
+  {Digel}, {Di Venere}, {Drell}, {Dubois}, {Dumora}, {Favuzzi}, {Fegan},
+  {Ferrara}, {Finke}, {Franckowiak}, {Fukazawa}, {Funk}, {Fusco}, {Gargano},
+  {Gasparrini}, {Giebels}, {Giglietto}, {Giommi}, {Giordano}, {Giroletti},
+  {Glanzman}, {Godfrey}, {Grenier}, {Grondin}, {Grove}, {Guillemot}, {Guiriec},
+  {Hadasch}, {Harding}, {Hays}, {Hewitt}, {Hill}, {Horan}, {Iafrate}, {Jogler},
+  {J{\'o}hannesson}, {Johnson}, {Johnson}, {Johnson}, {Johnson}, {Kamae},
+  {Kataoka}, {Katsuta}, {Kuss}, {La Mura}, {Landriu}, {Larsson}, {Latronico},
+  {Lemoine-Goumard}, {Li}, {Li}, {Longo}, {Loparco}, {Lott}, {Lovellette},
+  {Lubrano}, {Madejski}, {Massaro}, {Mayer}, {Mazziotta}, {McEnery},
+  {Michelson}, {Mirabal}, {Mizuno}, {Moiseev}, {Mongelli}, {Monzani},
+  {Morselli}, {Moskalenko}, {Murgia}, {Nuss}, {Ohno}, {Ohsugi}, {Omodei},
+  {Orienti}, {Orlando}, {Ormes}, {Paneque}, {Panetta}, {Perkins},
+  {Pesce-Rollins}, {Piron}, {Pivato}, {Porter}, {Racusin}, {Rando}, {Razzano},
+  {Razzaque}, {Reimer}, {Reimer}, {Reposeur}, {Rochester}, {Romani},
+  {Salvetti}, {S{\'a}nchez-Conde}, {Saz Parkinson}, {Schulz}, {Siskind},
+  {Smith}, {Spada}, {Spandre}, {Spinelli}, {Stephens}, {Strong}, {Suson},
+  {Takahashi}, {Takahashi}, {Tanaka}, {Thayer}, {Thayer}, {Thompson},
+  {Tibaldo}, {Tibolla}, {Torres}, {Torresi}, {Tosti}, {Troja}, {Van Klaveren},
+  {Vianello}, {Winer}, {Wood}, {Wood}, {Zimmer}, and {Fermi-LAT
+  Collaboration}]{3FGL2015}
+{Acero},~F. \latin{et~al.}  \emph{apjs} \textbf{2015}, \emph{218}, 23\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Evoli \latin{et~al.}(2008)Evoli, Gaggero, Grasso, and
+  Maccione]{Evoli2008}
+Evoli,~C.; Gaggero,~D.; Grasso,~D.; Maccione,~L. \emph{Journal of Cosmology and
+  Astroparticle Physics} \textbf{2008}, \emph{2008}, 018\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Aguilar \latin{et~al.}(2015)Aguilar, Aisa, Alpat, Alvino, Ambrosi,
   Andeen, Arruda, Attig, Azzarello, Bachlechner, Barao, Barrau, Barrin,
   Bartoloni, Basara, Battarbee, Battiston, Bazo, Becker, Behlmann, Beischer,
@@ -244,20 +399,6 @@ Biermann,~P.~L.; Becker,~J.~K.; Dreyer,~J.; Meli,~A.; Seo,~E.-S.; Stanev,~T.
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Hillas(2005)]{Hillas2005}
-Hillas,~A.~M. \emph{Journal of Physics G: Nuclear and Particle Physics}
-  \textbf{2005}, \emph{31}, R95\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Crutcher(2012)]{Crutcher2012}
-Crutcher,~R. \emph{Annual Review of Astronomy and Astrophysics} \textbf{2012},
-  \emph{50}, 29--63\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
 \bibitem[Gondolo \latin{et~al.}(2004)Gondolo, Edsjö, Ullio, Bergström,
   Schelke, and Baltz]{Gondolo2004}
 Gondolo,~P.; Edsjö,~J.; Ullio,~P.; Bergström,~L.; Schelke,~M.; Baltz,~E.~A.
@@ -276,10 +417,11 @@ Gondolo,~P.; Edsjö,~J.; Ullio,~P.; Bergstrom,~L.; Schelke,~M.; Baltz,~E.~A.
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[{ Fermi Science Tools Software Version v10r0p5}()]{FermiTools}
-{ Fermi Science Tools Software Version v10r0p5},
-  \url{https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/v10r0p5.html},
-  Version Date: 2017-09-09\relax
+\bibitem[Daylan \latin{et~al.}(2016)Daylan, Finkbeiner, Hooper, Linden,
+  Portillo, Rodd, and Slatyer]{Daylan2016}
+Daylan,~T.; Finkbeiner,~D.~P.; Hooper,~D.; Linden,~T.; Portillo,~S.~K.;
+  Rodd,~N.~L.; Slatyer,~T.~R. \emph{Physics of the Dark Universe}
+  \textbf{2016}, \emph{12}, 1 -- 23\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

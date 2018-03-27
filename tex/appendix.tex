@@ -8,4 +8,134 @@
 
 \section{Some appendix section}
 \label{app:fitresults}
-This appendix chapter contains ...
+
+
+
+
+%\begin{figure}
+%
+%\begin{lstlisting}
+%#First, install the fermi science tools from: https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/
+%#All I'm saying here is better explained in analysis thread: https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/ You can look at the following threads: Extract LAT Data, Using LAT All-sky Weekly Files, (Un)Binned Likelihood Tutorial
+%#Also every command has a documentation here: https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/help/<name of the command>.txt
+%fileBase="explicit_name_to_use_as_an_useful_root_for_your_run"
+%spacecraft="location_of_the_spacecraft_file_containing_positions_and_infos_about_the_satellite"
+%#Select the events from the weekly files listed in file_list.txt. (ra, dec) is the galactic center coordinates in ICRS system, a radius of 180 to select the whole sky, and the energy bounds. The one here corespond to the energy bound of the fermi diffuse model. You might run into troubles if you try to use it with energies out of this range
+%gtselect evclass = 256 
+%		evtype = 3 \
+%	    infile = file_list.txt \
+%	    outfile = $fileBase.fits \
+%	    ra = 266.4049882865447 \
+%	    dec = -28.93617776179147 \
+%	    rad = 180 \
+%	    tmin = INDEF \
+%	    tmax = INDEF \
+%	    emin = 58.4731 \
+%	    emax = 513056 \
+%	    zmax = 90
+%#Disregard all events registered out of the Good Time Intervals of the spacecraft, with the cut recommanded by fermi peoples
+%gtmktime scfile = $spacecraft \
+%	filter = "DATA_QUAL>0 && LAT_CONFIG==1 && ABS(ROCK_ANGLE)<52" \
+%	roicut = no \
+%	evfile = $fileBase".fits" \
+%	outfile = $fileBase"_gtmktime.fits"
+%#Making the first map from the events. All options are on the web. The settings of this map are reused later for the exposure for example.
+%gtbin algorithm = "CCUBE" \
+%	evfile = $fileBase"_gtmktime.fits" \
+%	outfile = $fileBase"_ccube.fits" \
+%	scfile = $spacecraft \
+%	nxpix = $number_of_pixels_in_lon \
+%	nypix = $number_of_pixels_in_lat \
+%	binsz = $pixel_size \
+%	coordsys = GAL \
+%	xref = $l \
+%	yref = $b \
+%	axisrot = 0 \
+%	proj = "CAR" \
+%       	ebinalg = "LOG" \
+%	emin = 59 \
+%	emax = 513000 \
+%	enumbins = 30
+%#Make a first exposure map with default settings. Can take a long time. Here the zmax=90 is to avoid the earth limbs. Next step will bin it in the format used in gtbin. 
+%gtltcube zmax = 90 \
+%	evfile = $fileBase"_gtmktime.fits" \
+%	scfile = $spacecraft \
+%	outfile = $fileBase"_ltcube.fits" \
+%	dcostheta = 0.025 \
+%	binsz = 1
+%#Bin the exposure map in the same binning than gtbin. The only difference is for the energy bins: It creates a map for every energy bin "EDGE" when gtbin creates a map for every energy bin "CENTER". This can be changed via "bincalc" option but you need to let it on edge for later.
+%#You can also do once a full exposure map, even if you analyse only a small sky region, if you don't change the cuts in gtselect you can then reuse it.
+%gtexpcube2 bincalc="EDGE" \
+%	infile = $fileBase"_ltcube.fits" \
+%	cmap = $fileBase"_ccube.fits" \
+%	outfile = $fileBase"_expcube.fits" \
+%	irfs = "CALDB" \
+%	nxpix = $number_of_pixels_in_lon \
+%	nypix = $number_of_pixels_in_lat \
+%	binsz = $pixel_size \
+%	xref = 0. \
+%	yref = 0. \
+%	axisrot = 0 \
+%	proj = "CAR" \
+%	coordsys = GAL \
+%	ebinalg = "LOG" \
+%	emin = 59 \
+%	emax = 513000 \
+%	enumbins = 30
+%#Now you can divide your gtbin map by your gtexpcube2 map to get a flux map! Use this:
+%ftpixcalc outfile = $fileBase"_flux.fits" \
+%    expr = a/b \
+%    a = $fileBase"_ccube.fits" \
+%    b = $fileBase"_expcube.fits"
+%#Now to subtract the point sources:
+%#Let allow energy dispersion now, it is better too soon than too late.
+%export USE_BL_EDISP=true
+%#First create an .xml file that lists all the point sources or diffuse sources you want to add to your model. Here I add all the point sources that could play a role in my maps (it knows it from the gtmktime file), but also the diffuse fermi background (gll_iem_v06.fits) and the fermi isotropic template (iso_P8R2_CLEAN_V6_v06.txt). You will have to comment them out by hand afterward if you let them here (or using a script like rm_diffsrc.py). The point sources are taken from the 3FGL catalog (gll_psc_v16.fit), for a significance > 3.
+%python make3FGLxml.py gll_psc_v16.fit $fileBase"_gtmktime.fits" \
+%    -o $fileBase"_model.xml" \
+%    -G $FERMI_DIR/refdata/fermi/galdiffuse/gll_iem_v06.fits \
+%    -g gll_iem_v06 \
+%    -I $FERMI_DIR/refdata/fermi/galdiffuse/iso_P8R2_CLEAN_V6_v06.txt \
+%    -i iso_P8R2_CLEAN_V6_v06 \
+%    --extDir=$storage_path/processing/ \
+%    -s 3.
+%#This will create a map of each source listed in your .xml file with the same parameters than your gtbin map. You have to do it at least once for the diffuse sources, but point sources are done quickly and can be done later (via option ptsrc = yes/no). This can take some time and the output file is quickly very big with the point sources.
+%gtsrcmaps scfile = $spacecraft \
+%    expcube = $fileBase"_ltcube.fits" \
+%    cmap = $fileBase"_ccube.fits" \
+%    srcmdl = $fileBase"_model.xml" \
+%    bexpmap = $fileBase"_expcube.fits" \
+%    outfile = $fileBase"_srccube.fits" \
+%    irfs = CALDB
+%#This OPTIONAL step is here to fit every point sources to your data to try to improve the 3FGL catalog and subtract a better model. You obviously need all backgrounds from fermi, iso template point and diffuse sources. This will create a new improved .xml file with slightly different values for every point sources than the one created by make3FGLxml.py. This take a LOT of time for big regions and can not be done for the whole sky at once. If you want to do it you need to cut the sky in smaller regions and reassemble them again after. That might not be worth it...
+%gtlike refit = no \
+%	plot = no \
+%	sfile = $fileBase"_gtlike.xml" \
+%	statistic = BINNED \
+%	cmap = $fileBase"_srccube.fits" \
+%	bexpmap = $fileBase"_expcube.fits" \
+%	expcube =  $fileBase"_ltcube.fits" \
+%	srcmdl =  $fileBase"_model.xml" \
+%	irfs = CALDB \
+%	optimizer = NEWMINUIT
+%#You can finally create a model map of the sources to subtract. The point sources are calculated automatically if they are not found in the gtsrcmaps file.
+%gtmodel srcmaps = $fileBase"_srccube.fits" \
+%	srcmdl = $fileBase"_model.xml" \
+%	outfile =  $fileBase"_modelcube_ptsrc.fits" \
+%	irfs = CALDB \
+%	expcube = $fileBase"_ltcube.fits" \
+%	bexpmap = $fileBase"_expcube.fits" \
+%	outtype = CCUBE
+%#You can finally subtract the gtmodel map from your gtbin map via:
+%ftpixcalc outfile = $fileBase"_diffuse.fits" \
+%    expr = a-b \
+%    a = $fileBase"_ccube.fits" \
+%    b = $fileBase"_modelcube_ptsrc.fits"
+%#The final step to put the data in the correct format for skyplot to read is here:
+%for e in {0..29}
+%do 
+%    python cube2dat.py $fileBase"_diffuse.fits" $fileBase"_expcube.fits" $e > Fermi_pass8_data_E$e.dat
+%done
+%\end{lstlisting}
+%
+%\end{figure}
