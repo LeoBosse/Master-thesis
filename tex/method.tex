@@ -108,7 +108,7 @@ The second source is the statistical errors, proportional to the square root of 
 \subsection{From CRs to gamma-rays}
 %Add subsection on how the gamma spectra are calculated. Don't forgt to explain how the 3 IC comps are managed}
 
-The gamma-ray spectra used in this study are directly calculated from the CR spectra. The next section describes the CR distribution used to get the gamma-ray spectra corresponding to the modeled processes. Once the CR spectrum is defined, a propagation software \cite{Evoli2008}, DRAGON, is used to determine the emitted gamma-ray spectrum. For most of the components, the spectral shape does not vary depending on the direction, only its normalization does, but that does not play a role in the fitting method (cf \todo{section on fitting method}).
+The gamma-ray spectra used in this study are directly calculated from the CR spectra. The next section describes the CR distribution used to get the gamma-ray spectra corresponding to the modeled processes. Once the CR spectrum is defined, a propagation software \cite{Evoli2008}, DRAGON, is used to determine the emitted gamma-ray spectrum. For most of the components, the spectral shape does not vary depending on the direction, only its normalization does.%, but that does not play a role in the fitting method (cf \ref{sec:fitting_method}).
 DRAGON uses a model of the galaxy (ISRF, matter distribution, etc...) and the input CR spectra for protons and electrons to produce gamma-ray spectra as an output for pion decay, bremsstrahlung and inverse compton scattering.
 
 
@@ -298,15 +298,15 @@ The isotropic template represents the contribution from the isotropic extragalac
 A first fit of the data in regions outside the bubbles and the galactic disk using the isotropic template from the Fermi software is produced as an initial estimate. This fit takes into account all components of the best fit available.
 If one plots the total observed gamma-ray flux versus the fitted flux in the various cones in a certain energy bin, one expects a linear relation crossing the origin if the isotropic flux is estimated correctly (See Fig. \ref{fig:iso_calibration}). However, if the isotropic contribution is either too low or too high, an offset at the origin is introduced in the linear relation. Since the isotropic component is by definition the same for all cones for a given energy, this offset can be subtracted from the Fermi template to improve the fit. 
 %An example of such a fit is shown in Figure \ref{fig:iso_calibration} for an energy bin between \todo{3.7-5.2 GeV}. 
-Once the offset is determined for each energy bin and subtracted from the original template, the process is repeated until the offset converges to zero.
+Once the offset is determined for each energy bin and subtracted from the original template, the process is repeated until the offset converges to zero. This process is illustrated in its four first steps in the appendix \ref{app:app_iso_process}.
 
 %The linear relation between data and fit is always supposed to have a slope of one, or the process does not converge.
-\todo{maybe add pictures of the iso template through different steps}
 %The resulting template in our analysis has deviations from the Fermi template up to $35\%$ above 2 GeV, as shown in the insert of \ref{fig:iso_calibration}.
 %%% ARTICLE
 
 \newpage
 \section{Fitting method}
+\label{sec:fitting_method}
 %My method:
 %	-Spectral templates fitted to the data
 %		-independant spatial cones on the entire sky (usually 797 for optimized sizes)

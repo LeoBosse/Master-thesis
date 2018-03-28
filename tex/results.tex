@@ -47,7 +47,13 @@
 
 Before trying to upgrade the current model, it is important to make sure it can be recreated with this method. 
 
-\ref{fig:weniger_plot} and \todo{ref Appendix with more weniger plots} illustrates a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 4.7 and 0.3 GeV is plotted for all longitudes. For every sky direction, $\sigma = \left(Data(l, b, E_1) - Data(l, b, E_2) \right) /  error$ where error is the cumulated uncertainty on both data points. It is then rescaled around zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the shape of the spectrum.
+\ref{fig:weniger_plot} and \todo{ref Appendix with more weniger plots} illustrate a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 5 GeV and 300 MeV is plotted for all longitudes. For every sky direction, $\sigma$ is given by equation ref where error is the cumulated uncertainty on both data points.
+\begin{equation}
+\sigma = \frac{\left(Data(l, b, E_1) - Data(l, b, E_2) \right)}{\sqrt{\sigma_{1,\ stat}^2 + \sigma_{2, stat}^2}}
+\end{equation}
+
+
+It is then rescaled around zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the shape of the spectrum.
 
 Fig. \ref{fig:our_excess} present an other way of looking at the excess with a fit using only the background components (PCR, IC and BR). This map shows the percentage difference between the fit and the data at 2.58 GeV. This gives an idea about the distribution of the excess around the GC. The shape and intensity of the previously observed excess are found \todo{cite https://arxiv.org/pdf/1110.0006.pdf? or others}. Excluding the galactic disk for latitudes below two degrees, the excess extends to $30^\circ$ in all directions from the GC.The problem only confirm itself when looking deeper into the results.
 
@@ -336,8 +342,8 @@ This section introduces the results of the MSP as the excess component.
 The first thing that can be noticed when seeing the $\chi^2$ distribution of the MSP only fit (Fig \ref{fig:MSPonly_chi2Distribution}) is the similitude with the DM only fit (Fig. \ref{fig:DMonly_chi2Distribution}). The fit succeeds pretty well outside the disk, but gets significantly worst for latitudes below two degrees.
 
 
-Using the MSP spectrum predicted by fermi \todo{cite} to fit the CMZ region does not give entire satisfaction.
-As for DM, the high energy is again too soft and put constraints on other templates. This effect is detailed in here \todo{ref chapter}
+Using the MSP spectrum predicted by fermi \cite{Fermi2017} to fit the CMZ region does not give entire satisfaction.
+As for DM, the high energy is again too soft and put constraints on other templates.
 
 
 As shown on Fig. \ref{fig:MSPonly_skymap_MSP}, the distribution of MSP in the sky resembles the distribution of CO, MCR and DM obtained in previous sections. Present everywhere in the disk, with a higher flux in GC and the bubbles.
