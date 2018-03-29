@@ -34,27 +34,27 @@
 \contentsline {section}{\numberline {2.3}Fitting method}{22}{section.2.3}
 \contentsline {chapter}{\numberline {3}First results: Study of the excess}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Recreating previous results}{25}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{27}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Introducing SCR}{28}{section.3.2}
-\contentsline {section}{\numberline {3.3}Introducing an excess component}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Introducing MCR}{30}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Introducing DM}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Introducing MSP}{33}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Why is MCR better than DM or MSP and a recap of the results so far}{35}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Comparison of the excess spectral shape}{36}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}To go further: How to improve the model}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discussion on the spatial distributions of the other components.}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}PCR flux distribution}{37}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{38}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{38}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{39}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Adding the MBR component}{39}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}MBR fixed to MCR, magnetic cut-off}{39}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Add DM late}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}DM and MCR}{40}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}DMlate}{41}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}How do these results fit in context}{41}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
-\contentsline {chapter}{Bibliography}{45}{section*.38}
-\contentsline {chapter}{\nonumberline Appendix}{49}{chapter*.40}
-\contentsline {section}{\numberline {A}Some appendix section}{50}{section.5.1}
+\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{28}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Introducing SCR}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing an excess component}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introducing MCR}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Introducing DM}{32}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Introducing MSP}{34}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Discussion on previous results}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Detailed comparison of the excess spectral shape}{37}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}To go further: How to improve the model}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discussion on the spatial distributions of the other components.}{39}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}PCR flux distribution}{39}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{41}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{42}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{43}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Adding the MBR component}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}MBR fixed to MCR, magnetic cut-off}{44}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Add DM late}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}DM and MCR}{45}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}DMlate}{45}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}How do these results fit in context}{46}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}
+\contentsline {chapter}{Bibliography}{49}{section*.39}
+\contentsline {chapter}{\nonumberline Appendix}{53}{chapter*.42}
+\contentsline {section}{\numberline {A}Some appendix section}{54}{section.5.1}
