@@ -323,17 +323,24 @@ The fitted data can be seen as a data cube whose dimension are longitude, latitu
 
 The fit uses a certain number of components (three at least) each corresponding to a certain phenomenon and described earlier. They all have certain energy spectra that can vary with the position in the sky in the case of IC (See Fig. \ref{fig:norm_spectra}).
 
-The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed.  Using a ROOT TVirtualFitter object, every template is scaled up or down until its sum comes the closest to the data.
+The fits are done for every bin independently. After choosing the templates used for the fit, their scaling factor is the only degree of freedom allowed. Using a ROOT TVirtualFitter object, every template is scaled up or down until its sum comes the closest to the data. So the modeled flux is given by:
+
+\begin{equation}
+\phi(E,l,b) = \sum_{i=1}^{n} a_i(l,b)*T_i(E,l,b)
+\end{equation}
+
+where $\phi(E,l,b)$ is the total fitted flux at energy $E$, longitude l and latitude b, n is the number of components used in the fit, $a_i(l,b)$ is the scaling factor of component $i$ at position $(l,b)$ and $T_i(E,l,b)$ is the $i^{th}$ component's model flux. Only the IC and BR component depends on the longitude and latitude, and the isotropic template has a fixed scaling factor.
+
 Mathematically, the minimum distance between the model and the data is found when the $\chi^2$ value is lowest. It is calculated as follows:
 
 \begin{equation}
-\chi^2 = \sum_{i=1}^{30} \left[ \frac{ \left( D_i - \sum_{j=1}^{n} \left[ (n_jT_{ij})^2 \right] + iso \right) ^2}{\sigma_i^2} \right]
+\chi^2 = \sum_{i=1}^{30} \left[ \frac{ \left( D_i - \sum_{j=1}^{n} \left[ (a_jT_{ij})^2 \right] + iso \right) ^2}{\sigma_i^2} \right]
 \end{equation}
 
 where:
 \begin{itemize}
 \item $D_i$ is the data flux in the $i^{th}$ energy bin.
-\item $n_j$ is the scaling factor for the $j^{th}$ model component.
+\item $a_j$ is the scaling factor for the $j^{th}$ model component.
 \item $T_{ij}$ is the model flux of the $j^{th}$ in the $i^{th}$ energy bin.
 \item $\sigma_i$ is the geometric mean of the statistical and systematical error of the Fermi data point $i$.
 \end{itemize}

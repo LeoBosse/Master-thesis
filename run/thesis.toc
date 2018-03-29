@@ -1,0 +1,60 @@
+\contentsline {chapter}{Introduction}{1}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Theory}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Our Milky Way}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}General properties}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Dark Matter}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Spectrum description and vocabulary}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Physics of Cosmic Rays}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Creation of CR}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Energy losses}{7}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Propagation of CR}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Effect of molecular cloud}{9}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}CRs as observed from Earth}{9}{subsection.1.3.5}
+\contentsline {section}{\numberline {1.4}Physics of gamma-ray}{9}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Gamma-ray creation}{9}{subsection.1.4.1}
+\contentsline {subsubsection}{\nonumberline Pion decay (PCR)}{10}{section*.7}
+\contentsline {subsubsection}{\nonumberline Bremsstrahlung (BR)}{10}{section*.8}
+\contentsline {subsubsection}{\nonumberline Inverse Compton scattering (IC)}{11}{section*.9}
+\contentsline {subsubsection}{\nonumberline Other sources}{11}{section*.10}
+\contentsline {subsection}{\numberline {1.4.2}Gamma-ray observations}{11}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Unresolved problems of gamma-ray observations}{13}{section.1.5}
+\contentsline {chapter}{\numberline {2}Method}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data origin}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Model components}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}From CRs to gamma-rays}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Basic components}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by propagated cosmic rays (PCR)}{18}{section*.15}
+\contentsline {subsubsection}{\nonumberline Inverse Compton (IC) and bremsstrahlung (BR)}{18}{section*.16}
+\contentsline {subsection}{\numberline {2.2.3}Additional components}{19}{subsection.2.2.3}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by source cosmic rays (SCR)}{19}{section*.19}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by molecular clouds cosmic rays (MCR)}{19}{section*.20}
+\contentsline {subsubsection}{\nonumberline Dark matter annihilation (DM)}{20}{section*.21}
+\contentsline {subsubsection}{\nonumberline Milli-second pulsars gamma-ray production (MSP)}{20}{section*.22}
+\contentsline {subsubsection}{\nonumberline Isotropic component}{20}{section*.23}
+\contentsline {section}{\numberline {2.3}Fitting method}{22}{section.2.3}
+\contentsline {chapter}{\numberline {3}First results: Study of the excess}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Recreating previous results}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{27}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Introducing SCR}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing an excess component}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introducing MCR}{30}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Introducing DM}{30}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Introducing MSP}{33}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Why is MCR better than DM or MSP and a recap of the results so far}{35}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Comparison of the excess spectral shape}{36}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}To go further: How to improve the model}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discussion on the spatial distributions of the other components.}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}PCR flux distribution}{37}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{38}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{38}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{39}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Adding the MBR component}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}MBR fixed to MCR, magnetic cut-off}{39}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Add DM late}{40}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}DM and MCR}{40}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}DMlate}{41}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}How do these results fit in context}{41}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
+\contentsline {chapter}{Bibliography}{45}{section*.38}
+\contentsline {chapter}{\nonumberline Appendix}{49}{chapter*.40}
+\contentsline {section}{\numberline {A}Some appendix section}{50}{section.5.1}
