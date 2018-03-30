@@ -47,7 +47,7 @@
 
 Before trying to upgrade the current model, it is important to make sure it can be recreated with this method. 
 
-\ref{fig:weniger_plot} and \todo{ref Appendix with more weniger plots} illustrate a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 5 GeV and 300 MeV is plotted for all longitudes. For every sky direction, $\sigma$ is given by equation ref where error is the cumulated uncertainty on both data points.
+\ref{fig:weniger_plot} illustrate a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 5 GeV and 300 MeV is plotted for all longitudes. For every sky direction, $\sigma$ is given by equation ref where error is the cumulated uncertainty on both data points.
 
 \begin{equation}
 \sigma = \frac{\left(Data(E_1, l, b) - Data(E_2, l, b) \right)}{\sqrt{\sigma_{1,\ stat}^2 + \sigma_{2, stat}^2}}
@@ -175,7 +175,7 @@ The disk is still not fitted properly, with very high $\chi^2$ values, over 10. 
 \end{figure}
 
 The SCR template is present only in the disk and the bubbles (see Fig. \ref{fig:SCRonly_distributions}), as expected. The map of fitted SCR component shows it clearly, delimiting the bubbles with great precision. This distribution reinforces the idea of a source component, by pointing to all the regions where a hardening of the spectrum is present, as expected from its physical interpretation.
-It also does not disrupt the other components distribution too much. The PCR, IC and BR distributions are similar and still match their expected shape. \todo{add Appendix skymaps of all components for noSCR and SCR, to compare}.
+It also does not disrupt the other components distribution too much. The PCR, IC and BR distributions are similar and still match their expected shape (Appendix \ref{app:BKGonly_fit_distributions} and \ref{app:SCRonly_fit_distributions}).
 
 Figure \ref{fig:SCRonly_BKGonly_spec_comp} shows the spectrum in a given direction inside the bubbles, before and after adding the SCR template. While the high energy parts (above 100 GeV) of the spectra are dominated by SCR, the lower energies are also fitted with PCR and IC. The major difference is that each template fit one part of the spectrum, leaving other component deal with the rest. SCR is present at high energies, and this leaves more room for PCR and IC to adapt to the low energy spectrum. Hence increasing the fit quality.
 
@@ -452,7 +452,7 @@ Now that the high energies are taken care of, the excess shows around a few GeV.
 
 
 
-The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes. \todo{remember their names}.
+The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes.
 The MSP fit, also expected to have a spherical distribution of gamma-rays from millisecond pulsars, gives similar results. The flux seems to be needed by the fit to describe the disk and regions with molecular clouds as traced by CO in general.
 In both cases, the $\chi^2$ maps show an improvement of the model, but the morphology of the new components tends to disagree with the theory.
 
@@ -472,15 +472,46 @@ This quick comparison of the excess component distributions and the $\chi^2$ map
 The only difference between the three excess components that the fit cares about is their spectral shape. It is explained in the chapter \ref{ch:method} that all three templates peak around 2 GeV, but the slopes at low or high energies are different. For energies inferior to 2 GeV, MCR and DM have a similar shape, when MSP is much softer. For energies above 2 GeV, it is the MSP and DM spectrum that look alike, with a very soft spectrum, when MCR is harder.
 
 These differences are the only reasons the fits does not give exactly the same results three times.
-Indeed, the low energy spectrum of Fermi data in the disk is relatively hard and does not vary significantly along longitude \todo{add fig}. This plays a major role in differentiating MSP on one side, and MCR and DM on the other. The MSP spectrum being softer than Fermi at low energies, the lowest Fermi data point is limiting the MSP contribution. And the relative contribution of the MSP at 2 GeV can not exceed a certain value due to this soft energy spectrum. On the other hand, the MCR and DM spectra fall down with the same index than the data. Thus, the limit on MCR and DM relative contribution is not as limited by low energies as it is for MSP.
+Indeed, the low energy spectrum of Fermi data in the disk is relatively hard compared to high latitudes. This plays a major role in differentiating MSP on one side, and MCR and DM on the other. The MSP spectrum being softer than Fermi at low energies, the lowest Fermi data point is limiting the MSP contribution. And the relative contribution of the MSP at 2 GeV can not exceed a certain value due to this soft energy spectrum. On the other hand, the MCR and DM spectra fall down with the same index than the data. Thus, the limit on MCR and DM relative contribution is not as limited by low energies as it is for MSP.
 This spectral particularity keeps MSP low and does not allow it to account completely for the excess in the GC.
-\todo{add a picture or two, illustrating this effect. maybe two spectra with horizontal lines}
+%\todo{add a picture or two, illustrating this effect. maybe two spectra with horizontal lines}
 
 
 On the other side of the spectrum, above 2 GeV, it is MCR that behave differently than MSP and DM with a harder spectrum. When DM and MSP are completely insignificant above 50 GeV, MCR still plays a role at least as important as the PCR spectrum since they both have the same spectra at high energies. Above 4 GeV, the Fermi data present an constant spectral index with very little variations in the disk. This makes all the difference to distinguish between MCR and MSP or DM. In fact, the important point here is the energy at which the SCR component cross the excess component. In the CMZ, this turnover happens at 50 GeV for MCR, against only 10 GeV and 6 GeV for DM and MSP respectively. This causes the total flux in the DM and MSP fits to present a dip around 11 GeV with a clear change in spectral index. This does not follow the shape of the data. Because of this, the SCR has to overshoot the very high energies (above 100 GeV), to minimize the size of the dip. The PCR component could be a good help with a constant spectral index at high energies, but its contribution is limited by low energies. Indeed, the PCR spectrum peaks around 200 MeV where the Fermi data are already decreasing rapidly. Overall, the MCR spectrum presents the right shape at high energies, with a constant spectral index hard enough to combine wih the SCR component and closely follow the data.
 
 
 In total, two major differences in the spectral shape of the three excess components could be enough to predict the most adapted one. The low energy spectral index difference between the MSP and the Fermi data leaves the MSP behind the MCR and DM hypothesis. Furthermore, the harder spectrum of MCR at high energies improve the fit significantly compared to MSP and DM. So the only spectrum that presents the right shape at low and high energies is MCR, making him the best candidates for a good model.
+
+\newpage
+\section{Correlation between the excess and molecular clouds}
+
+Plotting the spatial distribution of the excess component around the GC, and comparing it to the CO map of the galaxy is insightful. Figure \ref{fig:CO_MCR_correlation} illustrates the correlation existing between molecular clouds as traced by CO emission and the excess component. Several features can be identified by eye and found in both flux distributions. It is even clearer when plotting the CO flux versus the MCR flux, a linear correlation appears in the whole disk.This once again favor MCR over DM or MSP, since only the first is supposed to follow the molecular clouds distribution.
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/COmap_GC.png}	  
+  	  \subcaption{}
+	  \label{fig:CO_GC}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/MCRmapGC.png}
+	  \subcaption{}
+  	  \label{fig:MCR_GC}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/correlation.png}
+	  \subcaption{}
+  	  \label{fig:correlation}
+  \end{minipage}
+  \caption[CO and MCR correlation plots.]{(a) CO emission map around the GC. Molecular clouds follow the disk and show some features above. (b) MCR flux distribution as obtained by the fit around the GC. The disk and several features are very similar to the CO map. (c) CO flux versus MCR flux in every cones of the disk below two degrees latitude. A very clear correlation can be observed, linking the excess component to the molecular clouds.}
+  \label{fig:CO_MCR_correlation}
+\end{figure}
 
 
 %\subsection{Comparison of the excess spatial distribution}
