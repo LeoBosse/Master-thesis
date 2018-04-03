@@ -10,50 +10,52 @@
 \contentsline {subsection}{\numberline {1.3.3}Propagation of CR}{7}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Effect of molecular cloud}{9}{subsection.1.3.4}
 \contentsline {subsection}{\numberline {1.3.5}CRs as observed from Earth}{9}{subsection.1.3.5}
-\contentsline {section}{\numberline {1.4}Physics of gamma-ray}{9}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Gamma-ray creation}{9}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.4}Physics of gamma-ray}{10}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Gamma-ray creation}{10}{subsection.1.4.1}
 \contentsline {subsubsection}{\nonumberline Pion decay (PCR)}{10}{section*.7}
-\contentsline {subsubsection}{\nonumberline Bremsstrahlung (BR)}{10}{section*.8}
+\contentsline {subsubsection}{\nonumberline Bremsstrahlung (BR)}{11}{section*.8}
 \contentsline {subsubsection}{\nonumberline Inverse Compton scattering (IC)}{11}{section*.9}
 \contentsline {subsubsection}{\nonumberline Other sources}{11}{section*.10}
 \contentsline {subsection}{\numberline {1.4.2}Gamma-ray observations}{11}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Unresolved problems of gamma-ray observations}{12}{section.1.5}
-\contentsline {chapter}{\numberline {2}Method}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Data origin}{13}{section.2.1}
-\contentsline {section}{\numberline {2.2}Model components}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}From CRs to gamma-rays}{16}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Basic components}{16}{subsection.2.2.2}
-\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by propagated cosmic rays (PCR)}{16}{section*.15}
-\contentsline {subsubsection}{\nonumberline Inverse Compton (IC) and bremsstrahlung (BR)}{16}{section*.16}
-\contentsline {subsection}{\numberline {2.2.3}Additional components}{17}{subsection.2.2.3}
-\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by source cosmic rays (SCR)}{17}{section*.19}
-\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by molecular clouds cosmic rays (MCR)}{17}{section*.20}
-\contentsline {subsubsection}{\nonumberline Dark matter annihilation (DM)}{18}{section*.21}
-\contentsline {subsubsection}{\nonumberline Milli-second pulsars gamma-ray production (MSP)}{18}{section*.22}
-\contentsline {subsubsection}{\nonumberline Isotropic component}{18}{section*.23}
-\contentsline {section}{\numberline {2.3}Fitting method}{20}{section.2.3}
-\contentsline {chapter}{\numberline {3}First results: Study of the excess}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Recreating previous results}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{26}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Introducing SCR}{27}{section.3.2}
-\contentsline {section}{\numberline {3.3}Introducing an excess component}{29}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Introducing MCR}{29}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Introducing DM}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Introducing MSP}{32}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Discussion on previous results}{34}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Detailed comparison of the excess spectral shape}{35}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Correlation between the excess and molecular clouds}{36}{section.3.5}
-\contentsline {chapter}{\numberline {4}To go further: How to improve the model}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discussion on the spatial distributions of the other components.}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}PCR flux distribution}{37}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{39}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{40}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{41}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Adding an break in electron CR spectrum}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}Mixing MCR and DM}{43}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}DM and MCR in the same fit}{43}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Adding DM afterwards}{43}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}
-\contentsline {chapter}{Bibliography}{49}{section*.43}
-\contentsline {chapter}{\nonumberline Appendix}{53}{chapter*.46}
-\contentsline {section}{\numberline {A}Some appendix section}{54}{section.5.1}
+\contentsline {section}{\numberline {1.5}Unresolved problems of gamma-ray observations}{13}{section.1.5}
+\contentsline {chapter}{\numberline {2}Method}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data origin}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Model components}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}From CRs to gamma-rays}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Basic components}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by propagated cosmic rays (PCR)}{18}{section*.15}
+\contentsline {subsubsection}{\nonumberline Inverse Compton (IC) and bremsstrahlung (BR)}{18}{section*.16}
+\contentsline {subsection}{\numberline {2.2.3}Additional components}{19}{subsection.2.2.3}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by source cosmic rays (SCR)}{19}{section*.19}
+\contentsline {subsubsection}{\nonumberline $\pi ^0$ production by molecular clouds cosmic rays (MCR)}{19}{section*.20}
+\contentsline {subsubsection}{\nonumberline Dark matter annihilation (DM)}{20}{section*.21}
+\contentsline {subsubsection}{\nonumberline Milli-second pulsars gamma-ray production (MSP)}{20}{section*.22}
+\contentsline {subsubsection}{\nonumberline Isotropic component}{20}{section*.23}
+\contentsline {section}{\numberline {2.3}Fitting method}{22}{section.2.3}
+\contentsline {chapter}{\numberline {3}First results: Study of the excess}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Recreating previous results}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}EGRET Data}{28}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Introducing SCR}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Introducing an excess component}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introducing MCR}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Introducing DM}{32}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Introducing MSP}{34}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Discussion on previous results}{35}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Detailed comparison of the excess spectral shape}{36}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Correlation between the excess and molecular clouds}{37}{section.3.5}
+\contentsline {chapter}{\numberline {4}To go further: How to improve the model}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discussion on the spatial distributions of the other components.}{39}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}PCR flux distribution}{39}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{41}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{42}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{43}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Adding an break in electron CR spectrum}{44}{section.4.2}
+\contentsline {section}{\numberline {4.3}Mixing MCR and DM}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}DM and MCR in the same fit}{46}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Adding DM afterwards}{47}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.5}
+\contentsline {chapter}{Bibliography}{51}{section*.42}
+\contentsline {chapter}{\nonumberline Appendix}{57}{chapter*.45}
+\contentsline {section}{\numberline {A}Method}{57}{section.5.1}
+\contentsline {section}{\numberline {B}First results: Study of the excess}{63}{section.5.2}
+\contentsline {section}{\numberline {C}To go further: How to improve the model}{67}{section.5.3}

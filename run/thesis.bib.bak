@@ -29,7 +29,168 @@ misc{aWiki,
    note = {Version Date: 2017-09-19}
 }
 
+@misc{CRspec,
+   author={{W. Hanlon}},
+   howpublished = {\url{http://www.physics.utah.edu/~whanlon/spectrum.html}},
+   note = {Version Date: 2018-04-10}
+}
 
+@misc{GSFPFermi_bubbles,
+   author={{Rob Garner}},
+   howpublished = {\url{https://www.nasa.gov/mission_pages/GLAST/news/new-structure.html}},
+   note = {Version Date: 2018-10-04}
+}
+
+
+
+@misc{GalMap,
+   author={{Kevin Jardine}},
+   howpublished = {\url{http://galaxymap.org/drupal/node/171}},
+   note = {Version Date: 2018-04-10}
+}
+
+
+@phdthesis{Gebauer2010,
+   author={Iris Gebauer},
+   title={An anisotropic model for galactic cosmic ray transport and its implications for indirect dark matter searches},
+   school={Karlsruher Institut f\"ur Technologie (KIT)},
+   year=2010
+}
+
+
+@article{deBoer2006,
+author = { W.   De Boer },
+title = {The EGRET excess of diffuse gamma rays and the galactic dark matter halo},
+journal = {Surveys in High Energy Physics},
+volume = {20},
+number = {1-4},
+pages = {19-45},
+year  = {2006},
+publisher = {Taylor & Francis},
+doi = {10.1080/01422410500316913},
+
+URL = { 
+        https://doi.org/10.1080/01422410500316913
+    
+},
+eprint = { 
+        https://doi.org/10.1080/01422410500316913
+    
+}
+
+}
+
+
+
+@ARTICLE{Inceoglu2017,
+   author = {{Inceoglu}, F. and {Simoniello}, R. and {Knudsen}, M.~F. and 
+	{Karoff}, C.},
+    title = "{Hemispheric progression of solar cycles in solar magnetic field data and its relation to the solar dynamo models}",
+  journal = {aap},
+ keywords = {Sun: activity, Sun: magnetic fields, Sun: general, dynamo},
+     year = 2017,
+    month = may,
+   volume = 601,
+      eid = {A51},
+    pages = {A51},
+      doi = {10.1051/0004-6361/201629871},
+   adsurl = {http://adsabs.harvard.edu/abs/2017A%26A...601A..51I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+
+@ARTICLE{Arlt2011,
+   author = {{Arlt}, R. and {R{\"u}diger}, G.},
+    title = "{Amplification and stability of magnetic fields and dynamo effect in young A stars}",
+  journal = {mnras},
+archivePrefix = "arXiv",
+   eprint = {1010.3899},
+ primaryClass = "astro-ph.SR",
+ keywords = {MHD, stars: chemically peculiar, stars: magnetic field},
+     year = 2011,
+    month = mar,
+   volume = 412,
+    pages = {107-119},
+      doi = {10.1111/j.1365-2966.2010.17889.x},
+   adsurl = {http://adsabs.harvard.edu/abs/2011MNRAS.412..107A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{Semikov2015,
+   author = {{Giacinti}, G. and {Kachelrie{\ss}}, M. and {Semikoz}, D.~V.
+	},
+    title = "{Escape model for Galactic cosmic rays and an early extragalactic transition}",
+  journal = {prd},
+archivePrefix = "arXiv",
+   eprint = {1502.01608},
+ primaryClass = "astro-ph.HE",
+ keywords = {Cosmic rays, Composition energy spectra and interactions, Electric and magnetic fields},
+     year = 2015,
+    month = apr,
+   volume = 91,
+   number = 8,
+      eid = {083009},
+    pages = {083009},
+      doi = {10.1103/PhysRevD.91.083009},
+   adsurl = {http://adsabs.harvard.edu/abs/2015PhRvD..91h3009G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{Bohlin1978,
+   author = {{Bohlin}, R.~C. and {Savage}, B.~D. and {Drake}, J.~F.},
+    title = "{A survey of interstellar H I from L-alpha absorption measurements. II}",
+  journal = {apj},
+ keywords = {Hydrogen Clouds, Interstellar Gas, Lyman Alpha Radiation, Molecular Absorption, Ultraviolet Spectra, Abundance, Hydrogen Atoms, Interstellar Extinction, Neutral Particles, Oao 2, Satellite Observation},
+     year = 1978,
+    month = aug,
+   volume = 224,
+    pages = {132-142},
+      doi = {10.1086/156357},
+   adsurl = {http://adsabs.harvard.edu/abs/1978ApJ...224..132B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Stormer1930,
+   author = {{St{\"o}rmer}, C.},
+    title = "{Periodische Elektronenbahnen im Felde eines Elementarmagneten und ihre Anwendung auf Br{\"u}ches Modellversuche und auf Eschenhagens Elementarwellen des Erdmagnetismus. Mit 32 Abbildungen.}",
+  journal = {zap},
+     year = 1930,
+   volume = 1,
+    pages = {237},
+   adsurl = {http://adsabs.harvard.edu/abs/1930ZA......1..237S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Ivlev2018,
+   author = {{Ivlev}, A.~V. and {Dogiel}, V.~A. and {Chernyshov}, D.~O. and 
+	{Caselli}, P. and {Ko}, C.-M. and {Cheng}, K.~S.},
+    title = "{Penetration of Cosmic Rays into Dense Molecular Clouds: Role of Diffuse Envelopes}",
+  journal = {apj},
+archivePrefix = "arXiv",
+   eprint = {1802.02612},
+ primaryClass = "astro-ph.HE",
+ keywords = {cosmic rays, ISM: clouds, plasmas, turbulence },
+     year = 2018,
+    month = mar,
+   volume = 855,
+      eid = {23},
+    pages = {23},
+      doi = {10.3847/1538-4357/aaadb9},
+   adsurl = {http://adsabs.harvard.edu/abs/2018ApJ...855...23I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+@misc{HSU,
+   author={{Humboldt State University}},
+   howpublished = {\url{http://gsp.humboldt.edu/olm_2015/Courses/GSP_216_Online/lesson2-1/atmosphere.html}},
+   note = {Version Date: 2018-03-27}
+}
 
 @misc{Newby2018,
    author={{Matthew Newby}},
@@ -37,13 +198,161 @@ misc{aWiki,
    note = {Version Date: 2018-03-27}
 }
 
-
-
+@article{Evoli2008,
+  author={Carmelo Evoli and Daniele Gaggero and Dario Grasso and Luca Maccione},
+  title={Cosmic ray nuclei, antiprotons and gamma rays in the galaxy: a new diffusion model},
+  journal={Journal of Cosmology and Astroparticle Physics},
+  volume={2008},
+  number={10},
+  pages={018},
+  url={http://stacks.iop.org/1475-7516/2008/i=10/a=018},
+  year={2008},
+  abstract={We model the transport of cosmic ray nuclei in the galaxy by means of a new numerical code. At variance with previous numerical models, ours accounts for a generic spatial distribution of the diffusion coefficient. We found that in the case of radially uniform diffusion, the main secondary/primary ratios (B/C, N/O and sub-Fe/Fe) and the modulated antiproton spectrum consistently match the available observations. Convection and re-acceleration do not seem to be required in the energy range that we consider: 1≤ E ≤10 3 GeV/nucleon. We generalize these results, accounting for radial dependence of the diffusion coefficient, which is assumed to trace that of the cosmic ray sources. While this does not affect the prediction of secondary/primary ratios, the simulated longitude profile of the diffuse γ-ray emission is significantly different from that for the uniform case and may agree with EGRET measurements without requiring invoking ad hoc assumptions on the galactic gas density distribution.}
+}
+	
+@ARTICLE{3FGL2015,
+   author = {{Acero}, F. and {Ackermann}, M. and {Ajello}, M. and {Albert}, A. and 
+	{Atwood}, W.~B. and {Axelsson}, M. and {Baldini}, L. and {Ballet}, J. and 
+	{Barbiellini}, G. and {Bastieri}, D. and {Belfiore}, A. and 
+	{Bellazzini}, R. and {Bissaldi}, E. and {Blandford}, R.~D. and 
+	{Bloom}, E.~D. and {Bogart}, J.~R. and {Bonino}, R. and {Bottacini}, E. and 
+	{Bregeon}, J. and {Britto}, R.~J. and {Bruel}, P. and {Buehler}, R. and 
+	{Burnett}, T.~H. and {Buson}, S. and {Caliandro}, G.~A. and 
+	{Cameron}, R.~A. and {Caputo}, R. and {Caragiulo}, M. and {Caraveo}, P.~A. and 
+	{Casandjian}, J.~M. and {Cavazzuti}, E. and {Charles}, E. and 
+	{Chaves}, R.~C.~G. and {Chekhtman}, A. and {Cheung}, C.~C. and 
+	{Chiang}, J. and {Chiaro}, G. and {Ciprini}, S. and {Claus}, R. and 
+	{Cohen-Tanugi}, J. and {Cominsky}, L.~R. and {Conrad}, J. and 
+	{Cutini}, S. and {D'Ammando}, F. and {de Angelis}, A. and {DeKlotz}, M. and 
+	{de Palma}, F. and {Desiante}, R. and {Digel}, S.~W. and {Di Venere}, L. and 
+	{Drell}, P.~S. and {Dubois}, R. and {Dumora}, D. and {Favuzzi}, C. and 
+	{Fegan}, S.~J. and {Ferrara}, E.~C. and {Finke}, J. and {Franckowiak}, A. and 
+	{Fukazawa}, Y. and {Funk}, S. and {Fusco}, P. and {Gargano}, F. and 
+	{Gasparrini}, D. and {Giebels}, B. and {Giglietto}, N. and {Giommi}, P. and 
+	{Giordano}, F. and {Giroletti}, M. and {Glanzman}, T. and {Godfrey}, G. and 
+	{Grenier}, I.~A. and {Grondin}, M.-H. and {Grove}, J.~E. and 
+	{Guillemot}, L. and {Guiriec}, S. and {Hadasch}, D. and {Harding}, A.~K. and 
+	{Hays}, E. and {Hewitt}, J.~W. and {Hill}, A.~B. and {Horan}, D. and 
+	{Iafrate}, G. and {Jogler}, T. and {J{\'o}hannesson}, G. and 
+	{Johnson}, R.~P. and {Johnson}, A.~S. and {Johnson}, T.~J. and 
+	{Johnson}, W.~N. and {Kamae}, T. and {Kataoka}, J. and {Katsuta}, J. and 
+	{Kuss}, M. and {La Mura}, G. and {Landriu}, D. and {Larsson}, S. and 
+	{Latronico}, L. and {Lemoine-Goumard}, M. and {Li}, J. and {Li}, L. and 
+	{Longo}, F. and {Loparco}, F. and {Lott}, B. and {Lovellette}, M.~N. and 
+	{Lubrano}, P. and {Madejski}, G.~M. and {Massaro}, F. and {Mayer}, M. and 
+	{Mazziotta}, M.~N. and {McEnery}, J.~E. and {Michelson}, P.~F. and 
+	{Mirabal}, N. and {Mizuno}, T. and {Moiseev}, A.~A. and {Mongelli}, M. and 
+	{Monzani}, M.~E. and {Morselli}, A. and {Moskalenko}, I.~V. and 
+	{Murgia}, S. and {Nuss}, E. and {Ohno}, M. and {Ohsugi}, T. and 
+	{Omodei}, N. and {Orienti}, M. and {Orlando}, E. and {Ormes}, J.~F. and 
+	{Paneque}, D. and {Panetta}, J.~H. and {Perkins}, J.~S. and 
+	{Pesce-Rollins}, M. and {Piron}, F. and {Pivato}, G. and {Porter}, T.~A. and 
+	{Racusin}, J.~L. and {Rando}, R. and {Razzano}, M. and {Razzaque}, S. and 
+	{Reimer}, A. and {Reimer}, O. and {Reposeur}, T. and {Rochester}, L.~S. and 
+	{Romani}, R.~W. and {Salvetti}, D. and {S{\'a}nchez-Conde}, M. and 
+	{Saz Parkinson}, P.~M. and {Schulz}, A. and {Siskind}, E.~J. and 
+	{Smith}, D.~A. and {Spada}, F. and {Spandre}, G. and {Spinelli}, P. and 
+	{Stephens}, T.~E. and {Strong}, A.~W. and {Suson}, D.~J. and 
+	{Takahashi}, H. and {Takahashi}, T. and {Tanaka}, Y. and {Thayer}, J.~G. and 
+	{Thayer}, J.~B. and {Thompson}, D.~J. and {Tibaldo}, L. and 
+	{Tibolla}, O. and {Torres}, D.~F. and {Torresi}, E. and {Tosti}, G. and 
+	{Troja}, E. and {Van Klaveren}, B. and {Vianello}, G. and {Winer}, B.~L. and 
+	{Wood}, K.~S. and {Wood}, M. and {Zimmer}, S. and {Fermi-LAT Collaboration}
+	},
+	title = "{Fermi Large Area Telescope Third Source Catalog}",
+  journal = {apjs},
+archivePrefix = "arXiv",
+   eprint = {1501.02003},
+ primaryClass = "astro-ph.HE",
+ keywords = {catalogs, gamma rays: general},
+     year = 2015,
+    month = jun,
+   volume = 218,
+      eid = {23},
+    pages = {23},
+      doi = {10.1088/0067-0049/218/2/23},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ApJS..218...23A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 %Fermi tools software
 @misc{FermiTools,
    author={{ Fermi Science Tools Software Version v10r0p5}},
    howpublished = {\url{https://fermi.gsfc.nasa.gov/ssc/data/analysis/software/v10r0p5.html}},
    note = {Version Date: 2017-09-09}
+}
+
+
+ 	
+@article{Gazizov2006,
+  author={V. Berezinsky and A. Z. Gazizov},
+  title={Diffusion of Cosmic Rays in the Expanding Universe. I.},
+  journal={The Astrophysical Journal},
+  volume={643},
+  number={1},
+  pages={8},
+  url={http://stacks.iop.org/0004-637X/643/i=1/a=8},
+  year={2006},
+  abstract={We present an analytic solution of the diffusion equation for high-energy cosmic rays in the expanding universe. The particles are assumed to be ultrarelativistic, and they can have energy losses arbitrarily dependent on energy and time. The obtained solution generalizes the Syrovatsky solution, valid for the case when energy losses and the diffusion coefficient are time independent.}
+}
+@ARTICLE{Bertsch1989,
+   author = {{Kanbach}, G. and {Bertsch}, D.~L. and {Favale}, A. and {Fichtel}, C.~E. and 
+	{Hartman}, R.~C. and {Hofstadter}, R. and {Hughes}, E.~B. and 
+	{Hunter}, S.~D. and {Hughlock}, B.~W. and {Kniffen}, D.~A. and 
+	{Lin}, Y.~C. and {Mayer-Hasselwander}, H.~A. and {Nolan}, P.~L. and 
+	{Pinkau}, K. and {Rothermel}, H. and {Schneid}, E. and {Sommer}, M. and 
+	{Thompson}, D.~J.},
+    title = "{The project EGRET (energetic gamma-ray experiment telescope) on NASA's Gamma-Ray Observatory GRO}",
+  journal = {ssr},
+     year = 1989,
+    month = jan,
+   volume = 49,
+    pages = {69-84},
+      doi = {10.1007/BF00173744},
+   adsurl = {http://adsabs.harvard.edu/abs/1989SSRv...49...69K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@ARTICLE{Hooper2011,
+   author = {{Hooper}, D. and {Linden}, T.},
+    title = "{Origin of the gamma rays from the Galactic Center}",
+  journal = {prd},
+archivePrefix = "arXiv",
+   eprint = {1110.0006},
+ primaryClass = "astro-ph.HE",
+ keywords = {gamma-ray, Dark matter, X- and gamma-ray telescopes and instrumentation},
+     year = 2011,
+    month = dec,
+   volume = 84,
+   number = 12,
+      eid = {123005},
+    pages = {123005},
+      doi = {10.1103/PhysRevD.84.123005},
+   adsurl = {http://adsabs.harvard.edu/abs/2011PhRvD..84l3005H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Daylan2016,
+title = "The characterization of the gamma-ray signal from the central Milky Way: A case for annihilating dark matter",
+journal = "Physics of the Dark Universe",
+volume = "12",
+pages = "1 - 23",
+year = "2016",
+issn = "2212-6864",
+doi = "https://doi.org/10.1016/j.dark.2015.12.005",
+url = "http://www.sciencedirect.com/science/article/pii/S2212686416000030",
+author = "Tansu Daylan and Douglas P. Finkbeiner and Dan Hooper and Tim Linden and Stephen K.N. Portillo and Nicholas L. Rodd and Tracy R. Slatyer",
+keywords = "Dark matter, Indirect detection, Gamma-rays"
+}
+
+@article{Calore2015,
+  author={Francesca Calore and Ilias Cholis and Christoph Weniger},
+  title={Background model systematics for the Fermi GeV excess},
+  journal={Journal of Cosmology and Astroparticle Physics},
+  volume={2015},
+  number={03},
+  pages={038},
+  url={http://stacks.iop.org/1475-7516/2015/i=03/a=038},
+  year={2015},
+  abstract={The possible gamma-ray excess in the inner Galaxy and the Galactic center (GC) suggested by Fermi -LAT observations has triggered a large number of studies. It has been interpreted as a variety of different phenomena such as a signal from WIMP dark matter annihilation, gamma-ray emission from a population of millisecond pulsars, or emission from cosmic rays injected in a sequence of burst-like events or continuously at the GC. We present the first comprehensive study of model systematics coming from the Galactic diffuse emission in the inner part of our Galaxy and their impact on the inferred properties of the excess emission at Galactic latitudes 2° < |b| < 20° and 300 MeV to 500 GeV. We study both theoretical and empirical model systematics, which we deduce from a large range of Galactic diffuse emission models and a principal component analysis of residuals in numerous test regions along the Galactic plane. We show that the hypothesis of an extended spherical excess emission with a uniform energy spectrum is compatible with the Fermi -LAT data in our region of interest at 95% CL. Assuming that this excess is the extended counterpart of the one seen in the inner few degrees of the Galaxy, we derive a lower limit of 10.0° (95% CL) on its extension away from the GC. We show that, in light of the large correlated uncertainties that affect the subtraction of the Galactic diffuse emission in the relevant regions, the energy spectrum of the excess is equally compatible with both a simple broken power-law of break energy E break  = 2.1 ± 0.2 GeV, and with spectra predicted by the self-annihilation of dark matter, implying in the case of ##IMG## [http://ej.iop.org/icons/Entities/barb.gif] {bar b} b final states a dark matter mass of m χ =49 +6.4 −5.4 GeV.}
 }
 
 
@@ -57,7 +366,99 @@ misc{aWiki,
    adsurl = {http://adsabs.harvard.edu/abs/1926CMWCI.324....1H},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+  	
+@ARTICLE{Calore2015b,
+   author = {{Calore}, F. and {Cholis}, I. and {McCabe}, C. and {Weniger}, C.},
+    title = "{A tale of tails: Dark matter interpretations of the Fermi GeV excess in light of background model systematics}",
+  journal = {prd},
+archivePrefix = "arXiv",
+   eprint = {1411.4647},
+ primaryClass = "hep-ph",
+ keywords = {Elementary particle processes, Dark matter},
+     year = 2015,
+    month = mar,
+   volume = 91,
+   number = 6,
+      eid = {063003},
+    pages = {063003},
+      doi = {10.1103/PhysRevD.91.063003},
+   adsurl = {http://adsabs.harvard.edu/abs/2015PhRvD..91f3003C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+  	
+@ARTICLE{Fermi2017,
+   author = {{Fermi-LAT Collaboration}},
+    title = "{Characterizing the population of pulsars in the inner Galaxy with the Fermi Large Area Telescope}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1705.00009},
+ primaryClass = "astro-ph.HE",
+ keywords = {Astrophysics - High Energy Astrophysical Phenomena},
+     year = 2017,
+    month = apr,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170500009F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}	
 
+@ARTICLE{Yang2016,
+   author = {{Yang}, R. and {Aharonian}, F. and {Evoli}, C.},
+    title = "{Radial distribution of the diffuse {$\gamma$} -ray emissivity in the Galactic disk}",
+  journal = {prd},
+archivePrefix = "arXiv",
+   eprint = {1602.04710},
+ primaryClass = "astro-ph.HE",
+     year = 2016,
+    month = jun,
+   volume = 93,
+   number = 12,
+      eid = {123007},
+    pages = {123007},
+      doi = {10.1103/PhysRevD.93.123007},
+   adsurl = {http://adsabs.harvard.edu/abs/2016PhRvD..93l3007Y},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@article{Fermi2009,
+  author={W. B. Atwood and A. A. Abdo and M. Ackermann and W. Althouse and B. Anderson and M. Axelsson and L. Baldini and J. Ballet and D. L.
+Band and G. Barbiellini and J. Bartelt and D. Bastieri and B. M. Baughman and K. Bechtol and D. Bédérède and F. Bellardi and R.
+Bellazzini and B. Berenji and G. F. Bignami and D. Bisello and E. Bissaldi and R. D. Blandford and E. D. Bloom and J. R.
+Bogart and E. Bonamente and J. Bonnell and A. W. Borgland and A. Bouvier and J. Bregeon and A. Brez and M. Brigida and P. Bruel and T.
+H. Burnett and G. Busetto and G. A. Caliandro and R. A. Cameron and P. A. Caraveo and S. Carius and P. Carlson and J. M.
+Casandjian and E. Cavazzuti and M. Ceccanti and C. Cecchi and E. Charles and A. Chekhtman and C. C. Cheung and J. Chiang and R.
+Chipaux and A. N. Cillis and S. Ciprini and R. Claus and J. Cohen-Tanugi and S. Condamoor and J. Conrad and R. Corbet and L.
+Corucci and L. Costamante and S. Cutini and D. S. Davis and D. Decotigny and M. DeKlotz and C. D. Dermer and A. de Angelis and S. W.
+Digel and E. do Couto e Silva and P. S. Drell and R. Dubois and D. Dumora and Y. Edmonds and D. Fabiani and C. Farnier and C.
+Favuzzi and D. L. Flath and P. Fleury and W. B. Focke and S. Funk and P. Fusco and F. Gargano and D. Gasparrini and N. Gehrels and F.-X.
+Gentit and S. Germani and B. Giebels and N. Giglietto and P. Giommi and F. Giordano and T. Glanzman and G. Godfrey and I. A.
+Grenier and M.-H. Grondin and J. E. Grove and L. Guillemot and S. Guiriec and G. Haller and A. K. Harding and P. A. Hart and E.
+Hays and S. E. Healey and M. Hirayama and L. Hjalmarsdotter and R. Horn and R. E. Hughes and G. Jóhannesson and G. Johansson and A.
+S. Johnson and R. P. Johnson and T. J. Johnson and W. N. Johnson and T. Kamae and H. Katagiri and J. Kataoka and A. Kavelaars and N.
+Kawai and H. Kelly and M. Kerr and W. Klamra and J. Knödlseder and M. L. Kocian and N. Komin and F. Kuehn and M. Kuss and D. Landriu and L.
+Latronico and B. Lee and S.-H. Lee and M. Lemoine-Goumard and A. M. Lionetto and F. Longo and F. Loparco and B. Lott and M. N.
+Lovellette and P. Lubrano and G. M. Madejski and A. Makeev and B. Marangelli and M. M. Massai and M. N. Mazziotta and J. E.
+McEnery and N. Menon and C. Meurer and P. F. Michelson and M. Minuti and N. Mirizzi and W. Mitthumsiri and T. Mizuno and A. A.
+Moiseev and C. Monte and M. E. Monzani and E. Moretti and A. Morselli and I. V. Moskalenko and S. Murgia and T. Nakamori and S.
+Nishino and P. L. Nolan and J. P. Norris and E. Nuss and M. Ohno and T. Ohsugi and N. Omodei and E. Orlando and J. F. Ormes and A.
+Paccagnella and D. Paneque and J. H. Panetta and D. Parent and M. Pearce and M. Pepe and A. Perazzo and M. Pesce-Rollins and P.
+Picozza and L. Pieri and M. Pinchera and F. Piron and T. A. Porter and L. Poupard and S. Rainò and R. Rando and E. Rapposelli and M.
+Razzano and A. Reimer and O. Reimer and T. Reposeur and L. C. Reyes and S. Ritz and L. S. Rochester and A. Y. Rodriguez and R. W.
+Romani and M. Roth and J. J. Russell and F. Ryde and S. Sabatini and H. F.-W. Sadrozinski and D. Sanchez and A. Sander and L.
+Sapozhnikov and P. M. Saz Parkinson and J. D. Scargle and T. L. Schalk and G. Scolieri and C. Sgrò and G. H. Share and M.
+Shaw and T. Shimokawabe and C. Shrader and A. Sierpowska-Bartosik and E. J. Siskind and D. A. Smith and P. D. Smith and G.
+Spandre and P. Spinelli and J.-L. Starck and T. E. Stephens and M. S. Strickman and A. W. Strong and D. J. Suson and H.
+Tajima and H. Takahashi and T. Takahashi and T. Tanaka and A. Tenze and S. Tether and J. B. Thayer and J. G. Thayer and D. J.
+Thompson and L. Tibaldo and O. Tibolla and D. F. Torres and G. Tosti and A. Tramacere and M. Turri and T. L. Usher and N. Vilchez and V.
+Vitale and P. Wang and K. Watters and B. L. Winer and K. S. Wood and T. Ylinen and M. Ziegler},
+  title={The Large Area Telescope on the Fermi Gamma-Ray Space Telescope Mission},
+  journal={The Astrophysical Journal},
+  volume={697},
+  number={2},
+  pages={1071},
+  url={http://stacks.iop.org/0004-637X/697/i=2/a=1071},
+  year={2009},
+  abstract={The Large Area Telescope ( Fermi /LAT, hereafter LAT), the primary instrument on the Fermi Gamma-ray Space Telescope ( Fermi ) mission, is an imaging, wide field-of-view (FoV), high-energy γ-ray telescope, covering the energy range from below 20 MeV to more than 300 GeV. The LAT was built by an international collaboration with contributions from space agencies, high-energy particle physics institutes, and universities in France, Italy, Japan, Sweden, and the United States. This paper describes the LAT, its preflight expected performance, and summarizes the key science objectives that will be addressed. On-orbit performance will be presented in detail in a subsequent paper. The LAT is a pair-conversion telescope with a precision tracker and calorimeter, each consisting of a 4 × 4 array of 16 modules, a segmented anticoincidence detector that covers the tracker array, and a programmable trigger and data acquisition system. Each tracker module has a vertical stack of 18 ( x , y ) tracking planes, including two layers ( x and y ) of single-sided silicon strip detectors and high- Z converter material (tungsten) per tray. Every calorimeter module has 96 CsI(Tl) crystals, arranged in an eight-layer hodoscopic configuration with a total depth of 8.6 radiation lengths, giving both longitudinal and transverse information about the energy deposition pattern. The calorimeter's depth and segmentation enable the high-energy reach of the LAT and contribute significantly to background rejection. The aspect ratio of the tracker (height/width) is 0.4, allowing a large FoV (2.4 sr) and ensuring that most pair-conversion showers initiated in the tracker will pass into the calorimeter for energy measurement. Data obtained with the LAT are intended to (1) permit rapid notification of high-energy γ-ray bursts and transients and facilitate monitoring of variable sources, (2) yield an extensive catalog of several thousand high-energy sources obtained from an all-sky survey, (3) measure spectra from 20 MeV to more than 50 GeV for several hundred sources, (4) localize point sources to 0.3-2 arcmin, (5) map and obtain spectra of extended sources such as SNRs, molecular clouds, and nearby galaxies, (6) measure the diffuse isotropic γ-ray background up to TeV energies, and (7) explore the discovery space for dark matter.}
+}
 @ARTICLE{Kafle2014,
    author = {{Kafle}, P.~R. and {Sharma}, S. and {Lewis}, G.~F. and {Bland-Hawthorn}, J.
 	},
@@ -306,9 +707,21 @@ archivePrefix = "arXiv",
   abstract={One prediction of particle acceleration in the supernova (SN) remnants in the magnetic wind of exploding Wolf-Rayet and red supergiant stars is that the final spectrum is a composition of a spectrum E –7/3 and a polar cap component of E –2 at the source. This polar cap component contributes to the total energy content with only a few percent, but dominates the spectrum at higher energy. The sum of both components gives spectra which curve upward. The upturn was predicted to occur always at the same rigidity. An additional component of cosmic rays from acceleration by SNe exploding into the interstellar medium adds another component for hydrogen and for helium. After transport, the predicted spectra J ( E ) for the wind-SN cosmic rays are E –8/3 and E –7/3 ; the sum leads to an upturn from the steeper spectrum. An upturn has now been seen by the CREAM mission. Here, we test the observations against the predictions and show that the observed properties are consistent with the predictions. Hydrogen can be shown to also have a noticeable wind-SN component. The observation of the upturn in the heavy element spectra being compatible with the same rigidity for all heavy elements supports the magneto-rotational mechanism for these SNe. This interpretation predicts the observed upturn to continue to curve upward and approach the E –7/3 spectrum. If confirmed, this would strengthen the case that SNe of very massive stars with magnetic winds are important sources of Galactic cosmic rays.}
 }
 
+@article{Biermann1995,
+title = "The origin of cosmic rays",
+journal = "Nuclear Physics B - Proceedings Supplements",
+volume = "43",
+number = "1",
+pages = "221 - 228",
+year = "1995",
+issn = "0920-5632",
+doi = "https://doi.org/10.1016/0920-5632(95)00478-R",
+url = "http://www.sciencedirect.com/science/article/pii/092056329500478R",
+author = "Peter L. Biermann"
+}
 
 	
-@article{Hillas2005,
+article{Hillas2005,
   author={A M Hillas},
   title={Can diffusive shock acceleration in supernova remnants account for high-energy galactic cosmic rays?},
   journal={Journal of Physics G: Nuclear and Particle Physics},
@@ -320,9 +733,20 @@ archivePrefix = "arXiv",
   abstract={Diffusive shock acceleration at the outer front of expanding supernova remnants has provided by far the most popular model for the origin of galactic cosmic rays, and has been the subject of intensive theoretical investigation. But several problems loomed at high energies—how to explain the smooth continuation of the cosmic-ray spectrum far beyond 10 14 eV, the very low level of TeV gamma-ray emission from several supernova remnants, and the very low anisotropy of cosmic rays (seeming to conflict with the short trapping times needed to convert a E −2 source spectrum into the observed E −2.7 spectrum of cosmic rays). However, recent work on the cosmic ray spectrum (especially at KASCADE) strongly indicates that about half of the flux does turn down rather sharply near 3 × 10 15 V rigidity, with a distinct tail extending to just beyond 10 17 V rigidity; whilst a plausible description (Bell and Lucek) of the level of self-generated magnetic fields at the shock fronts of young supernova remnants implies that many SNRs in varying environments might very well generate spectra extending smoothly to just this 'knee' position, and a portion of the exploding red supergiants could extend the spectrum approximately as needed. At low energies, recent progress in relating cosmic ray compositional details to modified shock structure also adds weight to the belief that the model is working on the right lines, converting energy into cosmic rays very efficiently where injection can occur. The low level of TeV gamma-ray flux from many young SNRs is a serious challenge, though it may relate to variations in particle injection efficiency with time. The clear detection of TeV gamma rays from SNRs has now just begun, and predictions of a characteristic curved particle spectrum give a target for new tests by TeV observations. However, the isotropy seriously challenges the assumed cosmic-ray trapping time and hence the shape of the spectrum of particles released from SNRs. There is otherwise enough convergence of model and observation to encourage belief that the outline of the model is right, but there remains the possibility that the spectral shape of particles actually released is not as previously predicted.}
 }
 
+@ARTICLE{Blitz2000,
+   author = {{Williams}, J.~P. and {Blitz}, L. and {McKee}, C.~F.},
+    title = "{The Structure and Evolution of Molecular Clouds: from Clumps to Cores to the IMF}",
+  journal = {Protostars and Planets IV},
+   eprint = {astro-ph/9902246},
+     year = 2000,
+    month = may,
+    pages = {97},
+   adsurl = {http://adsabs.harvard.edu/abs/2000prpl.conf...97W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 
 
-@article{Crutcher2012,
+article{Crutcher2012,
 title = "Magnetic fields in molecular clouds",
 abstract = "This review examines observations of magnetic fields in molecular clouds and what those observations tell us about the theory of molecular cloud evolution and star formation. First, the review briefly summarizes classes of theoretical models of molecular clouds and specific predictions of the models that can be tested by observation. Then, the review describes the techniques for observing and mapping magnetic fields in molecular clouds, followed by discussion of important examples of observational studies using each technique. A synthesis of results from all observational techniques summarizes the current state, which is that though magnetic fields generally dominate turbulence, there is no definitive evidence for magnetic fields dominating gravity in molecular clouds or for ambipolar-diffusion-driven star formation. Finally, the review discusses prospects for advances in our observational capabilities with telescopes and instruments now beginning operation or under construction.",
 keywords = "ambipolar diffusion, dust polarization, magnetohydrodynamic (MHD) turbulence, spectral-line polarization, star formation, Zeeman effect",
@@ -366,3 +790,70 @@ doi = "https://doi.org/10.1016/j.newar.2005.01.009",
 url = "http://www.sciencedirect.com/science/article/pii/S1387647305000229",
 author = "Paolo Gondolo and Joakim Edsjö and Piero Ullio and Lars Bergstrom and Mia Schelke and Edward A. Baltz"
 }
+@article{Farrar2012,
+  author={Ronnie Jansson and Glennys R. Farrar},
+  title={A New Model of the Galactic Magnetic Field},
+  journal={The Astrophysical Journal},
+  volume={757},
+  number={1},
+  pages={14},
+  url={http://stacks.iop.org/0004-637X/757/i=1/a=14},
+  year={2012},
+  abstract={A new, much-improved model of the Galactic magnetic field (GMF) is presented. We use the WMAP 7 Galactic synchrotron emission map and more than 40,000 extragalactic rotation measures to constrain the parameters of the GMF model, which is substantially generalized compared with earlier work to now include an out-of-plane component (as suggested by observations of external galaxies) and striated-random fields (motivated by theoretical considerations). The new model provides a greatly improved fit to observations. Consistent with our earlier analyses, the best-fit model has a disk field and an extended halo field. Our new analysis reveals the presence of a large, out-of-plane component of the GMF; as a result, the polarized synchrotron emission of our Galaxy seen by an edge-on observer is predicted to look intriguingly similar to what has been observed in external edge-on galaxies. We find evidence that the cosmic-ray electron density is significantly larger than given by GALPROP or else that there is a widespread striated component to the GMF.}
+}
+	
+@ARTICLE{Gleeson1968,
+   author = {{Gleeson}, L.~J. and {Axford}, W.~I.},
+    title = "{Solar Modulation of Galactic Cosmic Rays}",
+  journal = {apj},
+     year = 1968,
+    month = dec,
+   volume = 154,
+    pages = {1011},
+      doi = {10.1086/149822},
+   adsurl = {http://adsabs.harvard.edu/abs/1968ApJ...154.1011G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@article{Crutcher2012,
+author = {Richard M. Crutcher},
+title = {Magnetic Fields in Molecular Clouds},
+journal = {Annual Review of Astronomy and Astrophysics},
+volume = {50},
+number = {1},
+pages = {29-63},
+year = {2012},
+doi = {10.1146/annurev-astro-081811-125514},
+
+URL = {https://doi.org/10.1146/annurev-astro-081811-125514},
+eprint = {https://doi.org/10.1146/annurev-astro-081811-125514},
+abstract = { This review examines observations of magnetic fields in molecular clouds and what those observations tell us about the theory of molecular cloud evolution and star formation. First, the review briefly summarizes classes of theoretical models of molecular clouds and specific predictions of the models that can be tested by observation. Then, the review describes the techniques for observing and mapping magnetic fields in molecular clouds, followed by discussion of important examples of observational studies using each technique. A synthesis of results from all observational techniques summarizes the current state, which is that though magnetic fields generally dominate turbulence, there is no definitive evidence for magnetic fields dominating gravity in molecular clouds or for ambipolar-diffusion-driven star formation. Finally, the review discusses prospects for advances in our observational capabilities with telescopes and instruments now beginning operation or under construction. }
+}
+
+
+@article{Hillas2005,
+  author={A M Hillas},
+  title={Can diffusive shock acceleration in supernova remnants account for high-energy galactic cosmic rays?},
+  journal={Journal of Physics G: Nuclear and Particle Physics},
+  volume={31},
+  number={5},
+  pages={R95},
+  url={http://stacks.iop.org/0954-3899/31/i=5/a=R02},
+  year={2005},
+  abstract={Diffusive shock acceleration at the outer front of expanding supernova remnants has provided by far the most popular model for the origin of galactic cosmic rays, and has been the subject of intensive theoretical investigation. But several problems loomed at high energies—how to explain the smooth continuation of the cosmic-ray spectrum far beyond 10 14 eV, the very low level of TeV gamma-ray emission from several supernova remnants, and the very low anisotropy of cosmic rays (seeming to conflict with the short trapping times needed to convert a E −2 source spectrum into the observed E −2.7 spectrum of cosmic rays). However, recent work on the cosmic ray spectrum (especially at KASCADE) strongly indicates that about half of the flux does turn down rather sharply near 3 × 10 15 V rigidity, with a distinct tail extending to just beyond 10 17 V rigidity; whilst a plausible description (Bell and Lucek) of the level of self-generated magnetic fields at the shock fronts of young supernova remnants implies that many SNRs in varying environments might very well generate spectra extending smoothly to just this 'knee' position, and a portion of the exploding red supergiants could extend the spectrum approximately as needed. At low energies, recent progress in relating cosmic ray compositional details to modified shock structure also adds weight to the belief that the model is working on the right lines, converting energy into cosmic rays very efficiently where injection can occur. The low level of TeV gamma-ray flux from many young SNRs is a serious challenge, though it may relate to variations in particle injection efficiency with time. The clear detection of TeV gamma rays from SNRs has now just begun, and predictions of a characteristic curved particle spectrum give a target for new tests by TeV observations. However, the isotropy seriously challenges the assumed cosmic-ray trapping time and hence the shape of the spectrum of particles released from SNRs. There is otherwise enough convergence of model and observation to encourage belief that the outline of the model is right, but there remains the possibility that the spectral shape of particles actually released is not as previously predicted.}
+}
+
+
+@article{Hillas1984,
+author = { A. M. Hillas },
+title = {The Origin of Ultra-High-Energy Cosmic Rays},
+journal = {Annual Review of Astronomy and Astrophysics},
+volume = {22},
+number = {1},
+pages = {425-444},
+year = {1984},
+doi = {10.1146/annurev.aa.22.090184.002233},
+URL = {https://doi.org/10.1146/annurev.aa.22.090184.002233},
+eprint = {https://doi.org/10.1146/annurev.aa.22.090184.002233}
+}
+
+	

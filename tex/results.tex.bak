@@ -30,7 +30,7 @@
 %  \end{minipage}
   \begin{minipage}[h]{0.45\textwidth}
   	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/BKGonly_weniger_sum_0-2.png}
+	\includegraphics[width=1.\linewidth]{pic/results/BKGonly_weniger_sum_D_0-2.png}
   	\subcaption{}
   	\label{fig:weniger_plot}
   \end{minipage}
@@ -41,21 +41,22 @@
 	  \subcaption{}
 	  \label{fig:our_excess}
   \end{minipage}
-  \caption[GC excess.]{Representation of the GC excess. (a) Approximation of the Fermi data index (in blue) between 300 MeV and 2 GeV for all longitudes below 2 degrees in latitudes. The peak in the GC indicates a harder spectrum that could trace the excess. In comparison the fitted background model (in black) do not show the same shape. The index of the model is clearly not high enough around the GC. (b) Map around the GC of the difference  in percent between the model and the data at 2 GeV. The disk is very problematic, but the interesting feature is the more or less spherical shape around it. The difference decreases as the distance from the GC increases.}
+  \caption[Representation of the GC excess.]{Representation of the GC excess. (a) Scaled difference (eq. \ref{eq:weniger}) in the Fermi data flux between 300 MeV and 2 GeV for all longitudes below 2 degrees in latitudes (in blue). The peak in the GC indicates a harder spectrum that traces the excess. Following the same equation, the fitted background model (in black) do not show the same shape. The index of the model is clearly not high enough around the GC. (b) Map around the GC of the difference in percent between the model and the data at 2 GeV. The disk is very problematic, but the interesting feature is the more or less spherical shape around it. The difference decreases as the distance from the GC increases.}
   \label{fig:GC_excess}	 
 \end{figure}
 
 Before trying to upgrade the current model, it is important to make sure it can be recreated with this method. 
 
-\ref{fig:weniger_plot} and \todo{ref Appendix with more weniger plots} illustrate a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, an approximation of the index of the Fermi data spectrum between 5 GeV and 300 MeV is plotted for all longitudes. For every sky direction, $\sigma$ is given by equation ref where error is the cumulated uncertainty on both data points.
+\ref{fig:weniger_plot} illustrate a way of seeing the excess, without using any fit method, only the data. For absolute latitudes below two degrees, the difference D of the Fermi data between 5 GeV and 300 MeV is plotted for all longitudes. For every sky direction, D is given by equation \ref{eq:weniger}.
 
 \begin{equation}
-\sigma = \frac{\left(Data(E_1, l, b) - Data(E_2, l, b) \right)}{\sqrt{\sigma_{1,\ stat}^2 + \sigma_{2, stat}^2}}
+\label{eq:weniger}
+D = \frac{\left(Data(E_1, l, b) - Data(E_2, l, b) \right)}{\sqrt{\sigma_{1,\ stat}^2 + \sigma_{2, stat}^2}}
 \end{equation}
 
 where $Data(E_i,l,b)$ is the Fermi flux at energy $E_i$, longitude l, latitude b, and $\sigma_{i, stat}$ is the statistical uncertainties on the Fermi flux at energy $E_i$.
 
-It is then rescaled around zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the shape of the spectrum.
+It is then scaled around zero for visibility. A peak is dominating in the center, indicating an increase in the spectrum index. This can be interpreted as the excess component rising and changing the shape of the spectrum.
 
 Fig. \ref{fig:our_excess} presents an other way of looking at the excess with a fit using only the background components (PCR, IC and BR). This map shows the relative difference between the fit and the data at 2.58 GeV. This gives an idea about the distribution of the excess around the GC. The shape and intensity of the previously observed excess are found \cite{Hooper2011}. Excluding the galactic disk for latitudes below two degrees, the excess extends to $30^\circ$ in all directions from the GC. The problem continues to arise when looking deeper into the results.
 
@@ -63,19 +64,19 @@ Fig. \ref{fig:our_excess} presents an other way of looking at the excess with a 
 \begin{figure}[h]
   \centering
   \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/BKGonly_CMZ.png}
-  	\subcaption{}
-  	\label{fig:bkgd_only_spectrum}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
 	  \centering
 	  \includegraphics[width=1.\linewidth]{pic/results/BKGonly_fine_chi2_distribution.png}
 	  \subcaption{}
 	  \label{fig:BKGonly_chi2Distribution}
   \end{minipage}
-  \caption[CMZ fitted with the background components.]{(a) Spectrum of the CMZ region and its fit using only the three background components. Two major problems can be identified. First a hardening of the spectrum above 10 GeV; second the shift of the spectrum maximum between the model and the Fermi data. (b) The best $\chi^2$ value obtained by the fit for every sky direction. The bubbles structures and the galactic disk are visible, with a very large disagreement between the model and the data. These bad $\chi^2$ regions are the sign that one or two of the problems identified on the left are present. Several bad spots can also be identified. These correspond to a bad point source subtraction when processing the data (cf. chapter \ref{ch:method}) and should be ignored.}
+   \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+  	\centering
+	\includegraphics[width=1.\linewidth]{pic/results/BKGonly_CMZ.png}
+  	\subcaption{}
+  	\label{fig:bkgd_only_spectrum}
+  \end{minipage}
+  \caption[CMZ fitted with the background components.]{(a) Spectrum of the CMZ region and its fit using only the three background components (the IC and BR contributions are too low to be seen on this graph). Two major problems can be identified. First a hardening of the spectrum above 10 GeV; second the shift of the spectrum maximum between the model and the Fermi data. (b) The best $\chi^2$ value obtained by the fit for every sky direction. The bubbles structures and the galactic disk are visible, with a very large disagreement between the model and the data. These bad $\chi^2$ regions are the sign that one or two of the problems identified on the left are present. Several bad spots can also be identified. These correspond to a bad point source subtraction when processing the data (cf. chapter \ref{ch:method}) and should be ignored.}
   \label{}
 \end{figure}
 
@@ -89,7 +90,7 @@ Outside these regions, the fit works a lot better, with a $\chi^2$ not much bigg
 \newpage
 \subsection{EGRET Data}
 
-One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET) \cite{Bertsch1989} gave a first insight on the GC excess. Its energy range did not exceed 30 GeV, and the data overall quality is worse than that of the LAT. It is a good way to compare the results. A model for DM was fitted on the EGRET data to test the hypothesis. Figure \ref{fig:EGRET_comp_a} and \ref{fig:EGRET_comp_b} compares the results of this study to the EGRET study. For a large region around the GC, the Fermi and EGRET data were fitted with a PCR, IC, BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below 10 GeV, even if it shows the higher energies as well, to be consistent for both studies. It is a first attempt to recreate previous results with an excess component.
+One of the previous gamma-ray space telescope called the Energetic Gamma Ray Experiment Telescope (EGRET) \cite{Bertsch1989} gave a first insight on the GC excess. Its energy range did not exceed 30 GeV, and the data overall quality is worse than that of the LAT. It is a good way to compare the results. A model for DM was fitted on the EGRET data to test the hypothesis \cite{deBoer2006}. Figure \ref{fig:EGRET_comp_a} and \ref{fig:EGRET_comp_b} compares the results of this study to the previous study. For a large region around the GC, the Fermi and EGRET data were fitted with a PCR, IC, BR and DM template. The WIMP mass is 40 GeV and the fit only considers points below 10 GeV, even if it shows the higher energies as well, to be consistent for both studies. It is a first attempt to recreate previous results with an excess component.
 When the fit works perfectly for the EGRET data on the left, a clear deficit can be observed for Fermi data. Above 10 GeV, EGRET has no data and the shape could lead to believe that a rapid drop occurs. But Fermi does not show this drop, and present a harder spectrum than what could be expected from EGRET data. The difference is all in this hard high energy tail. It shows that even if the first measurements could be fitted by adding a single excess component like DM, it is not possible with Fermi data: the addition of a new component with a very hard spectrum is necessary. This is done with the introduction of the SCR component.
 
 \begin{figure}[h]
@@ -114,7 +115,7 @@ When the fit works perfectly for the EGRET data on the left, a clear deficit can
 %  	\subcaption{Fermi with SCR component}
 %  	\label{fig:EGRET_comp_c}
 %  \end{minipage}
-  \caption[Comparison of EGRET and Fermi results]{Comparison of the EGRET (a) and Fermi (b) data with the model. The EGRET data were fitted by cite{EGRET paper}, and their model take a PCR, BR, IC and dark matter templates. The maximum energy of the EGRET data is 10 GeV, and the model agrees relatively well at all energies. The model used on the Fermi data is as close as possible from the EGRET model, with the PCR, BR, IC and DM template of this study, but this time the data go up to 500 GeV. Once again, the model agrees for all energies below 10 GeV; but it can not account for the energies above. This is an indication that high energies are harder than expected and require the addition of a new component to the model.}
+  \caption[Comparison of EGRET and Fermi results]{Comparison of the EGRET (a) and Fermi (b) data with the model. The EGRET data were fitted by \cite{deBoer2006}, and their model take a PCR, BR, IC and dark matter templates. The maximum energy of the EGRET data is 10 GeV, and the model agrees relatively well at all energies. The model used on the Fermi data is as close as possible from the EGRET model, with the PCR, BR, IC and DM template as described in Chapter \ref{ch:method}, but this time the data go up to 500 GeV. Once again, the model agrees for all energies below 10 GeV; but it can not account for the energies above. This is an indication that high energies are harder than expected and require the addition of a new component to the model.}
   \label{fig:EGRET_comp}
 \end{figure}
 
@@ -142,7 +143,7 @@ When the fit works perfectly for the EGRET data on the left, a clear deficit can
 	  \centering
 	  \includegraphics[width=1.\linewidth]{pic/results/SCRonly_fine_SCR_distribution_E20.png}
 	  \subcaption{Flux distribution of SCR only fits.}
-	  \label{fig:BKGonly_bubble_spec}
+	  \label{fig:SCRonly_dist}
   \end{minipage}
   \caption[Distribution of the SCR only fit.]{Results of fit including the SCR component. (a) $\chi^2$ distribution. The bubbles are not so clear than before, but the disk is still visible (cf Fig. \ref{fig:BKGonly_chi2Distribution}). (b) Flux distribution of the SCR template at 30 GeV. The bubbles and the disk are distinct. The SCR template traces the hardening in the data high energy spectrum, thus showing it here. This distribution was expected, in the bubbles because of unpropagated proton CR ejected from the GC, and in the disk because of point sources that are not subtracted.}
   \label{fig:SCRonly_distributions}
@@ -174,10 +175,10 @@ The disk is still not fitted properly, with very high $\chi^2$ values, over 10. 
 	  \label{fig:SCRonly_BKGonly_spec_comp}
 \end{figure}
 
-The SCR template is present only in the disk and the bubbles (see Fig. \ref{fig:SCRonly_distributions}), as expected. The map of fitted SCR component shows it clearly, delimiting the bubbles with great precision. This distribution reinforces the idea of a source component, by pointing to all the regions where a hardening of the spectrum is present, as expected from its physical interpretation.
-It also does not disrupt the other components distribution too much. The PCR, IC and BR distributions are similar and still match their expected shape. \todo{add Appendix skymaps of all components for noSCR and SCR, to compare}.
+The SCR template is present only in the disk and the bubbles (see Fig. \ref{fig:SCRonly_dist}), as expected. The map of fitted SCR component shows it clearly, delimiting the bubbles with great precision. This distribution reinforces the idea of a source component, by pointing to all the regions where a hardening of the spectrum is present, as expected from its physical interpretation.
+It also does not disrupt the other components distribution too much. The PCR, IC and BR distributions are similar and still match their expected shape (Appendix \ref{app:BKGonly_fit_distributions} and \ref{app:SCRonly_fit_distributions}).
 
-Figure \ref{fig:SCRonly_BKGonly_spec_comp} shows the spectrum in a given direction inside the bubbles, before and after adding the SCR template. While the high energy parts (above 100 GeV) of the spectra are dominated by SCR, the lower energies are also fitted with PCR and IC. The major difference is that each template fit one part of the spectrum, leaving other component deal with the rest. SCR is present at high energies, and this leaves more room for PCR and IC to adapt to the low energy spectrum. Hence increasing the fit quality.
+Figure \ref{fig:SCRonly_BKGonly_spec_comp} shows the spectrum in a given direction inside the bubbles, before and after adding the SCR template. While the high energy parts (above 100 GeV) of the spectra are dominated by SCR, the lower energies are also fitted with PCR. The major difference is that each template fit one part of the spectrum, leaving other component deal with the rest. SCR is present at high energies, and this leaves more room for PCR to adapt to the low energy spectrum. Hence increasing the fit quality.
 
 \begin{figure}[h]
   \centering
@@ -190,16 +191,16 @@ Figure \ref{fig:SCRonly_BKGonly_spec_comp} shows the spectrum in a given directi
   \hfill
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
-	  \includegraphics[width=1.\linewidth]{pic/results/SCRonly_CMZ.png}
+	  \includegraphics[width=1.\linewidth]{pic/results/SCRonly_goodCMZ.png}
 	  \subcaption{}
 	  \label{fig:SCRonly_CMZ_spec}
   \end{minipage}	 
   \caption[SCR fit spectra.]{(a) Approximation of the Fermi data index (in blue) between 300 MeV and 2 GeV for all longitudes below 2 degrees in latitudes. In comparison the fitted background model with SCR (in black). Comparing to Fig. \ref{fig:weniger_plot} an improvement can be noted, even if model does not follow the data. (b) Spectrum from the GC, where the excess is supposed to be the highest. The SCR component overshoot the high energies to compensate a lack of gamma ray flux at 2 GeV. But introducing an excess component should cover the lack and the SCR contribution should decrease everywhere the 2 GeV excess is present.}
-	  \label{fig:SCRonly_BKGonly_spec_comp}
+	  \label{fig:SCRonly_spectra}
 \end{figure}
 
 
-This four-template fit represent a clear improvement compared to the background only (PCR, IC and BR) model. But, as seen on the $\chi^2$ distribution map, the disk and low latitudes regions are still not fitted properly. Figure \ref{fig:SCRonly_CMZ_spec} shows it well. The PCR spectrum does not peak at the right energy. The Fermi data has its maximum around a few GeV, while PCR's is only at a few hundred MeV. This problem leads to a very high contribution of SCR, trying to fit the data's maximum and the high energies at the same time; task that can not be done with SCR's spectral shape.
+This four-template fit represent a clear improvement compared to the background only (PCR, IC and BR) model. But, as seen on the $\chi^2$ distribution map (Fig. \ref{fig:SCRonly_fit}), the disk and low latitudes regions are still not fitted properly. Figure \ref{fig:SCRonly_CMZ_spec} shows it well. The PCR spectrum does not peak at the right energy. The Fermi data has its maximum around a few GeV, while PCR's is only at a few hundred MeV. This problem leads to a very high contribution of SCR, trying to fit the data's maximum and the high energies at the same time; task that can not be done with SCR's spectral shape.
 This leads to the introduction of the first excess component, added to solve this problem.
 
 
@@ -209,6 +210,7 @@ This leads to the introduction of the first excess component, added to solve thi
 
 %\todo{Here the bad chi2 comes from 0.1GeV region, where the PCR template does not fit the data. not from the 2GeV excess.}
 %A problem still remains in the disk and diffuse regions around the galactic anticenter. 
+
 
 
 \newpage
@@ -235,30 +237,31 @@ This leads to the introduction of the first excess component, added to solve thi
 As shown on Fig. \ref{fig:MCRonly_chi2Distribution}, the addition of the new MCR template improves significantly the $\chi^2$ distribution in all directions. The bubbles and the disk structures are not visible any more. Such a flat distribution is one of the best indicator of a good fit.
 Three red dots appear to have a really high $\chi^2$, but that is only due to the point source subtraction that is not perfect (see Chapter \ref{sec:Data_origin}). This direction can be identified on almost every fit done in this paper, and should not be taken into account too seriously for the analysis.
 
+Fig. \ref{fig:MCRonly_CMZ_1} shows the central molecular zone (CMZ) fitted with the MCR component. The gas density is very high in this region, hence it is the first region where we would expect the MCR emission to be present.
+Indeed the fit chooses a configuration where the MCR template is dominating all the others and directly improving the fit compared to Fig. \ref{fig:SCRonly_CMZ_spec}. The energies around 2 GeV had a clear excess that the four components of the SCR fit could not account for. The MCR template peaking in this region, it comes in very handy and fill this gap, leaving the SCR template taking care of the high energies and the background components for the lower energies.
+Fig. \ref{fig:MCRonly_weniger} can be compared to Fig. \ref{fig:weniger_plot} and \ref{fig:SCRonly_weniger}. This time, the model follows the data almost perfectly, and marks every peak. This clearly shows the improvement of the fit at low energies, and the positive effect of the new excess component.
 
-Fig. \ref{fig:MCRonly_CMZ} shows the central molecular zone (CMZ) fitted with and without the MCR component. The gas density is very high in this region, hence it is the first region where we would expect the MCR emission to be present. 
-Indeed the fit chooses this configuration, with the MCR template dominating all the others and directly improving the fit. The energies around 2 GeV had a clear excess that the four components of the SCR fit could not account for. The MCR template peaking in this region, it comes in very handy and fill this gap, leaving the SCR template taking care of the high energies and the background components for the lower energies.
-
+Then, looking at the spatial distribution of the MCR template on figure \ref{fig:MCRonly_skymap_MCR}, it can be observed that the flux directly traces the CO emission map (Fig. \ref{fig:CO_skymap}). CO being a tracer of MCs in the galaxy, the new excess template is linked to MCs as well.
 
 \begin{figure}[h]
   \centering
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
+	  \subcaption{}
+  	  \label{fig:MCRonly_CMZ_1}
+  \end{minipage}
+  \hfill
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
 	  \includegraphics[width=\linewidth]{pic/results/MCRonly_weniger_sum_0-2.png}	  
   	  \subcaption{}
 	  \label{fig:MCRonly_weniger}
   \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-	  \centering
-	  \includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
-	  \subcaption{}
-  	  \label{fig:MCRonly_CMZ}
-  \end{minipage}
+  
   \caption[MCR fit spectra.]{(a) Approximation of the Fermi data index (in blue) between 300 MeV and 2 GeV for all longitudes below 2 degrees in latitudes. In comparison the fitted background model with SCR and MCR (in black). Comparing to Fig. \ref{fig:weniger_plot} and Fig \ref{fig:SCRonly_weniger} an improvement can be noted and the model does follow the data. (b) Fit of the CMZ with PCR, BR, IC, SCR and MCR. The MCR template dominate all the other around 2 GeV, and allow a very low $\chi^2$ value. Compared to Fig. \ref{fig:SCRonly_CMZ_spec}, the SCR component does not overshoot the high energies.}
   \label{fig:MCR_vs_SCRonly_CMZ}
 \end{figure}
-
 
 \newpage
 \subsection{Introducing DM}
@@ -296,9 +299,10 @@ Once the mass is determined and applied to the entire sky, the fit gives the fol
 
 Figure \ref{fig:DMonly_CMZ} shows the fit of the CMZ using the DM component as the excess component. A first comparison with the MCR fit points to differences in the higher part of the spectrum. DM is way softer above 10 GeV and this change induces all the differences.
 
-As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit traces closely the distribution of molecular gas distribution (as traced by CO).
+As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit traces closely the distribution of molecular gas distribution (as traced by CO). The DM distribution resemble closely the MCR distribution obtained in the previous section (Fig. \ref{fig:MCRonly_skymap_MCR}). Looking at Fig. \ref{fig:DMonly_weniger}, the same remark can be made, the model follows closely the data, as obtained for the MCR fit on Fig. \ref{fig:MCRonly_weniger}.
 
 
+\newpage
 \begin{figure}[H]
   \centering
   \begin{minipage}[h]{0.45\textwidth}
@@ -332,7 +336,6 @@ As seen on Fig. \ref{fig:DMonly_skymap_DM}, the DM distribution of the fit trace
   \label{fig:Excess_comp_flux_comparison}
 \end{figure}
 
-
 \newpage
 \subsection{Introducing MSP}
 %	-Introduction of SCR + MSP:
@@ -356,11 +359,9 @@ Using the MSP spectrum predicted by fermi \cite{Fermi2017} to fit the CMZ region
 As for DM, the high energy is again too soft and put constraints on other templates.
 
 
-As shown on Fig. \ref{fig:MSPonly_skymap_MSP}, the distribution of MSP in the sky resembles the distribution of CO, MCR and DM obtained in previous sections. Present everywhere in the disk, with a higher flux in GC and the bubbles.
+As shown on Fig. \ref{fig:MSPonly_skymap_MSP}, the distribution of MSP in the sky resembles the distribution of CO, MCR and DM obtained in previous sections. Present everywhere in the disk, with a higher flux in GC and the bubbles. This statement is consolidated by figure \ref{fig:MSPonly_weniger} where we see that the model follows again the data almost perfectly.
 
-
-
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \begin{minipage}[h]{0.45\textwidth}
 	  \centering
@@ -382,54 +383,6 @@ As shown on Fig. \ref{fig:MSPonly_skymap_MSP}, the distribution of MSP in the sk
 
 %\todo{add picture of residuals at low energy maybe?}
 
-\newpage
-\begin{figure}[H]
-  \centering
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1.\linewidth]{pic/results/MCRonly_fine_chi2_distribution.png}
-  	\subcaption{}
-  	\label{fig:MCRonly_chi2Distribution}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=\linewidth]{pic/results/MCRonly_CMZ.png}
-	\subcaption{}
-  	\label{fig:MCRonly_CMZ}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1\linewidth]{pic/results/DMonly_fine_chi2_distribution.png}
-  	\subcaption{}
-  \label{fig:DMonly_chi2Distribution}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1\linewidth]{pic/results/DMonly_CMZ.png}
-  	\subcaption{}
-  	\label{fig:DMonly_CMZ}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1\linewidth]{./pic/results/MSPonly_fine_chi2_distribution.png}
-  	\subcaption{}
-  \label{fig:MSPonly_chi2Distribution}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[h]{0.45\textwidth}
-  	\centering
-	\includegraphics[width=1\linewidth]{pic/results/MSPonly_CMZ.png}
-  	\subcaption{}
-  	\label{fig:MSP_only_CMZ}
-  \end{minipage}
-  \caption[$\chi^2$ distributions and CMZ spectra for the MCR, DM and MSP fits.]{Comparison of the $\chi^2$ distributions for the three excess fits (left column) and the CMZ region (right column). MCR (top row), shows a flat $\chi^2$ distribution map, with almost no sign of the disk, and the CMZ is modelled at all energies. DM (middle row) does not fit the disk so well, and the CMZ is not described correctly above 10 GeV. MSP (bottom row) resemble a lot the DM model, with problems in the disk and a poor fit of the CMZ at high energies.}
-  \label{fig:Excess_comp_comparison}
-\end{figure}
-
 
 
 \newpage
@@ -441,7 +394,7 @@ As shown on Fig. \ref{fig:MSPonly_skymap_MSP}, the distribution of MSP in the sk
 %			-Is too soft at low energies
 %
 
-Gathering the results of the previous section, a conclusion tends to emerge: the fit clearly prefers the MCR hypothesis over DM and MSP. We will discuss why in this section.
+Gathering the results of the previous section, a conclusion tends to emerge: all three templates are similar and the results do not show big differences, but their interpretation might prefers the MCR hypothesis over DM and MSP. We will discuss why in this section.
 
 A first step in understanding what is going on can be to compare the $\chi^2$ skymaps. The higher is the $\chi^2$, the worst is the fit. Looking at the background only fit (with PCR, IC and BR only), the disk and the bubbles clearly define a bad $\chi^2$ zone (as seen on Fig. \ref{fig:BKGonly_chi2Distribution}). The high energies are not described at all, with a fitted flux too low (see Fig. \ref{fig:BKGonly_bubble_spec}). It indicates a lack of high energy components that could be able to bring a high energy contribution. This problem is solved by introducing the SCR component and does not play a major role in identifying the excess.
 
@@ -452,7 +405,7 @@ Now that the high energies are taken care of, the excess shows around a few GeV.
 
 
 
-The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes. \todo{remember their names}.
+The first hypothesis to be proposed for this excess was the presence of DM in the GC. As explained before, the DM halo is expected to be spherical around the GC following a NFW profile, since it does not interact with matter. And since the gamma-ray production from DM is directly proportional to the DM density, the DM component is expected to be spherical around the GC as well. There is no reasons for it to be correlated with the spatial shape of the Milky Way. But looking at the results (Fig. \ref{fig:DMonly_skymap_DM}), the fit does not meet these theoretical expectations for DM distribution. The DM flux follows the bar shape of the galaxy, with a high flux below two degrees in latitude and ninety degrees in longitude. Then, some distinct objects can be identified in the disk, around -90 and 90 degrees in longitudes.
 The MSP fit, also expected to have a spherical distribution of gamma-rays from millisecond pulsars, gives similar results. The flux seems to be needed by the fit to describe the disk and regions with molecular clouds as traced by CO in general.
 In both cases, the $\chi^2$ maps show an improvement of the model, but the morphology of the new components tends to disagree with the theory.
 
@@ -472,15 +425,46 @@ This quick comparison of the excess component distributions and the $\chi^2$ map
 The only difference between the three excess components that the fit cares about is their spectral shape. It is explained in the chapter \ref{ch:method} that all three templates peak around 2 GeV, but the slopes at low or high energies are different. For energies inferior to 2 GeV, MCR and DM have a similar shape, when MSP is much softer. For energies above 2 GeV, it is the MSP and DM spectrum that look alike, with a very soft spectrum, when MCR is harder.
 
 These differences are the only reasons the fits does not give exactly the same results three times.
-Indeed, the low energy spectrum of Fermi data in the disk is relatively hard and does not vary significantly along longitude \todo{add fig}. This plays a major role in differentiating MSP on one side, and MCR and DM on the other. The MSP spectrum being softer than Fermi at low energies, the lowest Fermi data point is limiting the MSP contribution. And the relative contribution of the MSP at 2 GeV can not exceed a certain value due to this soft energy spectrum. On the other hand, the MCR and DM spectra fall down with the same index than the data. Thus, the limit on MCR and DM relative contribution is not as limited by low energies as it is for MSP.
+Indeed, the low energy spectrum of Fermi data in the disk is relatively hard compared to high latitudes. This plays a major role in differentiating MSP on one side, and MCR and DM on the other. The MSP spectrum being softer than Fermi at low energies, the lowest Fermi data point is limiting the MSP contribution. And the relative contribution of the MSP at 2 GeV can not exceed a certain value due to this soft energy spectrum. On the other hand, the MCR and DM spectra fall down with the same index than the data. Thus, the limit on MCR and DM relative contribution is not as limited by low energies as it is for MSP.
 This spectral particularity keeps MSP low and does not allow it to account completely for the excess in the GC.
-\todo{add a picture or two, illustrating this effect. maybe two spectra with horizontal lines}
+%\todo{add a picture or two, illustrating this effect. maybe two spectra with horizontal lines}
 
 
 On the other side of the spectrum, above 2 GeV, it is MCR that behave differently than MSP and DM with a harder spectrum. When DM and MSP are completely insignificant above 50 GeV, MCR still plays a role at least as important as the PCR spectrum since they both have the same spectra at high energies. Above 4 GeV, the Fermi data present an constant spectral index with very little variations in the disk. This makes all the difference to distinguish between MCR and MSP or DM. In fact, the important point here is the energy at which the SCR component cross the excess component. In the CMZ, this turnover happens at 50 GeV for MCR, against only 10 GeV and 6 GeV for DM and MSP respectively. This causes the total flux in the DM and MSP fits to present a dip around 11 GeV with a clear change in spectral index. This does not follow the shape of the data. Because of this, the SCR has to overshoot the very high energies (above 100 GeV), to minimize the size of the dip. The PCR component could be a good help with a constant spectral index at high energies, but its contribution is limited by low energies. Indeed, the PCR spectrum peaks around 200 MeV where the Fermi data are already decreasing rapidly. Overall, the MCR spectrum presents the right shape at high energies, with a constant spectral index hard enough to combine wih the SCR component and closely follow the data.
 
 
 In total, two major differences in the spectral shape of the three excess components could be enough to predict the most adapted one. The low energy spectral index difference between the MSP and the Fermi data leaves the MSP behind the MCR and DM hypothesis. Furthermore, the harder spectrum of MCR at high energies improve the fit significantly compared to MSP and DM. So the only spectrum that presents the right shape at low and high energies is MCR, making him the best candidates for a good model.
+
+\newpage
+\section{Correlation between the excess and molecular clouds}
+
+Plotting the spatial distribution of the excess component around the GC, and comparing it to the CO map of the galaxy is insightful. Figure \ref{fig:CO_MCR_correlation} illustrates the correlation existing between molecular clouds as traced by CO emission and the MCR template. Several features can be identified by eye and found in both flux distributions. It is even clearer when plotting the CO flux versus the MCR flux, a linear correlation appears in the whole disk. Appendix \ref{app:DM_MSP_CO_correlation} shows the same correlation the DM and the MSP component. This once again favors MCR over DM or MSP, since only the first is supposed to follow the molecular clouds distribution.
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/COmap_GC.png}	  
+  	  \subcaption{}
+	  \label{fig:CO_GC}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/MCRmapGC.png}
+	  \subcaption{}
+  	  \label{fig:MCR_GC}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[h]{0.45\textwidth}
+	  \centering
+	  \includegraphics[width=\linewidth]{pic/results/correlation.png}
+	  \subcaption{}
+  	  \label{fig:correlation}
+  \end{minipage}
+  \caption[CO and MCR correlation plots.]{(a) CO emission map around the GC. Molecular clouds follow the disk and show some features above. (b) MCR flux distribution as obtained by the fit around the GC. The disk and several features are very similar to the CO map. (c) CO flux versus MCR flux in every cones of the disk below two degrees latitude. A very clear correlation can be observed, linking the excess component to the molecular clouds.}
+  \label{fig:CO_MCR_correlation}
+\end{figure}
 
 
 %\subsection{Comparison of the excess spatial distribution}

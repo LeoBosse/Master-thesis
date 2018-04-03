@@ -14,7 +14,13 @@
 \usepackage{pdfpages}
 \usepackage{pifont}
 \usepackage{listings}
-\lstset{language=sh}
+\usepackage{color}
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{red},
+  keywordstyle=\color{blue}
+}
+
 
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{3}
@@ -41,18 +47,16 @@
 %% | Information about the thesis  |
 %% ---------------------------------
 
-\newcommand{\myname}{Your Name}
-\newcommand{\mytitle}{Your title\\
-                      in two rows\\
-                      or more}
-\newcommand{\myinstitute}{Institut f\"ur experimentelle Teilchenphysik\\
+\newcommand{\myname}{Leo Bosse}
+\newcommand{\mytitle}{Testing different explanations for the Fermi GeV-excess}
+\newcommand{\myinstitute}{Institut for experimental particle physics\\
 													(ETP)}
 
-\newcommand{\reviewerone}{Prof. Dr. Wim de Boer}
-\newcommand{\reviewertwo}{Prof. Dr. Second Advisor}
+\newcommand{\reviewerone}{Prof. Dr. Gilles Henri}
+\newcommand{\reviewertwo}{Prof. Dr. Benoit Cerutti}
 
 \newcommand{\timestart}{1. March 2017}
-\newcommand{\timeend}{28. February 2018}
+\newcommand{\timeend}{10. April 2018}
 
 
 %% ---------------------------------

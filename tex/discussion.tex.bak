@@ -106,8 +106,8 @@ Indeed, a spherical distribution can clearly be identified for the three differe
 
 \newpage
 \subsection{BR flux distribution}
-The BR component is linked to the CR electron density along the line of sight and the electromagnetic fields in the galaxy. It should then be present everywhere. It is what can be observed in Fig. \ref{fig:BR_flux_distrib_excess_comp}, but some features are remarkable. Mainly the decrease of the flux in the disk and the bubbles.
-Depending on the fit, the average flux is also changing. The BR component is a lot more present with the MCR fit than with DM, which in turn presents more BR than the MSP fit. The fact that the MSP fit does not use a lot of BR is consistent with the fact that the MSP spectrum is very soft at low energies. Since BR is also dominant at these energies, both can not have a high flux at the same time. The fit must do concession in order to use them both.
+The BR component is linked to the CR electron density along the line of sight and the gas distribution in the galaxy. It should then be present everywhere. It is what can be observed in Fig. \ref{fig:BR_flux_distrib_excess_comp}, but some features are remarkable. Mainly the decrease of the flux in the disk and the bubbles.
+Depending on the fit, the average flux is also changing. The BR component is a lot more present with the MCR fit than with DM, which in turn presents more BR than the MSP fit. The fact that the MSP fit does not use a lot of BR is consistent with the fact that the MSP spectrum is very soft at low energies. Since BR is also dominant at these energies, both cannot have a high flux at the same time. The fit must do concession in order to use them both.
 
 \begin{figure}[h]
   \centering
@@ -174,11 +174,13 @@ The theory behind the MCR component involves a magnetic cut-off for low rigidity
 This new CR spectrum is composed of two different power laws for high and low energies, joining at the break position. It has the exact same spectral indexes than the CR spectrum used for IC and BR (0.81 below and 3.21 above), but the break is moved up, between 6 and 14 GeV, to stay consistent with the MCR break. The fit method is the same, and the MBR break is fixed to the MCR brake in a given region. This way, the magnetic cut-off is applied the same way to the electrons and protons CR in the same region. Once again, this component is expected to follow the MCs distribution, as expected with MCR.
 
 A MIC component was tested as well, but it was not kept in the fit. This component would have been an IC component with a break between 6 and 14 GeV in the electron spectrum, following the same reasoning than for MBR.
-The reason it was not kept is that it did not improve the fit at all. it is very close from the initial IC component, and do not bring anything new.
+The reason it was not kept is that it did not improve the fit at all. It is very close from the initial IC component, and do not bring anything new.
+
+Figure \ref{fig:MBR_results} shows the results of such a fit and its effect on the BR component. As with the MCR fit \ref{fig:MCRonly_CMZ_1}, the CMZ is very well fitted by the model. There is still no BR contribution, but MBR template is present. The spatial distribution of BR is also very similar to the MCR fit (see Fig. \ref{fig:MCRonly_BR_dist}), with a lower flux in the disk and the bubbles. On the contrary, the MBR component is mainly present in the disk and the GC, as expected, where MCs are supposed to change the electron CR spectrum. The bubbles also appear to show a MBR contribution that is not predicted by the theory behind MBR. This can be interpreted as a hint that the model is not perfect, and that the different templates do not only play their theoretical role, but can also be used where they are not supposed to. in that case, a fine tuning of the templates is required to get the theoretical distributions.
 
 
-
-\begin{figure}[h]
+\newpage
+\begin{figure}[H]
   \centering
   \begin{minipage}[h]{0.45\textwidth}
   	\centering
@@ -207,39 +209,50 @@ The reason it was not kept is that it did not improve the fit at all. it is very
 	  \subcaption{}
 	  \label{}
   \end{minipage}
-  \caption[Results of the fit with MBR]{Results of the fit using a MBR component. (a) CMZ spectrum. The MBR component has a major contribution around 5 GeV. Compared to Fig. \ref{fig:MCRonly_CMZ}, the fit slightly improves with a smaller $\chi^2$ value. (b) MBR flux distribution. It resembles closely the distribution before adding MCR, with a strong gap in the disk (see Fig. \ref{fig:MCRonly_BR_dist}). (c) The MBR flux distribution. It is strong in the GC and the disk, but decrease rapidly around. The pole structures are artifacts due to a lack of statistics at high latitudes. (d) Sum of BR (b) and MBR (c) flux. The MBR contribution is not strong enough to fill the BR gap in the disk.}
+  \caption[Results of the fit with MBR]{Results of the fit using a MBR component. (a) CMZ spectrum. The MBR component has a major contribution around 5 GeV. Compared to Fig. \ref{fig:MCRonly_CMZ}, the fit slightly improves with a smaller $\chi^2$ value. (b) BR flux distribution. It resembles closely the distribution before adding MCR, with a strong gap in the disk (see Fig. \ref{fig:MCRonly_BR_dist}). (c) MBR flux distribution. It is strong in the GC and the disk, but decreases rapidly around. The pole structures are artifacts due to a lack of statistics at high latitudes. (d) Sum of BR (b) and MBR (c) flux. The MBR contribution is not strong enough to fill the BR gap in the disk.}
   \label{fig:MBR_results}	 
 \end{figure}
+
+
 
 
 \newpage
 \section{Mixing MCR and DM}
 
-\todo{difference with DM+MCR. Results and discussion.}
-
-Now the results are clear. MCR is a good solution to the gamma-ray GeV excess in the GC, and could replace the first hypotheses of a DM halo or hidden MSPs. Yet, the DM theory is strongly supported by other measurements \todo{cite}, for example the rotation curves of galaxies, and is one of the most important question of modern physics. And the fact that it is not the primary cause of the effect observed here does not mean it does not exist. On the contrary, under the hypothesis that MCR is really the cause of the excess, the fit could put strong limits on the DM models.
+Now the results are clear. MCR is a good solution to the gamma-ray GeV excess in the GC, and could replace the first hypotheses of a DM halo or hidden MSPs. Yet, the DM theory is strongly supported by other measurements, for example the rotation curves of galaxies  \cite{Newby2018} \cite{Rubin1971}, and is one of the most important question of modern physics. And the fact that it is not the primary cause of the effect observed here does not mean it does not exist. On the contrary, under the hypothesis that MCR is really the cause of the excess, the fit could put strong limits on the DM models.
 
 This section will present a few ways to study the current DM WIMP model using the fit method of this thesis.
 
 
 \subsection{DM and MCR in the same fit}
 
-\todo{add figure}
-
 A first idea is to give the fit a DM and a MCR template with free scaling factors and let it combine them to find the best $\chi^2$ value. Taking a 52.3 GeV WIMP mass and the MCR template with free breaks between 6 and 14 GeV, the fit has the choice between the two. 
-The results are in favour of MCR. This could be predicted from the previous comparisons of the $\chi^2$ distribution for a MCR or a DM fit that showed a clear preference toward MCR, at least in the disk. The $\chi^2$ map of a MCR fit is flat around one, even in the disk, whereas a DM fit does not work well for small latitudes. It is then only expected that the fit chooses MCR when left with the choice.
+The results are in favor of MCR (Fig \ref{fig:DM+MCR_distribution}), almost ignoring the DM component. This could be predicted from the previous comparisons of the $\chi^2$ distribution for a MCR or a DM fit that showed a clear preference toward MCR, at least in the disk. Furthermore, the $\chi^2$ map of a MCR fit is flat around one, even in the disk, whereas a DM fit does not work well for small latitudes. Here the contribution of DM is very small, and the results are almost an exact copy of the fit with MCR only as the excess component.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.5\linewidth]{pic/discussion/DM+MCR_DM_distribution.png}
+	\caption[DM distribution for a fit using DM and MCR]{DM flux distribution fitting all background components, SCR, MCR and DM. DM is almost not used anywhere, thus using DM or not does not change the results of the fit. The adapted binning of 797 cones is used here because the statistics are too low in a one by one degree binning to show the DM contribution.}
+	\label{fig:DM+MCR_distribution}
+\end{figure}
 
+\newpage
 \subsection{Adding DM afterwards}
 
 The second idea that comes to mind is to take the MCR template for granted, and see if there is space to add a DM contribution after fitting with MCR. In other words, a first fit is performed with the classical templates (PCR, IC, BR), the source (SCR) and the MCR templates. Once the best $\chi^2$ is found, the fit tries to add a DM template to improve the model.
 Following the Ockham's razor principle, the least amount of contributions are accepted as true, and any additional component must be treated carefully. This way, the necessity of a DM template is checked, and its contribution can not be mistaken for a classical one.
 
-\todo{add pic}
-First of all, the DM flux distribution is very sparse and degrees of magnitude below the other components. This was expected since the $\chi^2$ of the MCR only fit is already good. Only very small changes could improve it without changing the classical contributions. Using the same CMZ region in the GC, the optimal mass was determined to be \todo{mass DM late}.
+The results are clear, the fit adds only very few DM to the model (Fig. \ref{fig:DMlate_distribution}). This could be expected since the $\chi^2$ of the MCR only fit is already good. Only very small changes could improve it without changing the classical contributions. DM is used sparsely all over the disk, but no spherical shape can be distinguished. 
+
+%Using the same CMZ region in the GC, the optimal mass was determined to be \todo{mass DM late}.
 
 Further studies of this kind could help to determine limits on the DM particle mass and cross-section.
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.5\linewidth]{pic/discussion/DMlate_DM_distribution.png}
+	\caption[DM distribution after fitting a MCR excess]{DM flux distribution when adding the DM component after fitting MCR. The initial MCR fit being already very good with a low $\chi^2$, DM cannot bring to much to the model. The adapted binning of 797 cones is used here because the statistics are too low in a one by one degree binning to show the DM contribution.}
+	\label{fig:DMlate_distribution}
+\end{figure}
 %\newpage
 %\section{How do these results fit in context}
 %%How do they fit in context:
