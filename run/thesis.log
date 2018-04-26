@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  4 APR 2018 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  26 APR 2018 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1527,7 +1527,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 20.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 20.
-<pic/theory/top_galaxy_map.jpg, id=309, 602.25pt x 602.25pt>
+<pic/theory/top_galaxy_map.jpg, id=311, 602.25pt x 602.25pt>
 File: pic/theory/top_galaxy_map.jpg Graphic file (type jpg)
 
 <use pic/theory/top_galaxy_map.jpg>
@@ -1536,7 +1536,7 @@ Package pdftex.def Info: pic/theory/top_galaxy_map.jpg used on input line 27.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 28.
 
-<pic/theory/Fermi_bubble.jpg, id=310, 2906.86pt x 1635.10875pt>
+<pic/theory/Fermi_bubble.jpg, id=312, 2906.86pt x 1635.10875pt>
 File: pic/theory/Fermi_bubble.jpg Graphic file (type jpg)
 
 <use pic/theory/Fermi_bubble.jpg>
@@ -1548,7 +1548,7 @@ Package pdftex.def Info: pic/theory/Fermi_bubble.jpg used on input line 34.
 
 
  <./pic/theory/top_galaxy_map.jpg> <./pic/theory/Fermi_bubble.jpg>]
-<pic/theory/gal_rotation_curve.png, id=331, 586.8324pt x 442.2924pt>
+<pic/theory/gal_rotation_curve.png, id=333, 586.8324pt x 442.2924pt>
 File: pic/theory/gal_rotation_curve.png Graphic file (type png)
 
 <use pic/theory/gal_rotation_curve.png>
@@ -1563,7 +1563,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 81.
  [6]
-<pic/theory/energy_losses_electrons-1.png, id=380, 569.327pt x 427.196pt>
+<pic/theory/energy_losses_electrons-1.png, id=382, 569.327pt x 427.196pt>
 File: pic/theory/energy_losses_electrons-1.png Graphic file (type png)
 
 <use pic/theory/energy_losses_electrons-1.png>
@@ -1571,7 +1571,7 @@ Package pdftex.def Info: pic/theory/energy_losses_electrons-1.png used on input
  line 114.
 (pdftex.def)             Requested size: 192.34288pt x 144.3256pt.
 
-<pic/theory/energy_losses_nucleons.png, id=381, 569.327pt x 427.196pt>
+<pic/theory/energy_losses_nucleons.png, id=383, 569.327pt x 427.196pt>
 File: pic/theory/energy_losses_nucleons.png Graphic file (type png)
 
 <use pic/theory/energy_losses_nucleons.png>
@@ -1586,7 +1586,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 151.
  [8 <./pic/theory/energy_losses_electrons-1.png> <./pic/theory/energy_losses_nu
-cleons.png>] <pic/theory/CR_spectrum.png, id=425, 471.7625pt x 591.20876pt>
+cleons.png>] <pic/theory/CR_spectrum.png, id=427, 471.7625pt x 591.20876pt>
 File: pic/theory/CR_spectrum.png Graphic file (type png)
 
 <use pic/theory/CR_spectrum.png>
@@ -1607,7 +1607,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 chapter 2.
-<pic/method/Flux_FermiData_raw_E12.png, id=485, 1200.485pt x 1176.395pt>
+<pic/method/Flux_FermiData_raw_E12.png, id=487, 1200.485pt x 1176.395pt>
 File: pic/method/Flux_FermiData_raw_E12.png Graphic file (type png)
 
 <use pic/method/Flux_FermiData_raw_E12.png>
@@ -1615,7 +1615,7 @@ Package pdftex.def Info: pic/method/Flux_FermiData_raw_E12.png used on input li
 ne 34.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/method/Flux_FermiData-3FGL_E12.png, id=486, 1200.485pt x 1176.395pt>
+<pic/method/Flux_FermiData-3FGL_E12.png, id=488, 1200.485pt x 1176.395pt>
 File: pic/method/Flux_FermiData-3FGL_E12.png Graphic file (type png)
 
 <use pic/method/Flux_FermiData-3FGL_E12.png>
@@ -1628,7 +1628,7 @@ Overfull \hbox (3.80315pt too wide) in paragraph at lines 62--72
  [][] 
  []
 
-[16] <pic/method/LAT_sys_error.png, id=511, 999.735pt x 676.5275pt>
+[16] <pic/method/LAT_sys_error.png, id=513, 999.735pt x 676.5275pt>
 File: pic/method/LAT_sys_error.png Graphic file (type png)
 
 <use pic/method/LAT_sys_error.png>
@@ -1638,7 +1638,7 @@ Package pdftex.def Info: pic/method/LAT_sys_error.png used on input line 98.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] <pic/method/CR_protons_spectra.png, id=520, 899.36pt x 877.2775pt>
+[17] <pic/method/CR_protons_spectra.png, id=522, 899.36pt x 877.2775pt>
 File: pic/method/CR_protons_spectra.png Graphic file (type png)
 
 <use pic/method/CR_protons_spectra.png>
@@ -1646,7 +1646,7 @@ Package pdftex.def Info: pic/method/CR_protons_spectra.png used on input line 1
 28.
 (pdftex.def)             Requested size: 192.34288pt x 187.6204pt.
 
-<pic/method/CR_electrons.png, id=521, 899.36pt x 877.2775pt>
+<pic/method/CR_electrons.png, id=523, 899.36pt x 877.2775pt>
 File: pic/method/CR_electrons.png Graphic file (type png)
 
 <use pic/method/CR_electrons.png>
@@ -1656,14 +1656,14 @@ Package pdftex.def Info: pic/method/CR_electrons.png used on input line 135.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pic/method/IC_variations.png, id=525, 907.39pt x 815.045pt>
+<pic/method/IC_variations.png, id=527, 907.39pt x 815.045pt>
 File: pic/method/IC_variations.png Graphic file (type png)
 
 <use pic/method/IC_variations.png>
 Package pdftex.def Info: pic/method/IC_variations.png used on input line 159.
 (pdftex.def)             Requested size: 192.34288pt x 171.56258pt.
 
-<pic/method/BR_variations.png, id=527, 907.39pt x 816.04875pt>
+<pic/method/BR_variations.png, id=529, 907.39pt x 816.04875pt>
 File: pic/method/BR_variations.png Graphic file (type png)
 
 <use pic/method/BR_variations.png>
@@ -1674,14 +1674,14 @@ Package pdftex.def Info: pic/method/BR_variations.png used on input line 166.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./pic/method/LAT_sys_error.png>]
-<pic/method/norm_bkg_comp.png, id=543, 899.36pt x 875.27pt>
+<pic/method/norm_bkg_comp.png, id=545, 899.36pt x 875.27pt>
 File: pic/method/norm_bkg_comp.png Graphic file (type png)
 
 <use pic/method/norm_bkg_comp.png>
 Package pdftex.def Info: pic/method/norm_bkg_comp.png used on input line 211.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/method/norm_excess_comp.png, id=544, 899.36pt x 875.27pt>
+<pic/method/norm_excess_comp.png, id=546, 899.36pt x 875.27pt>
 File: pic/method/norm_excess_comp.png Graphic file (type png)
 
 <use pic/method/norm_excess_comp.png>
@@ -1693,7 +1693,7 @@ Package pdftex.def Info: pic/method/norm_excess_comp.png used on input line 218
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./pic/method/CR_protons_spectra.png> <./pic/method/CR_electrons.png>]
-<pic/method/iso_calibration.png, id=562, 899.36pt x 875.27pt>
+<pic/method/iso_calibration.png, id=564, 899.36pt x 875.27pt>
 File: pic/method/iso_calibration.png Graphic file (type png)
 
 <use pic/method/iso_calibration.png>
@@ -1729,7 +1729,7 @@ LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 
 ]
 chapter 3.
-<pic/results/BKGonly_weniger_sum_D_0-2.png, id=603, 900.36375pt x 656.4525pt>
+<pic/results/BKGonly_weniger_sum_D_0-2.png, id=605, 900.36375pt x 656.4525pt>
 File: pic/results/BKGonly_weniger_sum_D_0-2.png Graphic file (type png)
 
 <use pic/results/BKGonly_weniger_sum_D_0-2.png>
@@ -1737,7 +1737,7 @@ Package pdftex.def Info: pic/results/BKGonly_weniger_sum_D_0-2.png used on inpu
 t line 33.
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 
-<pic/results/BKGonly_halo_residuals.png, id=604, 1200.485pt x 973.6375pt>
+<pic/results/BKGonly_halo_residuals.png, id=606, 1200.485pt x 973.6375pt>
 File: pic/results/BKGonly_halo_residuals.png Graphic file (type png)
 
 <use pic/results/BKGonly_halo_residuals.png>
@@ -1746,7 +1746,7 @@ ine 40.
 (pdftex.def)             Requested size: 192.34288pt x 155.99316pt.
  [25 <./pic/results/BKGonly_weniger_sum_D_0-2.png> <./pic/results/BKGonly_halo_
 residuals.png>]
-<pic/results/BKGonly_fine_chi2_distribution.png, id=619, 1200.485pt x 1176.395p
+<pic/results/BKGonly_fine_chi2_distribution.png, id=621, 1200.485pt x 1176.395p
 t>
 File: pic/results/BKGonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/BKGonly_fine_chi2_distribution.png>
@@ -1754,7 +1754,7 @@ Package pdftex.def Info: pic/results/BKGonly_fine_chi2_distribution.png used on
  input line 68.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/BKGonly_CMZ.png, id=620, 899.36pt x 875.27pt>
+<pic/results/BKGonly_CMZ.png, id=622, 899.36pt x 875.27pt>
 File: pic/results/BKGonly_CMZ.png Graphic file (type png)
 
 <use pic/results/BKGonly_CMZ.png>
@@ -1762,14 +1762,14 @@ Package pdftex.def Info: pic/results/BKGonly_CMZ.png used on input line 75.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
  [26 <./pic/results/BKGonly_fine_chi2_distribution.png> <./pic/results/BKGonly_
 CMZ.png>] [27]
-<pic/results/EGRET_A.png, id=640, 538.01pt x 526.96875pt>
+<pic/results/EGRET_A.png, id=642, 538.01pt x 526.96875pt>
 File: pic/results/EGRET_A.png Graphic file (type png)
 
 <use pic/results/EGRET_A.png>
 Package pdftex.def Info: pic/results/EGRET_A.png used on input line 100.
 (pdftex.def)             Requested size: 192.34532pt x 159.33818pt.
 
-<pic/results/asEGRET_Fermi_A.png, id=641, 899.36pt x 875.27pt>
+<pic/results/asEGRET_Fermi_A.png, id=643, 899.36pt x 875.27pt>
 File: pic/results/asEGRET_Fermi_A.png Graphic file (type png)
 
 <use pic/results/asEGRET_Fermi_A.png>
@@ -1777,37 +1777,37 @@ Package pdftex.def Info: pic/results/asEGRET_Fermi_A.png used on input line 107
 .
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
  [28 <./pic/results/EGRET_A.png> <./pic/results/asEGRET_Fermi_A.png>]
-<pic/results/SCRonly_fine_chi2_distribution.png, id=652, 1200.485pt x 1176.395p
+<pic/results/SCRonly_fine_chi2_distribution.png, id=654, 1200.485pt x 1176.395p
 t>
 File: pic/results/SCRonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/SCRonly_fine_chi2_distribution.png>
 Package pdftex.def Info: pic/results/SCRonly_fine_chi2_distribution.png used on
- input line 137.
+ input line 138.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/SCRonly_fine_SCR_distribution_E20.png, id=653, 1200.485pt x 1176.3
+<pic/results/SCRonly_fine_SCR_distribution_E20.png, id=655, 1200.485pt x 1176.3
 95pt>
 File: pic/results/SCRonly_fine_SCR_distribution_E20.png Graphic file (type png)
 
  <use pic/results/SCRonly_fine_SCR_distribution_E20.png>
 Package pdftex.def Info: pic/results/SCRonly_fine_SCR_distribution_E20.png used
- on input line 144.
+ on input line 145.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/BKGonly_bubbles_Spec.png, id=658, 899.36pt x 875.27pt>
+<pic/results/BKGonly_bubbles_Spec.png, id=660, 899.36pt x 875.27pt>
 File: pic/results/BKGonly_bubbles_Spec.png Graphic file (type png)
 
 <use pic/results/BKGonly_bubbles_Spec.png>
 Package pdftex.def Info: pic/results/BKGonly_bubbles_Spec.png used on input lin
-e 163.
+e 164.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/SCRonly_bubbles_Spec.png, id=659, 899.36pt x 875.27pt>
+<pic/results/SCRonly_bubbles_Spec.png, id=661, 899.36pt x 875.27pt>
 File: pic/results/SCRonly_bubbles_Spec.png Graphic file (type png)
 
 <use pic/results/SCRonly_bubbles_Spec.png>
 Package pdftex.def Info: pic/results/SCRonly_bubbles_Spec.png used on input lin
-e 170.
+e 171.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
 
@@ -1815,19 +1815,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./pic/results/SCRonly_fine_chi2_distribution.png> <./pic/results/SCRonly_f
 ine_SCR_distribution_E20.png>]
-<pic/results/SCRonly_weniger_sum_0-2.png, id=672, 1200.485pt x 875.27pt>
+<pic/results/SCRonly_weniger_sum_0-2.png, id=674, 1200.485pt x 875.27pt>
 File: pic/results/SCRonly_weniger_sum_0-2.png Graphic file (type png)
 
 <use pic/results/SCRonly_weniger_sum_0-2.png>
 Package pdftex.def Info: pic/results/SCRonly_weniger_sum_0-2.png used on input 
-line 187.
+line 188.
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 
-<pic/results/SCRonly_goodCMZ.png, id=673, 899.36pt x 875.27pt>
+<pic/results/SCRonly_goodCMZ.png, id=675, 899.36pt x 875.27pt>
 File: pic/results/SCRonly_goodCMZ.png Graphic file (type png)
 
 <use pic/results/SCRonly_goodCMZ.png>
-Package pdftex.def Info: pic/results/SCRonly_goodCMZ.png used on input line 194
+Package pdftex.def Info: pic/results/SCRonly_goodCMZ.png used on input line 195
 .
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
@@ -1835,19 +1835,19 @@ Package pdftex.def Info: pic/results/SCRonly_goodCMZ.png used on input line 194
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./pic/results/BKGonly_bubbles_Spec.png> <./pic/results/SCRonly_bubbles_Spe
-c.png>] <pic/results/MCRonly_CMZ.png, id=692, 899.36pt x 875.27pt>
+c.png>] <pic/results/MCRonly_CMZ.png, id=694, 899.36pt x 875.27pt>
 File: pic/results/MCRonly_CMZ.png Graphic file (type png)
 
 <use pic/results/MCRonly_CMZ.png>
-Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 250.
+Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 251.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/MCRonly_weniger_sum_0-2.png, id=693, 1200.485pt x 875.27pt>
+<pic/results/MCRonly_weniger_sum_0-2.png, id=695, 1200.485pt x 875.27pt>
 File: pic/results/MCRonly_weniger_sum_0-2.png Graphic file (type png)
 
 <use pic/results/MCRonly_weniger_sum_0-2.png>
 Package pdftex.def Info: pic/results/MCRonly_weniger_sum_0-2.png used on input 
-line 257.
+line 258.
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 
 
@@ -1855,79 +1855,79 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [31 <./pic/results/SCRonly_weniger_sum_0-2.png> <./pic/results/SCRonly_goodCMZ.
 png>] [32 <./pic/results/MCRonly_CMZ.png> <./pic/results/MCRonly_weniger_sum_0-
-2.png>] <pic/results/COmap.png, id=721, 598.235pt x 576.1525pt>
+2.png>] <pic/results/COmap.png, id=723, 598.235pt x 576.1525pt>
 File: pic/results/COmap.png Graphic file (type png)
 
 <use pic/results/COmap.png>
-Package pdftex.def Info: pic/results/COmap.png used on input line 310.
+Package pdftex.def Info: pic/results/COmap.png used on input line 311.
 (pdftex.def)             Requested size: 192.34288pt x 185.2429pt.
 
-<pic/results/MCRonly_fine_MCR_distribution_E12.png, id=722, 1200.485pt x 1176.3
+<pic/results/MCRonly_fine_MCR_distribution_E12.png, id=724, 1200.485pt x 1176.3
 95pt>
 File: pic/results/MCRonly_fine_MCR_distribution_E12.png Graphic file (type png)
 
  <use pic/results/MCRonly_fine_MCR_distribution_E12.png>
 Package pdftex.def Info: pic/results/MCRonly_fine_MCR_distribution_E12.png used
- on input line 317.
+ on input line 318.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/DMonly_fine_DM_distribution_E13.png, id=723, 1200.485pt x 1176.395
+<pic/results/DMonly_fine_DM_distribution_E13.png, id=725, 1200.485pt x 1176.395
 pt>
 File: pic/results/DMonly_fine_DM_distribution_E13.png Graphic file (type png)
  <use pic/results/DMonly_fine_DM_distribution_E13.png>
 Package pdftex.def Info: pic/results/DMonly_fine_DM_distribution_E13.png used o
-n input line 324.
+n input line 325.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MSPonly_fine_MSP_distribution_E12.png, id=724, 1200.485pt x 1176.3
+<pic/results/MSPonly_fine_MSP_distribution_E12.png, id=726, 1200.485pt x 1176.3
 95pt>
 File: pic/results/MSPonly_fine_MSP_distribution_E12.png Graphic file (type png)
 
  <use pic/results/MSPonly_fine_MSP_distribution_E12.png>
 Package pdftex.def Info: pic/results/MSPonly_fine_MSP_distribution_E12.png used
- on input line 331.
+ on input line 332.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
  [33 <./pic/results/COmap.png> <./pic/results/MCRonly_fine_MCR_distribution_E12
 .png> <./pic/results/DMonly_fine_DM_distribution_E13.png> <./pic/results/MSPonl
 y_fine_MSP_distribution_E12.png>]
-<pic/results/MSPonly_weniger.png, id=734, 1200.485pt x 875.27pt>
+<pic/results/MSPonly_weniger.png, id=736, 1200.485pt x 875.27pt>
 File: pic/results/MSPonly_weniger.png Graphic file (type png)
 
 <use pic/results/MSPonly_weniger.png>
-Package pdftex.def Info: pic/results/MSPonly_weniger.png used on input line 368
+Package pdftex.def Info: pic/results/MSPonly_weniger.png used on input line 369
 .
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 File: pic/results/MSPonly_weniger.png Graphic file (type png)
  <use pic/results/MSPonly_weniger.png>
-Package pdftex.def Info: pic/results/MSPonly_weniger.png used on input line 375
+Package pdftex.def Info: pic/results/MSPonly_weniger.png used on input line 376
 .
 (pdftex.def)             Requested size: 192.34288pt x 140.23303pt.
 
 [34 <./pic/results/MSPonly_weniger.png>] [35] [36]
-Overfull \hbox (14.1793pt too wide) in paragraph at lines 439--439
+Overfull \hbox (14.1793pt too wide) in paragraph at lines 440--440
 []\T1/LinuxLibertineT-TLF/b/n/17.28 Correlation be-tween the ex-cess and molec-
 u-lar clouds 
  []
 
-<pic/results/COmap_GC.png, id=753, 1200.485pt x 1176.395pt>
+<pic/results/COmap_GC.png, id=755, 1200.485pt x 1176.395pt>
 File: pic/results/COmap_GC.png Graphic file (type png)
 
 <use pic/results/COmap_GC.png>
-Package pdftex.def Info: pic/results/COmap_GC.png used on input line 447.
+Package pdftex.def Info: pic/results/COmap_GC.png used on input line 448.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MCRmapGC.png, id=754, 1200.485pt x 1176.395pt>
+<pic/results/MCRmapGC.png, id=756, 1200.485pt x 1176.395pt>
 File: pic/results/MCRmapGC.png Graphic file (type png)
 
 <use pic/results/MCRmapGC.png>
-Package pdftex.def Info: pic/results/MCRmapGC.png used on input line 454.
+Package pdftex.def Info: pic/results/MCRmapGC.png used on input line 455.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/correlation.png, id=755, 675.27281pt x 656.4525pt>
+<pic/results/correlation.png, id=757, 675.27281pt x 656.4525pt>
 File: pic/results/correlation.png Graphic file (type png)
 
 <use pic/results/correlation.png>
-Package pdftex.def Info: pic/results/correlation.png used on input line 461.
+Package pdftex.def Info: pic/results/correlation.png used on input line 462.
 (pdftex.def)             Requested size: 192.34288pt x 186.98071pt.
 ) [37 <./pic/results/COmap_GC.png> <./pic/results/MCRmapGC.png> <./pic/results/
 correlation.png>]
@@ -1947,7 +1947,7 @@ R pro-tons which col-lide with other hadrons
  []
 
 [39]
-<pic/discussion/MCRonly_fine_PCR_integral_distribution.png, id=776, 1200.485pt 
+<pic/discussion/MCRonly_fine_PCR_integral_distribution.png, id=778, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MCRonly_fine_PCR_integral_distribution.png Graphic file (t
 ype png)
@@ -1956,7 +1956,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_PCR_integral_distribution.
 png used on input line 53.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/DMonly_fine_PCR_integral_distribution.png, id=777, 1200.485pt x
+<pic/discussion/DMonly_fine_PCR_integral_distribution.png, id=779, 1200.485pt x
  1176.395pt>
 File: pic/discussion/DMonly_fine_PCR_integral_distribution.png Graphic file (ty
 pe png)
@@ -1965,7 +1965,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_PCR_integral_distribution.p
 ng used on input line 60.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/MSPonly_fine_PCR_integral_distribution.png, id=778, 1200.485pt 
+<pic/discussion/MSPonly_fine_PCR_integral_distribution.png, id=780, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MSPonly_fine_PCR_integral_distribution.png Graphic file (t
 ype png)
@@ -1977,7 +1977,7 @@ png used on input line 67.
 [40 <./pic/discussion/MCRonly_fine_PCR_integral_distribution.png> <./pic/discus
 sion/DMonly_fine_PCR_integral_distribution.png> <./pic/discussion/MSPonly_fine_
 PCR_integral_distribution.png>]
-<pic/discussion/MCRonly_fine_IC_integral_distribution.png, id=786, 1200.485pt x
+<pic/discussion/MCRonly_fine_IC_integral_distribution.png, id=788, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MCRonly_fine_IC_integral_distribution.png Graphic file (ty
 pe png)
@@ -1986,7 +1986,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_IC_integral_distribution.p
 ng used on input line 85.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/DMonly_fine_IC_integral_distribution.png, id=787, 1200.485pt x 
+<pic/discussion/DMonly_fine_IC_integral_distribution.png, id=789, 1200.485pt x 
 1176.395pt>
 File: pic/discussion/DMonly_fine_IC_integral_distribution.png Graphic file (typ
 e png)
@@ -1995,7 +1995,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_IC_integral_distribution.pn
 g used on input line 92.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/MSPonly_fine_IC_integral_distribution.png, id=788, 1200.485pt x
+<pic/discussion/MSPonly_fine_IC_integral_distribution.png, id=790, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MSPonly_fine_IC_integral_distribution.png Graphic file (ty
 pe png)
@@ -2007,7 +2007,7 @@ ng used on input line 99.
 [41 <./pic/discussion/MCRonly_fine_IC_integral_distribution.png> <./pic/discuss
 ion/DMonly_fine_IC_integral_distribution.png> <./pic/discussion/MSPonly_fine_IC
 _integral_distribution.png>]
-<pic/discussion/MCRonly_fine_BR_integral_distribution.png, id=795, 1200.485pt x
+<pic/discussion/MCRonly_fine_BR_integral_distribution.png, id=797, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MCRonly_fine_BR_integral_distribution.png Graphic file (ty
 pe png)
@@ -2016,7 +2016,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_BR_integral_distribution.p
 ng used on input line 116.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/DMonly_fine_BR_integral_distribution.png, id=796, 1200.485pt x 
+<pic/discussion/DMonly_fine_BR_integral_distribution.png, id=798, 1200.485pt x 
 1176.395pt>
 File: pic/discussion/DMonly_fine_BR_integral_distribution.png Graphic file (typ
 e png)
@@ -2025,7 +2025,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_BR_integral_distribution.pn
 g used on input line 123.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/MSPonly_fine_BR_integral_distribution.png, id=797, 1200.485pt x
+<pic/discussion/MSPonly_fine_BR_integral_distribution.png, id=799, 1200.485pt x
  1176.395pt>
 File: pic/discussion/MSPonly_fine_BR_integral_distribution.png Graphic file (ty
 pe png)
@@ -2037,7 +2037,7 @@ ng used on input line 130.
 [42 <./pic/discussion/MCRonly_fine_BR_integral_distribution.png> <./pic/discuss
 ion/DMonly_fine_BR_integral_distribution.png> <./pic/discussion/MSPonly_fine_BR
 _integral_distribution.png>]
-<pic/discussion/MCRonly_fine_SCR_integral_distribution.png, id=804, 1200.485pt 
+<pic/discussion/MCRonly_fine_SCR_integral_distribution.png, id=806, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MCRonly_fine_SCR_integral_distribution.png Graphic file (t
 ype png)
@@ -2046,7 +2046,7 @@ Package pdftex.def Info: pic/discussion/MCRonly_fine_SCR_integral_distribution.
 png used on input line 147.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/DMonly_fine_SCR_integral_distribution.png, id=805, 1200.485pt x
+<pic/discussion/DMonly_fine_SCR_integral_distribution.png, id=807, 1200.485pt x
  1176.395pt>
 File: pic/discussion/DMonly_fine_SCR_integral_distribution.png Graphic file (ty
 pe png)
@@ -2055,7 +2055,7 @@ Package pdftex.def Info: pic/discussion/DMonly_fine_SCR_integral_distribution.p
 ng used on input line 154.
 (pdftex.def)             Requested size: 170.97pt x 167.53032pt.
 
-<pic/discussion/MSPonly_fine_SCR_integral_distribution.png, id=806, 1200.485pt 
+<pic/discussion/MSPonly_fine_SCR_integral_distribution.png, id=808, 1200.485pt 
 x 1176.395pt>
 File: pic/discussion/MSPonly_fine_SCR_integral_distribution.png Graphic file (t
 ype png)
@@ -2067,14 +2067,14 @@ png used on input line 161.
 [43 <./pic/discussion/MCRonly_fine_SCR_integral_distribution.png> <./pic/discus
 sion/DMonly_fine_SCR_integral_distribution.png> <./pic/discussion/MSPonly_fine_
 SCR_integral_distribution.png>] [44]
-<pic/discussion/MBR_CMZ.png, id=821, 899.36pt x 875.27pt>
+<pic/discussion/MBR_CMZ.png, id=823, 899.36pt x 875.27pt>
 File: pic/discussion/MBR_CMZ.png Graphic file (type png)
 
 <use pic/discussion/MBR_CMZ.png>
 Package pdftex.def Info: pic/discussion/MBR_CMZ.png used on input line 188.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/discussion/MBR_BR_Integral.png, id=822, 1200.485pt x 1176.395pt>
+<pic/discussion/MBR_BR_Integral.png, id=824, 1200.485pt x 1176.395pt>
 File: pic/discussion/MBR_BR_Integral.png Graphic file (type png)
 
 <use pic/discussion/MBR_BR_Integral.png>
@@ -2082,7 +2082,7 @@ Package pdftex.def Info: pic/discussion/MBR_BR_Integral.png used on input line
 195.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/discussion/MBR_MBR_Integral.png, id=823, 1200.485pt x 1176.395pt>
+<pic/discussion/MBR_MBR_Integral.png, id=825, 1200.485pt x 1176.395pt>
 File: pic/discussion/MBR_MBR_Integral.png Graphic file (type png)
 
 <use pic/discussion/MBR_MBR_Integral.png>
@@ -2090,7 +2090,7 @@ Package pdftex.def Info: pic/discussion/MBR_MBR_Integral.png used on input line
  202.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/discussion/MBR_BR+MBR_Integral.png, id=824, 1200.485pt x 1176.395pt>
+<pic/discussion/MBR_BR+MBR_Integral.png, id=826, 1200.485pt x 1176.395pt>
 File: pic/discussion/MBR_BR+MBR_Integral.png Graphic file (type png)
 
 <use pic/discussion/MBR_BR+MBR_Integral.png>
@@ -2100,7 +2100,7 @@ ine 209.
  [45 <./pic/discussion/MBR_CMZ.png> <./pic/discussion/MBR_BR_Integral.png> <./p
 ic/discussion/MBR_MBR_Integral.png> <./pic/discussion/MBR_BR+MBR_Integral.png>]
 
-<pic/discussion/DM+MCR_DM_distribution.png, id=836, 1200.485pt x 1176.395pt>
+<pic/discussion/DM+MCR_DM_distribution.png, id=838, 1200.485pt x 1176.395pt>
 File: pic/discussion/DM+MCR_DM_distribution.png Graphic file (type png)
 
 <use pic/discussion/DM+MCR_DM_distribution.png>
@@ -2108,7 +2108,7 @@ Package pdftex.def Info: pic/discussion/DM+MCR_DM_distribution.png used on inpu
 t line 234.
 (pdftex.def)             Requested size: 213.71576pt x 209.42638pt.
  [46 <./pic/discussion/DM+MCR_DM_distribution.png>]
-<pic/discussion/DMlate_DM_distribution.png, id=843, 1200.485pt x 1176.395pt>
+<pic/discussion/DMlate_DM_distribution.png, id=845, 1200.485pt x 1176.395pt>
 File: pic/discussion/DMlate_DM_distribution.png Graphic file (type png)
 
 <use pic/discussion/DMlate_DM_distribution.png>
@@ -2133,22 +2133,22 @@ Overfull \hbox (0.11708pt too wide) in paragraph at lines 26--27
 
 [49]) [50] (./thesis.bbl
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
- on input line 24.
+ on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineMonoT-TLF.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2012/12/06 (autoinst) Font definitions for T
 1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--46
 []\T1/LinuxLibertineT-TLF/m/n/12 Rob Gar-ner, []$\T1/LinuxLibertineMonoT-TLF/m/
 n/12 https : / / www . nasa . gov / mission _ pages / GLAST /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--171
+Underfull \hbox (badness 10000) in paragraph at lines 173--179
 []\T1/LinuxLibertineT-TLF/m/n/12 Matthew Newby, []$\T1/LinuxLibertineMonoT-TLF/
 m/n/12 http : / / milkyway . cs . rpi . edu / milkyway /
  []
@@ -2160,31 +2160,31 @@ m/n/12 http : / / milkyway . cs . rpi . edu / milkyway /
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 304--310
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
 []\T1/LinuxLibertineT-TLF/m/n/12 W. Han-lon, []$\T1/LinuxLibertineMonoT-TLF/m/n
 /12 http : / / www . physics . utah . edu / ~whanlon /
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 325--361
+Underfull \hbox (badness 1571) in paragraph at lines 333--369
 []\T1/LinuxLibertineT-TLF/m/n/12 Humboldt State Uni-ver-sity, []$\T1/LinuxLiber
 tineMonoT-TLF/m/n/12 http : / / gsp . humboldt . edu / olm _ 2015 /
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 325--361
+Underfull \hbox (badness 3826) in paragraph at lines 333--369
 \T1/LinuxLibertineMonoT-TLF/m/n/12 Courses / GSP _ 216 _ Online / lesson2-[]1 /
  atmosphere . html$[]\T1/LinuxLibertineT-TLF/m/n/12 , Ver-
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 398--432
+Underfull \hbox (badness 1715) in paragraph at lines 406--440
 []\T1/LinuxLibertineT-TLF/m/n/12 Fermi Sci-ence Tools Soft-ware Ver-sion v10r0p
 5, []$\T1/LinuxLibertineMonoT-TLF/m/n/12 https : / / fermi . gsfc .
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 398--432
+Underfull \hbox (badness 4819) in paragraph at lines 406--440
 \T1/LinuxLibertineMonoT-TLF/m/n/12 nasa . gov / ssc / data / analysis / softwar
 e / v10r0p5 . html$[]\T1/LinuxLibertineT-TLF/m/n/12 , Ver-
  []
@@ -2227,138 +2227,138 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
-[61] <pic/method/app_iso_process_1.png, id=1074, 899.36pt x 875.27pt>
+[61] <pic/method/app_iso_process_1.png, id=1085, 899.36pt x 875.27pt>
 File: pic/method/app_iso_process_1.png Graphic file (type png)
 
 <use pic/method/app_iso_process_1.png>
-Package pdftex.def Info: pic/method/app_iso_process_1.png used on input line 13
-6.
+Package pdftex.def Info: pic/method/app_iso_process_1.png used on input line 14
+1.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/method/app_iso_process_2.png, id=1075, 899.36pt x 875.27pt>
+<pic/method/app_iso_process_2.png, id=1086, 899.36pt x 875.27pt>
 File: pic/method/app_iso_process_2.png Graphic file (type png)
 
 <use pic/method/app_iso_process_2.png>
 Package pdftex.def Info: pic/method/app_iso_process_2.png used on input line 14
-3.
+8.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/method/app_iso_process_3.png, id=1076, 899.36pt x 875.27pt>
+<pic/method/app_iso_process_3.png, id=1087, 899.36pt x 875.27pt>
 File: pic/method/app_iso_process_3.png Graphic file (type png)
 
 <use pic/method/app_iso_process_3.png>
 Package pdftex.def Info: pic/method/app_iso_process_3.png used on input line 15
-0.
+5.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/method/app_iso_process_4.png, id=1077, 899.36pt x 875.27pt>
+<pic/method/app_iso_process_4.png, id=1088, 899.36pt x 875.27pt>
 File: pic/method/app_iso_process_4.png Graphic file (type png)
 
 <use pic/method/app_iso_process_4.png>
-Package pdftex.def Info: pic/method/app_iso_process_4.png used on input line 15
-7.
+Package pdftex.def Info: pic/method/app_iso_process_4.png used on input line 16
+2.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
  [62 <./pic/method/app_iso_process_1.png> <./pic/method/app_iso_process_2.png> 
 <./pic/method/app_iso_process_3.png> <./pic/method/app_iso_process_4.png>]
-<pic/results/BKG_PCR_Integral.png, id=1084, 1200.485pt x 1176.395pt>
+<pic/results/BKG_PCR_Integral.png, id=1095, 1200.485pt x 1176.395pt>
 File: pic/results/BKG_PCR_Integral.png Graphic file (type png)
 
 <use pic/results/BKG_PCR_Integral.png>
-Package pdftex.def Info: pic/results/BKG_PCR_Integral.png used on input line 17
-6.
+Package pdftex.def Info: pic/results/BKG_PCR_Integral.png used on input line 18
+1.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/BKG_BR_Integral.png, id=1085, 1200.485pt x 1176.395pt>
+<pic/results/BKG_BR_Integral.png, id=1096, 1200.485pt x 1176.395pt>
 File: pic/results/BKG_BR_Integral.png Graphic file (type png)
 
 <use pic/results/BKG_BR_Integral.png>
-Package pdftex.def Info: pic/results/BKG_BR_Integral.png used on input line 183
+Package pdftex.def Info: pic/results/BKG_BR_Integral.png used on input line 188
 .
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/BKG_IC_Integral.png, id=1086, 1200.485pt x 1176.395pt>
+<pic/results/BKG_IC_Integral.png, id=1097, 1200.485pt x 1176.395pt>
 File: pic/results/BKG_IC_Integral.png Graphic file (type png)
 
 <use pic/results/BKG_IC_Integral.png>
-Package pdftex.def Info: pic/results/BKG_IC_Integral.png used on input line 190
+Package pdftex.def Info: pic/results/BKG_IC_Integral.png used on input line 195
 .
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
  [63 <./pic/results/BKG_PCR_Integral.png> <./pic/results/BKG_BR_Integral.png> <
 ./pic/results/BKG_IC_Integral.png>]
-<pic/results/SCR_PCR_Integral.png, id=1091, 1200.485pt x 1176.395pt>
+<pic/results/SCR_PCR_Integral.png, id=1102, 1200.485pt x 1176.395pt>
 File: pic/results/SCR_PCR_Integral.png Graphic file (type png)
 
 <use pic/results/SCR_PCR_Integral.png>
 Package pdftex.def Info: pic/results/SCR_PCR_Integral.png used on input line 20
-4.
+9.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/SCR_BR_Integral.png, id=1092, 1200.485pt x 1176.395pt>
+<pic/results/SCR_BR_Integral.png, id=1103, 1200.485pt x 1176.395pt>
 File: pic/results/SCR_BR_Integral.png Graphic file (type png)
 
 <use pic/results/SCR_BR_Integral.png>
-Package pdftex.def Info: pic/results/SCR_BR_Integral.png used on input line 211
+Package pdftex.def Info: pic/results/SCR_BR_Integral.png used on input line 216
 .
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/SCR_IC_Integral.png, id=1093, 1200.485pt x 1176.395pt>
+<pic/results/SCR_IC_Integral.png, id=1104, 1200.485pt x 1176.395pt>
 File: pic/results/SCR_IC_Integral.png Graphic file (type png)
 
 <use pic/results/SCR_IC_Integral.png>
-Package pdftex.def Info: pic/results/SCR_IC_Integral.png used on input line 218
+Package pdftex.def Info: pic/results/SCR_IC_Integral.png used on input line 223
 .
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/SCR_SCR_Integral.png, id=1094, 1200.485pt x 1176.395pt>
+<pic/results/SCR_SCR_Integral.png, id=1105, 1200.485pt x 1176.395pt>
 File: pic/results/SCR_SCR_Integral.png Graphic file (type png)
 
 <use pic/results/SCR_SCR_Integral.png>
-Package pdftex.def Info: pic/results/SCR_SCR_Integral.png used on input line 22
-5.
+Package pdftex.def Info: pic/results/SCR_SCR_Integral.png used on input line 23
+0.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
  [64 <./pic/results/SCR_PCR_Integral.png> <./pic/results/SCR_BR_Integral.png> <
 ./pic/results/SCR_IC_Integral.png> <./pic/results/SCR_SCR_Integral.png>]
-<pic/results/MCRonly_fine_chi2_distribution.png, id=1099, 1200.485pt x 1176.395
+<pic/results/MCRonly_fine_chi2_distribution.png, id=1110, 1200.485pt x 1176.395
 pt>
 File: pic/results/MCRonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/MCRonly_fine_chi2_distribution.png>
 Package pdftex.def Info: pic/results/MCRonly_fine_chi2_distribution.png used on
- input line 239.
+ input line 244.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 File: pic/results/MCRonly_CMZ.png Graphic file (type png)
 
 <use pic/results/MCRonly_CMZ.png>
-Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 246.
+Package pdftex.def Info: pic/results/MCRonly_CMZ.png used on input line 251.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<pic/results/DMonly_fine_chi2_distribution.png, id=1100, 1200.485pt x 1176.395p
+<pic/results/DMonly_fine_chi2_distribution.png, id=1111, 1200.485pt x 1176.395p
 t>
 File: pic/results/DMonly_fine_chi2_distribution.png Graphic file (type png)
  <use pic/results/DMonly_fine_chi2_distribution.png>
 Package pdftex.def Info: pic/results/DMonly_fine_chi2_distribution.png used on 
-input line 253.
+input line 258.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/DMonly_CMZ.png, id=1101, 899.36pt x 875.27pt>
+<pic/results/DMonly_CMZ.png, id=1112, 899.36pt x 875.27pt>
 File: pic/results/DMonly_CMZ.png Graphic file (type png)
 
 <use pic/results/DMonly_CMZ.png>
-Package pdftex.def Info: pic/results/DMonly_CMZ.png used on input line 260.
+Package pdftex.def Info: pic/results/DMonly_CMZ.png used on input line 265.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
-<./pic/results/MSPonly_fine_chi2_distribution.png, id=1102, 1200.485pt x 1176.3
+<./pic/results/MSPonly_fine_chi2_distribution.png, id=1113, 1200.485pt x 1176.3
 95pt>
 File: ./pic/results/MSPonly_fine_chi2_distribution.png Graphic file (type png)
  <use ./pic/results/MSPonly_fine_chi2_distribution.png>
 Package pdftex.def Info: ./pic/results/MSPonly_fine_chi2_distribution.png used 
-on input line 267.
+on input line 272.
 (pdftex.def)             Requested size: 192.34288pt x 188.47835pt.
 
-<pic/results/MSPonly_CMZ.png, id=1103, 899.36pt x 875.27pt>
+<pic/results/MSPonly_CMZ.png, id=1114, 899.36pt x 875.27pt>
 File: pic/results/MSPonly_CMZ.png Graphic file (type png)
 
 <use pic/results/MSPonly_CMZ.png>
-Package pdftex.def Info: pic/results/MSPonly_CMZ.png used on input line 274.
+Package pdftex.def Info: pic/results/MSPonly_CMZ.png used on input line 279.
 (pdftex.def)             Requested size: 192.34288pt x 187.19107pt.
 
 Overfull \vbox (13.90775pt too high) has occurred while \output is active []
@@ -2367,31 +2367,31 @@ Overfull \vbox (13.90775pt too high) has occurred while \output is active []
 [65 <./pic/results/MCRonly_fine_chi2_distribution.png> <./pic/results/DMonly_fi
 ne_chi2_distribution.png> <./pic/results/DMonly_CMZ.png> <./pic/results/MSPonly
 _fine_chi2_distribution.png> <./pic/results/MSPonly_CMZ.png>]
-<./pic/results/COvsDM_2_Spectra.png, id=1108, 675.27281pt x 656.4525pt>
+<./pic/results/COvsDM_2_Spectra.png, id=1119, 675.27281pt x 656.4525pt>
 File: ./pic/results/COvsDM_2_Spectra.png Graphic file (type png)
 
 <use ./pic/results/COvsDM_2_Spectra.png>
 Package pdftex.def Info: ./pic/results/COvsDM_2_Spectra.png used on input line 
-287.
+292.
 (pdftex.def)             Requested size: 299.20076pt x 290.86336pt.
 
-<pic/results/COvsMSP_2_Spectra.png, id=1109, 675.27281pt x 656.4525pt>
+<pic/results/COvsMSP_2_Spectra.png, id=1120, 675.27281pt x 656.4525pt>
 File: pic/results/COvsMSP_2_Spectra.png Graphic file (type png)
 
 <use pic/results/COvsMSP_2_Spectra.png>
 Package pdftex.def Info: pic/results/COvsMSP_2_Spectra.png used on input line 2
-94.
+99.
 (pdftex.def)             Requested size: 299.20076pt x 290.86336pt.
  [66 <./pic/results/COvsDM_2_Spectra.png> <./pic/results/COvsMSP_2_Spectra.png>
 ]
-<pic/discussion/MCRonly_fine_PCR+MCR_integral_distribution.png, id=1116, 1200.4
+<pic/discussion/MCRonly_fine_PCR+MCR_integral_distribution.png, id=1127, 1200.4
 85pt x 1176.395pt>
 File: pic/discussion/MCRonly_fine_PCR+MCR_integral_distribution.png Graphic fil
 e (type png)
 
 <use pic/discussion/MCRonly_fine_PCR+MCR_integral_distribution.png>
 Package pdftex.def Info: pic/discussion/MCRonly_fine_PCR+MCR_integral_distribut
-ion.png used on input line 309.
+ion.png used on input line 314.
 (pdftex.def)             Requested size: 427.43153pt x 418.85275pt.
 ) [67 <./pic/discussion/MCRonly_fine_PCR+MCR_integral_distribution.png>] [68
 
@@ -2413,10 +2413,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 27416 strings out of 493029
- 491556 string characters out of 6136234
- 799553 words of memory out of 5000000
- 29871 multiletter control sequences out of 15000+600000
+ 27430 strings out of 493029
+ 491826 string characters out of 6136234
+ 792767 words of memory out of 5000000
+ 29879 multiletter control sequences out of 15000+600000
  144188 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,108p,4603b,2202s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2441,10 +2441,10 @@ type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (74 pages, 10703413 bytes).
+Output written on thesis.pdf (74 pages, 10704673 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 1053 compressed objects within 11 object streams
- 345 named destinations out of 1000 (max. 500000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 1065 compressed objects within 11 object streams
+ 351 named destinations out of 1000 (max. 500000)
  818 words of extra memory for PDF output out of 10000 (max. 10000000)
 

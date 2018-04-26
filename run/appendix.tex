@@ -14,6 +14,11 @@
 #Also every command has a documentation at this address: https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/help/<name of the command>.txt
 fileBase="Base_name_of_all_files_produced_in_this_run"
 spacecraft="location_of_the_spacecraft_file_containing_positions_and_infos_about_the_satellite"
+#Some numbers that are used multiple times:
+number_of_pixels_in_lon=720
+number_of_pixels_in_lat=360
+pixel_size=0.5
+
 #Select the events from the weekly files listed in file_list.txt. (ra, dec) is the galactic center coordinates in ICRS system, a radius of 180 to select the whole sky, and the energy bounds. The one here correspond to the energy bound of the Fermi diffuse model. You might run into troubles later if you try to use it with energies out of this range
 gtselect evclass = 256 
 	evtype = 3 \

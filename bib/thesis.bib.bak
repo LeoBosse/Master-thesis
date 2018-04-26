@@ -58,6 +58,26 @@ misc{aWiki,
 }
 
 
+@ARTICLE{deBoer2017,
+   author = {{de Boer}, W. and {Bosse}, L. and {Gebauer}, I. and {Neumann}, A. and 
+	{Biermann}, P.~L.},
+    title = "{Molecular clouds as origin of the Fermi gamma-ray GeV excess}",
+  journal = {prd},
+archivePrefix = "arXiv",
+   eprint = {1707.08653},
+ primaryClass = "astro-ph.HE",
+     year = 2017,
+    month = aug,
+   volume = 96,
+   number = 4,
+      eid = {043012},
+    pages = {043012},
+      doi = {10.1103/PhysRevD.96.043012},
+   adsurl = {http://adsabs.harvard.edu/abs/2017PhRvD..96d3012D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
 @article{deBoer2006,
 author = { W.   De Boer },
 title = {The EGRET excess of diffuse gamma rays and the galactic dark matter halo},
