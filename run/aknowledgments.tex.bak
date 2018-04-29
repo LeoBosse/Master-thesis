@@ -1,0 +1,12 @@
+%% ==============================
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Aknowledgments}
+\label{ch:acknowledgments}
+%% ==============================
+
+
+I would like to thanks all the people who worked with me during my master degree. Special thanks go to my german tutors Pr. Wim de Boer and Pr. Iris Gebauer for their precious help and support. Also Fabian, Alexander, Toni, Stefan and Niklas who stood along my side in this year long battle against ROOT.\\
+
+I would also like to thanks the UFA-DFH, who gave me the opportunity to do all this and learn (a little) German, along with all the professors from the UGA who taught me what I love.\\
+
+Last but not least, I want to thank my family, Claire and every friend I met this year, around a slack or a beer, in Germany or France, for the good times and your smiles.

@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {1.3}Physics of Cosmic Rays}{7}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Creation of CR}{7}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Energy losses}{7}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Propagation of CR}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Propagation of CR}{8}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Effect of molecular cloud}{9}{subsection.1.3.4}
 \contentsline {subsection}{\numberline {1.3.5}CRs as observed from Earth}{9}{subsection.1.3.5}
 \contentsline {section}{\numberline {1.4}Physics of gamma-ray}{10}{section.1.4}
@@ -49,13 +49,15 @@
 \contentsline {subsection}{\numberline {4.1.2}IC flux distribution}{41}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}BR flux distribution}{42}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}SCR flux distribution}{43}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Adding an break in electron CR spectrum}{44}{section.4.2}
-\contentsline {section}{\numberline {4.3}Mixing MCR and DM}{46}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}DM and MCR in the same fit}{46}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Adding DM afterwards}{47}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.2}Correlation between SCR, MCR and point sources}{44}{section.4.2}
+\contentsline {section}{\numberline {4.3}Adding an break in electron CR spectrum}{45}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mixing MCR and DM}{47}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}DM and MCR in the same fit}{47}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Adding DM afterwards}{48}{subsection.4.4.2}
 \contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.5}
-\contentsline {chapter}{Bibliography}{51}{section*.42}
-\contentsline {chapter}{\nonumberline Appendix}{57}{chapter*.45}
-\contentsline {section}{\numberline {A}Method}{57}{section.5.1}
-\contentsline {section}{\numberline {B}First results: Study of the excess}{63}{section.5.2}
-\contentsline {section}{\numberline {C}To go further: How to improve the model}{67}{section.5.3}
+\contentsline {chapter}{Acknowledgments}{51}{chapter*.43}
+\contentsline {chapter}{Bibliography}{53}{section*.44}
+\contentsline {chapter}{\nonumberline Appendix}{59}{chapter*.47}
+\contentsline {section}{\numberline {A}Method}{59}{section.5.1}
+\contentsline {section}{\numberline {B}First results: Study of the excess}{65}{section.5.2}
+\contentsline {section}{\numberline {C}To go further: How to improve the model}{69}{section.5.3}

@@ -93,8 +93,8 @@ method,
 results,
 discussion,
 conclusion,
-appendix
-acknowledgements
+appendix,
+acknowledgments
 }
 
 
@@ -135,6 +135,7 @@ acknowledgements
 \include{results}
 \include{discussion}
 \include{conclusion}
+\include{acknowledgments}
 
 
 %% --------------------

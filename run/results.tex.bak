@@ -438,7 +438,7 @@ In total, two major differences in the spectral shape of the three excess compon
 
 \newpage
 \section{Correlation between the excess and molecular clouds}
-
+\label{sec:CO_MCR_correlation}
 Plotting the spatial distribution of the excess component around the GC, and comparing it to the CO map of the galaxy is insightful. Figure \ref{fig:CO_MCR_correlation} illustrates the correlation existing between molecular clouds as traced by CO emission and the MCR template. Several features can be identified by eye and found in both flux distributions. It is even clearer when plotting the CO flux versus the MCR flux, a linear correlation appears in the whole disk. Appendix \ref{app:DM_MSP_CO_correlation} shows the same correlation the DM and the MSP component. This once again favors MCR over DM or MSP, since only the first is supposed to follow the molecular clouds distribution.
 
 \begin{figure}[h]
