@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  29 APR 2018 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.10)  29 APR 2018 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1575,7 +1575,7 @@ File: pic/theory/energy_losses_electrons-1.png Graphic file (type png)
 
 <use pic/theory/energy_losses_electrons-1.png>
 Package pdftex.def Info: pic/theory/energy_losses_electrons-1.png used on input
- line 115.
+ line 116.
 (pdftex.def)             Requested size: 192.34288pt x 144.3256pt.
 
 <pic/theory/energy_losses_nucleons.png, id=398, 569.327pt x 427.196pt>
@@ -1583,7 +1583,7 @@ File: pic/theory/energy_losses_nucleons.png Graphic file (type png)
 
 <use pic/theory/energy_losses_nucleons.png>
 Package pdftex.def Info: pic/theory/energy_losses_nucleons.png used on input li
-ne 122.
+ne 123.
 (pdftex.def)             Requested size: 192.34288pt x 144.3256pt.
 
 
@@ -1591,13 +1591,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 152.
+(Font)              scaled to size 6.6pt on input line 153.
  [8 <./pic/theory/energy_losses_electrons-1.png> <./pic/theory/energy_losses_nu
 cleons.png>] <pic/theory/CR_spectrum.png, id=445, 471.7625pt x 591.20876pt>
 File: pic/theory/CR_spectrum.png Graphic file (type png)
 
 <use pic/theory/CR_spectrum.png>
-Package pdftex.def Info: pic/theory/CR_spectrum.png used on input line 182.
+Package pdftex.def Info: pic/theory/CR_spectrum.png used on input line 183.
 (pdftex.def)             Requested size: 213.71576pt x 267.82765pt.
 
 
@@ -2476,7 +2476,7 @@ type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (76 pages, 10879651 bytes).
+Output written on thesis.pdf (76 pages, 10879624 bytes).
 PDF statistics:
  1316 PDF objects out of 1440 (max. 8388607)
  1098 compressed objects within 11 object streams
